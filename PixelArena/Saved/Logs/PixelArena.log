@@ -754,3 +754,1030 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.08.27-02.56.51:838][416]LogEditorViewport: Clicking Background
 [2020.08.27-02.56.54:243][560]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
 [2020.08.27-02.56.54:506][561]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.08.27-03.09.25:123][582]LogSlate: Took 0.006744 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.08.27-03.09.36:543][582]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.08.27-03.09.43:140][964]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-03.09.43:893][964]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 125 classes and 0 folders.
+[2020.08.27-03.09.45:191][964]LogRenderer: Reallocating scene render targets to support 1208x648 Format 10 NumSamples 1 (Frame:1).
+[2020.08.27-03.11.26:268][386]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\brade\Downloads\128px_character_spread_sheet\128px character spread sheet\128 px spread sheet.png)
+[2020.08.27-03.11.26:302][386]LogTexture: Display: Building textures: 128_px_spread_sheet (AutoDXT, 2048X512)
+[2020.08.27-03.11.45:922][831]LogEditorFactories: Performing atomic reimport of [C:/Users/brade/Downloads/128px_character_spread_sheet/128px character spread sheet/128 px spread sheet.png]
+[2020.08.27-03.11.45:922][831]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/brade/Downloads/128px_character_spread_sheet/128px character spread sheet/128 px spread sheet.png)
+[2020.08.27-03.11.45:949][831]LogTexture: Display: Building textures: 128_px_spread_sheet (AutoDXT, 2048X512)
+[2020.08.27-03.11.46:179][831]LogEditorFactories: -- imported successfully
+[2020.08.27-03.11.53:139][ 60]LogTexture: Display: Building textures: 128_px_spread_sheet (BGRA8, 2048X512)
+[2020.08.27-03.12.00:157][281]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet762B3AE94343A1FCD705938DA2CD9561.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/128_px_spread_sheet.uasset'
+[2020.08.27-03.12.00:190][281]AssetCheck: New page: Asset Save: 128_px_spread_sheet
+[2020.08.27-03.12.00:190][281]LogContentValidation: Display: Validating Texture2D /Game/PixelArena/Sprites/128_px_spread_sheet.128_px_spread_sheet
+[2020.08.27-03.12.02:281][348]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet2F2AC6174556C8C118C9C29B3AB367B4.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/128_px_spread_sheet.uasset'
+[2020.08.27-03.12.02:297][348]AssetCheck: New page: Asset Save: 128_px_spread_sheet
+[2020.08.27-03.12.02:297][348]LogContentValidation: Display: Validating Texture2D /Game/PixelArena/Sprites/128_px_spread_sheet.128_px_spread_sheet
+[2020.08.27-03.12.04:171][407]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP6F2C8389472E56C8BC7818948951A2A1.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-03.12.04:195][407]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-03.12.04:196][407]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-03.12.07:328][507]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/PixelArena/Sprites/128_px_spread_sheet.128_px_spread_sheet
+[2020.08.27-03.12.07:359][507]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2020.08.27-03.15.03:432][ 63]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:588).
+[2020.08.27-03.15.04:258][ 96]LogSlate: Window 'CharacterBP' being destroyed
+[2020.08.27-03.15.04:380][ 96]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.15.04:380][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.15.08:688][258]LogSlate: Took 0.017532 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.08.27-03.16.05:600][302]LogSlate: Window 'Extract sprites' being destroyed
+[2020.08.27-03.16.28:994][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet7157B7C34BD0CF38B067B0A7120DDB16.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet.uasset'
+[2020.08.27-03.16.29:023][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprFF058D60404FFCE2CCC86EBB204A5CC7.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_0.uasset'
+[2020.08.27-03.16.29:052][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr6F759971400E017CED7D4DABCCEDC013.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_1.uasset'
+[2020.08.27-03.16.29:075][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprBC863974497E6016F9BCB49B1416951A.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_2.uasset'
+[2020.08.27-03.16.29:098][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprFFEC038A4B9AEA76EA9C1EB0803A96D4.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_3.uasset'
+[2020.08.27-03.16.29:121][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprC2519EBC4A171B96787B49A72D9BD9AF.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_4.uasset'
+[2020.08.27-03.16.29:145][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr6BA35125462A2886B2643795D8B4F503.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_5.uasset'
+[2020.08.27-03.16.29:171][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr105B76B14080B14C801F48BE2E0FFB83.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_6.uasset'
+[2020.08.27-03.16.29:198][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprCA4D14DC4F179EEE31A24685DB6D24CB.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_7.uasset'
+[2020.08.27-03.16.29:220][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr1927FE65472E57F0D84FC89877DEB381.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_8.uasset'
+[2020.08.27-03.16.29:243][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr7D2CD191479BCADC526A6391C049D780.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_9.uasset'
+[2020.08.27-03.16.29:264][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr765FE6274A8B5AB9446F289096EA4CFF.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_10.uasset'
+[2020.08.27-03.16.29:286][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr33B8F2D24D5895C7BF1A728E2BADB406.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_11.uasset'
+[2020.08.27-03.16.29:309][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr79E7ED9041200D203756AAADFFC4D1AF.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_12.uasset'
+[2020.08.27-03.16.29:330][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr9215A91B4E717E2CAA2BCBAF10F51C94.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_13.uasset'
+[2020.08.27-03.16.29:352][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprE4050F864E0290ED6AD25598B893E30D.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_14.uasset'
+[2020.08.27-03.16.29:376][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr9502C414437DCA991D250EA60596FE8B.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_15.uasset'
+[2020.08.27-03.16.29:399][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr898F93964EB482F67756A085FC9660CF.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_16.uasset'
+[2020.08.27-03.16.29:424][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr263C1F754A562C365CA692A0C07ECA6C.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_17.uasset'
+[2020.08.27-03.16.29:449][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprAF5A79D647AC51F2AE88A182FB5BC83D.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_18.uasset'
+[2020.08.27-03.16.29:470][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprE4761BF14FBA790E82CF6B84E9A6DB34.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_19.uasset'
+[2020.08.27-03.16.29:492][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr1322F70C403E23CE53134BBDCE1C8C75.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_20.uasset'
+[2020.08.27-03.16.29:516][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprF36138A045F4AE4BCDC5E2AF6937D35D.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_21.uasset'
+[2020.08.27-03.16.29:544][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprF6735C4348DB968DD1D0B4BA3F653E74.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_22.uasset'
+[2020.08.27-03.16.29:568][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprB739701048016BA1507759B0C1D764C1.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_23.uasset'
+[2020.08.27-03.16.29:595][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprE6837E3C49337C97BC0155A1E86D77E8.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_24.uasset'
+[2020.08.27-03.16.29:618][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprC9E390FF449CD907FB449F993FA243A1.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_25.uasset'
+[2020.08.27-03.16.29:645][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprC908271742F8E94CF1F3CCB5826D958D.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_26.uasset'
+[2020.08.27-03.16.29:677][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprD3FB2D014D44D8D948522C87BBE85064.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_27.uasset'
+[2020.08.27-03.16.29:700][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr1BF3C9C540C276E025428E936942F67D.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_28.uasset'
+[2020.08.27-03.16.29:727][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr21149AB04C688D5A4D6339834071839E.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_29.uasset'
+[2020.08.27-03.16.29:752][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr9DE333DC4DDCD8E419CF268F7D61315E.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_30.uasset'
+[2020.08.27-03.16.29:775][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprE55DFCCF42104D1B1BA5058D9ED03D17.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_31.uasset'
+[2020.08.27-03.16.29:801][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr7828F0B24BF4EC154D8F4897769F4EC5.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_32.uasset'
+[2020.08.27-03.16.29:826][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprE28076B54A7FAA123B73E48BDE4659F9.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_33.uasset'
+[2020.08.27-03.16.29:852][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr71C18519480E0851F67E31BD7CA5EC66.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_34.uasset'
+[2020.08.27-03.16.29:881][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr7267C0904F1383738C1BAE81882C30F8.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_35.uasset'
+[2020.08.27-03.16.29:905][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr97F9221A488717B59C3A3EAA73CADF39.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_36.uasset'
+[2020.08.27-03.16.29:927][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr000BEF3C46C5A9D1C3AEDAB0299B91FE.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_37.uasset'
+[2020.08.27-03.16.29:956][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprD44F72AE42B03F5EAFE7878D242C5EAB.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_38.uasset'
+[2020.08.27-03.16.29:991][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr35F1A3954046AA9AB36A418AB3F64BA8.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_39.uasset'
+[2020.08.27-03.16.30:027][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr3A9A9E73411D3C29A496AFA843DAAB8A.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_40.uasset'
+[2020.08.27-03.16.30:059][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprB4161ED84DB65F29221E669AD5D51B1B.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_41.uasset'
+[2020.08.27-03.16.30:097][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprCC7BF3334D8F581C08EFF197ABB95B3B.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_42.uasset'
+[2020.08.27-03.16.30:124][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprC1AC5A3A400450F77986B19E084116F0.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_43.uasset'
+[2020.08.27-03.16.30:178][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprB4C7E1AB4382DD245940AD8403CE99C4.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_44.uasset'
+[2020.08.27-03.16.30:224][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr4E01799344322D01B1E6A6A1A517020B.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_45.uasset'
+[2020.08.27-03.16.30:265][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprD05BF198412CE04DCF0A1C85D087522F.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_46.uasset'
+[2020.08.27-03.16.30:299][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr42AD325D4EA980FE3709F19B65A4C7E0.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_47.uasset'
+[2020.08.27-03.16.30:338][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr0FB2B25D4FCC248366C783B8E987AB98.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_48.uasset'
+[2020.08.27-03.16.30:371][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr33BB568444A017964265EB8EBB0F977E.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_49.uasset'
+[2020.08.27-03.16.30:402][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr03A81CBA4260B555F988FAA589403E0C.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_50.uasset'
+[2020.08.27-03.16.30:444][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprE299A0CB4A84719D57BD449D01C28BDE.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_51.uasset'
+[2020.08.27-03.16.30:481][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr7CD83CCB44BF645BFEA2A9898A5A954F.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_52.uasset'
+[2020.08.27-03.16.30:516][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprC38624B04BEB955D295BC0A50ED5B911.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_53.uasset'
+[2020.08.27-03.16.30:546][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprAA197E134B8E55F71D7BA0B865C401D5.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_54.uasset'
+[2020.08.27-03.16.30:579][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprA6A9018C4D0174C3979E9480FFF8E769.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_55.uasset'
+[2020.08.27-03.16.30:612][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprE9B87DDF403C01757A5BE8A48F452926.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_56.uasset'
+[2020.08.27-03.16.30:640][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprCBC808AB4FD4FA2D050A9EAD14F838C1.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_57.uasset'
+[2020.08.27-03.16.30:670][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprBC16377F4246693011F0FE90E8B82B92.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_58.uasset'
+[2020.08.27-03.16.30:700][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprCDD42A0D4ACCC38FD201558EAE1E0F12.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_59.uasset'
+[2020.08.27-03.16.30:734][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr2D12E5034E0EE84676CDC89D1F2119EC.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_60.uasset'
+[2020.08.27-03.16.30:762][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprE5E0E0EA4D3ABEC3DBE7D7BD6847CB18.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_61.uasset'
+[2020.08.27-03.16.30:790][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprD7D0FFBC464EFF42C852DC8AF165E0E9.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_62.uasset'
+[2020.08.27-03.16.30:815][198]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprE15203C740711A8D0258C680875F68AE.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_63.uasset'
+[2020.08.27-03.16.38:920][198]LogUObjectHash: Compacting FUObjectHashTables data took   9.19ms
+[2020.08.27-03.16.39:019][198]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2020.08.27-03.16.39:052][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.08.27-03.16.39:071][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.08.27-03.16.39:089][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2020.08.27-03.16.39:106][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.08.27-03.16.39:126][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2020.08.27-03.16.39:145][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2020.08.27-03.16.39:163][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.08.27-03.16.39:180][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.08.27-03.16.39:198][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.08.27-03.16.39:216][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.08.27-03.16.39:235][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2020.08.27-03.16.39:266][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2020.08.27-03.16.39:285][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2020.08.27-03.16.39:303][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.08.27-03.16.39:320][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2020.08.27-03.16.39:339][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.08.27-03.16.39:358][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2020.08.27-03.16.39:377][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.08.27-03.16.39:396][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2020.08.27-03.16.39:413][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.08.27-03.16.39:432][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.08.27-03.16.39:450][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2020.08.27-03.16.39:478][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2020.08.27-03.16.39:496][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.16.39:516][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.16.39:536][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.16.39:555][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.16.39:575][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.16.39:593][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.16.39:612][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2020.08.27-03.16.39:631][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.16.39:650][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.16.39:670][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.08.27-03.16.39:699][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.08.27-03.16.39:718][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.08.27-03.16.39:737][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.16.39:757][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.08.27-03.16.39:776][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.08.27-03.16.39:795][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.08.27-03.16.39:813][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.08.27-03.16.39:832][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.16.39:850][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.16.39:869][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.08.27-03.16.39:889][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.16.39:919][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.08.27-03.16.39:939][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.16.39:958][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.08.27-03.16.39:978][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2020.08.27-03.16.39:997][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.08.27-03.16.40:016][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.08.27-03.16.40:036][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.08.27-03.16.40:055][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.08.27-03.16.40:074][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.16.40:093][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.16.40:116][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.08.27-03.16.40:136][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.08.27-03.16.40:155][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.16.40:173][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.08.27-03.16.40:194][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2020.08.27-03.16.40:213][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.16.40:232][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.16.40:252][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.16.40:272][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2020.08.27-03.16.40:301][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2020.08.27-03.16.40:320][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.08.27-03.16.40:709][198]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.27-03.16.40:709][198]LogContentValidation: Display: Validating Texture2D /Game/PixelArena/Sprites/Character/128_px_spread_sheet.128_px_spread_sheet
+[2020.08.27-03.16.40:709][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_0.128_px_spread_sheet_CharacterSprite_0
+[2020.08.27-03.16.40:709][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_1.128_px_spread_sheet_CharacterSprite_1
+[2020.08.27-03.16.40:709][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_2.128_px_spread_sheet_CharacterSprite_2
+[2020.08.27-03.16.40:709][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_3.128_px_spread_sheet_CharacterSprite_3
+[2020.08.27-03.16.40:709][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_4.128_px_spread_sheet_CharacterSprite_4
+[2020.08.27-03.16.40:709][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_5.128_px_spread_sheet_CharacterSprite_5
+[2020.08.27-03.16.40:709][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_6.128_px_spread_sheet_CharacterSprite_6
+[2020.08.27-03.16.40:709][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_7.128_px_spread_sheet_CharacterSprite_7
+[2020.08.27-03.16.40:709][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_8.128_px_spread_sheet_CharacterSprite_8
+[2020.08.27-03.16.40:709][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_9.128_px_spread_sheet_CharacterSprite_9
+[2020.08.27-03.16.40:709][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_10.128_px_spread_sheet_CharacterSprite_10
+[2020.08.27-03.16.40:709][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_11.128_px_spread_sheet_CharacterSprite_11
+[2020.08.27-03.16.40:709][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_12.128_px_spread_sheet_CharacterSprite_12
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_13.128_px_spread_sheet_CharacterSprite_13
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_14.128_px_spread_sheet_CharacterSprite_14
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_15.128_px_spread_sheet_CharacterSprite_15
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_16.128_px_spread_sheet_CharacterSprite_16
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_17.128_px_spread_sheet_CharacterSprite_17
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_18.128_px_spread_sheet_CharacterSprite_18
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_19.128_px_spread_sheet_CharacterSprite_19
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_20.128_px_spread_sheet_CharacterSprite_20
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_21.128_px_spread_sheet_CharacterSprite_21
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_22.128_px_spread_sheet_CharacterSprite_22
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_23.128_px_spread_sheet_CharacterSprite_23
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_24.128_px_spread_sheet_CharacterSprite_24
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_25.128_px_spread_sheet_CharacterSprite_25
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_26.128_px_spread_sheet_CharacterSprite_26
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_27.128_px_spread_sheet_CharacterSprite_27
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_28.128_px_spread_sheet_CharacterSprite_28
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_29.128_px_spread_sheet_CharacterSprite_29
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_30.128_px_spread_sheet_CharacterSprite_30
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_31.128_px_spread_sheet_CharacterSprite_31
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_32.128_px_spread_sheet_CharacterSprite_32
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_33.128_px_spread_sheet_CharacterSprite_33
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_34.128_px_spread_sheet_CharacterSprite_34
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_35.128_px_spread_sheet_CharacterSprite_35
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_36.128_px_spread_sheet_CharacterSprite_36
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_37.128_px_spread_sheet_CharacterSprite_37
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_38.128_px_spread_sheet_CharacterSprite_38
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_39.128_px_spread_sheet_CharacterSprite_39
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_40.128_px_spread_sheet_CharacterSprite_40
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_41.128_px_spread_sheet_CharacterSprite_41
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_42.128_px_spread_sheet_CharacterSprite_42
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_43.128_px_spread_sheet_CharacterSprite_43
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_44.128_px_spread_sheet_CharacterSprite_44
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_45.128_px_spread_sheet_CharacterSprite_45
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_46.128_px_spread_sheet_CharacterSprite_46
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_47.128_px_spread_sheet_CharacterSprite_47
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_48.128_px_spread_sheet_CharacterSprite_48
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_49.128_px_spread_sheet_CharacterSprite_49
+[2020.08.27-03.16.40:710][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_50.128_px_spread_sheet_CharacterSprite_50
+[2020.08.27-03.16.40:711][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_51.128_px_spread_sheet_CharacterSprite_51
+[2020.08.27-03.16.40:711][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_52.128_px_spread_sheet_CharacterSprite_52
+[2020.08.27-03.16.40:711][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_53.128_px_spread_sheet_CharacterSprite_53
+[2020.08.27-03.16.40:711][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_54.128_px_spread_sheet_CharacterSprite_54
+[2020.08.27-03.16.40:711][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_55.128_px_spread_sheet_CharacterSprite_55
+[2020.08.27-03.16.40:711][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_56.128_px_spread_sheet_CharacterSprite_56
+[2020.08.27-03.16.40:711][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_57.128_px_spread_sheet_CharacterSprite_57
+[2020.08.27-03.16.40:711][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_58.128_px_spread_sheet_CharacterSprite_58
+[2020.08.27-03.16.40:711][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_59.128_px_spread_sheet_CharacterSprite_59
+[2020.08.27-03.16.40:711][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_60.128_px_spread_sheet_CharacterSprite_60
+[2020.08.27-03.16.40:711][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_61.128_px_spread_sheet_CharacterSprite_61
+[2020.08.27-03.16.40:711][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_62.128_px_spread_sheet_CharacterSprite_62
+[2020.08.27-03.16.40:711][198]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_63.128_px_spread_sheet_CharacterSprite_63
+[2020.08.27-03.17.03:422][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSprite345FDEBC400BF642B512D985997580FD.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/CharacterSprite.uasset'
+[2020.08.27-03.17.03:660][451]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2020.08.27-03.17.03:710][451]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.08.27-03.17.03:731][451]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.17.03:826][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprB234466D46F9D9E99D75949E5C4C7DAB.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_0.uasset'
+[2020.08.27-03.17.03:847][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprCB24F0D147760824E0F04CAC3A3B6528.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_1.uasset'
+[2020.08.27-03.17.03:865][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprD28AD8EC46C6B3E185B62A93B5FCF8E3.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_2.uasset'
+[2020.08.27-03.17.03:884][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr371CA4274C3EBB875B5FAEBB0061FCCD.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_3.uasset'
+[2020.08.27-03.17.03:903][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr68786CA844AF314B3A875DAB2886A832.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_4.uasset'
+[2020.08.27-03.17.03:922][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr23C8309E43B5137EF542B19FB98AAC56.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_5.uasset'
+[2020.08.27-03.17.03:943][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr59213FFB45C13B0A1B337E8B94192E8B.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_6.uasset'
+[2020.08.27-03.17.03:962][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr43713D6E4B9E5075BE80AAB0F86EA333.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_7.uasset'
+[2020.08.27-03.17.03:981][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr0F83616E47CB05F621CF8A970DCF9948.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_8.uasset'
+[2020.08.27-03.17.03:998][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprB0CE807D490F40BF46EB0385DE70B10C.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_9.uasset'
+[2020.08.27-03.17.04:020][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr4C50B74A40FFFB2CE12565AF2AF93573.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_10.uasset'
+[2020.08.27-03.17.04:041][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprD74C24C84837E8B5147A05B9A51541C2.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_11.uasset'
+[2020.08.27-03.17.04:060][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprCC5307C14F5EA5416AD3DBA318B98D7C.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_12.uasset'
+[2020.08.27-03.17.04:080][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprADBB39CC4D6C9500BB7ACDA8A572F74B.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_13.uasset'
+[2020.08.27-03.17.04:099][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr9B5CE8444623E99647C710A36F43408D.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_14.uasset'
+[2020.08.27-03.17.04:119][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprDE368E634A1687B7652A3DB7382A29A6.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_15.uasset'
+[2020.08.27-03.17.04:138][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprE615593A40B7353974CD56A9CEC60A86.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_16.uasset'
+[2020.08.27-03.17.04:158][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr2B2373F84E2DA8DF434094B972EA2ACC.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_17.uasset'
+[2020.08.27-03.17.04:179][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr011B337248D4C6784C7D2CAFB0D37C13.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_18.uasset'
+[2020.08.27-03.17.04:201][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprEFE730A6445F3B34537443A7049666C7.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_19.uasset'
+[2020.08.27-03.17.04:224][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr9B424FB04631A2997B85A4919EE7CFEA.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_20.uasset'
+[2020.08.27-03.17.04:244][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr375613EA440083B7CF0EDD842CD3B774.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_21.uasset'
+[2020.08.27-03.17.04:263][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr7266D3254FD1951DD8A8EDB6C326C0F8.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_22.uasset'
+[2020.08.27-03.17.04:282][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprDB9FAC3840F6EED7F1D940A638C10DB5.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_23.uasset'
+[2020.08.27-03.17.04:302][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr632A5F2E4BB44B554A4A24A41F3BD12B.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_24.uasset'
+[2020.08.27-03.17.04:321][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr26792E3444F31B3AC0DC16B2B7A82F6D.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_25.uasset'
+[2020.08.27-03.17.04:343][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr897AA6BE40220DF9FF5DD184C63CA1BE.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_26.uasset'
+[2020.08.27-03.17.04:369][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr03E6572F4B8B59F3030D3ABA593F5CF8.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_27.uasset'
+[2020.08.27-03.17.04:392][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr737CA7B64BA488B859084BAE0B168A54.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_28.uasset'
+[2020.08.27-03.17.04:418][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr0FC185D742C8AAD763E7D8945ABA7D9F.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_29.uasset'
+[2020.08.27-03.17.04:440][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprA229CDB44EE3030FF1A592BBA7C32805.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_30.uasset'
+[2020.08.27-03.17.04:465][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr92E0B93048F40C3576A5EA9CBDF44E9F.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_31.uasset'
+[2020.08.27-03.17.04:491][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr01C4C8E948D99CF9D748BC9FCA64D358.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_32.uasset'
+[2020.08.27-03.17.04:516][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr47094D1F43AD41C84E2097BC8D5EE832.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_33.uasset'
+[2020.08.27-03.17.04:538][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprD765147348655821E8DD818DD158FA9A.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_34.uasset'
+[2020.08.27-03.17.04:562][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr33C149DF49C792D7ED354783D73706B8.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_35.uasset'
+[2020.08.27-03.17.04:588][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr096D4C714910DD4DC15EED9B77A206D9.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_36.uasset'
+[2020.08.27-03.17.04:613][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr81C14EB14835A52235C058BAC012D3B6.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_37.uasset'
+[2020.08.27-03.17.04:642][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr28EACDE747DA8FF201CF32A77DA0C781.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_38.uasset'
+[2020.08.27-03.17.04:672][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr2EC105384767C749179E8889338F1799.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_39.uasset'
+[2020.08.27-03.17.04:699][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr4A27E58145A81139C41E50893D74CFAA.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_40.uasset'
+[2020.08.27-03.17.04:725][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr321D69794926B1064E044DA79A6E4222.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_41.uasset'
+[2020.08.27-03.17.04:751][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprE4CC10B246B18BBE5F3E76BF0344E913.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_42.uasset'
+[2020.08.27-03.17.04:776][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr77F5DB2241ACCA9A69E76C9FF44C5403.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_43.uasset'
+[2020.08.27-03.17.04:799][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprD83558304CDFACA898D409BED38D1690.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_44.uasset'
+[2020.08.27-03.17.04:826][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr408A7B5349C79BE6DB8488838C8C3251.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_45.uasset'
+[2020.08.27-03.17.04:853][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr0D2A865148E48A9D1113A1A16BC0606C.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_46.uasset'
+[2020.08.27-03.17.04:877][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprE29DCCA94C354A5886E349B0BB42F0CA.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_47.uasset'
+[2020.08.27-03.17.04:903][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr32086F634D753764DA0CB9BB3C8D446E.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_48.uasset'
+[2020.08.27-03.17.04:927][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprE271B941430175B40DE87191A5229F33.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_49.uasset'
+[2020.08.27-03.17.04:953][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprC4EC63B643023BE2274E429EB4758DFD.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_50.uasset'
+[2020.08.27-03.17.04:978][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr4FB1DB304B181B7FD500EF90D21AE0C3.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_51.uasset'
+[2020.08.27-03.17.05:001][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprF13F04A2401AB92A1331E3819818094D.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_52.uasset'
+[2020.08.27-03.17.05:028][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr4C218F1545EF6C9FC5354BBC945A6A49.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_53.uasset'
+[2020.08.27-03.17.05:054][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr7C54A3A14E4FD7F6807D6E9C7847E41B.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_54.uasset'
+[2020.08.27-03.17.05:081][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr3C7893AA48B748C13C677699FD6C95E9.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_55.uasset'
+[2020.08.27-03.17.05:111][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprA9F82ED247B6C82AEA86EBAD0C046458.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_56.uasset'
+[2020.08.27-03.17.05:137][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr8C6CCFC84649FC072F4ED889191A9901.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_57.uasset'
+[2020.08.27-03.17.05:161][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSprA30ADCA640CD306DEAE9C9A803CFEA01.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_58.uasset'
+[2020.08.27-03.17.05:190][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr57E360BB4C97210A2C6969A57737337B.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_59.uasset'
+[2020.08.27-03.17.05:216][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr5E0F142B473BBFD0FF92F78D7E03CD95.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_60.uasset'
+[2020.08.27-03.17.05:246][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr6DE8FBEF4FE2D0BE2A6A2B9B36509961.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_61.uasset'
+[2020.08.27-03.17.05:278][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr9CD0605B4C203AFBBA2141921FD859AB.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_62.uasset'
+[2020.08.27-03.17.05:309][451]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/128_px_spread_sheet_CharacterSpr8A28ACC9479B85C32EBDC78B4A54545B.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_63.uasset'
+[2020.08.27-03.17.05:566][451]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.27-03.17.05:566][451]LogContentValidation: Display: Validating Texture2D /Game/PixelArena/Sprites/Character/CharacterSprite.CharacterSprite
+[2020.08.27-03.17.05:566][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_0.128_px_spread_sheet_CharacterSprite_0
+[2020.08.27-03.17.05:566][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_1.128_px_spread_sheet_CharacterSprite_1
+[2020.08.27-03.17.05:566][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_2.128_px_spread_sheet_CharacterSprite_2
+[2020.08.27-03.17.05:566][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_3.128_px_spread_sheet_CharacterSprite_3
+[2020.08.27-03.17.05:566][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_4.128_px_spread_sheet_CharacterSprite_4
+[2020.08.27-03.17.05:566][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_5.128_px_spread_sheet_CharacterSprite_5
+[2020.08.27-03.17.05:566][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_6.128_px_spread_sheet_CharacterSprite_6
+[2020.08.27-03.17.05:566][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_7.128_px_spread_sheet_CharacterSprite_7
+[2020.08.27-03.17.05:566][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_8.128_px_spread_sheet_CharacterSprite_8
+[2020.08.27-03.17.05:566][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_9.128_px_spread_sheet_CharacterSprite_9
+[2020.08.27-03.17.05:566][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_10.128_px_spread_sheet_CharacterSprite_10
+[2020.08.27-03.17.05:566][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_11.128_px_spread_sheet_CharacterSprite_11
+[2020.08.27-03.17.05:566][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_12.128_px_spread_sheet_CharacterSprite_12
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_13.128_px_spread_sheet_CharacterSprite_13
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_14.128_px_spread_sheet_CharacterSprite_14
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_15.128_px_spread_sheet_CharacterSprite_15
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_16.128_px_spread_sheet_CharacterSprite_16
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_17.128_px_spread_sheet_CharacterSprite_17
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_18.128_px_spread_sheet_CharacterSprite_18
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_19.128_px_spread_sheet_CharacterSprite_19
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_20.128_px_spread_sheet_CharacterSprite_20
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_21.128_px_spread_sheet_CharacterSprite_21
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_22.128_px_spread_sheet_CharacterSprite_22
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_23.128_px_spread_sheet_CharacterSprite_23
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_24.128_px_spread_sheet_CharacterSprite_24
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_25.128_px_spread_sheet_CharacterSprite_25
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_26.128_px_spread_sheet_CharacterSprite_26
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_27.128_px_spread_sheet_CharacterSprite_27
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_28.128_px_spread_sheet_CharacterSprite_28
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_29.128_px_spread_sheet_CharacterSprite_29
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_30.128_px_spread_sheet_CharacterSprite_30
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_31.128_px_spread_sheet_CharacterSprite_31
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_32.128_px_spread_sheet_CharacterSprite_32
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_33.128_px_spread_sheet_CharacterSprite_33
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_34.128_px_spread_sheet_CharacterSprite_34
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_35.128_px_spread_sheet_CharacterSprite_35
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_36.128_px_spread_sheet_CharacterSprite_36
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_37.128_px_spread_sheet_CharacterSprite_37
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_38.128_px_spread_sheet_CharacterSprite_38
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_39.128_px_spread_sheet_CharacterSprite_39
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_40.128_px_spread_sheet_CharacterSprite_40
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_41.128_px_spread_sheet_CharacterSprite_41
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_42.128_px_spread_sheet_CharacterSprite_42
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_43.128_px_spread_sheet_CharacterSprite_43
+[2020.08.27-03.17.05:567][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_44.128_px_spread_sheet_CharacterSprite_44
+[2020.08.27-03.17.05:568][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_45.128_px_spread_sheet_CharacterSprite_45
+[2020.08.27-03.17.05:568][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_46.128_px_spread_sheet_CharacterSprite_46
+[2020.08.27-03.17.05:568][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_47.128_px_spread_sheet_CharacterSprite_47
+[2020.08.27-03.17.05:568][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_48.128_px_spread_sheet_CharacterSprite_48
+[2020.08.27-03.17.05:568][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_49.128_px_spread_sheet_CharacterSprite_49
+[2020.08.27-03.17.05:568][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_50.128_px_spread_sheet_CharacterSprite_50
+[2020.08.27-03.17.05:568][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_51.128_px_spread_sheet_CharacterSprite_51
+[2020.08.27-03.17.05:568][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_52.128_px_spread_sheet_CharacterSprite_52
+[2020.08.27-03.17.05:568][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_53.128_px_spread_sheet_CharacterSprite_53
+[2020.08.27-03.17.05:568][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_54.128_px_spread_sheet_CharacterSprite_54
+[2020.08.27-03.17.05:568][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_55.128_px_spread_sheet_CharacterSprite_55
+[2020.08.27-03.17.05:568][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_56.128_px_spread_sheet_CharacterSprite_56
+[2020.08.27-03.17.05:568][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_57.128_px_spread_sheet_CharacterSprite_57
+[2020.08.27-03.17.05:568][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_58.128_px_spread_sheet_CharacterSprite_58
+[2020.08.27-03.17.05:568][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_59.128_px_spread_sheet_CharacterSprite_59
+[2020.08.27-03.17.05:568][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_60.128_px_spread_sheet_CharacterSprite_60
+[2020.08.27-03.17.05:568][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_61.128_px_spread_sheet_CharacterSprite_61
+[2020.08.27-03.17.05:568][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_62.128_px_spread_sheet_CharacterSprite_62
+[2020.08.27-03.17.05:568][451]LogContentValidation: Display: Validating PaperSprite /Game/PixelArena/Sprites/Character/128_px_spread_sheet_CharacterSprite_63.128_px_spread_sheet_CharacterSprite_63
+[2020.08.27-03.17.14:046][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2020.08.27-03.17.27:238][936]LogSlate: Window 'Delete Assets' being destroyed
+[2020.08.27-03.17.27:680][936]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2020.08.27-03.17.27:703][936]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2020.08.27-03.17.27:724][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.08.27-03.17.27:743][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2020.08.27-03.17.27:762][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.08.27-03.17.27:780][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.08.27-03.17.27:798][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2020.08.27-03.17.27:817][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2020.08.27-03.17.27:837][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.08.27-03.17.27:858][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.17.27:880][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.08.27-03.17.27:899][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.08.27-03.17.27:919][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.08.27-03.17.27:936][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.08.27-03.17.27:957][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.08.27-03.17.27:976][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.08.27-03.17.27:996][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.08.27-03.17.28:015][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.08.27-03.17.28:034][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.08.27-03.17.28:054][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.17.28:073][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.17.28:094][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.08.27-03.17.28:113][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.08.27-03.17.28:133][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.08.27-03.17.28:153][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2020.08.27-03.17.28:173][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.08.27-03.17.28:192][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.17.28:212][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.08.27-03.17.28:230][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.17.28:249][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2020.08.27-03.17.28:268][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.08.27-03.17.28:288][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.08.27-03.17.28:311][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.08.27-03.17.28:330][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.08.27-03.17.28:350][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.08.27-03.17.28:368][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.17.28:387][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.17.28:405][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.17.28:424][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.08.27-03.17.28:444][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.08.27-03.17.28:463][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.08.27-03.17.28:482][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.08.27-03.17.28:502][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.08.27-03.17.28:525][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.08.27-03.17.28:544][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.08.27-03.17.28:565][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.08.27-03.17.28:584][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.17.28:604][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.08.27-03.17.28:623][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.08.27-03.17.28:644][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.08.27-03.17.28:664][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.08.27-03.17.28:683][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2020.08.27-03.17.28:702][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2020.08.27-03.17.28:722][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.08.27-03.17.28:744][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.08.27-03.17.28:764][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.08.27-03.17.28:782][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.17.28:801][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.17.28:820][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.17.28:840][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.27-03.17.28:860][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.08.27-03.17.28:879][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2020.08.27-03.17.28:897][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.08.27-03.17.28:917][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.08.27-03.17.28:948][936]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.08.27-03.17.28:969][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.08.27-03.17.38:463][447]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSSBA438E50481C3C253B79CF884F16A83E.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/CharacterSS.uasset'
+[2020.08.27-03.17.38:682][447]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.08.27-03.17.38:720][447]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2020.08.27-03.17.38:740][447]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2020.08.27-03.17.38:772][447]AssetCheck: New page: Asset Save: CharacterSS
+[2020.08.27-03.17.38:772][447]LogContentValidation: Display: Validating Texture2D /Game/PixelArena/Sprites/Character/CharacterSS.CharacterSS
+[2020.08.27-03.18.17:384][445]LogSlate: Window 'Extract sprites' being destroyed
+[2020.08.27-03.18.36:963][161]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_0.CharacterSS_Sprite_0
+[2020.08.27-03.18.37:358][161]LogRenderer: Reallocating scene render targets to support 1520x796 Format 10 NumSamples 1 (Frame:1).
+[2020.08.27-03.18.43:201][348]LogRenderer: Reallocating scene render targets to support 1628x1092 Format 10 NumSamples 1 (Frame:203).
+[2020.08.27-03.18.44:039][348]LogRenderer: Reallocating scene render targets to support 2384x1676 Format 10 NumSamples 1 (Frame:204).
+[2020.08.27-03.19.05:383][438]LogSlate: Window 'CharacterSS_Sprite_0' being destroyed
+[2020.08.27-03.19.05:387][438]LogSlate: Window 'CharacterSS_Sprite_0' being destroyed
+[2020.08.27-03.19.05:422][438]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.19.05:422][438]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.19.25:567][498]LogEditorViewport: Clicking Background
+[2020.08.27-03.19.27:688][618]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2020.08.27-03.19.28:698][670]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.08.27-03.19.30:562][777]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.08.27-03.19.31:706][844]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.08.27-03.19.35:603][923]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.08.27-03.19.46:930][579]LogEditorViewport: Clicking Background
+[2020.08.27-03.19.56:664][125]LogEditorViewport: Clicking Background
+[2020.08.27-03.20.08:842][848]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (CharacterSS_Sprite_0)
+[2020.08.27-03.20.09:812][903]Cmd: DELETE
+[2020.08.27-03.20.09:813][903]Cmd: ACTOR DELETE
+[2020.08.27-03.20.09:850][903]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2020.08.27-03.20.09:883][903]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2020.08.27-03.20.09:894][903]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2020.08.27-03.20.42:835][479]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_9.CharacterSS_Sprite_9
+[2020.08.27-03.20.49:436][764]LogSlate: Window 'CharacterSS_Sprite_9' being destroyed
+[2020.08.27-03.20.49:447][764]LogSlate: Window 'CharacterSS_Sprite_9' being destroyed
+[2020.08.27-03.20.49:449][764]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.20.49:449][764]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.21.24:991][171]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2020.08.27-03.21.26:287][171]LogSlate: Window 'Delete Assets' being destroyed
+[2020.08.27-03.21.26:451][171]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2020.08.27-03.21.27:484][229]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.08.27-03.21.28:614][229]LogSlate: Window 'Delete Assets' being destroyed
+[2020.08.27-03.21.28:831][229]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2020.08.27-03.21.45:419][321]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/PixelArena/Sprites/Character/CharacterSS.CharacterSS
+[2020.08.27-03.22.55:426][244]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.08.27-03.23.14:812][ 34]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_Walking_Forward.Character_Walking_Forward
+[2020.08.27-03.23.20:089][237]LogSlate: Window 'Character_Walking_Forward' being destroyed
+[2020.08.27-03.23.20:130][237]LogSlate: Window 'Character_Walking_Forward' being destroyed
+[2020.08.27-03.23.20:191][237]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.23.20:191][237]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.23.23:693][303]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/PixelArena/Sprites/Character/CharacterSS.CharacterSS
+[2020.08.27-03.24.23:823][559]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2020.08.27-03.24.23:876][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Main_Auto1799B61A64303B6C36BD7419B06183479.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Levels/Main_Auto1.umap'
+[2020.08.27-03.24.23:884][559]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PixelArena/Levels/Main' took 0.081
+[2020.08.27-03.24.23:885][559]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.081
+[2020.08.27-03.24.23:885][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_0] ([1] browsable assets)...
+[2020.08.27-03.24.23:894][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_0.CharacterSS_Sprite_0]
+[2020.08.27-03.24.23:894][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_0]
+[2020.08.27-03.24.23:906][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_0_Auto14B32EC7D4CB7466B4F965893D819EB7F.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_0_Auto1.uasset'
+[2020.08.27-03.24.23:907][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_1] ([1] browsable assets)...
+[2020.08.27-03.24.23:913][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_1.CharacterSS_Sprite_1]
+[2020.08.27-03.24.23:913][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_1]
+[2020.08.27-03.24.23:929][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_1_Auto146285A484CAE86FB2DD57D8C7036F5FA.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_1_Auto1.uasset'
+[2020.08.27-03.24.23:930][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_2] ([1] browsable assets)...
+[2020.08.27-03.24.23:935][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_2.CharacterSS_Sprite_2]
+[2020.08.27-03.24.23:935][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_2]
+[2020.08.27-03.24.23:946][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_2_Auto1E3A194E3456EE0724965349A001FF8B2.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_2_Auto1.uasset'
+[2020.08.27-03.24.23:947][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_3] ([1] browsable assets)...
+[2020.08.27-03.24.23:953][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_3.CharacterSS_Sprite_3]
+[2020.08.27-03.24.23:953][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_3]
+[2020.08.27-03.24.23:963][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_3_Auto19A90A9AB4D1056B2AECB06AF95DECC24.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_3_Auto1.uasset'
+[2020.08.27-03.24.23:964][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_4] ([1] browsable assets)...
+[2020.08.27-03.24.23:970][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_4.CharacterSS_Sprite_4]
+[2020.08.27-03.24.23:970][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_4]
+[2020.08.27-03.24.23:981][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_4_Auto1C235AE0746AE6FE04C7D6D8DE3ACCC31.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_4_Auto1.uasset'
+[2020.08.27-03.24.23:982][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_5] ([1] browsable assets)...
+[2020.08.27-03.24.23:989][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_5.CharacterSS_Sprite_5]
+[2020.08.27-03.24.23:989][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_5]
+[2020.08.27-03.24.23:999][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_5_Auto17DFFB3024513B8E0CE869DAA6F5CE939.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_5_Auto1.uasset'
+[2020.08.27-03.24.24:000][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_6] ([1] browsable assets)...
+[2020.08.27-03.24.24:007][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_6.CharacterSS_Sprite_6]
+[2020.08.27-03.24.24:007][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_6]
+[2020.08.27-03.24.24:018][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_6_Auto11502F493476689324AF5CE8FE2E7DA2F.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_6_Auto1.uasset'
+[2020.08.27-03.24.24:020][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_7] ([1] browsable assets)...
+[2020.08.27-03.24.24:026][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_7.CharacterSS_Sprite_7]
+[2020.08.27-03.24.24:026][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_7]
+[2020.08.27-03.24.24:037][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_7_Auto14948CEDE4A2D0FC72172208A0AA6CAEF.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_7_Auto1.uasset'
+[2020.08.27-03.24.24:038][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_8] ([1] browsable assets)...
+[2020.08.27-03.24.24:045][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_8.CharacterSS_Sprite_8]
+[2020.08.27-03.24.24:045][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_8]
+[2020.08.27-03.24.24:056][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_8_Auto1E91114A842451565F656EB9F1A47A3B3.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_8_Auto1.uasset'
+[2020.08.27-03.24.24:057][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_9] ([1] browsable assets)...
+[2020.08.27-03.24.24:063][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_9.CharacterSS_Sprite_9]
+[2020.08.27-03.24.24:063][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_9]
+[2020.08.27-03.24.24:074][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_9_Auto120EB1F2F4305D325A32EEF9F22245735.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_9_Auto1.uasset'
+[2020.08.27-03.24.24:075][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_10] ([1] browsable assets)...
+[2020.08.27-03.24.24:082][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_10.CharacterSS_Sprite_10]
+[2020.08.27-03.24.24:082][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_10]
+[2020.08.27-03.24.24:096][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_10_Auto19FE5380740AAA76FCB574BB04612D184.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_10_Auto1.uasset'
+[2020.08.27-03.24.24:098][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_11] ([1] browsable assets)...
+[2020.08.27-03.24.24:104][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_11.CharacterSS_Sprite_11]
+[2020.08.27-03.24.24:104][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_11]
+[2020.08.27-03.24.24:114][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_11_Auto1E74C4EFD45BD2C81DD2885B39AE554E2.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_11_Auto1.uasset'
+[2020.08.27-03.24.24:115][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_12] ([1] browsable assets)...
+[2020.08.27-03.24.24:122][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_12.CharacterSS_Sprite_12]
+[2020.08.27-03.24.24:122][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_12]
+[2020.08.27-03.24.24:132][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_12_Auto154B86391484F9AED0F56D8AEE6356286.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_12_Auto1.uasset'
+[2020.08.27-03.24.24:133][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_13] ([1] browsable assets)...
+[2020.08.27-03.24.24:140][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_13.CharacterSS_Sprite_13]
+[2020.08.27-03.24.24:140][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_13]
+[2020.08.27-03.24.24:152][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_13_Auto14A57CECB42DC84A1024A1DB1B0D28A0E.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_13_Auto1.uasset'
+[2020.08.27-03.24.24:153][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_14] ([1] browsable assets)...
+[2020.08.27-03.24.24:158][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_14.CharacterSS_Sprite_14]
+[2020.08.27-03.24.24:158][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_14]
+[2020.08.27-03.24.24:168][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_14_Auto18EE8915A4C1C63B2B36399AEC6061E4D.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_14_Auto1.uasset'
+[2020.08.27-03.24.24:169][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_15] ([1] browsable assets)...
+[2020.08.27-03.24.24:176][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_15.CharacterSS_Sprite_15]
+[2020.08.27-03.24.24:176][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_15]
+[2020.08.27-03.24.24:189][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_15_Auto1664E2EE049788A0751A2E4AAD72404CD.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_15_Auto1.uasset'
+[2020.08.27-03.24.24:191][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_16] ([1] browsable assets)...
+[2020.08.27-03.24.24:198][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_16.CharacterSS_Sprite_16]
+[2020.08.27-03.24.24:198][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_16]
+[2020.08.27-03.24.24:211][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_16_Auto1DAD1069E4F29A90D983E5DA974EBB2D4.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_16_Auto1.uasset'
+[2020.08.27-03.24.24:212][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_17] ([1] browsable assets)...
+[2020.08.27-03.24.24:219][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_17.CharacterSS_Sprite_17]
+[2020.08.27-03.24.24:219][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_17]
+[2020.08.27-03.24.24:232][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_17_Auto12BCE0B3445F051AB322147B688B1E463.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_17_Auto1.uasset'
+[2020.08.27-03.24.24:233][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_18] ([1] browsable assets)...
+[2020.08.27-03.24.24:240][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_18.CharacterSS_Sprite_18]
+[2020.08.27-03.24.24:240][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_18]
+[2020.08.27-03.24.24:250][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_18_Auto1DCB8714949ED3AF54651FFA995426392.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_18_Auto1.uasset'
+[2020.08.27-03.24.24:251][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_19] ([1] browsable assets)...
+[2020.08.27-03.24.24:258][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_19.CharacterSS_Sprite_19]
+[2020.08.27-03.24.24:259][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_19]
+[2020.08.27-03.24.24:269][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_19_Auto132D27ACD4A7D71188F99A28C306B8D2C.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_19_Auto1.uasset'
+[2020.08.27-03.24.24:270][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_20] ([1] browsable assets)...
+[2020.08.27-03.24.24:278][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_20.CharacterSS_Sprite_20]
+[2020.08.27-03.24.24:278][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_20]
+[2020.08.27-03.24.24:290][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_20_Auto16833EB8942ED4C1269394C8A5695E6A6.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_20_Auto1.uasset'
+[2020.08.27-03.24.24:291][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_21] ([1] browsable assets)...
+[2020.08.27-03.24.24:298][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_21.CharacterSS_Sprite_21]
+[2020.08.27-03.24.24:298][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_21]
+[2020.08.27-03.24.24:309][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_21_Auto1F7C37AA14F2BCF1E42890D82E390FAD1.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_21_Auto1.uasset'
+[2020.08.27-03.24.24:310][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_22] ([1] browsable assets)...
+[2020.08.27-03.24.24:317][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_22.CharacterSS_Sprite_22]
+[2020.08.27-03.24.24:317][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_22]
+[2020.08.27-03.24.24:327][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_22_Auto1337E74CC4D9F8EBD10F5678EB749BAD8.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_22_Auto1.uasset'
+[2020.08.27-03.24.24:328][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_23] ([1] browsable assets)...
+[2020.08.27-03.24.24:335][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_23.CharacterSS_Sprite_23]
+[2020.08.27-03.24.24:335][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_23]
+[2020.08.27-03.24.24:345][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_23_Auto19A4CDBCC4903F2CF92D3AB9655094BC9.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_23_Auto1.uasset'
+[2020.08.27-03.24.24:346][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_24] ([1] browsable assets)...
+[2020.08.27-03.24.24:353][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_24.CharacterSS_Sprite_24]
+[2020.08.27-03.24.24:353][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_24]
+[2020.08.27-03.24.24:362][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_24_Auto1096884D1478A2C3820998B8BF72F2452.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_24_Auto1.uasset'
+[2020.08.27-03.24.24:363][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_25] ([1] browsable assets)...
+[2020.08.27-03.24.24:370][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_25.CharacterSS_Sprite_25]
+[2020.08.27-03.24.24:370][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_25]
+[2020.08.27-03.24.24:380][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_25_Auto1984932814002710BB2A642A3C56B554F.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_25_Auto1.uasset'
+[2020.08.27-03.24.24:384][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_26] ([1] browsable assets)...
+[2020.08.27-03.24.24:391][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_26.CharacterSS_Sprite_26]
+[2020.08.27-03.24.24:391][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_26]
+[2020.08.27-03.24.24:404][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_26_Auto1FE387EBD4F62BB313CF12B9FE66ADD4F.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_26_Auto1.uasset'
+[2020.08.27-03.24.24:405][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_27] ([1] browsable assets)...
+[2020.08.27-03.24.24:415][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_27.CharacterSS_Sprite_27]
+[2020.08.27-03.24.24:415][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_27]
+[2020.08.27-03.24.24:425][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_27_Auto15118FF3E4AC6562A873B2AB17EF34F05.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_27_Auto1.uasset'
+[2020.08.27-03.24.24:427][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_28] ([1] browsable assets)...
+[2020.08.27-03.24.24:434][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_28.CharacterSS_Sprite_28]
+[2020.08.27-03.24.24:434][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_28]
+[2020.08.27-03.24.24:444][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_28_Auto1D7B6F2294ED69C894E053DADBC669C91.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_28_Auto1.uasset'
+[2020.08.27-03.24.24:446][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_29] ([1] browsable assets)...
+[2020.08.27-03.24.24:453][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_29.CharacterSS_Sprite_29]
+[2020.08.27-03.24.24:453][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_29]
+[2020.08.27-03.24.24:463][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_29_Auto126D05AC94EEA87C4C80F5E862266DDC5.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_29_Auto1.uasset'
+[2020.08.27-03.24.24:464][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_30] ([1] browsable assets)...
+[2020.08.27-03.24.24:471][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_30.CharacterSS_Sprite_30]
+[2020.08.27-03.24.24:471][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_30]
+[2020.08.27-03.24.24:482][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_30_Auto16176456F42144633E84FD99BE30F99D4.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_30_Auto1.uasset'
+[2020.08.27-03.24.24:483][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_31] ([1] browsable assets)...
+[2020.08.27-03.24.24:490][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_31.CharacterSS_Sprite_31]
+[2020.08.27-03.24.24:490][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_31]
+[2020.08.27-03.24.24:502][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_31_Auto13187D2064B28685683D2F9A9C37BD104.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_31_Auto1.uasset'
+[2020.08.27-03.24.24:503][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_32] ([1] browsable assets)...
+[2020.08.27-03.24.24:510][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_32.CharacterSS_Sprite_32]
+[2020.08.27-03.24.24:510][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_32]
+[2020.08.27-03.24.24:524][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_32_Auto130687C924626C259A5D0DEA0221A79BE.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_32_Auto1.uasset'
+[2020.08.27-03.24.24:526][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_33] ([1] browsable assets)...
+[2020.08.27-03.24.24:534][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_33.CharacterSS_Sprite_33]
+[2020.08.27-03.24.24:534][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_33]
+[2020.08.27-03.24.24:546][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_33_Auto1685B4F7C4D4DA05A88BFFA88097EEE43.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_33_Auto1.uasset'
+[2020.08.27-03.24.24:546][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_34] ([1] browsable assets)...
+[2020.08.27-03.24.24:553][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_34.CharacterSS_Sprite_34]
+[2020.08.27-03.24.24:553][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_34]
+[2020.08.27-03.24.24:564][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_34_Auto1B542DB4F43248ED590E814ACC2A069DC.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_34_Auto1.uasset'
+[2020.08.27-03.24.24:565][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_35] ([1] browsable assets)...
+[2020.08.27-03.24.24:575][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_35.CharacterSS_Sprite_35]
+[2020.08.27-03.24.24:575][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_35]
+[2020.08.27-03.24.24:586][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_35_Auto162AD0A31444D41317B8860961F9B0D92.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_35_Auto1.uasset'
+[2020.08.27-03.24.24:588][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_36] ([1] browsable assets)...
+[2020.08.27-03.24.24:596][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_36.CharacterSS_Sprite_36]
+[2020.08.27-03.24.24:596][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_36]
+[2020.08.27-03.24.24:606][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_36_Auto103894FE5468CB4B3526B278D7606949D.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_36_Auto1.uasset'
+[2020.08.27-03.24.24:607][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_37] ([1] browsable assets)...
+[2020.08.27-03.24.24:614][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_37.CharacterSS_Sprite_37]
+[2020.08.27-03.24.24:614][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_37]
+[2020.08.27-03.24.24:624][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_37_Auto14969DD62451F6ADACCD2388211196788.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_37_Auto1.uasset'
+[2020.08.27-03.24.24:625][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_38] ([1] browsable assets)...
+[2020.08.27-03.24.24:633][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_38.CharacterSS_Sprite_38]
+[2020.08.27-03.24.24:633][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_38]
+[2020.08.27-03.24.24:643][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_38_Auto160DE86A94335B2C0F33A71958973AE20.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_38_Auto1.uasset'
+[2020.08.27-03.24.24:644][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_39] ([1] browsable assets)...
+[2020.08.27-03.24.24:653][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_39.CharacterSS_Sprite_39]
+[2020.08.27-03.24.24:653][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_39]
+[2020.08.27-03.24.24:664][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_39_Auto10B82CB1943751B6F37DD1581AAEC887E.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_39_Auto1.uasset'
+[2020.08.27-03.24.24:665][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_40] ([1] browsable assets)...
+[2020.08.27-03.24.24:675][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_40.CharacterSS_Sprite_40]
+[2020.08.27-03.24.24:675][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_40]
+[2020.08.27-03.24.24:685][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_40_Auto143F05775410A99BE0F460EAEC94ABFC6.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_40_Auto1.uasset'
+[2020.08.27-03.24.24:686][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_41] ([1] browsable assets)...
+[2020.08.27-03.24.24:695][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_41.CharacterSS_Sprite_41]
+[2020.08.27-03.24.24:695][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_41]
+[2020.08.27-03.24.24:705][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_41_Auto1C64DE0CD4232827E9B5529AB690E29ED.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_41_Auto1.uasset'
+[2020.08.27-03.24.24:706][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_42] ([1] browsable assets)...
+[2020.08.27-03.24.24:713][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_42.CharacterSS_Sprite_42]
+[2020.08.27-03.24.24:713][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_42]
+[2020.08.27-03.24.24:723][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_42_Auto108C3CFE84C485BC390F4F49C3B6DFB91.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_42_Auto1.uasset'
+[2020.08.27-03.24.24:724][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_43] ([1] browsable assets)...
+[2020.08.27-03.24.24:731][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_43.CharacterSS_Sprite_43]
+[2020.08.27-03.24.24:731][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_43]
+[2020.08.27-03.24.24:746][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_43_Auto10002CC194C9B4A8946DC75B66895DC7D.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_43_Auto1.uasset'
+[2020.08.27-03.24.24:747][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_44] ([1] browsable assets)...
+[2020.08.27-03.24.24:754][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_44.CharacterSS_Sprite_44]
+[2020.08.27-03.24.24:754][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_44]
+[2020.08.27-03.24.24:766][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_44_Auto144673F1147446D5EEDE3B49FB992E27D.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_44_Auto1.uasset'
+[2020.08.27-03.24.24:767][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_45] ([1] browsable assets)...
+[2020.08.27-03.24.24:774][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_45.CharacterSS_Sprite_45]
+[2020.08.27-03.24.24:775][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_45]
+[2020.08.27-03.24.24:801][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_45_Auto1F55C50CD4D452C793B1EAB94F9C04DFD.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_45_Auto1.uasset'
+[2020.08.27-03.24.24:803][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_46] ([1] browsable assets)...
+[2020.08.27-03.24.24:811][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_46.CharacterSS_Sprite_46]
+[2020.08.27-03.24.24:812][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_46]
+[2020.08.27-03.24.24:826][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_46_Auto17112EC934C39BC77D75FE3A9784C4FAB.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_46_Auto1.uasset'
+[2020.08.27-03.24.24:827][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_62] ([1] browsable assets)...
+[2020.08.27-03.24.24:835][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_62.CharacterSS_Sprite_62]
+[2020.08.27-03.24.24:835][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_62]
+[2020.08.27-03.24.24:849][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_62_Auto1124FD20440C89A4F65565395E8F8DF9C.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_62_Auto1.uasset'
+[2020.08.27-03.24.24:851][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_48] ([1] browsable assets)...
+[2020.08.27-03.24.24:859][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_48.CharacterSS_Sprite_48]
+[2020.08.27-03.24.24:859][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_48]
+[2020.08.27-03.24.24:874][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_48_Auto12139FAFA4A42DE9732665BA3C1C4D1DC.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_48_Auto1.uasset'
+[2020.08.27-03.24.24:876][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_49] ([1] browsable assets)...
+[2020.08.27-03.24.24:883][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_49.CharacterSS_Sprite_49]
+[2020.08.27-03.24.24:883][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_49]
+[2020.08.27-03.24.24:898][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_49_Auto1D781E7754A4A1789DDA3A389D4723376.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_49_Auto1.uasset'
+[2020.08.27-03.24.24:899][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_50] ([1] browsable assets)...
+[2020.08.27-03.24.24:907][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_50.CharacterSS_Sprite_50]
+[2020.08.27-03.24.24:908][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_50]
+[2020.08.27-03.24.24:924][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_50_Auto1BE111A214C8DC9D6A5F6E49D87D37B24.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_50_Auto1.uasset'
+[2020.08.27-03.24.24:926][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_51] ([1] browsable assets)...
+[2020.08.27-03.24.24:934][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_51.CharacterSS_Sprite_51]
+[2020.08.27-03.24.24:934][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_51]
+[2020.08.27-03.24.24:954][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_51_Auto1D4C9A172462E60011FF917AC84138A7C.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_51_Auto1.uasset'
+[2020.08.27-03.24.24:955][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_52] ([1] browsable assets)...
+[2020.08.27-03.24.24:964][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_52.CharacterSS_Sprite_52]
+[2020.08.27-03.24.24:964][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_52]
+[2020.08.27-03.24.24:976][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_52_Auto12D1DFBF94166EF17239D4FA0452DA9C8.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_52_Auto1.uasset'
+[2020.08.27-03.24.24:980][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_53] ([1] browsable assets)...
+[2020.08.27-03.24.24:988][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_53.CharacterSS_Sprite_53]
+[2020.08.27-03.24.24:988][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_53]
+[2020.08.27-03.24.25:005][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_53_Auto17268053F46BED5CFC83FADBEE1F1CB99.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_53_Auto1.uasset'
+[2020.08.27-03.24.25:006][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_54] ([1] browsable assets)...
+[2020.08.27-03.24.25:017][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_54.CharacterSS_Sprite_54]
+[2020.08.27-03.24.25:017][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_54]
+[2020.08.27-03.24.25:033][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_54_Auto1BE7A7E7A47090664EEDA57BAE08FF0AB.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_54_Auto1.uasset'
+[2020.08.27-03.24.25:034][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_55] ([1] browsable assets)...
+[2020.08.27-03.24.25:042][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_55.CharacterSS_Sprite_55]
+[2020.08.27-03.24.25:042][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_55]
+[2020.08.27-03.24.25:056][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_55_Auto14636D75B460FF1DF9A989195923733F2.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_55_Auto1.uasset'
+[2020.08.27-03.24.25:058][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_56] ([1] browsable assets)...
+[2020.08.27-03.24.25:067][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_56.CharacterSS_Sprite_56]
+[2020.08.27-03.24.25:067][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_56]
+[2020.08.27-03.24.25:081][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_56_Auto15AC2BBCA4E55EC09238F85A0CE5EC8AD.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_56_Auto1.uasset'
+[2020.08.27-03.24.25:083][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_57] ([1] browsable assets)...
+[2020.08.27-03.24.25:094][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_57.CharacterSS_Sprite_57]
+[2020.08.27-03.24.25:094][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_57]
+[2020.08.27-03.24.25:107][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_57_Auto1A725E23B4DD4496E04B52693B5354038.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_57_Auto1.uasset'
+[2020.08.27-03.24.25:109][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_58] ([1] browsable assets)...
+[2020.08.27-03.24.25:117][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_58.CharacterSS_Sprite_58]
+[2020.08.27-03.24.25:117][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_58]
+[2020.08.27-03.24.25:131][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_58_Auto14F25B31C47F18A4AD14084B0AF2D7540.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_58_Auto1.uasset'
+[2020.08.27-03.24.25:132][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_59] ([1] browsable assets)...
+[2020.08.27-03.24.25:141][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_59.CharacterSS_Sprite_59]
+[2020.08.27-03.24.25:141][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_59]
+[2020.08.27-03.24.25:156][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_59_Auto16C9E74C04CFD1DC936F191A146946B1D.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_59_Auto1.uasset'
+[2020.08.27-03.24.25:158][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_60] ([1] browsable assets)...
+[2020.08.27-03.24.25:168][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_60.CharacterSS_Sprite_60]
+[2020.08.27-03.24.25:168][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_60]
+[2020.08.27-03.24.25:182][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_60_Auto1C00E29FD4C0323E30E76C681373A1DD9.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_60_Auto1.uasset'
+[2020.08.27-03.24.25:184][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_61] ([1] browsable assets)...
+[2020.08.27-03.24.25:192][559]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PixelArena/Sprites/Character/CharacterSS_Sprite_61.CharacterSS_Sprite_61]
+[2020.08.27-03.24.25:192][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_61]
+[2020.08.27-03.24.25:207][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterSS_Sprite_61_Auto128D315684684CEE79D4A629FE4668E0D.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/CharacterSS_Sprite_61_Auto1.uasset'
+[2020.08.27-03.24.25:209][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelArena/Sprites/Character/Character_Walking_Forward] ([1] browsable assets)...
+[2020.08.27-03.24.25:217][559]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/PixelArena/Sprites/Character/Character_Walking_Forward.Character_Walking_Forward]
+[2020.08.27-03.24.25:217][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Sprites/Character/Character_Walking_Forward]
+[2020.08.27-03.24.25:230][559]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_Walking_Forward_Auto1C4F6CFFE4B3F1E0BB4DF08A55E601296.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Sprites/Character/Character_Walking_Forward_Auto1.uasset'
+[2020.08.27-03.24.25:231][559]LogFileHelpers: Auto-saving content packages took 1.347
+[2020.08.27-03.24.53:549][895]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.08.27-03.24.56:424][  2]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/CharacterSS1.CharacterSS1
+[2020.08.27-03.25.46:291][991]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.25.46:291][991]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.25.48:748][ 99]LogSlate: Window 'CharacterSS' being destroyed
+[2020.08.27-03.25.51:155][225]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.08.27-03.25.52:299][225]LogSlate: Window 'Delete Assets' being destroyed
+[2020.08.27-03.25.52:466][225]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.08.27-03.26.01:102][719]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_Walking_ForwardE34767B1446000DCE28B0A8D618C901F.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_Walking_Forward.uasset'
+[2020.08.27-03.26.01:491][719]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.08.27-03.26.01:535][719]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.08.27-03.26.01:557][719]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.08.27-03.26.01:614][719]AssetCheck: New page: Asset Save: Character_Walking_Forward
+[2020.08.27-03.26.01:615][719]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_Walking_Forward.Character_Walking_Forward
+[2020.08.27-03.26.33:543][482]LogSlate: Window 'CharacterSS_Sprite_9' being destroyed
+[2020.08.27-03.26.33:550][482]LogSlate: Window 'CharacterSS_Sprite_9' being destroyed
+[2020.08.27-03.26.33:571][482]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.26.33:571][482]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.26.33:606][482]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.26.33:606][482]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.26.33:654][482]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.26.33:654][482]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.26.33:689][482]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.26.33:689][482]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.26.33:724][482]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.26.33:724][482]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.26.33:756][482]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.26.33:756][482]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.26.33:786][482]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.26.33:786][482]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.27.13:885][780]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.08.27-03.27.21:027][189]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_Idle_Forward.Character_Idle_Forward
+[2020.08.27-03.29.01:014][605]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_Idle_Forward3226A3824425119484298796E602BA73.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_Idle_Forward.uasset'
+[2020.08.27-03.29.01:064][605]AssetCheck: New page: Asset Save: Character_Idle_Forward
+[2020.08.27-03.29.01:064][605]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_Idle_Forward.Character_Idle_Forward
+[2020.08.27-03.29.15:402][ 32]LogSlate: Window 'Character_Idle_Forward' being destroyed
+[2020.08.27-03.29.15:451][ 32]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.29.15:451][ 32]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.29.16:052][ 35]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.08.27-03.29.23:443][382]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.08.27-03.29.31:556][839]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_Attack_Forward.Character_Attack_Forward
+[2020.08.27-03.29.52:538][279]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_Attack_Forward09EAF2064CAD2FD1E16FE0A9CFB3E4EA.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_Attack_Forward.uasset'
+[2020.08.27-03.29.52:586][279]AssetCheck: New page: Asset Save: Character_Attack_Forward
+[2020.08.27-03.29.52:587][279]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_Attack_Forward.Character_Attack_Forward
+[2020.08.27-03.29.54:181][354]LogSlate: Window 'Character_Attack_Forward' being destroyed
+[2020.08.27-03.29.54:246][354]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.29.54:246][354]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.29.54:897][357]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.08.27-03.30.18:715][656]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_Attack_South2BC827874402E0CE4433DFA7E3093572.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_Attack_South.uasset'
+[2020.08.27-03.30.19:102][656]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2020.08.27-03.30.19:163][656]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2020.08.27-03.30.19:195][656]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.08.27-03.30.19:252][656]AssetCheck: New page: Asset Save: Character_Attack_South
+[2020.08.27-03.30.19:252][656]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_Attack_South.Character_Attack_South
+[2020.08.27-03.30.24:791][961]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_Idle_South306C5BDF4C011025951EFF8F81767A77.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_Idle_South.uasset'
+[2020.08.27-03.30.25:270][961]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.08.27-03.30.25:318][961]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2020.08.27-03.30.25:343][961]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.08.27-03.30.25:390][961]AssetCheck: New page: Asset Save: Character_Idle_South
+[2020.08.27-03.30.25:390][961]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_Idle_South.Character_Idle_South
+[2020.08.27-03.30.32:397][355]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_Walking_SouthAE63EE3E4A1FA9523851FB8CB0415B71.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_Walking_South.uasset'
+[2020.08.27-03.30.32:745][355]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2020.08.27-03.30.32:789][355]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2020.08.27-03.30.32:817][355]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.08.27-03.30.32:862][355]AssetCheck: New page: Asset Save: Character_Walking_South
+[2020.08.27-03.30.32:862][355]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_Walking_South.Character_Walking_South
+[2020.08.27-03.30.46:086][ 90]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.08.27-03.30.55:269][623]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_Attack_South.Character_Attack_South
+[2020.08.27-03.31.04:417][968]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_Attack_South74966058421D7E7D8E0A228FBD13CED9.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_Attack_South.uasset'
+[2020.08.27-03.31.04:461][968]AssetCheck: New page: Asset Save: Character_Attack_South
+[2020.08.27-03.31.04:461][968]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_Attack_South.Character_Attack_South
+[2020.08.27-03.31.05:172][998]LogSlate: Window 'Character_Attack_South' being destroyed
+[2020.08.27-03.31.05:221][998]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.31.05:221][998]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.31.08:073][134]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_Idle_South.Character_Idle_South
+[2020.08.27-03.31.10:477][204]LogSlate: Window 'Character_Idle_South' being destroyed
+[2020.08.27-03.31.10:534][204]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.31.10:534][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.31.11:916][232]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_Attack_North.Character_Attack_North
+[2020.08.27-03.31.21:309][628]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_Attack_North790FD687490A779690322EBA95CE3CCB.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_Attack_North.uasset'
+[2020.08.27-03.31.21:363][628]AssetCheck: New page: Asset Save: Character_Attack_North
+[2020.08.27-03.31.21:363][628]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_Attack_North.Character_Attack_North
+[2020.08.27-03.31.50:239][903]LogSlate: Window 'Editor Preferences' being destroyed
+[2020.08.27-03.31.50:259][903]LogSlate: Window 'Editor Preferences' being destroyed
+[2020.08.27-03.32.01:184][275]LogSlate: Window 'Project Settings' being destroyed
+[2020.08.27-03.32.01:198][275]LogSlate: Window 'Project Settings' being destroyed
+[2020.08.27-03.32.27:789][798]LogSlate: Window 'Character_Attack_North - Property Editor' being destroyed
+[2020.08.27-03.32.27:803][798]LogSlate: Window 'Character_Attack_North - Property Editor' being destroyed
+[2020.08.27-03.32.27:852][798]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.32.27:852][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.32.36:982][222]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.08.27-03.32.57:653][432]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_Idle_North.Character_Idle_North
+[2020.08.27-03.33.03:338][677]LogSlate: Window 'Character_Idle_North' being destroyed
+[2020.08.27-03.33.03:353][677]LogSlate: Window 'Character_Idle_North' being destroyed
+[2020.08.27-03.33.03:354][677]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.33.03:354][677]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.33.03:956][680]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.08.27-03.33.04:459][681]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.08.27-03.33.05:612][726]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_Idle_NorthC98DAF04427358A4AB2B6EBFFF33A9E8.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_Idle_North.uasset'
+[2020.08.27-03.33.05:650][726]AssetCheck: New page: Asset Save: Character_Idle_North
+[2020.08.27-03.33.05:650][726]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_Idle_North.Character_Idle_North
+[2020.08.27-03.33.12:007][ 95]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_North_Idle7C4D3FD54277EFE7BDA03682608BF8EB.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_North_Idle.uasset'
+[2020.08.27-03.33.12:857][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   5.15ms
+[2020.08.27-03.33.12:997][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2020.08.27-03.33.13:023][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.08.27-03.33.13:060][ 95]AssetCheck: New page: Asset Save: Character_North_Idle
+[2020.08.27-03.33.13:060][ 95]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_North_Idle.Character_North_Idle
+[2020.08.27-03.33.22:013][608]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_North_Attack3DFE751645C66785DAF798997A00D27F.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_North_Attack.uasset'
+[2020.08.27-03.33.22:355][608]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.08.27-03.33.22:403][608]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2020.08.27-03.33.22:432][608]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.08.27-03.33.22:486][608]AssetCheck: New page: Asset Save: Character_North_Attack
+[2020.08.27-03.33.22:486][608]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_North_Attack.Character_North_Attack
+[2020.08.27-03.33.28:840][973]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_South_Attack633C60274714C63E9A8F17BBC783281A.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_South_Attack.uasset'
+[2020.08.27-03.33.29:181][973]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.08.27-03.33.29:225][973]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.08.27-03.33.29:251][973]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.08.27-03.33.29:299][973]AssetCheck: New page: Asset Save: Character_South_Attack
+[2020.08.27-03.33.29:299][973]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_South_Attack.Character_South_Attack
+[2020.08.27-03.33.37:595][455]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_South_Idle66CF2F1C49059156957646ABF36C8E7E.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_South_Idle.uasset'
+[2020.08.27-03.33.37:936][455]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.08.27-03.33.37:985][455]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2020.08.27-03.33.38:012][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.08.27-03.33.38:057][455]AssetCheck: New page: Asset Save: Character_South_Idle
+[2020.08.27-03.33.38:057][455]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_South_Idle.Character_South_Idle
+[2020.08.27-03.33.46:290][923]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_South_WalkingDEEB030844E7329D83BFECA10D221D73.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_South_Walking.uasset'
+[2020.08.27-03.33.46:648][923]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2020.08.27-03.33.46:695][923]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.08.27-03.33.46:720][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.08.27-03.33.46:764][923]AssetCheck: New page: Asset Save: Character_South_Walking
+[2020.08.27-03.33.46:764][923]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_South_Walking.Character_South_Walking
+[2020.08.27-03.34.11:568][363]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.08.27-03.34.22:271][990]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_North_Walking.Character_North_Walking
+[2020.08.27-03.34.37:434][671]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_North_Walking64FC94074D1722AD3D0F0E91E68AC5EC.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_North_Walking.uasset'
+[2020.08.27-03.34.37:481][671]AssetCheck: New page: Asset Save: Character_North_Walking
+[2020.08.27-03.34.37:481][671]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_North_Walking.Character_North_Walking
+[2020.08.27-03.34.39:209][758]LogSlate: Window 'Character_North_Walking' being destroyed
+[2020.08.27-03.34.39:262][758]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.34.39:262][758]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.34.59:264][432]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_North_Walking.Character_North_Walking
+[2020.08.27-03.36.28:422][283]LogSlate: Window 'Character_North_Walking' being destroyed
+[2020.08.27-03.36.28:499][283]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.36.28:499][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.36.39:675][857]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.08.27-03.36.58:497][926]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.08.27-03.37.17:739][  2]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.08.27-03.37.24:753][409]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_West_Walking5BFB5E414FEF589FDAC90AA380853B81.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_West_Walking.uasset'
+[2020.08.27-03.37.24:790][409]AssetCheck: New page: Asset Save: Character_West_Walking
+[2020.08.27-03.37.24:790][409]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_West_Walking.Character_West_Walking
+[2020.08.27-03.37.27:388][532]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_West_AttackB928FB404F9D0BC4199376B6E141610A.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_West_Attack.uasset'
+[2020.08.27-03.37.27:424][532]AssetCheck: New page: Asset Save: Character_West_Attack
+[2020.08.27-03.37.27:424][532]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_West_Attack.Character_West_Attack
+[2020.08.27-03.37.28:122][562]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_West_Idle18C720A84B5CA0448DA61EBE8082F2C2.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_West_Idle.uasset'
+[2020.08.27-03.37.28:165][562]AssetCheck: New page: Asset Save: Character_West_Idle
+[2020.08.27-03.37.28:165][562]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_West_Idle.Character_West_Idle
+[2020.08.27-03.37.36:126][995]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.08.27-03.37.51:960][923]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_East_Attack382DB3FB4FEB8517973D28B91C1D9D08.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_East_Attack.uasset'
+[2020.08.27-03.37.52:346][923]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.08.27-03.37.52:403][923]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.08.27-03.37.52:433][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.08.27-03.37.52:479][923]AssetCheck: New page: Asset Save: Character_East_Attack
+[2020.08.27-03.37.52:480][923]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_East_Attack.Character_East_Attack
+[2020.08.27-03.37.52:906][935]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_East_Attack255FDAFC4F88273C886B968AE9ECC946.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_East_Attack.uasset'
+[2020.08.27-03.37.52:924][935]AssetCheck: New page: Asset Save: Character_East_Attack
+[2020.08.27-03.37.52:924][935]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_East_Attack.Character_East_Attack
+[2020.08.27-03.38.03:595][499]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.08.27-03.38.18:185][361]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_East_Idle0DBB8939487082FD3BEBA0BEFB6F28ED.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_East_Idle.uasset'
+[2020.08.27-03.38.18:225][361]AssetCheck: New page: Asset Save: Character_East_Idle
+[2020.08.27-03.38.18:225][361]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_East_Idle.Character_East_Idle
+[2020.08.27-03.38.28:153][909]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.08.27-03.38.37:547][461]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_East_Walking79ABE49F4E083679E540F7B9BD20B965.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_East_Walking.uasset'
+[2020.08.27-03.38.37:582][461]AssetCheck: New page: Asset Save: Character_East_Walking
+[2020.08.27-03.38.37:582][461]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_East_Walking.Character_East_Walking
+[2020.08.27-03.38.38:489][511]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_East_Walking.Character_East_Walking
+[2020.08.27-03.38.47:096][938]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_East_WalkingBCB264DD477CD9CA2B9BEFA6B59C24FB.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_East_Walking.uasset'
+[2020.08.27-03.38.47:119][938]AssetCheck: New page: Asset Save: Character_East_Walking
+[2020.08.27-03.38.47:119][938]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_East_Walking.Character_East_Walking
+[2020.08.27-03.38.47:568][965]LogSlate: Window 'Character_East_Walking' being destroyed
+[2020.08.27-03.38.47:596][965]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.38.47:597][965]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.38.48:756][  7]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_East_Idle.Character_East_Idle
+[2020.08.27-03.38.54:498][263]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_East_Idle7499574C403D848D7C3913B5C448C67A.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_East_Idle.uasset'
+[2020.08.27-03.38.54:520][263]AssetCheck: New page: Asset Save: Character_East_Idle
+[2020.08.27-03.38.54:520][263]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_East_Idle.Character_East_Idle
+[2020.08.27-03.38.55:289][302]LogSlate: Window 'Character_East_Idle' being destroyed
+[2020.08.27-03.38.55:319][302]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.38.55:319][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.38.55:875][305]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.08.27-03.38.56:453][332]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_East_Attack.Character_East_Attack
+[2020.08.27-03.39.04:484][734]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_East_AttackF7FB524341B800FC594E8E9C54708EF6.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_East_Attack.uasset'
+[2020.08.27-03.39.04:508][734]AssetCheck: New page: Asset Save: Character_East_Attack
+[2020.08.27-03.39.04:508][734]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_East_Attack.Character_East_Attack
+[2020.08.27-03.39.05:791][799]LogSlate: Window 'Character_East_Attack' being destroyed
+[2020.08.27-03.39.05:824][799]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.39.05:824][799]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.39.08:604][910]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_West_Walking.Character_West_Walking
+[2020.08.27-03.39.14:794][155]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_West_Walking9BA8136E42026B9CE8CEF4BF5B47EAF0.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_West_Walking.uasset'
+[2020.08.27-03.39.14:822][155]AssetCheck: New page: Asset Save: Character_West_Walking
+[2020.08.27-03.39.14:822][155]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_West_Walking.Character_West_Walking
+[2020.08.27-03.39.16:330][236]LogSlate: Window 'Character_West_Walking' being destroyed
+[2020.08.27-03.39.16:365][236]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.39.16:365][236]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.39.17:566][273]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_West_Idle.Character_West_Idle
+[2020.08.27-03.39.21:269][411]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_West_Idle337390A844A3E4F924A601BF3259AAC3.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_West_Idle.uasset'
+[2020.08.27-03.39.21:292][411]AssetCheck: New page: Asset Save: Character_West_Idle
+[2020.08.27-03.39.21:292][411]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_West_Idle.Character_West_Idle
+[2020.08.27-03.39.22:810][499]LogSlate: Window 'Character_West_Idle' being destroyed
+[2020.08.27-03.39.22:841][499]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.39.22:842][499]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.39.23:741][534]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_West_Attack.Character_West_Attack
+[2020.08.27-03.39.27:523][670]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_West_Attack5832F92B4EAFAAE336358D8C6C70E1E1.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_West_Attack.uasset'
+[2020.08.27-03.39.27:546][670]AssetCheck: New page: Asset Save: Character_West_Attack
+[2020.08.27-03.39.27:546][670]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_West_Attack.Character_West_Attack
+[2020.08.27-03.39.27:727][676]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_West_AttackF3840E10439F01404A7FC7B0BFFE259D.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_West_Attack.uasset'
+[2020.08.27-03.39.27:743][676]AssetCheck: New page: Asset Save: Character_West_Attack
+[2020.08.27-03.39.27:743][676]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_West_Attack.Character_West_Attack
+[2020.08.27-03.39.28:759][732]LogSlate: Window 'Character_West_Attack' being destroyed
+[2020.08.27-03.39.28:793][732]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.39.28:793][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.39.30:046][758]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_South_Walking.Character_South_Walking
+[2020.08.27-03.39.32:063][826]LogSlate: Window 'Character_South_Walking' being destroyed
+[2020.08.27-03.39.32:094][826]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.39.32:094][826]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.39.32:662][829]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.08.27-03.39.33:106][846]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_South_Idle.Character_South_Idle
+[2020.08.27-03.39.35:795][948]LogSlate: Window 'Character_South_Idle' being destroyed
+[2020.08.27-03.39.35:820][948]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.39.35:820][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.39.36:872][975]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_South_Attack.Character_South_Attack
+[2020.08.27-03.39.39:097][ 73]LogSlate: Window 'Character_South_Attack' being destroyed
+[2020.08.27-03.39.39:129][ 73]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.39.39:129][ 73]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.39.39:755][ 76]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.08.27-03.39.40:237][ 87]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_North_Walking.Character_North_Walking
+[2020.08.27-03.39.42:629][175]LogSlate: Window 'Character_North_Walking' being destroyed
+[2020.08.27-03.39.42:661][175]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.39.42:661][175]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.39.44:701][267]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_East_Walking.Character_East_Walking
+[2020.08.27-03.39.46:348][334]LogSlate: Window 'Character_East_Walking' being destroyed
+[2020.08.27-03.39.46:379][334]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.39.46:380][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.39.47:650][373]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_North_Idle.Character_North_Idle
+[2020.08.27-03.39.49:001][424]LogSlate: Window 'Character_North_Idle' being destroyed
+[2020.08.27-03.39.49:031][424]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.39.49:031][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.39.49:918][449]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_North_Attack.Character_North_Attack
+[2020.08.27-03.39.51:932][532]LogSlate: Window 'Character_North_Attack' being destroyed
+[2020.08.27-03.39.51:962][532]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-03.39.51:963][532]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-03.39.53:180][557]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.08.27-03.39.57:735][753]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_East_Attack172055BF4FEB452C62EE5482A7A14388.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_East_Attack.uasset'
+[2020.08.27-03.39.57:791][753]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_East_Idle251B08D04FA8D858F7A72F9B0737DE64.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_East_Idle.uasset'
+[2020.08.27-03.39.57:899][753]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_East_Walking083BC78742A78B6235C4A9B7180EE6E2.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_East_Walking.uasset'
+[2020.08.27-03.39.57:985][753]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_North_Attack99388E65458176069B50138BAAEF5847.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_North_Attack.uasset'
+[2020.08.27-03.39.58:022][753]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_North_Idle17C6FA57452FBFD53DB29CB4E423BC89.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_North_Idle.uasset'
+[2020.08.27-03.39.58:056][753]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_North_WalkingD6795A724E0800A381B569A0BCD921CE.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_North_Walking.uasset'
+[2020.08.27-03.39.58:083][753]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_South_Attack175329534E6D87AFFB440F8301AE337A.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_South_Attack.uasset'
+[2020.08.27-03.39.58:116][753]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_South_Idle9FDA71E840C9ABB54049D8A0B7755B9A.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_South_Idle.uasset'
+[2020.08.27-03.39.58:143][753]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_South_WalkingC1186D9243ADF5A0DCFDDEBAA79EC21F.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_South_Walking.uasset'
+[2020.08.27-03.39.58:174][753]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_West_Attack864833834DFA2F4C1A891E8C9D4A134C.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_West_Attack.uasset'
+[2020.08.27-03.39.58:204][753]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_West_IdleEF086F6B4347746DDA191697415131B5.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_West_Idle.uasset'
+[2020.08.27-03.39.58:230][753]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_West_WalkingF256AB494C2578522D2E75AE2E9C4371.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_West_Walking.uasset'
+[2020.08.27-03.39.59:563][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2020.08.27-03.39.59:587][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2020.08.27-03.39.59:602][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2020.08.27-03.39.59:618][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2020.08.27-03.39.59:636][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2020.08.27-03.39.59:652][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2020.08.27-03.39.59:668][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.08.27-03.39.59:684][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2020.08.27-03.39.59:700][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.08.27-03.39.59:720][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2020.08.27-03.39.59:736][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.08.27-03.39.59:753][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2020.08.27-03.39.59:778][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2020.08.27-03.39.59:794][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.08.27-03.39.59:923][753]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.27-03.39.59:923][753]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_East_Attack.Character_East_Attack
+[2020.08.27-03.39.59:924][753]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_East_Idle.Character_East_Idle
+[2020.08.27-03.39.59:924][753]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_East_Walking.Character_East_Walking
+[2020.08.27-03.39.59:924][753]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_North_Attack.Character_North_Attack
+[2020.08.27-03.39.59:924][753]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_North_Idle.Character_North_Idle
+[2020.08.27-03.39.59:924][753]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_North_Walking.Character_North_Walking
+[2020.08.27-03.39.59:924][753]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_South_Attack.Character_South_Attack
+[2020.08.27-03.39.59:924][753]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_South_Idle.Character_South_Idle
+[2020.08.27-03.39.59:924][753]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_South_Walking.Character_South_Walking
+[2020.08.27-03.39.59:924][753]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_West_Attack.Character_West_Attack
+[2020.08.27-03.39.59:924][753]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_West_Idle.Character_West_Idle
+[2020.08.27-03.39.59:924][753]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_West_Walking.Character_West_Walking
+[2020.08.27-03.40.01:429][831]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.08.27-03.40.01:498][831]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Main3B03715C4280551B587535B957774F5C.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap'
+[2020.08.27-03.40.01:574][831]AssetCheck: New page: Asset Save: Main
+[2020.08.27-03.40.01:574][831]LogContentValidation: Display: Validating World /Game/PixelArena/Levels/Main.Main
