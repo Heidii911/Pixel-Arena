@@ -4441,3 +4441,961 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.08.27-05.06.04:720][310]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Flipbooks/Character/Character_West_Walking]
 [2020.08.27-05.06.04:747][310]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_West_Walking_Auto3EB5B746645D07041E2AA07843C0E2138.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Flipbooks/Character/Character_West_Walking_Auto3.uasset'
 [2020.08.27-05.06.04:749][310]LogFileHelpers: Auto-saving content packages took 0.038
+[2020.08.27-05.07.10:872][662]BlueprintLog: New page: Compile CharacterBP
+[2020.08.27-05.07.10:919][662]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2020.08.27-05.07.12:812][734]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP3670777748F2F6D0394053822E7054CF.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.07.12:838][734]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.07.12:839][734]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.07.14:275][819]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.27-05.07.14:300][819]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.27-05.07.14:301][819]PIE: New page: PIE session: Main (Aug 28, 2020, 5:07:14 AM)
+[2020.08.27-05.07.14:301][819]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.08.27-05.07.14:303][819]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001344s)
+[2020.08.27-05.07.14:304][819]LogAIModule: Creating AISystem for world Main
+[2020.08.27-05.07.14:304][819]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026D21276C00), frame # 215819
+[2020.08.27-05.07.14:304][819]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026D1D0FA980), frame # 215819
+[2020.08.27-05.07.14:304][819]LogPlayLevel: PIE: World Init took: (0.001414s)
+[2020.08.27-05.07.14:304][819]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.002923s)
+[2020.08.27-05.07.14:334][819]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2020.08.27-05.07.14:335][819]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.27-05.07.14:335][819]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.27-05.07.14:335][819]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.27-05.07.14:335][819]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.27-05.07.14:335][819]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.27-05.07.14:335][819]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.27-05.07.14:335][819]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.27-05.07.14:335][819]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.27-05.07.14:336][819]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.27-05.07.14:336][819]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.27-05.07.14:343][819]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.27-05.07.14:343][819]LogAudioMixer: Display: 1: FrontRight
+[2020.08.27-05.07.14:381][819]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio(SST))
+[2020.08.27-05.07.14:381][819]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.27-05.07.14:381][819]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.27-05.07.14:381][819]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.27-05.07.14:382][819]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.27-05.07.14:401][819]LogInit: FAudioDevice initialized.
+[2020.08.27-05.07.14:415][819]LogLoad: Game class is 'PixelArenaGame_C'
+[2020.08.27-05.07.14:417][819]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.08.27-17.07.14
+[2020.08.27-05.07.14:418][819]LogWorld: Bringing up level for play took: 0.000874
+[2020.08.27-05.07.14:418][819]LogOnline: OSS: Creating online subsystem instance for: :Context_83
+[2020.08.27-05.07.14:421][819]PIE: Server logged in
+[2020.08.27-05.07.14:422][819]PIE: Play in editor total start time 0.123 seconds.
+[2020.08.27-05.07.14:956][822]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.08.27-05.07.28:586][627]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.27-05.07.28:586][627]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.08.27-05.07.28:587][627]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-05.07.28:587][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-05.07.28:594][627]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.27-05.07.28:601][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-05.07.28:647][627]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.27-05.07.28:648][627]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026D1D0FA980), frame # 216627
+[2020.08.27-05.07.28:648][627]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026D21276C00), frame # 216627
+[2020.08.27-05.07.28:650][627]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2020.08.27-05.07.28:699][628]LogPlayLevel: Display: Destroying online subsystem :Context_83
+[2020.08.27-05.08.37:112][642]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP0E1B63A24E1F79DBB0F6A0BEDB51F892.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.08.37:128][642]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.08.37:128][642]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.09.04:318][591]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPE085D8E048C03332C42751B0046F399E.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.09.04:339][591]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.09.04:339][591]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.09.05:801][670]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPC9E91C4B498BEE16B78AB08050E68F47.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.09.05:820][670]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.09.05:820][670]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.09.06:116][688]BlueprintLog: New page: Compile CharacterBP
+[2020.08.27-05.09.06:174][688]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2020.08.27-05.09.07:220][747]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.27-05.09.07:242][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.27-05.09.07:242][747]PIE: New page: PIE session: Main (Aug 28, 2020, 5:09:07 AM)
+[2020.08.27-05.09.07:265][747]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.08.27-05.09.07:266][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001044s)
+[2020.08.27-05.09.07:269][747]LogAIModule: Creating AISystem for world Main
+[2020.08.27-05.09.07:270][747]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026B1BCE4A00), frame # 219747
+[2020.08.27-05.09.07:270][747]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026B1C1D8540), frame # 219747
+[2020.08.27-05.09.07:270][747]LogPlayLevel: PIE: World Init took: (0.003310s)
+[2020.08.27-05.09.07:270][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.004509s)
+[2020.08.27-05.09.07:295][747]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.08.27-05.09.07:295][747]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.27-05.09.07:296][747]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.27-05.09.07:296][747]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.27-05.09.07:296][747]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.27-05.09.07:296][747]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.27-05.09.07:296][747]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.27-05.09.07:296][747]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.27-05.09.07:296][747]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.27-05.09.07:296][747]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.27-05.09.07:296][747]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.27-05.09.07:302][747]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.27-05.09.07:302][747]LogAudioMixer: Display: 1: FrontRight
+[2020.08.27-05.09.07:333][747]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio(SST))
+[2020.08.27-05.09.07:333][747]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.27-05.09.07:334][747]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.27-05.09.07:334][747]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.27-05.09.07:334][747]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.27-05.09.07:350][747]LogInit: FAudioDevice initialized.
+[2020.08.27-05.09.07:361][747]LogLoad: Game class is 'PixelArenaGame_C'
+[2020.08.27-05.09.07:363][747]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.08.27-17.09.07
+[2020.08.27-05.09.07:363][747]LogWorld: Bringing up level for play took: 0.000626
+[2020.08.27-05.09.07:363][747]LogOnline: OSS: Creating online subsystem instance for: :Context_84
+[2020.08.27-05.09.07:367][747]PIE: Server logged in
+[2020.08.27-05.09.07:368][747]PIE: Play in editor total start time 0.127 seconds.
+[2020.08.27-05.09.21:326][572]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.27-05.09.21:326][572]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.08.27-05.09.21:326][572]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-05.09.21:327][572]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-05.09.21:333][572]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.27-05.09.21:336][572]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-05.09.21:379][572]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.27-05.09.21:379][572]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026B1C1D8540), frame # 220572
+[2020.08.27-05.09.21:379][572]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026B1BCE4A00), frame # 220572
+[2020.08.27-05.09.21:382][572]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2020.08.27-05.09.21:426][573]LogPlayLevel: Display: Destroying online subsystem :Context_84
+[2020.08.27-05.10.33:109][181]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.27-05.10.33:138][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.27-05.10.33:138][181]PIE: New page: PIE session: Main (Aug 28, 2020, 5:10:33 AM)
+[2020.08.27-05.10.33:139][181]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.08.27-05.10.33:140][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001713s)
+[2020.08.27-05.10.33:141][181]LogAIModule: Creating AISystem for world Main
+[2020.08.27-05.10.33:142][181]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026B1A7CD400), frame # 221181
+[2020.08.27-05.10.33:142][181]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026D1CF00A40), frame # 221181
+[2020.08.27-05.10.33:142][181]LogPlayLevel: PIE: World Init took: (0.002014s)
+[2020.08.27-05.10.33:142][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.003876s)
+[2020.08.27-05.10.33:174][181]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.08.27-05.10.33:175][181]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.27-05.10.33:175][181]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.27-05.10.33:175][181]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.27-05.10.33:175][181]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.27-05.10.33:175][181]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.27-05.10.33:175][181]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.27-05.10.33:175][181]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.27-05.10.33:175][181]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.27-05.10.33:176][181]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.27-05.10.33:176][181]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.27-05.10.33:181][181]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.27-05.10.33:181][181]LogAudioMixer: Display: 1: FrontRight
+[2020.08.27-05.10.33:213][181]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio(SST))
+[2020.08.27-05.10.33:214][181]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.27-05.10.33:214][181]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.27-05.10.33:214][181]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.27-05.10.33:215][181]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.27-05.10.33:235][181]LogInit: FAudioDevice initialized.
+[2020.08.27-05.10.33:243][181]LogLoad: Game class is 'PixelArenaGame_C'
+[2020.08.27-05.10.33:244][181]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.08.27-17.10.33
+[2020.08.27-05.10.33:245][181]LogWorld: Bringing up level for play took: 0.000759
+[2020.08.27-05.10.33:245][181]LogOnline: OSS: Creating online subsystem instance for: :Context_85
+[2020.08.27-05.10.33:248][181]PIE: Server logged in
+[2020.08.27-05.10.33:249][181]PIE: Play in editor total start time 0.112 seconds.
+[2020.08.27-05.10.53:176][374]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.27-05.10.53:176][374]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.08.27-05.10.53:177][374]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-05.10.53:177][374]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-05.10.53:184][374]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.27-05.10.53:191][374]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-05.10.53:238][374]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.27-05.10.53:238][374]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026D1CF00A40), frame # 222374
+[2020.08.27-05.10.53:239][374]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026B1A7CD400), frame # 222374
+[2020.08.27-05.10.53:241][374]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2020.08.27-05.10.53:285][375]LogPlayLevel: Display: Destroying online subsystem :Context_85
+[2020.08.27-05.14.11:772][966]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.08.27-05.14.12:188][967]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.08.27-05.14.17:288][968]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Program Files/Epic Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/GameFramework/MovementComponent.h'
+[2020.08.27-05.17.26:392][941]LogSlate: Took 0.012637 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.08.27-05.17.37:499][598]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP34AC120A4DCAAE7457D4B29FC5607124.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.17.37:555][598]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.17.37:555][598]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.17.43:093][898]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.08.27-05.17.47:578][  2]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.08.27-05.17.48:520][ 49]LogContentBrowser: Verbose: The majority of assets in the view are of type: None
+[2020.08.27-05.17.49:660][104]LogContentBrowser: Verbose: The majority of assets in the view are of type: Blueprint
+[2020.08.27-05.18.11:813][389]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterMovementDirections7DE62A754D4617AEC1FD50B48FFAFE9E.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterMovementDirections.uasset'
+[2020.08.27-05.18.11:842][389]AssetCheck: New page: Asset Save: CharacterMovementDirections
+[2020.08.27-05.18.11:842][389]LogContentValidation: Display: Validating UserDefinedEnum /Game/PixelArena/Blueprints/CharacterMovementDirections.CharacterMovementDirections
+[2020.08.27-05.18.13:562][490]LogContentBrowser: Verbose: The majority of assets in the view are of type: None
+[2020.08.27-05.18.14:215][529]LogContentBrowser: Verbose: The majority of assets in the view are of type: Blueprint
+[2020.08.27-05.18.14:777][562]LogContentBrowser: Verbose: The majority of assets in the view are of type: None
+[2020.08.27-05.18.19:029][804]LogContentBrowser: Verbose: The majority of assets in the view are of type: Blueprint
+[2020.08.27-05.18.22:590][  7]LogMetaData: Removing '/Game/PixelArena/Enums/CharacterMovementDirections.CharacterMovementDirections' ref from Metadata '/Game/PixelArena/Blueprints/CharacterMovementDirections.PackageMetaData'
+[2020.08.27-05.18.22:680][  7]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterMovementDirectionsB3AA0E8A4CDB7D3D622556B7328B6EB9.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Enums/CharacterMovementDirections.uasset'
+[2020.08.27-05.18.23:098][  7]LogUObjectHash: Compacting FUObjectHashTables data took  11.80ms
+[2020.08.27-05.18.23:163][  7]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2020.08.27-05.18.23:193][  7]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.08.27-05.18.23:368][  7]AssetCheck: New page: Asset Save: CharacterMovementDirections
+[2020.08.27-05.18.23:368][  7]LogContentValidation: Display: Validating UserDefinedEnum /Game/PixelArena/Enums/CharacterMovementDirections.CharacterMovementDirections
+[2020.08.27-05.18.23:967][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2020.08.27-05.18.24:006][ 31]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Main8155045C450FCBBBADBBEAA3870DF150.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap'
+[2020.08.27-05.18.24:169][ 31]AssetCheck: New page: Asset Save: Main
+[2020.08.27-05.18.24:169][ 31]LogContentValidation: Display: Validating World /Game/PixelArena/Levels/Main.Main
+[2020.08.27-05.18.46:040][190]LogContentBrowser: Verbose: The majority of assets in the view are of type: UserDefinedEnum
+[2020.08.27-05.18.46:976][243]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/PixelArena/Enums/CharacterMovementDirections.CharacterMovementDirections
+[2020.08.27-05.18.49:172][362]LogSlate: Window 'CharacterMovementDirections' being destroyed
+[2020.08.27-05.19.07:807][466]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterMovementDirections89596920475D18F3B51F5987BFF323C3.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Enums/CharacterMovementDirections.uasset'
+[2020.08.27-05.19.07:822][466]AssetCheck: New page: Asset Save: CharacterMovementDirections
+[2020.08.27-05.19.07:822][466]LogContentValidation: Display: Validating UserDefinedEnum /Game/PixelArena/Enums/CharacterMovementDirections.CharacterMovementDirections
+[2020.08.27-05.19.08:000][473]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterMovementDirections7B27E2EC438556259E822D82A375BB7F.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Enums/CharacterMovementDirections.uasset'
+[2020.08.27-05.19.08:014][473]AssetCheck: New page: Asset Save: CharacterMovementDirections
+[2020.08.27-05.19.08:014][473]LogContentValidation: Display: Validating UserDefinedEnum /Game/PixelArena/Enums/CharacterMovementDirections.CharacterMovementDirections
+[2020.08.27-05.19.09:120][536]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterMovementDirections68224CFD4D2731C0A59E048906C7160A.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Enums/CharacterMovementDirections.uasset'
+[2020.08.27-05.19.09:133][536]AssetCheck: New page: Asset Save: CharacterMovementDirections
+[2020.08.27-05.19.09:134][536]LogContentValidation: Display: Validating UserDefinedEnum /Game/PixelArena/Enums/CharacterMovementDirections.CharacterMovementDirections
+[2020.08.27-05.19.11:250][653]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPBD575E614841C22D88BF1D83791F6857.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.19.11:271][653]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.19.11:271][653]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.19.11:567][671]BlueprintLog: New page: Compile CharacterBP
+[2020.08.27-05.19.11:625][671]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2020.08.27-05.19.31:152][811]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPBF101BFE4722BEABB8E2CBB0EAA4F58A.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.19.31:168][811]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.19.31:168][811]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.19.31:719][840]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPAED792974C34EC36179BCFAB7FA476BF.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.19.31:733][840]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.19.31:733][840]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.19.32:240][866]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPB13BAF1E4C7206ED1F79F6BF800A1331.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.19.32:253][866]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.19.32:253][866]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.19.34:158][981]BlueprintLog: New page: Compile CharacterBP
+[2020.08.27-05.19.34:200][981]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2020.08.27-05.19.42:241][443]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP760A4AD24267DA39B10C5E93E3D23149.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.19.42:257][443]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.19.42:257][443]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.19.43:017][481]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPC51109884052AA115EB9D3A1E5E53E1F.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.19.43:031][481]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.19.43:031][481]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.19.43:262][490]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP7DC002E141F586BC915422AA2F547223.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.19.43:276][490]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.19.43:276][490]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.20.07:504][867]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPC26FAD0346514194562BEFB3259C1DC0.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.20.07:520][867]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.20.07:520][867]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.20.12:488][160]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP2EAC90F74694A5FCBBA07AA4026484E0.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.20.12:505][160]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.20.12:505][160]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.20.12:753][170]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP4128BD094DE75B9AB6A71DAC3D414652.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.20.12:768][170]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.20.12:768][170]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.21.23:469][502]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP6D21BD564FCA589C5012D29DE3C7BB08.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.21.23:487][502]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.21.23:487][502]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.21.23:850][519]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPCB9DA1F84592DF3BC9BD39895F975805.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.21.23:864][519]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.21.23:864][519]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.21.24:022][524]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP813D78D349CBE8A6A399AF944B086B09.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.21.24:036][524]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.21.24:036][524]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.21.28:550][700]BlueprintLog: New page: Compile CharacterBP
+[2020.08.27-05.21.28:595][700]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2020.08.27-05.23.01:166][929]LogSlate: Window 'Project Settings' being destroyed
+[2020.08.27-05.23.01:177][929]LogSlate: Window 'Project Settings' being destroyed
+[2020.08.27-05.23.08:049][323]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPB3E89099485A3A88A168DB85FBA49EA3.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.23.08:068][323]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.23.08:068][323]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.24.08:131][790]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP63F7C220400EBB240FACB696A5AA40B6.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.24.08:148][790]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.24.08:148][790]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.24.29:899][ 80]BlueprintLog: New page: Compile CharacterBP
+[2020.08.27-05.24.29:955][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2020.08.27-05.24.31:368][158]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP54600F974AAAE2CD2BA2BEBEF9B3FF2B.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.24.31:387][158]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.24.31:387][158]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.27.07:034][369]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP1837665443575BB364AB189C715511DE.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.27.07:051][369]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.27.07:051][369]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.27.07:273][377]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPE5CFB2AF4F2A30197B8500B22ECC4AAF.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.27.07:290][377]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.27.07:290][377]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.28.24:810][932]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2020.08.27-05.28.24:812][932]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PixelArena/Levels/Main' took 0.028
+[2020.08.27-05.28.24:813][932]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PixelArena/Blueprints/CharacterBP] ([1] browsable assets)...
+[2020.08.27-05.28.24:813][932]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Blueprints/CharacterBP]
+[2020.08.27-05.28.24:852][932]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP_Auto47C132339429CE7A38A08BFAAA257A22F.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Blueprints/CharacterBP_Auto4.uasset'
+[2020.08.27-05.28.24:853][932]LogFileHelpers: Auto-saving content packages took 0.040
+[2020.08.27-05.29.34:678][ 75]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPD06457984C4F519DC743608152699F2C.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.29.34:696][ 75]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.29.34:697][ 75]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.30.19:872][720]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP91F153174DE005BE614823838B6B2C42.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.30.19:886][720]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.30.19:886][720]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.30.20:404][746]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPF57D76144E2BD7CA4DF4378F101293E2.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.30.20:418][746]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.30.20:418][746]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.30.20:722][759]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP3710B6194F4112AF3C9D178639D9386E.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.30.20:735][759]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.30.20:735][759]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.30.22:054][833]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPA4EE5C65463CF6401ADEEA872A98F1E4.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.30.22:069][833]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.30.22:069][833]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.30.22:622][862]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPDBA2DFEF441764644BF558A221379068.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.30.22:636][862]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.30.22:637][862]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.30.23:367][900]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP91AAC32C482FC001E4C769B6EFBB08D4.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.30.23:381][900]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.30.23:381][900]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.30.24:058][936]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP3469752C4B5E1892D972B589DE602FF8.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.30.24:074][936]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.30.24:074][936]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.30.24:684][968]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP86A5E5E54EDB47ABE42CA0A7D6EFB91A.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.30.24:699][968]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.30.24:699][968]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.30.25:016][983]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPB5320A1A4D67E4807076EB9B8B6324A2.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.30.25:031][983]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.30.25:031][983]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.30.25:303][995]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPA812DE984D7F041612A0359018F97616.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.30.25:320][995]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.30.25:320][995]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.30.25:606][  8]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP33E4595B417265AC0D916C9CF5EDC903.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.30.25:620][  8]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.30.25:621][  8]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.30.25:960][ 23]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP5C9D04224A3AFBBBB3BE33B378F50AD2.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.30.25:975][ 23]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.30.25:975][ 23]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.30.26:268][ 36]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP430C6BC24A6D04E7E5D16B98002ACE17.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.30.26:283][ 36]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.30.26:283][ 36]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.32.21:892][878]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP338B54D741442F6838FA3A8C4D32BEA1.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.32.21:911][878]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.32.21:911][878]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.32.31:192][415]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP00E8F1F948EB1C1F1807A2B5372FCD09.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.32.31:207][415]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.32.31:207][415]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.32.31:421][422]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP5BD93F144624CD3677AAA2A3A9C36367.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.32.31:438][422]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.32.31:438][422]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.32.57:120][883]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP3C994402465714E007767787924198A6.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.32.57:137][883]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.32.57:137][883]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.34.04:489][845]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPD93F0A074CBF5D9812FA93A1A7B56178.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.34.04:505][845]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.34.04:505][845]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.34.04:695][852]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP342E2C68493AC49ECBF3B5A3F1FB8E78.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.34.04:709][852]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.34.04:709][852]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.34.04:910][859]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPDC08532C4202290EAF3330B69D1A6F65.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.34.04:924][859]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.34.04:924][859]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.34.09:193][110]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP7EC6060344CAA162962AFCB9AE95F0A0.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.34.09:209][110]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.34.09:209][110]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.34.09:430][118]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP67CF5F314B4376C98EFF6BAFA7133EF6.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.34.09:447][118]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.34.09:447][118]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.34.10:617][183]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP391BC5994B888FAA9A711D92CBF0A6E1.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.34.10:632][183]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.34.10:632][183]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.34.35:320][625]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP0352AB3F446C20DDF63EFA8359E76686.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.34.35:336][625]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.34.35:336][625]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.35.49:607][976]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP2031AC784AEB27801297C2A9417DC3DD.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.35.49:624][976]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.35.49:624][976]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.36.06:987][  5]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPCEA737E6449C79A7949B158E4BFDEC1D.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.36.07:005][  5]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.36.07:005][  5]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.36.07:227][ 13]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPE4311D044B67A034B521AE9164553D99.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.36.07:241][ 13]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.36.07:241][ 13]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.36.07:454][ 21]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP3CA33CB544BBCEF2641347AEB78C7941.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.36.07:469][ 21]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.36.07:469][ 21]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.36.20:597][803]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP09D5AAD547230F53BA5E9BBFC397E4F9.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.36.20:615][803]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.36.20:615][803]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.36.20:800][809]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPCB7908A94C21945594704CAAB9BE9B01.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.36.20:816][809]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.36.20:816][809]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.36.30:067][357]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPE0FA6E514DEF2472658C78B89D18BA72.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.36.30:083][357]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.36.30:083][357]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.36.35:911][707]BlueprintLog: New page: Compile CharacterBP
+[2020.08.27-05.36.35:994][707]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2020.08.27-05.36.36:734][743]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPBB18FDBE4B9843635C73F39ADC98C06D.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.36.36:751][743]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.36.36:751][743]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.36.54:303][747]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPE702EF644F72C6B0E583A4930D6FFF10.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.36.54:321][747]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.36.54:321][747]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.38.27:200][164]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPE688AC8949204367B4367C8903F48AF6.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.38.27:217][164]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.38.27:217][164]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.38.34:227][558]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP98A47B2F48A9AB5C673C639BF5329F8A.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.38.34:243][558]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.38.34:243][558]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.39.54:809][326]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPEEBC9B86412146F2592910ABDC0630CE.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.39.54:828][326]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.39.54:828][326]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.39.55:038][333]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP0058E6BF4B77B106E0AA69ADE73B782F.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.39.55:051][333]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.39.55:051][333]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.44.05:941][ 10]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPDCC2604F486C62CFE5ECE6AF1841E260.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.44.05:960][ 10]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.44.05:960][ 10]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.45.27:182][777]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPE62E8206486AA45D60755BB180D905EC.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.45.27:200][777]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.45.27:200][777]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.45.27:415][784]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPDE0F1DDC4F55259FF6FCCA92070BB886.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.45.27:430][784]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.45.27:431][784]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.45.28:776][859]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP3A183BBE4F2F307718D2879FA7B0DB51.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.45.28:791][859]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.45.28:791][859]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.45.29:046][869]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPF5C557664C25F357EB6F13AD45B4EB33.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.45.29:061][869]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.45.29:061][869]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.45.29:811][914]BlueprintLog: New page: Compile CharacterBP
+[2020.08.27-05.45.29:890][914]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2020.08.27-05.45.50:780][132]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP5D626EF64FE4C32A1700D7ADAF0D7DE3.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.45.50:798][132]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.45.50:798][132]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.45.51:081][144]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP38AC7EB14AA5F0A22DA77CBBC6CA9C81.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.45.51:096][144]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.45.51:096][144]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.45.51:354][154]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP81C5697A4FF2D6FBA0B12396BE40D35A.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.45.51:371][154]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.45.51:371][154]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.45.52:466][220]BlueprintLog: New page: Compile CharacterBP
+[2020.08.27-05.45.52:528][220]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2020.08.27-05.46.23:598][ 29]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPF226133F4C3B2EA0B3D58B9C7F1DBFC1.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.46.23:615][ 29]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.46.23:615][ 29]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.46.39:384][958]LogHttp: Warning: 0000026E23A55600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0247770D-4E5D-EB72-7E35-03AE2EA39BA0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=4f8202b04f604618c78b3c82cac3211e%7C97c8f2ffb2964f2fb308e8e498ffeb85%7Cb6cd92a1-6fe2-4da3-b33a-ee8878b725c8&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.08.27-05.46.39:384][958]LogHttp: Warning: 0000026E23A55600: request failed, libcurl error: 0 (No error)
+[2020.08.27-05.46.39:384][958]LogHttp: Warning: 0000026E23A55600: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26a7825bf70 [can pipeline])
+[2020.08.27-05.46.39:385][958]LogHttp: Warning: 0000026E23A55600: libcurl info message cache 1 (Re-using existing connection! (#74) with host datarouter.ol.epicgames.com)
+[2020.08.27-05.46.39:385][958]LogHttp: Warning: 0000026E23A55600: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.21.13.19) port 443 (#74))
+[2020.08.27-05.46.39:385][958]LogHttp: Warning: 0000026E23A55600: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.08.27-05.46.39:385][958]LogHttp: Warning: 0000026E23A55600: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2020.08.27-05.46.39:385][958]LogHttp: Warning: 0000026E23A55600: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.08.27-05.46.39:385][958]LogHttp: Warning: 0000026E23A55600: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.08.27-05.46.39:385][958]LogHttp: Warning: 0000026E23A55600: libcurl info message cache 7 (Closing connection 74)
+[2020.08.27-05.46.39:385][958]LogHttp: Warning: 0000026E23A55600: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.08.27-05.46.39:385][958]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0247770D-4E5D-EB72-7E35-03AE2EA39BA0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=4f8202b04f604618c78b3c82cac3211e%7C97c8f2ffb2964f2fb308e8e498ffeb85%7Cb6cd92a1-6fe2-4da3-b33a-ee8878b725c8&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.08.27-05.46.39:653][968]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPF37251F345E4D1BCFFC7F89071F25B9A.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.46.39:668][968]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.46.39:669][968]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.46.59:368][107]LogEditorTransaction: Undo Paste clipboard contents
+[2020.08.27-05.47.14:617][976]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPFC07ABEB4A63149731DBBB97BB817EBD.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.47.14:634][976]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.47.14:634][976]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.47.22:850][463]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPCA785F13442779ED867620B9AA8DC7F1.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.47.22:866][463]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.47.22:866][463]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.47.36:453][250]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP25D211DC4202C5585ABC9488C1BF9955.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.47.36:470][250]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.47.36:470][250]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.47.36:723][260]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPE303086B469CA355B2D1898DBFE00CFC.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.47.36:738][260]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.47.36:738][260]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.48.35:235][671]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPFB11DA37472FEC65A3EA1A8D6B5D021A.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.48.35:255][671]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.48.35:255][671]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.48.39:553][919]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPC414DA8D419DFE6856493E8729C3A7FD.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.48.39:569][919]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.48.39:569][919]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.48.42:449][ 87]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP7D71C98C460662F924690DBD94F3A28B.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.48.42:463][ 87]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.48.42:463][ 87]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.48.48:694][459]BlueprintLog: New page: Compile CharacterBP
+[2020.08.27-05.48.48:763][459]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2020.08.27-05.48.52:963][669]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.27-05.48.53:034][669]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.08.27-05.48.53:047][669]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2020.08.27-05.48.53:103][669]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2020.08.27-05.48.53:108][669]LogPlayLevel: PlayLevel: Blueprint regeneration took 75 ms (1 blueprints)
+[2020.08.27-05.48.53:115][669]PIE: New page: PIE session: Main (Aug 28, 2020, 5:48:53 AM)
+[2020.08.27-05.48.53:151][669]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.08.27-05.48.53:167][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015254s)
+[2020.08.27-05.48.53:185][669]LogAIModule: Creating AISystem for world Main
+[2020.08.27-05.48.53:186][669]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026E0A737600), frame # 341669
+[2020.08.27-05.48.53:187][669]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026E0D06E5C0), frame # 341669
+[2020.08.27-05.48.53:190][669]LogPlayLevel: PIE: World Init took: (0.022237s)
+[2020.08.27-05.48.53:190][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.038781s)
+[2020.08.27-05.48.53:214][669]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.08.27-05.48.53:220][669]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.27-05.48.53:220][669]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.27-05.48.53:220][669]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.27-05.48.53:220][669]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.27-05.48.53:220][669]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.27-05.48.53:220][669]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.27-05.48.53:220][669]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.27-05.48.53:220][669]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.27-05.48.53:223][669]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.27-05.48.53:223][669]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.27-05.48.53:246][669]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.27-05.48.53:246][669]LogAudioMixer: Display: 1: FrontRight
+[2020.08.27-05.48.53:335][669]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio(SST))
+[2020.08.27-05.48.53:338][669]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.27-05.48.53:338][669]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.27-05.48.53:338][669]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.27-05.48.53:350][669]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.27-05.48.53:373][669]LogInit: FAudioDevice initialized.
+[2020.08.27-05.48.53:418][669]LogLoad: Game class is 'PixelArenaGame_C'
+[2020.08.27-05.48.53:425][669]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.08.27-17.48.53
+[2020.08.27-05.48.53:427][669]LogWorld: Bringing up level for play took: 0.004271
+[2020.08.27-05.48.53:431][669]LogOnline: OSS: Creating online subsystem instance for: :Context_86
+[2020.08.27-05.48.53:451][669]PIE: Server logged in
+[2020.08.27-05.48.53:452][669]PIE: Play in editor total start time 0.422 seconds.
+[2020.08.27-05.49.00:760][ 96]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.27-05.49.00:760][ 96]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.08.27-05.49.00:762][ 96]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-05.49.00:763][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-05.49.00:788][ 96]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.27-05.49.00:797][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-05.49.00:829][ 96]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.27-05.49.00:860][ 96]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026E0D06E5C0), frame # 342096
+[2020.08.27-05.49.00:860][ 96]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026E0A737600), frame # 342096
+[2020.08.27-05.49.00:865][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2020.08.27-05.49.00:914][ 97]LogPlayLevel: Display: Destroying online subsystem :Context_86
+[2020.08.27-05.49.33:056][922]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP3372666A45EEDCC11740F78450C7F3C3.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.49.33:075][922]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.49.33:075][922]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.49.36:566][125]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP42C5A50D43075C22FF39C6A069D7481F.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.49.36:583][125]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.49.36:583][125]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.49.38:141][215]BlueprintLog: New page: Compile CharacterBP
+[2020.08.27-05.49.38:204][215]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2020.08.27-05.49.39:372][272]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.27-05.49.39:401][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.27-05.49.39:401][272]PIE: New page: PIE session: Main (Aug 28, 2020, 5:49:39 AM)
+[2020.08.27-05.49.39:438][272]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.08.27-05.49.39:440][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001746s)
+[2020.08.27-05.49.39:441][272]LogAIModule: Creating AISystem for world Main
+[2020.08.27-05.49.39:441][272]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026E28FDAC00), frame # 344272
+[2020.08.27-05.49.39:441][272]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026DC6573740), frame # 344272
+[2020.08.27-05.49.39:441][272]LogPlayLevel: PIE: World Init took: (0.001421s)
+[2020.08.27-05.49.39:441][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.003335s)
+[2020.08.27-05.49.39:467][272]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2020.08.27-05.49.39:468][272]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.27-05.49.39:468][272]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.27-05.49.39:468][272]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.27-05.49.39:469][272]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.27-05.49.39:469][272]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.27-05.49.39:469][272]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.27-05.49.39:469][272]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.27-05.49.39:469][272]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.27-05.49.39:469][272]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.27-05.49.39:469][272]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.27-05.49.39:476][272]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.27-05.49.39:476][272]LogAudioMixer: Display: 1: FrontRight
+[2020.08.27-05.49.39:511][272]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio(SST))
+[2020.08.27-05.49.39:511][272]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.27-05.49.39:511][272]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.27-05.49.39:511][272]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.27-05.49.39:513][272]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.27-05.49.39:539][272]LogInit: FAudioDevice initialized.
+[2020.08.27-05.49.39:554][272]LogLoad: Game class is 'PixelArenaGame_C'
+[2020.08.27-05.49.39:556][272]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.08.27-17.49.39
+[2020.08.27-05.49.39:556][272]LogWorld: Bringing up level for play took: 0.000702
+[2020.08.27-05.49.39:557][272]LogOnline: OSS: Creating online subsystem instance for: :Context_87
+[2020.08.27-05.49.39:561][272]PIE: Server logged in
+[2020.08.27-05.49.39:562][272]PIE: Play in editor total start time 0.161 seconds.
+[2020.08.27-05.49.46:219][665]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.27-05.49.46:219][665]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.08.27-05.49.46:219][665]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-05.49.46:219][665]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-05.49.46:232][665]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.27-05.49.46:238][665]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-05.49.46:286][665]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.27-05.49.46:287][665]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026DC6573740), frame # 344665
+[2020.08.27-05.49.46:287][665]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026E28FDAC00), frame # 344665
+[2020.08.27-05.49.46:289][665]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2020.08.27-05.49.46:350][666]LogPlayLevel: Display: Destroying online subsystem :Context_87
+[2020.08.27-05.49.55:828][183]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.27-05.49.55:858][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.27-05.49.55:859][183]PIE: New page: PIE session: Main (Aug 28, 2020, 5:49:55 AM)
+[2020.08.27-05.49.55:861][183]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.08.27-05.49.55:863][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001858s)
+[2020.08.27-05.49.55:864][183]LogAIModule: Creating AISystem for world Main
+[2020.08.27-05.49.55:864][183]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026E0F396200), frame # 345183
+[2020.08.27-05.49.55:864][183]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026DC6573240), frame # 345183
+[2020.08.27-05.49.55:865][183]LogPlayLevel: PIE: World Init took: (0.001510s)
+[2020.08.27-05.49.55:865][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.003523s)
+[2020.08.27-05.49.55:895][183]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2020.08.27-05.49.55:897][183]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.27-05.49.55:897][183]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.27-05.49.55:897][183]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.27-05.49.55:897][183]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.27-05.49.55:897][183]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.27-05.49.55:897][183]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.27-05.49.55:898][183]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.27-05.49.55:898][183]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.27-05.49.55:898][183]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.27-05.49.55:898][183]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.27-05.49.55:904][183]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.27-05.49.55:904][183]LogAudioMixer: Display: 1: FrontRight
+[2020.08.27-05.49.55:938][183]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio(SST))
+[2020.08.27-05.49.55:938][183]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.27-05.49.55:938][183]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.27-05.49.55:938][183]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.27-05.49.55:940][183]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.27-05.49.55:958][183]LogInit: FAudioDevice initialized.
+[2020.08.27-05.49.56:029][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.27-05.49.56:029][183]LogLoad: Game class is 'PixelArenaGame_C'
+[2020.08.27-05.49.56:031][183]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.08.27-17.49.56
+[2020.08.27-05.49.56:031][183]LogWorld: Bringing up level for play took: 0.000925
+[2020.08.27-05.49.56:031][183]LogOnline: OSS: Creating online subsystem instance for: :Context_88
+[2020.08.27-05.49.56:053][183]PIE: Server logged in
+[2020.08.27-05.49.56:054][183]PIE: Play in editor total start time 0.197 seconds.
+[2020.08.27-05.50.00:950][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.27-05.50.00:950][368]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.08.27-05.50.00:951][368]LogSlate: Window 'PixelArena Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.08.27-05.50.00:963][368]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-05.50.00:963][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-05.50.00:979][368]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.27-05.50.00:987][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-05.50.01:069][368]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026DC6573240), frame # 345368
+[2020.08.27-05.50.01:069][368]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026E0F396200), frame # 345368
+[2020.08.27-05.50.01:074][368]LogUObjectHash: Compacting FUObjectHashTables data took   4.73ms
+[2020.08.27-05.50.01:147][369]LogPlayLevel: Display: Destroying online subsystem :Context_88
+[2020.08.27-05.50.22:666][610]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP4FA2BAD84D9F0F2350E35498AAF1B323.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.50.22:687][610]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.50.22:687][610]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.50.22:849][613]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPE25F82044362FE008C45059C44E95936.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.50.22:870][613]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.50.22:870][613]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.50.23:584][654]BlueprintLog: New page: Compile CharacterBP
+[2020.08.27-05.50.23:644][654]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2020.08.27-05.50.24:634][707]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.27-05.50.24:660][707]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.27-05.50.24:660][707]PIE: New page: PIE session: Main (Aug 28, 2020, 5:50:24 AM)
+[2020.08.27-05.50.24:663][707]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.08.27-05.50.24:664][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001063s)
+[2020.08.27-05.50.24:665][707]LogAIModule: Creating AISystem for world Main
+[2020.08.27-05.50.24:665][707]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026D7D42C600), frame # 346707
+[2020.08.27-05.50.24:665][707]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026D6414F600), frame # 346707
+[2020.08.27-05.50.24:666][707]LogPlayLevel: PIE: World Init took: (0.001253s)
+[2020.08.27-05.50.24:666][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.002444s)
+[2020.08.27-05.50.24:692][707]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.08.27-05.50.24:694][707]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.27-05.50.24:694][707]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.27-05.50.24:694][707]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.27-05.50.24:694][707]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.27-05.50.24:694][707]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.27-05.50.24:694][707]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.27-05.50.24:694][707]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.27-05.50.24:694][707]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.27-05.50.24:695][707]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.27-05.50.24:695][707]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.27-05.50.24:699][707]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.27-05.50.24:699][707]LogAudioMixer: Display: 1: FrontRight
+[2020.08.27-05.50.24:726][707]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio(SST))
+[2020.08.27-05.50.24:727][707]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.27-05.50.24:727][707]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.27-05.50.24:727][707]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.27-05.50.24:727][707]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.27-05.50.24:746][707]LogInit: FAudioDevice initialized.
+[2020.08.27-05.50.24:833][707]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.27-05.50.24:833][707]LogLoad: Game class is 'PixelArenaGame_C'
+[2020.08.27-05.50.24:835][707]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.08.27-17.50.24
+[2020.08.27-05.50.24:835][707]LogWorld: Bringing up level for play took: 0.000980
+[2020.08.27-05.50.24:835][707]LogOnline: OSS: Creating online subsystem instance for: :Context_89
+[2020.08.27-05.50.24:859][707]PIE: Server logged in
+[2020.08.27-05.50.24:860][707]PIE: Play in editor total start time 0.201 seconds.
+[2020.08.27-05.50.27:429][792]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.50.28:352][847]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.50.28:885][879]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.50.29:635][924]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.50.33:945][182]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.50.35:859][294]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.27-05.50.35:859][294]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.08.27-05.50.35:860][294]LogSlate: Window 'PixelArena Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.08.27-05.50.35:872][294]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-05.50.35:872][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-05.50.35:886][294]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.27-05.50.35:896][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-05.50.35:981][294]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026D6414F600), frame # 347294
+[2020.08.27-05.50.35:981][294]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026D7D42C600), frame # 347294
+[2020.08.27-05.50.35:989][294]LogUObjectHash: Compacting FUObjectHashTables data took   6.49ms
+[2020.08.27-05.50.36:058][295]LogPlayLevel: Display: Destroying online subsystem :Context_89
+[2020.08.27-05.50.49:157][ 42]BlueprintLog: New page: Compile CharacterBP
+[2020.08.27-05.50.49:216][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2020.08.27-05.50.49:991][ 82]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.27-05.50.50:019][ 82]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.27-05.50.50:019][ 82]PIE: New page: PIE session: Main (Aug 28, 2020, 5:50:50 AM)
+[2020.08.27-05.50.50:022][ 82]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.08.27-05.50.50:023][ 82]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001127s)
+[2020.08.27-05.50.50:024][ 82]LogAIModule: Creating AISystem for world Main
+[2020.08.27-05.50.50:024][ 82]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026D1CDB2600), frame # 348082
+[2020.08.27-05.50.50:024][ 82]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026E21EC2E80), frame # 348082
+[2020.08.27-05.50.50:024][ 82]LogPlayLevel: PIE: World Init took: (0.001268s)
+[2020.08.27-05.50.50:024][ 82]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.002531s)
+[2020.08.27-05.50.50:051][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2020.08.27-05.50.50:052][ 82]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.27-05.50.50:052][ 82]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.27-05.50.50:052][ 82]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.27-05.50.50:052][ 82]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.27-05.50.50:052][ 82]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.27-05.50.50:052][ 82]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.27-05.50.50:052][ 82]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.27-05.50.50:052][ 82]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.27-05.50.50:052][ 82]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.27-05.50.50:052][ 82]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.27-05.50.50:057][ 82]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.27-05.50.50:058][ 82]LogAudioMixer: Display: 1: FrontRight
+[2020.08.27-05.50.50:086][ 82]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio(SST))
+[2020.08.27-05.50.50:087][ 82]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.27-05.50.50:087][ 82]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.27-05.50.50:087][ 82]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.27-05.50.50:087][ 82]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.27-05.50.50:103][ 82]LogInit: FAudioDevice initialized.
+[2020.08.27-05.50.50:167][ 82]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.27-05.50.50:167][ 82]LogLoad: Game class is 'PixelArenaGame_C'
+[2020.08.27-05.50.50:169][ 82]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.08.27-17.50.50
+[2020.08.27-05.50.50:169][ 82]LogWorld: Bringing up level for play took: 0.001187
+[2020.08.27-05.50.50:170][ 82]LogOnline: OSS: Creating online subsystem instance for: :Context_90
+[2020.08.27-05.50.50:177][ 82]PIE: Server logged in
+[2020.08.27-05.50.50:179][ 82]PIE: Play in editor total start time 0.161 seconds.
+[2020.08.27-05.50.52:643][163]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.50.53:085][187]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.50.53:222][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.27-05.50.53:222][193]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.08.27-05.50.53:225][193]LogSlate: Window 'PixelArena Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.08.27-05.50.53:241][193]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-05.50.53:242][193]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-05.50.53:258][193]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.27-05.50.53:269][193]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-05.50.53:391][193]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026E21EC2E80), frame # 348193
+[2020.08.27-05.50.53:392][193]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026D1CDB2600), frame # 348193
+[2020.08.27-05.50.53:400][193]LogUObjectHash: Compacting FUObjectHashTables data took   7.76ms
+[2020.08.27-05.50.53:468][194]LogPlayLevel: Display: Destroying online subsystem :Context_90
+[2020.08.27-05.51.00:654][599]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPD64AEA4A46E9A437B5E849BF84DA181A.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.51.00:675][599]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.51.00:675][599]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.51.00:858][604]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBPCCF66F014574D9A252F717AB311DFD61.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.51.00:875][604]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.51.00:875][604]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
+[2020.08.27-05.51.01:727][655]BlueprintLog: New page: Compile CharacterBP
+[2020.08.27-05.51.01:784][655]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.08.27-05.51.02:662][701]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.27-05.51.02:687][701]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.27-05.51.02:687][701]PIE: New page: PIE session: Main (Aug 28, 2020, 5:51:02 AM)
+[2020.08.27-05.51.02:693][701]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.08.27-05.51.02:694][701]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001073s)
+[2020.08.27-05.51.02:695][701]LogAIModule: Creating AISystem for world Main
+[2020.08.27-05.51.02:695][701]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026D3EC29400), frame # 348701
+[2020.08.27-05.51.02:695][701]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026B15668540), frame # 348701
+[2020.08.27-05.51.02:695][701]LogPlayLevel: PIE: World Init took: (0.001314s)
+[2020.08.27-05.51.02:695][701]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.002533s)
+[2020.08.27-05.51.02:723][701]LogUObjectHash: Compacting FUObjectHashTables data took   4.48ms
+[2020.08.27-05.51.02:724][701]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.27-05.51.02:724][701]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.27-05.51.02:724][701]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.27-05.51.02:724][701]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.27-05.51.02:724][701]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.27-05.51.02:724][701]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.27-05.51.02:724][701]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.27-05.51.02:724][701]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.27-05.51.02:725][701]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.27-05.51.02:725][701]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.27-05.51.02:730][701]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.27-05.51.02:730][701]LogAudioMixer: Display: 1: FrontRight
+[2020.08.27-05.51.02:759][701]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio(SST))
+[2020.08.27-05.51.02:760][701]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.27-05.51.02:760][701]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.27-05.51.02:760][701]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.27-05.51.02:760][701]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.27-05.51.02:778][701]LogInit: FAudioDevice initialized.
+[2020.08.27-05.51.02:817][701]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.27-05.51.02:818][701]LogLoad: Game class is 'PixelArenaGame_C'
+[2020.08.27-05.51.02:819][701]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.08.27-17.51.02
+[2020.08.27-05.51.02:820][701]LogWorld: Bringing up level for play took: 0.000845
+[2020.08.27-05.51.02:820][701]LogOnline: OSS: Creating online subsystem instance for: :Context_91
+[2020.08.27-05.51.02:825][701]PIE: Server logged in
+[2020.08.27-05.51.02:827][701]PIE: Play in editor total start time 0.141 seconds.
+[2020.08.27-05.51.04:714][761]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.05:175][788]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.05:659][817]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.06:003][837]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.06:276][853]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.07:553][927]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.07:775][938]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.08:381][972]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.08:650][986]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.08:958][  3]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.09:426][ 29]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.10:133][ 69]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.10:548][ 93]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.11:238][132]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.12:396][198]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.12:785][219]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.12:892][225]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.13:396][253]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.13:489][258]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.14:379][307]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.14:804][330]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.15:227][353]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.15:878][387]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.15:894][388]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.16:070][397]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.16:168][402]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.16:544][422]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.17:766][482]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.18:686][526]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.18:960][540]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.19:175][551]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.19:368][561]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.19:525][569]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.19:737][580]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.19:973][592]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.20:327][610]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.20:524][620]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.20:813][635]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.21:470][666]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.22:243][702]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.23:412][757]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.23:584][765]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.23:861][778]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.23:980][784]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.24:380][805]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.24:551][814]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.24:865][832]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.24:936][836]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.25:449][866]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.25:465][867]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.26:321][917]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.26:355][919]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.27:119][964]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.27:153][966]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.27:254][972]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.27:321][976]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.27:960][ 14]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.28:060][ 20]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.28:484][ 45]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.28:602][ 52]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.29:726][117]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.29:777][120]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.30:636][170]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.30:636][170]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.32:066][253]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.32:066][253]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.32:291][266]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.32:292][266]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.32:966][303]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.32:981][304]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.33:388][327]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.33:737][347]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.35:537][446]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.35:570][448]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.35:949][469]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.36:045][474]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.36:860][518]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.37:367][546]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.37:384][547]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.38:669][616]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.38:746][620]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.38:899][628]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.39:207][644]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.39:242][646]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.39:795][675]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.39:907][681]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.40:058][689]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.40:472][711]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.40:514][713]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.40:733][725]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.41:067][743]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.41:527][767]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.41:997][792]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.42:177][801]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.42:276][806]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.42:648][826]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.43:187][854]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.43:207][855]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.43:415][866]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.43:678][880]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.44:481][922]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.44:799][939]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.45:511][976]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.46:673][ 42]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.46:707][ 44]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.47:767][107]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.48:781][167]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.49:216][192]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.49:366][201]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.49:635][217]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.49:853][230]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.49:869][231]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.49:970][237]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.50:209][251]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.50:462][266]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.50:480][267]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.50:531][270]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.51:035][299]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.51:569][330]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.51:836][346]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.52:092][361]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.52:111][362]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.52:170][365]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.52:474][381]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.52:713][395]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.53:275][427]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.53:501][440]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.54:209][481]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.55:164][536]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.55:965][581]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.56:307][600]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.56:940][635]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.57:340][657]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.57:664][675]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.57:855][685]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.57:952][690]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.58:402][715]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.58:696][731]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.59:503][774]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.59:525][775]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.51.59:565][777]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.51.59:586][778]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.00:303][816]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.52.00:325][817]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.01:422][873]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.52.01:544][879]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.01:672][886]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.02:115][909]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.52.02:305][919]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.02:875][949]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.03:224][967]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.52.04:341][ 26]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.04:586][ 39]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.52.05:054][ 63]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.05:607][ 93]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.05:959][111]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.52.06:459][137]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.06:940][162]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.07:611][196]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.08:000][216]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.08:407][240]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.08:996][273]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.09:939][328]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.10:724][374]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.52.11:174][401]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.11:882][443]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.12:831][499]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.52.13:517][539]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.14:464][594]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.52.14:581][601]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.15:328][643]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.15:978][680]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.52.16:498][710]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.16:848][730]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.52.17:934][792]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.18:126][803]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.52.18:250][810]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.18:596][829]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.19:104][857]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.52.19:597][884]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.20:418][928]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.52.20:471][931]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.20:923][955]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.52.21:201][970]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.21:353][978]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.52.21:424][982]LogBlueprintUserMessages: [CharacterBP_C_0] MOVING
+[2020.08.27-05.52.21:653][994]LogBlueprintUserMessages: [CharacterBP_C_0] Stopped Moving
+[2020.08.27-05.52.28:340][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.27-05.52.28:340][322]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.08.27-05.52.28:341][322]LogSlate: Window 'PixelArena Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.08.27-05.52.28:354][322]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-05.52.28:354][322]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-05.52.28:368][322]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.27-05.52.28:374][322]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-05.52.28:474][322]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026B15668540), frame # 353322
+[2020.08.27-05.52.28:474][322]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026D3EC29400), frame # 353322
+[2020.08.27-05.52.28:482][322]LogUObjectHash: Compacting FUObjectHashTables data took   7.38ms
+[2020.08.27-05.52.28:570][323]LogPlayLevel: Display: Destroying online subsystem :Context_91
+[2020.08.27-05.52.30:733][446]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/CharacterBP6E9549B84F3559928F6783A1D3610546.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/CharacterBP.uasset'
+[2020.08.27-05.52.30:750][446]AssetCheck: New page: Asset Save: CharacterBP
+[2020.08.27-05.52.30:750][446]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/CharacterBP.CharacterBP
