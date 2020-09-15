@@ -13,10 +13,20 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PIXELARENA_ArenaCharacter_generated_h
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_15_SPARSE_DATA
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_15_RPC_WRAPPERS
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_15_INCLASS_NO_PURE_DECLS \
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_31_SPARSE_DATA
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_31_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execMove);
+
+
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_31_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execMove);
+
+
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_31_EVENT_PARMS
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_31_CALLBACK_WRAPPERS
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_31_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAArenaCharacter(); \
 	friend struct Z_Construct_UClass_AArenaCharacter_Statics; \
@@ -25,7 +35,7 @@ public: \
 	DECLARE_SERIALIZER(AArenaCharacter)
 
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_15_INCLASS \
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_31_INCLASS \
 private: \
 	static void StaticRegisterNativesAArenaCharacter(); \
 	friend struct Z_Construct_UClass_AArenaCharacter_Statics; \
@@ -34,9 +44,9 @@ public: \
 	DECLARE_SERIALIZER(AArenaCharacter)
 
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_15_STANDARD_CONSTRUCTORS \
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_31_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AArenaCharacter(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AArenaCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AArenaCharacter) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AArenaCharacter); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AArenaCharacter); \
@@ -47,9 +57,7 @@ private: \
 public:
 
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AArenaCharacter(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_31_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AArenaCharacter(AArenaCharacter&&); \
@@ -57,31 +65,36 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AArenaCharacter); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AArenaCharacter); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AArenaCharacter)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AArenaCharacter)
 
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_15_PRIVATE_PROPERTY_OFFSET
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_12_PROLOG
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_15_GENERATED_BODY_LEGACY \
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_31_PRIVATE_PROPERTY_OFFSET
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_28_PROLOG \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_31_EVENT_PARMS
+
+
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_31_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_15_SPARSE_DATA \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_15_RPC_WRAPPERS \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_15_INCLASS \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_15_STANDARD_CONSTRUCTORS \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_31_PRIVATE_PROPERTY_OFFSET \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_31_SPARSE_DATA \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_31_RPC_WRAPPERS \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_31_CALLBACK_WRAPPERS \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_31_INCLASS \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_31_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_15_GENERATED_BODY \
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_31_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_15_SPARSE_DATA \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_15_INCLASS_NO_PURE_DECLS \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_15_ENHANCED_CONSTRUCTORS \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_31_PRIVATE_PROPERTY_OFFSET \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_31_SPARSE_DATA \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_31_RPC_WRAPPERS_NO_PURE_DECLS \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_31_CALLBACK_WRAPPERS \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_31_INCLASS_NO_PURE_DECLS \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_31_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -92,4 +105,12 @@ template<> PIXELARENA_API UClass* StaticClass<class AArenaCharacter>();
 #define CURRENT_FILE_ID PixelArena_Source_PixelArena_ArenaCharacter_h
 
 
+#define FOREACH_ENUM_DIRECTION(op) \
+	op(North) \
+	op(East) \
+	op(South) \
+	op(West) 
+#define FOREACH_ENUM_CHARACTERSTATE(op) \
+	op(Idle) \
+	op(Walking) 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

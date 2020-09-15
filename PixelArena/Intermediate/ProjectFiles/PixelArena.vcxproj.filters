@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PixelArena.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{340D32E5-7C1F-4DAE-AFC0-4D3DF459B811}</UniqueIdentifier>
+      <UniqueIdentifier>{9D3A3909-DB93-48F8-8732-82A73D6AF22E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PixelArena.Target.cs">
       <Filter>Source</Filter>
@@ -12,9 +12,12 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{44D2C4D6-8919-4F24-84EB-EEA481FE8C6B}</UniqueIdentifier>
+      <UniqueIdentifier>{DB56C34D-597D-426F-842F-C2013AC7A1CF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorSettings.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultEngine.ini">
@@ -27,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PixelArena">
-      <UniqueIdentifier>{E0CD30C7-018D-4843-9FCD-F3D5148F72A4}</UniqueIdentifier>
+      <UniqueIdentifier>{C08C2664-B6AA-4F54-BCCF-C388E9D1000E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PixelArena\ArenaCharacter.cpp">
       <Filter>Source\PixelArena</Filter>
