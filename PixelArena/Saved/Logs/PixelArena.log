@@ -32712,3 +32712,70 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.15-01.15.20:115][372]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
 [2020.09.15-01.15.33:875][687]LogSlate: WidgetSwitcher ('None') active index changed to 1
 [2020.09.15-01.20.54:735][804]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.09.15-01.26.14:234][775]LogSlate: Window 'Editor Preferences' being destroyed
+[2020.09.15-01.26.14:252][775]LogSlate: Window 'Editor Preferences' being destroyed
+[2020.09.15-01.26.20:991][256]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.09.15-01.26.20:992][256]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.09.15-01.26.28:889][895]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.09.15-01.26.34:171][430]Running C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/PixelArena.uproject" -game -rocket -progress
+[2020.09.15-01.26.34:891][430]Discovering modules, targets and source code for project...
+[2020.09.15-01.26.41:333][430]Binding IntelliSense data...
+[2020.09.15-01.26.50:620][430]Binding IntelliSense data... 100%
+[2020.09.15-01.26.50:620][430]Writing project files...
+[2020.09.15-01.26.59:081][430]Writing project files... 100%
+[2020.09.15-01.26.59:183][430]LogHotReload: Recompiling module PixelArena...
+[2020.09.15-01.26.59:199][430]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.09.15-01.26.59:345][430]Candidate modules for hot reload:
+[2020.09.15-01.26.59:345][430]  PixelArena
+[2020.09.15-01.26.59:349][430]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PixelArena,1453 PixelArenaEditor Win64 Development -Project="C:/Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/PixelArena.uproject" "C:/Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/PixelArena.uproject"  -IgnoreJunk]
+[2020.09.15-01.28.47:245][430]Using 'git status' to determine working set for adaptive non-unity build (C:\Users\brade\Documents\GitHub\Pixel-Arena).
+Creating makefile for PixelArenaEditor (no existing makefile)
+Parsing headers for PixelArenaEditor
+  Running UnrealHeaderTool "C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\PixelArena.uproject" "C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\PixelArenaEditor\Development\PixelArenaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\brade\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+Reflection code generated for PixelArenaEditor in 17.9564879 seconds
+Building PixelArenaEditor...
+Using Visual Studio 2019 14.26.28805 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 9 actions with 8 processes...
+  [1/9] Default.rc2
+  [2/9] SharedPCH.Engine.ShadowErrors.cpp
+  [3/9] PixelArena.init.gen.cpp
+  [4/9] PixelArena.cpp
+  [5/9] ArenaCharacter.cpp
+  [6/9] ArenaCharacter.gen.cpp
+  [7/9] UE4Editor-PixelArena-1453.lib
+     Creating library C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-1453.lib and object C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-1453.exp
+  [8/9] UE4Editor-PixelArena-1453.dll
+     Creating library C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-1453.suppressed.lib and object C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-1453.suppressed.exp
+  [9/9] PixelArenaEditor.target
+Total time in Parallel executor: 64.90 seconds
+Total execution time: 107.75 seconds
+
+[2020.09.15-01.28.47:294][430]CompilerResultsLog: New page: Compilation - Sep 16, 2020, 1:28:47 AM
+[2020.09.15-01.28.47:304][430]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\brade\Documents\GitHub\Pixel-Arena).
+[2020.09.15-01.28.47:305][430]CompilerResultsLog: Creating makefile for PixelArenaEditor (no existing makefile)
+[2020.09.15-01.28.47:306][430]CompilerResultsLog: Parsing headers for PixelArenaEditor
+[2020.09.15-01.28.47:306][430]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\PixelArena.uproject" "C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\PixelArenaEditor\Development\PixelArenaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\brade\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.09.15-01.28.47:306][430]CompilerResultsLog: Reflection code generated for PixelArenaEditor in 17.9564879 seconds
+[2020.09.15-01.28.47:306][430]CompilerResultsLog: Building PixelArenaEditor...
+[2020.09.15-01.28.47:306][430]CompilerResultsLog: Using Visual Studio 2019 14.26.28805 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.09.15-01.28.47:306][430]CompilerResultsLog: Building 9 actions with 8 processes...
+[2020.09.15-01.28.47:306][430]CompilerResultsLog:   [1/9] Default.rc2
+[2020.09.15-01.28.47:306][430]CompilerResultsLog:   [2/9] SharedPCH.Engine.ShadowErrors.cpp
+[2020.09.15-01.28.47:307][430]CompilerResultsLog:   [3/9] PixelArena.init.gen.cpp
+[2020.09.15-01.28.47:307][430]CompilerResultsLog:   [4/9] PixelArena.cpp
+[2020.09.15-01.28.47:307][430]CompilerResultsLog:   [5/9] ArenaCharacter.cpp
+[2020.09.15-01.28.47:307][430]CompilerResultsLog:   [6/9] ArenaCharacter.gen.cpp
+[2020.09.15-01.28.47:307][430]CompilerResultsLog:   [7/9] UE4Editor-PixelArena-1453.lib
+[2020.09.15-01.28.47:307][430]CompilerResultsLog:      Creating library C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-1453.lib and object C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-1453.exp
+[2020.09.15-01.28.47:308][430]CompilerResultsLog:   [8/9] UE4Editor-PixelArena-1453.dll
+[2020.09.15-01.28.47:308][430]CompilerResultsLog:      Creating library C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-1453.suppressed.lib and object C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-1453.suppressed.exp
+[2020.09.15-01.28.47:308][430]CompilerResultsLog:   [9/9] PixelArenaEditor.target
+[2020.09.15-01.28.47:308][430]CompilerResultsLog: Total time in Parallel executor: 64.90 seconds
+[2020.09.15-01.28.47:308][430]CompilerResultsLog: Total execution time: 107.75 seconds
+[2020.09.15-01.28.47:311][430]LogMainFrame: MainFrame: Module compiling took 108.110 seconds
+[2020.09.15-01.28.47:366][430]Reloading module PixelArena after successful compile.
+[2020.09.15-01.28.48:289][430]LogClass: Could not find existing package /Script/PixelArena for HotReload of class ArenaCharacter, assuming a new package.
+[2020.09.15-01.28.48:408][430]LogContentBrowser: Native class hierarchy updated for 'PixelArena' in 0.0283 seconds. Added 1 classes and 2 folders.
+[2020.09.15-01.28.49:128][430]LogUObjectHash: Compacting FUObjectHashTables data took  85.20ms
+[2020.09.15-01.28.49:968][430]LogContentBrowser: Native class hierarchy populated in 0.2704 seconds. Added 3428 classes and 823 folders.
+[2020.09.15-01.28.50:536][430]LogSlate: Window 'Add C++ Class' being destroyed

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\PixelArena.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{340D32E5-7C1F-4DAE-AFC0-4D3DF459B811}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PixelArena.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PixelArenaEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{44D2C4D6-8919-4F24-84EB-EEA481FE8C6B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\PixelArena">
+      <UniqueIdentifier>{E0CD30C7-018D-4843-9FCD-F3D5148F72A4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PixelArena\ArenaCharacter.cpp">
+      <Filter>Source\PixelArena</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PixelArena\ArenaCharacter.h">
+      <Filter>Source\PixelArena</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\PixelArena\PixelArena.Build.cs">
+      <Filter>Source\PixelArena</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PixelArena\PixelArena.cpp">
+      <Filter>Source\PixelArena</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PixelArena\PixelArena.h">
+      <Filter>Source\PixelArena</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
