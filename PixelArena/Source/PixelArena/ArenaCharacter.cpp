@@ -9,25 +9,45 @@ static FDateTime InputReleaseTime = -1; // The time used to tell weather a key h
 AArenaCharacter::AArenaCharacter()
 {
     // Setup Movement Input Map
-    moveInputMap[North] = InputReleaseTime;
-    moveInputMap[East] = InputReleaseTime;
-    moveInputMap[South] = InputReleaseTime;
-    moveInputMap[West] = InputReleaseTime;
+    MoveInputMap[North] = InputReleaseTime;
+    MoveInputMap[East] = InputReleaseTime;
+    MoveInputMap[South] = InputReleaseTime;
+    MoveInputMap[West] = InputReleaseTime;
 }
 
 void AArenaCharacter::Move()
+{
+    switch (Facing)
+    {
+        case North:
+            Velocity = FVector(0, 0, MoveSpeed);
+            break;
+        case East:
+            Velocity = FVector(MoveSpeed, 0, 0);
+            break;
+        case South:
+            Velocity = FVector(0, 0, -MoveSpeed);
+            break;
+        case West:
+            Velocity = FVector(-MoveSpeed, 0, 0);
+        default:
+            break;
+    }
+}
+
+void AArenaCharacter::ApplyVelocity(float speed, Direction direction)
 {
 }
 
 void AArenaCharacter::UpdateMovementInput(Direction direction, FDateTime time)
 {
     // Update map
-    moveInputMap[direction] = time;
+    MoveInputMap[direction] = time;
 
     // Find key that's down, that was pressed the most recent
     std::pair<Direction, FDateTime> recent = std::make_pair(direction, time);
     std::map<Direction, FDateTime>::iterator current;
-    for (current = moveInputMap.begin(); current != moveInputMap.end(); ++current)
+    for (current = MoveInputMap.begin(); current != MoveInputMap.end(); ++current)
     {
         if (current->second > recent.second)
             recent = std::make_pair(current->first, current->second);
@@ -51,11 +71,13 @@ void AArenaCharacter::Tick(float DeltaSeconds)
     {
         case Idle:
             IdleState();
+            GetSprite()->SetFlipbook(IdleAnimations[Facing]);
             if (isMoving)
                 CharacterState = Walking;
             break;
         case Walking:
             WalkingState();
+            GetSprite()->SetFlipbook(WalkingAnimations[Facing]);
             if (!isMoving)
                 CharacterState = Idle;
             break;

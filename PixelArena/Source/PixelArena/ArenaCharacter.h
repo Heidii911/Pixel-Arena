@@ -7,6 +7,9 @@
 #include <map>
 
 #include "PaperCharacter.h"
+#include "GameFramework/CharacterMovementComponent.h"
+#include "PaperFlipbookComponent.h"
+
 #include "ArenaCharacter.generated.h"
 
 UENUM(BlueprintType)
@@ -40,19 +43,29 @@ class PIXELARENA_API AArenaCharacter : public APaperCharacter
 		TEnumAsByte<CharacterState> CharacterState = Idle;
 		UPROPERTY(VisibleAnywhere, Category="Arena Character")
 		TEnumAsByte<Direction> Facing = South;
+		UPROPERTY(EditAnywhere, Category="Arena Character|Animations")
+		TMap<TEnumAsByte<Direction>, UPaperFlipbook*> IdleAnimations;
+		UPROPERTY(EditAnywhere, Category="Arena Character|Animations")
+		TMap<TEnumAsByte<Direction>, UPaperFlipbook*> WalkingAnimations;
 
 		// Functions
 		UFUNCTION(BlueprintCallable, Category="Arena Character")
 		void Move();
+		UFUNCTION(BlueprintCallable, Category="Arena Character")
+		void ApplyVelocity(float speed, Direction direction);
 		UFUNCTION(BlueprintImplementableEvent, Category="Arena Character")
 		void IdleState();
 		UFUNCTION(BlueprintImplementableEvent, Category="Arena Character")
 	    void WalkingState();
+		UFUNCTION(BlueprintImplementableEvent, Category="Arena Character")
+		void AttackState();
+		UFUNCTION(BlueprintImplementableEvent, Category="Arena Character")
+		void AbilityState();
 
 	protected:
 		bool isMoving = false;
-		//TEnumAsByte<Direction> moveDirection = None;
-		std::map<Direction, FDateTime> moveInputMap;
+		std::map<Direction, FDateTime> MoveInputMap;
+		FVector& Velocity = GetCharacterMovement()->Velocity;
 
 		void UpdateMovementInput(Direction direction, FDateTime time);
 		DECLARE_DELEGATE_TwoParams(UpdateMovementInputDelegate, Direction, FDateTime);
