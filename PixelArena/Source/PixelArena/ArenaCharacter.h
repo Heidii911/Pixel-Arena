@@ -16,7 +16,9 @@ UENUM(BlueprintType)
 enum CharacterState
 {
 	Idle UMETA(DisplayName = "Idle"),
-	Walking UMETA(DisplayName = "Walking")
+	Walking UMETA(DisplayName = "Walking"),
+	Attacking UMETA(DisplayName = "Attacking"),
+	Ability UMETA(DisplayName = "Ability")
 };
 
 
@@ -39,9 +41,9 @@ class PIXELARENA_API AArenaCharacter : public APaperCharacter
 		// Properties
 		UPROPERTY(EditAnywhere, Category="Arena Character")
 		float MoveSpeed = 300;
-		UPROPERTY(VisibleAnywhere, Category="Arena Character")
+		UPROPERTY(VisibleAnywhere, Category="Arena Character|State")
 		TEnumAsByte<CharacterState> CharacterState = Idle;
-		UPROPERTY(VisibleAnywhere, Category="Arena Character")
+		UPROPERTY(VisibleAnywhere, Category="Arena Character|State")
 		TEnumAsByte<Direction> Facing = South;
 		UPROPERTY(EditAnywhere, Category="Arena Character|Animations")
 		TMap<TEnumAsByte<Direction>, UPaperFlipbook*> IdleAnimations;
@@ -54,23 +56,37 @@ class PIXELARENA_API AArenaCharacter : public APaperCharacter
 		UFUNCTION(BlueprintCallable, Category="Arena Character")
 		void ApplyVelocity(float speed, Direction direction);
 		UFUNCTION(BlueprintCallable, Category="Arena Character")
+		void SetVelocity(FVector velocity);
+		UFUNCTION(BlueprintCallable, Category="Arena Character")
 		void PlayFlipbook(UPaperFlipbook* flipbook, bool loop = false);
+
+		// Events
 		UFUNCTION(BlueprintImplementableEvent, Category="Arena Character")
 		void IdleState();
 		UFUNCTION(BlueprintImplementableEvent, Category="Arena Character")
 	    void WalkingState();
 		UFUNCTION(BlueprintImplementableEvent, Category="Arena Character")
-		void AttackState();
+		void AttackState(float deltaSeconds);
+		UFUNCTION(BlueprintImplementableEvent, Category="Arena Character")
+		void AttackStart();
+		UFUNCTION(BlueprintImplementableEvent, Category="Arena Character")
+		void AttackEnd();
 		UFUNCTION(BlueprintImplementableEvent, Category="Arena Character")
 		void AbilityState();
 
 	protected:
+		UPROPERTY(VisibleAnywhere, Category="Arena Character|State")
 		bool isMoving = false;
+		UPROPERTY(VisibleAnywhere, Category="Arena Character|State")
+		bool isAttacking = false;
 		std::map<Direction, FDateTime> MoveInputMap;
 		FVector& Velocity = GetCharacterMovement()->Velocity;
 
 		void UpdateMovementInput(Direction direction, FDateTime time);
 		DECLARE_DELEGATE_TwoParams(UpdateMovementInputDelegate, Direction, FDateTime);
+
+		void UpdateAttackInput(bool attacking);
+		DECLARE_DELEGATE_OneParam(UpdateAttackInputDelegate, bool);
 
 	protected:
 		// Called every frame

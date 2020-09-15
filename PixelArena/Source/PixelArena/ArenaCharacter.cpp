@@ -39,6 +39,11 @@ void AArenaCharacter::ApplyVelocity(float speed, Direction direction)
 {
 }
 
+void AArenaCharacter::SetVelocity(FVector v)
+{
+    Velocity = v;
+}
+
 void AArenaCharacter::PlayFlipbook(UPaperFlipbook* flipbook, bool loop)
 {
     GetSprite()->SetLooping(loop);
@@ -69,6 +74,17 @@ void AArenaCharacter::UpdateMovementInput(Direction direction, FDateTime time)
     }
 }
 
+void AArenaCharacter::UpdateAttackInput(bool attacking)
+{
+    isAttacking = attacking;
+
+    // if (attacking)
+    //     AttackStart();
+    // else
+    //     AttackEnd();
+}
+
+
 void AArenaCharacter::Tick(float DeltaSeconds)
 {
     Super::Tick(DeltaSeconds);
@@ -77,16 +93,50 @@ void AArenaCharacter::Tick(float DeltaSeconds)
     {
         case Idle:
             IdleState();
-            GetSprite()->SetFlipbook(IdleAnimations[Facing]);
+            PlayFlipbook(IdleAnimations[Facing], true);
             if (isMoving)
+            {
                 CharacterState = Walking;
+                break;
+            }
+            if (isAttacking)
+            {
+                CharacterState = Attacking;
+                break;
+            }
             break;
         case Walking:
             WalkingState();
-            GetSprite()->SetFlipbook(WalkingAnimations[Facing]);
+            PlayFlipbook(WalkingAnimations[Facing], true);
             if (!isMoving)
+            {
                 CharacterState = Idle;
+                SetVelocity(FVector(0));
+                break;
+            }
+            if (isAttacking)
+            {
+                CharacterState = Attacking;
+                SetVelocity(FVector(0));
+                break;
+            }
             break;
+        case Attacking:
+            AttackState(DeltaSeconds);
+            if (!isAttacking && isMoving)
+            {
+                CharacterState = Walking;
+                break;
+            }
+        
+            if (!isAttacking)
+            {
+                CharacterState = Idle;
+                break;
+            }
+            break;
+        case Ability:
+            AbilityState();
         default:
             break;
     }
@@ -103,4 +153,8 @@ void AArenaCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
     PlayerInputComponent->BindAction<UpdateMovementInputDelegate>("South", IE_Released, this, &AArenaCharacter::UpdateMovementInput, South, InputReleaseTime);
     PlayerInputComponent->BindAction<UpdateMovementInputDelegate>("West", IE_Pressed, this, &AArenaCharacter::UpdateMovementInput, West, FDateTime::Now());
     PlayerInputComponent->BindAction<UpdateMovementInputDelegate>("West", IE_Released, this, &AArenaCharacter::UpdateMovementInput, West, InputReleaseTime);
+
+    // Bind Attack Inputs
+    PlayerInputComponent->BindAction<UpdateAttackInputDelegate>("Attack", IE_Pressed, this, &AArenaCharacter::UpdateAttackInput, true);
+    PlayerInputComponent->BindAction<UpdateAttackInputDelegate>("Attack", IE_Released, this, &AArenaCharacter::UpdateAttackInput, false);
 }

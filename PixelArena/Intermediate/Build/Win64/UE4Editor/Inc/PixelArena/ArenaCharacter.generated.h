@@ -8,27 +8,39 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPaperFlipbook;
+struct FVector;
 #ifdef PIXELARENA_ArenaCharacter_generated_h
 #error "ArenaCharacter.generated.h already included, missing '#pragma once' in ArenaCharacter.h"
 #endif
 #define PIXELARENA_ArenaCharacter_generated_h
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_34_SPARSE_DATA
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_34_RPC_WRAPPERS \
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_35_SPARSE_DATA
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_35_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execPlayFlipbook); \
+	DECLARE_FUNCTION(execSetVelocity); \
 	DECLARE_FUNCTION(execApplyVelocity); \
 	DECLARE_FUNCTION(execMove);
 
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_35_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execPlayFlipbook); \
+	DECLARE_FUNCTION(execSetVelocity); \
 	DECLARE_FUNCTION(execApplyVelocity); \
 	DECLARE_FUNCTION(execMove);
 
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_34_EVENT_PARMS
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_34_CALLBACK_WRAPPERS
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_34_INCLASS_NO_PURE_DECLS \
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_35_EVENT_PARMS \
+	struct ArenaCharacter_eventAttackState_Parms \
+	{ \
+		float deltaSeconds; \
+	};
+
+
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_35_CALLBACK_WRAPPERS
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_35_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAArenaCharacter(); \
 	friend struct Z_Construct_UClass_AArenaCharacter_Statics; \
@@ -37,7 +49,7 @@ public: \
 	DECLARE_SERIALIZER(AArenaCharacter)
 
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_34_INCLASS \
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_35_INCLASS \
 private: \
 	static void StaticRegisterNativesAArenaCharacter(); \
 	friend struct Z_Construct_UClass_AArenaCharacter_Statics; \
@@ -46,7 +58,7 @@ public: \
 	DECLARE_SERIALIZER(AArenaCharacter)
 
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_34_STANDARD_CONSTRUCTORS \
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_35_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AArenaCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AArenaCharacter) \
@@ -59,7 +71,7 @@ private: \
 public:
 
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_34_ENHANCED_CONSTRUCTORS \
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_35_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AArenaCharacter(AArenaCharacter&&); \
@@ -70,33 +82,37 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AArenaCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AArenaCharacter)
 
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_34_PRIVATE_PROPERTY_OFFSET
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_31_PROLOG \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_34_EVENT_PARMS
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_35_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__isMoving() { return STRUCT_OFFSET(AArenaCharacter, isMoving); } \
+	FORCEINLINE static uint32 __PPO__isAttacking() { return STRUCT_OFFSET(AArenaCharacter, isAttacking); }
 
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_34_GENERATED_BODY_LEGACY \
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_32_PROLOG \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_35_EVENT_PARMS
+
+
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_35_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_34_PRIVATE_PROPERTY_OFFSET \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_34_SPARSE_DATA \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_34_RPC_WRAPPERS \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_34_CALLBACK_WRAPPERS \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_34_INCLASS \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_34_STANDARD_CONSTRUCTORS \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_35_PRIVATE_PROPERTY_OFFSET \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_35_SPARSE_DATA \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_35_RPC_WRAPPERS \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_35_CALLBACK_WRAPPERS \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_35_INCLASS \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_35_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_34_GENERATED_BODY \
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_35_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_34_PRIVATE_PROPERTY_OFFSET \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_34_SPARSE_DATA \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_34_CALLBACK_WRAPPERS \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_34_INCLASS_NO_PURE_DECLS \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_34_ENHANCED_CONSTRUCTORS \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_35_PRIVATE_PROPERTY_OFFSET \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_35_SPARSE_DATA \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_35_RPC_WRAPPERS_NO_PURE_DECLS \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_35_CALLBACK_WRAPPERS \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_35_INCLASS_NO_PURE_DECLS \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_35_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -114,5 +130,6 @@ template<> PIXELARENA_API UClass* StaticClass<class AArenaCharacter>();
 	op(West) 
 #define FOREACH_ENUM_CHARACTERSTATE(op) \
 	op(Idle) \
-	op(Walking) 
+	op(Walking) \
+	op(Attacking) 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
