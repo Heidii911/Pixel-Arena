@@ -39,6 +39,12 @@ void AArenaCharacter::ApplyVelocity(float speed, Direction direction)
 {
 }
 
+void AArenaCharacter::PlayFlipbook(UPaperFlipbook* flipbook, bool loop)
+{
+    GetSprite()->SetLooping(loop);
+    GetSprite()->SetFlipbook(flipbook);
+}
+
 void AArenaCharacter::UpdateMovementInput(Direction direction, FDateTime time)
 {
     // Update map

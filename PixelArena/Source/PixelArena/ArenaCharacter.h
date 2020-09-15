@@ -53,6 +53,8 @@ class PIXELARENA_API AArenaCharacter : public APaperCharacter
 		void Move();
 		UFUNCTION(BlueprintCallable, Category="Arena Character")
 		void ApplyVelocity(float speed, Direction direction);
+		UFUNCTION(BlueprintCallable, Category="Arena Character")
+		void PlayFlipbook(UPaperFlipbook* flipbook, bool loop = false);
 		UFUNCTION(BlueprintImplementableEvent, Category="Arena Character")
 		void IdleState();
 		UFUNCTION(BlueprintImplementableEvent, Category="Arena Character")
