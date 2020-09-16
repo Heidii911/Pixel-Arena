@@ -184,6 +184,11 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		P_THIS->Move();
 		P_NATIVE_END;
 	}
+	static FName NAME_AArenaCharacter_AbilityFinished = FName(TEXT("AbilityFinished"));
+	void AArenaCharacter::AbilityFinished()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AArenaCharacter_AbilityFinished),NULL);
+	}
 	static FName NAME_AArenaCharacter_AbilityState = FName(TEXT("AbilityState"));
 	void AArenaCharacter::AbilityState()
 	{
@@ -223,6 +228,29 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 			{ "SetVelocity", &AArenaCharacter::execSetVelocity },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AArenaCharacter_AbilityFinished_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AArenaCharacter_AbilityFinished_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Arena Character" },
+		{ "ModuleRelativePath", "ArenaCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AArenaCharacter_AbilityFinished_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AArenaCharacter, nullptr, "AbilityFinished", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AArenaCharacter_AbilityFinished_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AArenaCharacter_AbilityFinished_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AArenaCharacter_AbilityFinished()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AArenaCharacter_AbilityFinished_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AArenaCharacter_AbilityState_Statics
 	{
@@ -528,6 +556,11 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isAbility_MetaData[];
+#endif
+		static void NewProp_isAbility_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isAbility;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isAttacking_MetaData[];
 #endif
 		static void NewProp_isAttacking_SetBit(void* Obj);
@@ -570,6 +603,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_PixelArena,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AArenaCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AArenaCharacter_AbilityFinished, "AbilityFinished" }, // 1148479700
 		{ &Z_Construct_UFunction_AArenaCharacter_AbilityState, "AbilityState" }, // 2565573199
 		{ &Z_Construct_UFunction_AArenaCharacter_AnimationFinished, "AnimationFinished" }, // 1895063576
 		{ &Z_Construct_UFunction_AArenaCharacter_ApplyVelocity, "ApplyVelocity" }, // 2440099062
@@ -588,6 +622,17 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		{ "ModuleRelativePath", "ArenaCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAbility_MetaData[] = {
+		{ "Category", "Arena Character|State" },
+		{ "ModuleRelativePath", "ArenaCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAbility_SetBit(void* Obj)
+	{
+		((AArenaCharacter*)Obj)->isAbility = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAbility = { "isAbility", nullptr, (EPropertyFlags)0x0020080000020001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AArenaCharacter), &Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAbility_SetBit, METADATA_PARAMS(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAbility_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAbility_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAttacking_MetaData[] = {
 		{ "Category", "Arena Character|State" },
@@ -652,6 +697,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveSpeed = { "MoveSpeed", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AArenaCharacter, MoveSpeed), METADATA_PARAMS(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveSpeed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AArenaCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAbility,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAttacking,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isMoving,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_WalkingAnimations,
@@ -691,7 +737,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AArenaCharacter, 2553114381);
+	IMPLEMENT_CLASS(AArenaCharacter, 1842031650);
 	template<> PIXELARENA_API UClass* StaticClass<AArenaCharacter>()
 	{
 		return AArenaCharacter::StaticClass();

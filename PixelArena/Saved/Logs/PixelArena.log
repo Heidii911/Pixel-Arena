@@ -5509,3 +5509,54 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.16-01.09.29:838][518]BlueprintLog: New page: Compile ArenaShieldCharacterBP
 [2020.09.16-01.09.29:931][518]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
 [2020.09.16-01.11.54:824][ 90]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.09.16-01.17.13:357][186]Candidate modules for hot reload:
+[2020.09.16-01.17.13:358][186]  PixelArena
+[2020.09.16-01.17.13:362][186]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PixelArena,9266 PixelArenaEditor Win64 Development -Project="C:/Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/PixelArena.uproject" "C:/Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/PixelArena.uproject"  -IgnoreJunk]
+[2020.09.16-01.17.13:370][186]Warning: Starting HotReload took  0.1s.
+[2020.09.16-01.17.35:849][ 48]LogSlate: Window 'Project Settings' being destroyed
+[2020.09.16-01.17.35:857][ 48]LogSlate: Window 'Project Settings' being destroyed
+[2020.09.16-01.17.41:248][346]BlueprintLog: New page: Compile ArenaShieldCharacterBP
+[2020.09.16-01.17.42:728][346]LogUObjectHash: Compacting FUObjectHashTables data took  23.10ms
+[2020.09.16-01.18.19:407][401]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/ArenaShieldCharacterBP9B58413C4420D3E8D14311B1E11AD39F.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/ArenaShieldCharacterBP.uasset'
+[2020.09.16-01.18.19:651][401]AssetCheck: New page: Asset Save: ArenaShieldCharacterBP
+[2020.09.16-01.18.19:651][401]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/ArenaShieldCharacterBP.ArenaShieldCharacterBP
+[2020.09.16-01.18.19:673][402]CompilerResultsLog: New page: Compilation - Sep 17, 2020, 1:18:19 AM
+[2020.09.16-01.18.19:674][402]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\brade\Documents\GitHub\Pixel-Arena).
+[2020.09.16-01.18.19:674][402]CompilerResultsLog: Parsing headers for PixelArenaEditor
+[2020.09.16-01.18.19:674][402]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\PixelArena.uproject" "C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\PixelArenaEditor\Development\PixelArenaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\brade\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.09.16-01.18.19:675][402]CompilerResultsLog: Reflection code generated for PixelArenaEditor in 44.0672248 seconds
+[2020.09.16-01.18.19:675][402]CompilerResultsLog: Building PixelArenaEditor...
+[2020.09.16-01.18.19:675][402]CompilerResultsLog: Using Visual Studio 2019 14.26.28805 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.09.16-01.18.19:675][402]CompilerResultsLog: Building 6 actions with 8 processes...
+[2020.09.16-01.18.19:675][402]CompilerResultsLog:   [1/6] PixelArena.init.gen.cpp
+[2020.09.16-01.18.19:675][402]CompilerResultsLog:   [2/6] ArenaCharacter.gen.cpp
+[2020.09.16-01.18.19:675][402]CompilerResultsLog:   [3/6] ArenaCharacter.cpp
+[2020.09.16-01.18.19:676][402]CompilerResultsLog:   [4/6] UE4Editor-PixelArena-9266.lib
+[2020.09.16-01.18.19:676][402]CompilerResultsLog:      Creating library C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-9266.lib and object C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-9266.exp
+[2020.09.16-01.18.19:676][402]CompilerResultsLog:   [5/6] UE4Editor-PixelArena-9266.dll
+[2020.09.16-01.18.19:676][402]CompilerResultsLog:      Creating library C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-9266.suppressed.lib and object C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-9266.suppressed.exp
+[2020.09.16-01.18.19:676][402]CompilerResultsLog:   [6/6] PixelArenaEditor.target
+[2020.09.16-01.18.19:676][402]CompilerResultsLog: Total time in Parallel executor: 19.46 seconds
+[2020.09.16-01.18.19:676][402]CompilerResultsLog: Total execution time: 65.36 seconds
+[2020.09.16-01.18.19:677][402]LogMainFrame: MainFrame: Module compiling took 66.415 seconds
+[2020.09.16-01.18.19:767][402]LogClass: Could not find existing class ArenaCharacter in package /Script/PixelArena for HotReload, assuming new class
+[2020.09.16-01.18.19:769][402]LogClass: Function ApplyVelocity is new.
+[2020.09.16-01.18.19:769][402]LogClass: Function FinishAttack is new.
+[2020.09.16-01.18.19:769][402]LogClass: Function Move is new.
+[2020.09.16-01.18.19:769][402]LogClass: Function PlayFlipbook is new.
+[2020.09.16-01.18.19:769][402]LogClass: Function SetVelocity is new.
+[2020.09.16-01.18.19:770][402]LogClass: Direction HotReload.
+[2020.09.16-01.18.19:770][402]LogClass: CharacterState HotReload.
+[2020.09.16-01.18.19:789][402]LogHotReload: Re-instancing ArenaCharacter after hot-reload.
+[2020.09.16-01.18.20:099][402]LogContentBrowser: Native class hierarchy updated for 'PixelArena' in 0.0143 seconds. Added 1 classes and 2 folders.
+[2020.09.16-01.18.20:106][402]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.09.16-01.18.20:204][402]LogContentBrowser: Native class hierarchy populated in 0.0685 seconds. Added 3428 classes and 823 folders.
+[2020.09.16-01.18.20:206][402]Display: HotReload took 66.9s.
+[2020.09.16-01.19.08:314][689]LogUObjectHash: Compacting FUObjectHashTables data took  10.47ms
+[2020.09.16-01.19.08:451][689]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Main_Auto46E0FF5F94D0EA499943AC0AA6C3A1ADB.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Levels/Main_Auto4.umap'
+[2020.09.16-01.19.08:455][689]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PixelArena/Levels/Main' took 0.454
+[2020.09.16-01.19.08:456][689]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.454
+[2020.09.16-01.19.08:457][689]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PixelArena/Blueprints/ArenaShieldCharacterBP] ([1] browsable assets)...
+[2020.09.16-01.19.08:457][689]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Blueprints/ArenaShieldCharacterBP]
+[2020.09.16-01.19.08:617][689]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/ArenaShieldCharacterBP_Auto4F955BD0844763BD46D4EA39B74E7D2B5.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Blueprints/ArenaShieldCharacterBP_Auto4.uasset'
+[2020.09.16-01.19.08:620][689]LogFileHelpers: Auto-saving content packages took 0.163

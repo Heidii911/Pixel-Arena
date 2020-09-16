@@ -59,6 +59,12 @@ void AArenaCharacter::FinishAttack()
     attackDownTime = -1;
 }
 
+void AArenaCharacter::FinishAbility()
+{
+    isAbility = false;
+    abilityDownTime = -1;
+}
+
 void AArenaCharacter::UpdateMovementInput(Direction direction, FDateTime time)
 {
     // Update map
@@ -85,7 +91,7 @@ void AArenaCharacter::UpdateMovementInput(Direction direction, FDateTime time)
 
 void AArenaCharacter::UpdateAttackInput(bool active)
 {
-    attackDown = active;
+    attackKeyDown = active;
 
     if (!isAttacking && active)
     {
@@ -96,9 +102,11 @@ void AArenaCharacter::UpdateAttackInput(bool active)
 
 void AArenaCharacter::UpdateAbilityInput(bool active)
 {
-    abilityDown =  active;
-    if (!isAbility && active)
+    abilityKeyDown = active;
+    
+    if (active)
     {
+        AbilityStart();
         isAbility = true;
         abilityDownTime = FDateTime::Now();
     }
@@ -159,22 +167,22 @@ void AArenaCharacter::Tick(float DeltaSeconds)
                 break;
             }
             
-            AttackState((FDateTime::Now() - attackDownTime).GetTotalMilliseconds(), attackDown);
+            AttackState((FDateTime::Now() - attackDownTime).GetTotalMilliseconds(), attackKeyDown);
             break;
         case Ability:
             if (!isAbility && isMoving)
             {
-                AbilityFinished();
+                AbilityEnd();
                 CharacterState = Walking;
                 break;
             }
             if (!isAbility)
             {
-                AbilityFinished();
+                AbilityEnd();
                 CharacterState = Idle;
                 break;
             }
-            AbilityState();
+            AbilityState((FDateTime::Now() - abilityDownTime).GetTotalMilliseconds(), abilityKeyDown);
             break;
         default:
             break;
