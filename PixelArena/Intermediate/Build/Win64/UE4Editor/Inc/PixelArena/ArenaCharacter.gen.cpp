@@ -144,6 +144,13 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		}
 		return ReturnEnum;
 	}
+	DEFINE_FUNCTION(AArenaCharacter::execFinishAbility)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->FinishAbility();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AArenaCharacter::execFinishAttack)
 	{
 		P_FINISH;
@@ -184,15 +191,23 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		P_THIS->Move();
 		P_NATIVE_END;
 	}
-	static FName NAME_AArenaCharacter_AbilityFinished = FName(TEXT("AbilityFinished"));
-	void AArenaCharacter::AbilityFinished()
+	static FName NAME_AArenaCharacter_AbilityEnd = FName(TEXT("AbilityEnd"));
+	void AArenaCharacter::AbilityEnd()
 	{
-		ProcessEvent(FindFunctionChecked(NAME_AArenaCharacter_AbilityFinished),NULL);
+		ProcessEvent(FindFunctionChecked(NAME_AArenaCharacter_AbilityEnd),NULL);
+	}
+	static FName NAME_AArenaCharacter_AbilityStart = FName(TEXT("AbilityStart"));
+	void AArenaCharacter::AbilityStart()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AArenaCharacter_AbilityStart),NULL);
 	}
 	static FName NAME_AArenaCharacter_AbilityState = FName(TEXT("AbilityState"));
-	void AArenaCharacter::AbilityState()
+	void AArenaCharacter::AbilityState(float AbilityTime, bool AbilityDown)
 	{
-		ProcessEvent(FindFunctionChecked(NAME_AArenaCharacter_AbilityState),NULL);
+		ArenaCharacter_eventAbilityState_Parms Parms;
+		Parms.AbilityTime=AbilityTime;
+		Parms.AbilityDown=AbilityDown ? true : false;
+		ProcessEvent(FindFunctionChecked(NAME_AArenaCharacter_AbilityState),&Parms);
 	}
 	static FName NAME_AArenaCharacter_AnimationFinished = FName(TEXT("AnimationFinished"));
 	void AArenaCharacter::AnimationFinished()
@@ -222,6 +237,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		UClass* Class = AArenaCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "ApplyVelocity", &AArenaCharacter::execApplyVelocity },
+			{ "FinishAbility", &AArenaCharacter::execFinishAbility },
 			{ "FinishAttack", &AArenaCharacter::execFinishAttack },
 			{ "Move", &AArenaCharacter::execMove },
 			{ "PlayFlipbook", &AArenaCharacter::execPlayFlipbook },
@@ -229,7 +245,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
-	struct Z_Construct_UFunction_AArenaCharacter_AbilityFinished_Statics
+	struct Z_Construct_UFunction_AArenaCharacter_AbilityEnd_Statics
 	{
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -237,27 +253,64 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AArenaCharacter_AbilityFinished_Statics::Function_MetaDataParams[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AArenaCharacter_AbilityEnd_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Arena Character" },
 		{ "ModuleRelativePath", "ArenaCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AArenaCharacter_AbilityFinished_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AArenaCharacter, nullptr, "AbilityFinished", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AArenaCharacter_AbilityFinished_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AArenaCharacter_AbilityFinished_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AArenaCharacter_AbilityFinished()
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AArenaCharacter_AbilityEnd_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AArenaCharacter, nullptr, "AbilityEnd", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AArenaCharacter_AbilityEnd_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AArenaCharacter_AbilityEnd_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AArenaCharacter_AbilityEnd()
 	{
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AArenaCharacter_AbilityFinished_Statics::FuncParams);
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AArenaCharacter_AbilityEnd_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AArenaCharacter_AbilityStart_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AArenaCharacter_AbilityStart_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Arena Character" },
+		{ "ModuleRelativePath", "ArenaCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AArenaCharacter_AbilityStart_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AArenaCharacter, nullptr, "AbilityStart", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AArenaCharacter_AbilityStart_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AArenaCharacter_AbilityStart_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AArenaCharacter_AbilityStart()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AArenaCharacter_AbilityStart_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AArenaCharacter_AbilityState_Statics
 	{
+		static void NewProp_AbilityDown_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_AbilityDown;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AbilityTime;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_AArenaCharacter_AbilityState_Statics::NewProp_AbilityDown_SetBit(void* Obj)
+	{
+		((ArenaCharacter_eventAbilityState_Parms*)Obj)->AbilityDown = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AArenaCharacter_AbilityState_Statics::NewProp_AbilityDown = { "AbilityDown", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ArenaCharacter_eventAbilityState_Parms), &Z_Construct_UFunction_AArenaCharacter_AbilityState_Statics::NewProp_AbilityDown_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AArenaCharacter_AbilityState_Statics::NewProp_AbilityTime = { "AbilityTime", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ArenaCharacter_eventAbilityState_Parms, AbilityTime), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AArenaCharacter_AbilityState_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AArenaCharacter_AbilityState_Statics::NewProp_AbilityDown,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AArenaCharacter_AbilityState_Statics::NewProp_AbilityTime,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AArenaCharacter_AbilityState_Statics::Function_MetaDataParams[] = {
@@ -265,7 +318,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		{ "ModuleRelativePath", "ArenaCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AArenaCharacter_AbilityState_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AArenaCharacter, nullptr, "AbilityState", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AArenaCharacter_AbilityState_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AArenaCharacter_AbilityState_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AArenaCharacter_AbilityState_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AArenaCharacter, nullptr, "AbilityState", nullptr, nullptr, sizeof(ArenaCharacter_eventAbilityState_Parms), Z_Construct_UFunction_AArenaCharacter_AbilityState_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AArenaCharacter_AbilityState_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AArenaCharacter_AbilityState_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AArenaCharacter_AbilityState_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AArenaCharacter_AbilityState()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -369,6 +422,29 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AArenaCharacter_AttackState_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AArenaCharacter_FinishAbility_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AArenaCharacter_FinishAbility_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Arena Character" },
+		{ "ModuleRelativePath", "ArenaCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AArenaCharacter_FinishAbility_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AArenaCharacter, nullptr, "FinishAbility", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AArenaCharacter_FinishAbility_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AArenaCharacter_FinishAbility_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AArenaCharacter_FinishAbility()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AArenaCharacter_FinishAbility_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -603,11 +679,13 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_PixelArena,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AArenaCharacter_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AArenaCharacter_AbilityFinished, "AbilityFinished" }, // 1148479700
-		{ &Z_Construct_UFunction_AArenaCharacter_AbilityState, "AbilityState" }, // 2565573199
+		{ &Z_Construct_UFunction_AArenaCharacter_AbilityEnd, "AbilityEnd" }, // 2428141903
+		{ &Z_Construct_UFunction_AArenaCharacter_AbilityStart, "AbilityStart" }, // 1014016294
+		{ &Z_Construct_UFunction_AArenaCharacter_AbilityState, "AbilityState" }, // 1409737203
 		{ &Z_Construct_UFunction_AArenaCharacter_AnimationFinished, "AnimationFinished" }, // 1895063576
 		{ &Z_Construct_UFunction_AArenaCharacter_ApplyVelocity, "ApplyVelocity" }, // 2440099062
 		{ &Z_Construct_UFunction_AArenaCharacter_AttackState, "AttackState" }, // 679834077
+		{ &Z_Construct_UFunction_AArenaCharacter_FinishAbility, "FinishAbility" }, // 2288985960
 		{ &Z_Construct_UFunction_AArenaCharacter_FinishAttack, "FinishAttack" }, // 2013707864
 		{ &Z_Construct_UFunction_AArenaCharacter_IdleState, "IdleState" }, // 2097150825
 		{ &Z_Construct_UFunction_AArenaCharacter_Move, "Move" }, // 4035545374
@@ -737,7 +815,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AArenaCharacter, 1842031650);
+	IMPLEMENT_CLASS(AArenaCharacter, 230909176);
 	template<> PIXELARENA_API UClass* StaticClass<AArenaCharacter>()
 	{
 		return AArenaCharacter::StaticClass();

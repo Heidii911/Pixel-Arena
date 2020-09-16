@@ -18,6 +18,7 @@ struct FVector;
 #define PixelArena_Source_PixelArena_ArenaCharacter_h_36_SPARSE_DATA
 #define PixelArena_Source_PixelArena_ArenaCharacter_h_36_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execFinishAbility); \
 	DECLARE_FUNCTION(execFinishAttack); \
 	DECLARE_FUNCTION(execPlayFlipbook); \
 	DECLARE_FUNCTION(execSetVelocity); \
@@ -27,6 +28,7 @@ struct FVector;
 
 #define PixelArena_Source_PixelArena_ArenaCharacter_h_36_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execFinishAbility); \
 	DECLARE_FUNCTION(execFinishAttack); \
 	DECLARE_FUNCTION(execPlayFlipbook); \
 	DECLARE_FUNCTION(execSetVelocity); \
@@ -35,6 +37,11 @@ struct FVector;
 
 
 #define PixelArena_Source_PixelArena_ArenaCharacter_h_36_EVENT_PARMS \
+	struct ArenaCharacter_eventAbilityState_Parms \
+	{ \
+		float AbilityTime; \
+		bool AbilityDown; \
+	}; \
 	struct ArenaCharacter_eventAttackState_Parms \
 	{ \
 		float AttackTime; \

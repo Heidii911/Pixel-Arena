@@ -5560,3 +5560,109 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.16-01.19.08:457][689]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Blueprints/ArenaShieldCharacterBP]
 [2020.09.16-01.19.08:617][689]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/ArenaShieldCharacterBP_Auto4F955BD0844763BD46D4EA39B74E7D2B5.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Blueprints/ArenaShieldCharacterBP_Auto4.uasset'
 [2020.09.16-01.19.08:620][689]LogFileHelpers: Auto-saving content packages took 0.163
+[2020.09.16-01.27.17:945][458]Candidate modules for hot reload:
+[2020.09.16-01.27.17:952][458]  PixelArena
+[2020.09.16-01.27.17:956][458]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PixelArena,1396 PixelArenaEditor Win64 Development -Project="C:/Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/PixelArena.uproject" "C:/Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/PixelArena.uproject"  -IgnoreJunk]
+[2020.09.16-01.27.17:965][458]Warning: Starting HotReload took  0.1s.
+[2020.09.16-01.28.20:768][458]CompilerResultsLog: New page: Compilation - Sep 17, 2020, 1:28:20 AM
+[2020.09.16-01.28.20:777][458]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\brade\Documents\GitHub\Pixel-Arena).
+[2020.09.16-01.28.20:778][458]CompilerResultsLog: Parsing headers for PixelArenaEditor
+[2020.09.16-01.28.20:778][458]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\PixelArena.uproject" "C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\PixelArenaEditor\Development\PixelArenaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\brade\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.09.16-01.28.20:778][458]CompilerResultsLog: Reflection code generated for PixelArenaEditor in 37.803788 seconds
+[2020.09.16-01.28.20:778][458]CompilerResultsLog: Building PixelArenaEditor...
+[2020.09.16-01.28.20:778][458]CompilerResultsLog: Using Visual Studio 2019 14.26.28805 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.09.16-01.28.20:778][458]CompilerResultsLog: Building 6 actions with 8 processes...
+[2020.09.16-01.28.20:778][458]CompilerResultsLog:   [1/6] PixelArena.init.gen.cpp
+[2020.09.16-01.28.20:778][458]CompilerResultsLog:   [2/6] ArenaCharacter.gen.cpp
+[2020.09.16-01.28.20:778][458]CompilerResultsLog:   [3/6] ArenaCharacter.cpp
+[2020.09.16-01.28.20:778][458]CompilerResultsLog:   [4/6] UE4Editor-PixelArena-1396.lib
+[2020.09.16-01.28.20:778][458]CompilerResultsLog:      Creating library C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-1396.lib and object C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-1396.exp
+[2020.09.16-01.28.20:779][458]CompilerResultsLog:   [5/6] UE4Editor-PixelArena-1396.dll
+[2020.09.16-01.28.20:779][458]CompilerResultsLog:      Creating library C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-1396.suppressed.lib and object C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-1396.suppressed.exp
+[2020.09.16-01.28.20:779][458]CompilerResultsLog:   [6/6] PixelArenaEditor.target
+[2020.09.16-01.28.20:779][458]CompilerResultsLog: Total time in Parallel executor: 21.38 seconds
+[2020.09.16-01.28.20:779][458]CompilerResultsLog: Total execution time: 62.17 seconds
+[2020.09.16-01.28.20:780][458]LogMainFrame: MainFrame: Module compiling took 62.962 seconds
+[2020.09.16-01.28.21:707][458]LogClass: Could not find existing class ArenaCharacter in package /Script/PixelArena for HotReload, assuming new class
+[2020.09.16-01.28.21:714][458]LogClass: Function ApplyVelocity is new.
+[2020.09.16-01.28.21:719][458]LogClass: Function FinishAbility is new.
+[2020.09.16-01.28.21:720][458]LogClass: Function FinishAttack is new.
+[2020.09.16-01.28.21:720][458]LogClass: Function Move is new.
+[2020.09.16-01.28.21:720][458]LogClass: Function PlayFlipbook is new.
+[2020.09.16-01.28.21:721][458]LogClass: Function SetVelocity is new.
+[2020.09.16-01.28.21:727][458]LogClass: Direction HotReload.
+[2020.09.16-01.28.21:730][458]LogClass: CharacterState HotReload.
+[2020.09.16-01.28.21:903][458]LogHotReload: Re-instancing ArenaCharacter after hot-reload.
+[2020.09.16-01.28.27:235][458]LogContentBrowser: Native class hierarchy updated for 'PixelArena' in 0.0301 seconds. Added 1 classes and 2 folders.
+[2020.09.16-01.28.27:242][458]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.09.16-01.28.29:241][458]LogContentBrowser: Native class hierarchy populated in 0.6790 seconds. Added 3428 classes and 823 folders.
+[2020.09.16-01.28.29:245][458]Display: HotReload took 71.4s.
+[2020.09.16-01.29.25:892][213]LogSlate: Window 'Color Picker' being destroyed
+[2020.09.16-01.30.17:393][253]LogSlate: Window 'Color Picker' being destroyed
+[2020.09.16-01.30.28:758][924]LogSlate: Window 'Color Picker' being destroyed
+[2020.09.16-01.30.31:269][ 54]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/ArenaShieldCharacterBP386211F34A2FD56F326726A7C485CBEF.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/ArenaShieldCharacterBP.uasset'
+[2020.09.16-01.30.31:416][ 54]AssetCheck: New page: Asset Save: ArenaShieldCharacterBP
+[2020.09.16-01.30.31:417][ 54]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/ArenaShieldCharacterBP.ArenaShieldCharacterBP
+[2020.09.16-01.30.31:903][ 83]BlueprintLog: New page: Compile ArenaShieldCharacterBP
+[2020.09.16-01.30.32:913][ 83]LogUObjectHash: Compacting FUObjectHashTables data took  22.49ms
+[2020.09.16-01.30.38:972][423]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.16-01.30.43:159][638]LogUObjectHash: Compacting FUObjectHashTables data took  14.55ms
+[2020.09.16-01.30.43:268][638]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Main9207E1994CFEA2922246CD97CCD3989C.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap'
+[2020.09.16-01.30.43:320][638]LogEditorTransaction: Non zero active count in UTransBuffer::Reset
+ActiveCount : 6
+SessionName : 
+Reason      : Map Saved
+
+Purging the undo buffer...
+
+[2020.09.16-01.30.43:443][638]AssetCheck: New page: Asset Save: Main
+[2020.09.16-01.30.43:444][638]LogContentValidation: Display: Validating World /Game/PixelArena/Levels/Main.Main
+[2020.09.16-01.30.44:887][712]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.16-01.30.44:916][712]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.16-01.30.44:917][712]PIE: New page: PIE session: Main (Sep 17, 2020, 1:30:44 AM)
+[2020.09.16-01.30.44:925][712]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.09.16-01.30.44:953][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026873s)
+[2020.09.16-01.30.45:014][712]LogAIModule: Creating AISystem for world Main
+[2020.09.16-01.30.45:017][712]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020E12AFE400), frame # 131712
+[2020.09.16-01.30.45:019][712]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020E236A5A80), frame # 131712
+[2020.09.16-01.30.45:026][712]LogPlayLevel: PIE: World Init took: (0.071976s)
+[2020.09.16-01.30.45:026][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.100662s)
+[2020.09.16-01.30.45:071][712]LogUObjectHash: Compacting FUObjectHashTables data took   4.71ms
+[2020.09.16-01.30.45:084][712]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.16-01.30.45:084][712]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.16-01.30.45:084][712]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.16-01.30.45:084][712]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.16-01.30.45:084][712]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.16-01.30.45:084][712]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.16-01.30.45:084][712]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.16-01.30.45:085][712]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.16-01.30.45:089][712]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.16-01.30.45:089][712]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.16-01.30.45:111][712]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.16-01.30.45:111][712]LogAudioMixer: Display: 1: FrontRight
+[2020.09.16-01.30.45:255][712]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio(SST))
+[2020.09.16-01.30.45:258][712]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.16-01.30.45:259][712]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.16-01.30.45:259][712]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.16-01.30.45:274][712]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.16-01.30.45:300][712]LogInit: FAudioDevice initialized.
+[2020.09.16-01.30.45:411][712]LogLoad: Game class is 'PixelArenaGame_C'
+[2020.09.16-01.30.45:435][712]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.09.16-13.30.45
+[2020.09.16-01.30.45:438][712]LogWorld: Bringing up level for play took: 0.015524
+[2020.09.16-01.30.45:447][712]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2020.09.16-01.30.45:490][712]PIE: Server logged in
+[2020.09.16-01.30.45:492][712]PIE: Play in editor total start time 0.583 seconds.
+[2020.09.16-01.30.58:633][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.16-01.30.58:633][490]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.09.16-01.30.58:639][490]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.09.16-01.30.58:640][490]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.16-01.30.58:692][490]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.16-01.30.58:701][490]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.16-01.30.58:736][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.16-01.30.58:800][490]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020E236A5A80), frame # 132490
+[2020.09.16-01.30.58:800][490]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020E12AFE400), frame # 132490
+[2020.09.16-01.30.58:807][490]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2020.09.16-01.30.58:861][491]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2020.09.16-01.31.03:242][730]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/ArenaShieldCharacterBP293486724E280E8106AA0DA8856F6093.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/ArenaShieldCharacterBP.uasset'
+[2020.09.16-01.31.03:262][730]AssetCheck: New page: Asset Save: ArenaShieldCharacterBP
+[2020.09.16-01.31.03:262][730]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/ArenaShieldCharacterBP.ArenaShieldCharacterBP

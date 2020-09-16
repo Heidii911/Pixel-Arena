@@ -135,6 +135,11 @@ void AArenaCharacter::Tick(float DeltaSeconds)
                 CharacterState = Attacking;
                 break;
             }
+            if (isAbility)
+            {
+                CharacterState = Ability;
+                break;
+            }
             break;
         case Walking:
             WalkingState();
@@ -152,6 +157,11 @@ void AArenaCharacter::Tick(float DeltaSeconds)
             {
                 CharacterState = Attacking;
                 SetVelocity(FVector(0));
+                break;
+            }
+            if (isAbility)
+            {
+                CharacterState = Ability;
                 break;
             }
             break;
