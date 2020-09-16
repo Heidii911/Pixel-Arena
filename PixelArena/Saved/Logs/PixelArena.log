@@ -5319,3 +5319,15 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.16-00.50.08:705][217]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Main51068EEB4F06AA7FDF104884DDBC9366.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap'
 [2020.09.16-00.50.08:769][217]AssetCheck: New page: Asset Save: Main
 [2020.09.16-00.50.08:769][217]LogContentValidation: Display: Validating World /Game/PixelArena/Levels/Main.Main
+[2020.09.16-00.55.25:419][447]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.09.16-00.55.38:928][244]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PixelArena/Macros/ArenaCharacterML.ArenaCharacterML
+[2020.09.16-00.56.04:097][698]LogSlate: Took 0.010874 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.09.16-00.59.04:540][352]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/ArenaCharacterML1E16E6704DAAE3459E535CB0EA940140.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Macros/ArenaCharacterML.uasset'
+[2020.09.16-00.59.04:572][352]AssetCheck: New page: Asset Save: ArenaCharacterML
+[2020.09.16-00.59.04:572][352]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Macros/ArenaCharacterML.ArenaCharacterML
+[2020.09.16-00.59.06:782][472]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/ArenaCharacterML9E79ADDA4C58AE328D5734B039453ABA.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Macros/ArenaCharacterML.uasset'
+[2020.09.16-00.59.06:801][472]AssetCheck: New page: Asset Save: ArenaCharacterML
+[2020.09.16-00.59.06:801][472]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Macros/ArenaCharacterML.ArenaCharacterML
+[2020.09.16-00.59.08:054][539]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/ArenaCharacterMLF2D212164B0B71A902EA3C8225D7BF48.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Macros/ArenaCharacterML.uasset'
+[2020.09.16-00.59.08:079][539]AssetCheck: New page: Asset Save: ArenaCharacterML
+[2020.09.16-00.59.08:079][539]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Macros/ArenaCharacterML.ArenaCharacterML
