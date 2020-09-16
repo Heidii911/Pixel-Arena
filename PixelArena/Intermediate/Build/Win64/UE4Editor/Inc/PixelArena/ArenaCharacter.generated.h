@@ -95,7 +95,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AArenaCharacter); \
 #define PixelArena_Source_PixelArena_ArenaCharacter_h_36_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__isMoving() { return STRUCT_OFFSET(AArenaCharacter, isMoving); } \
 	FORCEINLINE static uint32 __PPO__isAttacking() { return STRUCT_OFFSET(AArenaCharacter, isAttacking); } \
-	FORCEINLINE static uint32 __PPO__isAbility() { return STRUCT_OFFSET(AArenaCharacter, isAbility); }
+	FORCEINLINE static uint32 __PPO__isAbility() { return STRUCT_OFFSET(AArenaCharacter, isAbility); } \
+	FORCEINLINE static uint32 __PPO__MoveInputMap() { return STRUCT_OFFSET(AArenaCharacter, MoveInputMap); }
 
 
 #define PixelArena_Source_PixelArena_ArenaCharacter_h_33_PROLOG \

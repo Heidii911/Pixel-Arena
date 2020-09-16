@@ -9,17 +9,17 @@ static FDateTime InputReleaseTime = -1; // The time used to tell weather a key h
 AArenaCharacter::AArenaCharacter()
 {
     // Setup Movement Input Map
-    MoveInputMap[North] = InputReleaseTime;
-    MoveInputMap[East] = InputReleaseTime;
-    MoveInputMap[South] = InputReleaseTime;
-    MoveInputMap[West] = InputReleaseTime;
+    MoveInputMap.Add(North, InputReleaseTime);
+    MoveInputMap.Add(East, InputReleaseTime);
+    MoveInputMap.Add(South, InputReleaseTime);
+    MoveInputMap.Add(West, InputReleaseTime);
 
     GetSprite()->OnFinishedPlaying.AddDynamic(this, &AArenaCharacter::AnimationFinished);
 }
 
 void AArenaCharacter::Move()
 {
-    switch (Facing)
+    switch (MoveDirection)
     {
         case North:
             Velocity = FVector(0, 0, MoveSpeed);
@@ -65,28 +65,36 @@ void AArenaCharacter::FinishAbility()
     abilityDownTime = -1;
 }
 
-void AArenaCharacter::UpdateMovementInput(Direction direction, FDateTime time)
+void AArenaCharacter::UpdateMovementInput(Direction direction, bool keyDown)
 {
     // Update map
-    MoveInputMap[direction] = time;
+    MoveInputMap[direction] = keyDown ? FDateTime::Now() : InputReleaseTime;
 
-    // Find key that's down, that was pressed the most recent
-    std::pair<Direction, FDateTime> recent = std::make_pair(direction, time);
-    std::map<Direction, FDateTime>::iterator current;
-    for (current = MoveInputMap.begin(); current != MoveInputMap.end(); ++current)
-    {
-        if (current->second > recent.second)
-            recent = std::make_pair(current->first, current->second);
-    }
-
-    // Update movement
-    if (recent.second == InputReleaseTime)
-        isMoving = false;
-    else
+    if (MoveInputMap[North] > InputReleaseTime ||
+        MoveInputMap[West] > InputReleaseTime ||
+        MoveInputMap[South] > InputReleaseTime ||
+        MoveInputMap[East] > InputReleaseTime)
     {
         isMoving = true;
-        Facing = recent.first;
     }
+    else
+    {
+        isMoving = false;
+    }
+}
+
+void AArenaCharacter::UpdateFacing()
+{   
+    // Find key that's down, that was pressed the most recent
+    TPair<TEnumAsByte<Direction>, FDateTime> recent;
+    for (const TPair<TEnumAsByte<Direction>, FDateTime>& pair : MoveInputMap)
+    {
+        if (pair.Value > recent.Value)
+            recent = pair;
+    }
+
+    MoveDirection = recent.Key;
+    Facing = recent.Key;
 }
 
 void AArenaCharacter::UpdateAttackInput(bool active)
@@ -120,6 +128,7 @@ void AArenaCharacter::Tick(float DeltaSeconds)
     switch (CharacterState)
     {
         case Idle:
+            UpdateFacing();
             IdleState();
             if (IdleAnimations.Contains(Facing))
             {
@@ -142,6 +151,7 @@ void AArenaCharacter::Tick(float DeltaSeconds)
             }
             break;
         case Walking:
+            UpdateFacing();
             WalkingState();
             if (WalkingAnimations.Contains(Facing))
             {
@@ -202,14 +212,14 @@ void AArenaCharacter::Tick(float DeltaSeconds)
 void AArenaCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
     // Bind Movement Inputs
-    PlayerInputComponent->BindAction<UpdateMovementInputDelegate>("North", IE_Pressed, this, &AArenaCharacter::UpdateMovementInput, North, FDateTime::Now());
-    PlayerInputComponent->BindAction<UpdateMovementInputDelegate>("North", IE_Released, this, &AArenaCharacter::UpdateMovementInput, North, InputReleaseTime);
-    PlayerInputComponent->BindAction<UpdateMovementInputDelegate>("East", IE_Pressed, this, &AArenaCharacter::UpdateMovementInput, East, FDateTime::Now());
-    PlayerInputComponent->BindAction<UpdateMovementInputDelegate>("East", IE_Released, this, &AArenaCharacter::UpdateMovementInput, East, InputReleaseTime);
-    PlayerInputComponent->BindAction<UpdateMovementInputDelegate>("South", IE_Pressed, this, &AArenaCharacter::UpdateMovementInput, South, FDateTime::Now());
-    PlayerInputComponent->BindAction<UpdateMovementInputDelegate>("South", IE_Released, this, &AArenaCharacter::UpdateMovementInput, South, InputReleaseTime);
-    PlayerInputComponent->BindAction<UpdateMovementInputDelegate>("West", IE_Pressed, this, &AArenaCharacter::UpdateMovementInput, West, FDateTime::Now());
-    PlayerInputComponent->BindAction<UpdateMovementInputDelegate>("West", IE_Released, this, &AArenaCharacter::UpdateMovementInput, West, InputReleaseTime);
+    PlayerInputComponent->BindAction<UpdateMovementInputDelegate>("North", IE_Pressed, this, &AArenaCharacter::UpdateMovementInput, North, true);
+    PlayerInputComponent->BindAction<UpdateMovementInputDelegate>("North", IE_Released, this, &AArenaCharacter::UpdateMovementInput, North, false);
+    PlayerInputComponent->BindAction<UpdateMovementInputDelegate>("East", IE_Pressed, this, &AArenaCharacter::UpdateMovementInput, East, true);
+    PlayerInputComponent->BindAction<UpdateMovementInputDelegate>("East", IE_Released, this, &AArenaCharacter::UpdateMovementInput, East, false);
+    PlayerInputComponent->BindAction<UpdateMovementInputDelegate>("South", IE_Pressed, this, &AArenaCharacter::UpdateMovementInput, South, true);
+    PlayerInputComponent->BindAction<UpdateMovementInputDelegate>("South", IE_Released, this, &AArenaCharacter::UpdateMovementInput, South, false);
+    PlayerInputComponent->BindAction<UpdateMovementInputDelegate>("West", IE_Pressed, this, &AArenaCharacter::UpdateMovementInput, West, true);
+    PlayerInputComponent->BindAction<UpdateMovementInputDelegate>("West", IE_Released, this, &AArenaCharacter::UpdateMovementInput, West, false);
 
     // Bind Attack Inputs
     PlayerInputComponent->BindAction<UpdateAttackInputDelegate>("Attack", IE_Pressed, this, &AArenaCharacter::UpdateAttackInput, true);

@@ -90,17 +90,23 @@ class PIXELARENA_API AArenaCharacter : public APaperCharacter
 		UPROPERTY(VisibleAnywhere, Category="Arena Character|State")
 		bool isAbility = false;
 
+		Direction MoveDirection = South;
+
 		FDateTime attackDownTime = -1;
 		bool attackKeyDown = 0;
 
 		FDateTime abilityDownTime = -1;
 		bool abilityKeyDown = 0;
 		
-		std::map<Direction, FDateTime> MoveInputMap;
+		//std::map<Direction, FDateTime> MoveInputMap;
+		UPROPERTY(VisibleAnywhere, Category="Arena Character|State")
+		TMap<TEnumAsByte<Direction>, FDateTime> MoveInputMap;
+	
 		FVector& Velocity = GetCharacterMovement()->Velocity;
 
-		void UpdateMovementInput(Direction direction, FDateTime time);
-		DECLARE_DELEGATE_TwoParams(UpdateMovementInputDelegate, Direction, FDateTime);
+		void UpdateMovementInput(Direction direction, bool keyDown);
+		DECLARE_DELEGATE_TwoParams(UpdateMovementInputDelegate, Direction, bool);
+		void UpdateFacing();
 
 		void UpdateAttackInput(bool active);
 		DECLARE_DELEGATE_OneParam(UpdateAttackInputDelegate, bool);

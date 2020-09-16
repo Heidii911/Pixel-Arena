@@ -21,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 	PAPER2D_API UClass* Z_Construct_UClass_APaperCharacter();
 	PAPER2D_API UClass* Z_Construct_UClass_UPaperFlipbook_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FDateTime();
 // End Cross Module References
 	static UEnum* Direction_StaticEnum()
 	{
@@ -632,6 +633,12 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MoveInputMap_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMapPropertyParams NewProp_MoveInputMap;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_MoveInputMap_Key_KeyProp;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_MoveInputMap_ValueProp;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isAbility_MetaData[];
 #endif
 		static void NewProp_isAbility_SetBit(void* Obj);
@@ -700,6 +707,17 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		{ "ModuleRelativePath", "ArenaCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveInputMap_MetaData[] = {
+		{ "Category", "Arena Character|State" },
+		{ "Comment", "//std::map<Direction, FDateTime> MoveInputMap;\n" },
+		{ "ModuleRelativePath", "ArenaCharacter.h" },
+		{ "ToolTip", "std::map<Direction, FDateTime> MoveInputMap;" },
+	};
+#endif
+	const UE4CodeGen_Private::FMapPropertyParams Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveInputMap = { "MoveInputMap", nullptr, (EPropertyFlags)0x0020080000020001, UE4CodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AArenaCharacter, MoveInputMap), EMapPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveInputMap_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveInputMap_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveInputMap_Key_KeyProp = { "MoveInputMap_Key", nullptr, (EPropertyFlags)0x0000000000020001, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UEnum_PixelArena_Direction, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveInputMap_ValueProp = { "MoveInputMap", nullptr, (EPropertyFlags)0x0000000000020001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 1, Z_Construct_UScriptStruct_FDateTime, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAbility_MetaData[] = {
 		{ "Category", "Arena Character|State" },
@@ -775,6 +793,9 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveSpeed = { "MoveSpeed", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AArenaCharacter, MoveSpeed), METADATA_PARAMS(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveSpeed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AArenaCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveInputMap,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveInputMap_Key_KeyProp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveInputMap_ValueProp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAbility,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAttacking,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isMoving,
@@ -815,7 +836,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AArenaCharacter, 230909176);
+	IMPLEMENT_CLASS(AArenaCharacter, 3028931636);
 	template<> PIXELARENA_API UClass* StaticClass<AArenaCharacter>()
 	{
 		return AArenaCharacter::StaticClass();
