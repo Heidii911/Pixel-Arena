@@ -996,3 +996,811 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.16-06.55.48:431][366]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Main16872D5649515FFC5C2E6A887877DE6D.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap'
 [2020.09.16-06.55.48:636][366]AssetCheck: New page: Asset Save: Main
 [2020.09.16-06.55.48:636][366]LogContentValidation: Display: Validating World /Game/PixelArena/Levels/Main.Main
+[2020.09.16-06.56.48:008][938]MapCheck: New page: Map Check
+[2020.09.16-06.56.48:056][938]Cmd: MAP REBUILD ALLVISIBLE
+[2020.09.16-06.56.48:058][938]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.09.16-06.56.48:086][938]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=false
+[2020.09.16-06.56.48:152][938]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2020.09.16-06.56.48:152][938]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2020.09.16-06.56.48:152][938]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2020.09.16-06.56.48:169][938]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2020.09.16-06.56.48:210][938]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.09.16-06.56.49:279][938]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2020.09.16-06.56.49:279][938]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.09.16-06.56.49:279][938]TextureStreamingBuild: Display: Compiling optional shaders took 1.103 seconds.
+[2020.09.16-06.56.49:290][938]LogLevel: Display: Export Material TexCoord Scales took 0.011 seconds.
+[2020.09.16-06.56.49:292][938]TextureStreamingBuild: Display: Build Texture Streaming took 0.002 seconds.
+[2020.09.16-06.56.49:302][938]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2020.09.16-06.56.49:311][938]LightingResults: New page: Lighting Build - Sep 17, 2020, 6:56:49 AM
+[2020.09.16-06.56.49:391][938]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.09.16-06.56.49:509][938]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.09.16-06.56.49:535][938]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.09.16-06.56.50:599][938]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.09.16-06.56.50:599][938]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1980
+[2020.09.16-06.56.53:596][938]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.09.16-06.56.53:597][938]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.09.16-06.56.53:597][938]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.09.16-06.56.53:597][938]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.09.16-06.56.53:597][938]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.09.16-06.56.53:597][938]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.09.16-06.56.53:795][938]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2020.09.16-06.56.53:796][938]MapCheck: New page: Main - Sep 17, 2020, 6:56:53 AM
+[2020.09.16-06.56.53:823][938]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 27.868ms to complete.
+[2020.09.16-06.56.53:827][938]LogEditorBuildUtils: Build time 0:05
+[2020.09.16-06.56.53:976][939]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2020.09.16-06.56.55:802][  6]Job is a success!
+[2020.09.16-06.56.56:004][  8]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.013s
+[2020.09.16-06.56.56:004][  8]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.09.16-06.56.56:005][  8]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb
+[2020.09.16-06.56.56:005][  8]LogVolumetricLightmapImport:      Bricks at depth
+[2020.09.16-06.56.56:005][  8]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2020.09.16-06.56.56:005][  8]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2020.09.16-06.56.56:005][  8]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2020.09.16-06.56.56:005][  8]LogVolumetricLightmapImport:      Bricks in each level
+[2020.09.16-06.56.56:005][  8]LogVolumetricLightmapImport:          Main 			 1 bricks 	 100.0% (Persistent Level)
+[2020.09.16-06.56.56:044][  8]Lightmass on BLUKZEN-SURFACE: 812 ms total, 207 ms importing, 32 ms setup, 23 ms photons, 484 ms processing, 0 ms extra exporting [0/0 mappings]. Threads: 3.38 sec total, 0 ms processing.
+[2020.09.16-06.56.56:061][  8]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.09.16-06.56.56:147][  8]LogStaticLightingSystem: Illumination: 6.72 sec (0 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2020.09.16-06.56.56:147][  8]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2020.09.16-06.56.56:147][  8]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2020.09.16-06.56.56:600][  8]DumpUnbuiltLightIteractions
+[2020.09.16-06.56.56:600][  8]Lights with unbuilt interactions: 0
+[2020.09.16-06.56.56:600][  8]
+[2020.09.16-06.56.56:600][  8]Primitives with unbuilt interactions: 0
+[2020.09.16-06.56.56:713][  9]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.09.16-06.56.56:713][  9]MapCheck: New page: Main - Sep 17, 2020, 6:56:56 AM
+[2020.09.16-06.56.56:714][  9]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.452ms to complete.
+[2020.09.16-06.57.20:952][175]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.09.16-06.57.21:023][175]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2020.09.16-06.57.21:120][175]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/MainC797C4E347A24726484D54891EC6BD15.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap'
+[2020.09.16-06.57.21:160][175]LogFileHelpers: Saving map 'Main' took 0.147
+[2020.09.16-06.57.21:228][175]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Main_BuiltDataCEFB1AB4462C625757C65EA5246B9806.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main_BuiltData.uasset'
+[2020.09.16-06.57.25:252][175]LogMainFrame: Selected target: PixelArena
+[2020.09.16-06.57.25:257][175]LogLauncherProfile: Unable to use promoted target - receipt ../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Binaries/Win64/PixelArena.target is not for a promoted target
+[2020.09.16-06.57.25:321][175]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.16-06.57.25:321][175]LogContentValidation: Display: Validating World /Game/PixelArena/Levels/Main.Main
+[2020.09.16-06.57.25:321][175]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/PixelArena/Levels/Main_BuiltData.Main_BuiltData
+[2020.09.16-06.57.25:481][178]UATHelper: Packaging (Windows (64-bit)): Running AutomationTool...
+[2020.09.16-06.57.25:628][184]UATHelper: Packaging (Windows (64-bit)): Parsing command line: -ScriptsForProject=C:/Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/PixelArena.uproject BuildCookRun -nocompileeditor -installed -nop4 -project=C:/Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/PixelArena.uproject -cook -stage -archive -archivedirectory=C:/Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Build -package -ue4exe="C:\Program Files\Epic Games\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -pak -prereqs -nodebuginfo -targetplatform=Win64 -build -target=PixelArena -clientconfig=Development -utf8output
+[2020.09.16-06.57.26:508][235]UATHelper: Packaging (Windows (64-bit)): Setting up ProjectParams for C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\PixelArena.uproject
+[2020.09.16-06.57.27:005][265]UATHelper: Packaging (Windows (64-bit)): ********** BUILD COMMAND STARTED **********
+[2020.09.16-06.57.27:039][267]UATHelper: Packaging (Windows (64-bit)): Running: C:\Program Files\Epic Games\UE_4.25\Engine\Binaries\DotNET\UnrealBuildTool.exe PixelArena Win64 Development -Project=C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\PixelArena.uproject  C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\PixelArena.uproject -NoUBTMakefiles  -remoteini="C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena" -skipdeploy -Manifest=C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Manifest.xml -NoHotReload -log="C:\Users\brade\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_4.25\UBT-PixelArena-Win64-Development.txt"
+[2020.09.16-06.57.27:742][304]UATHelper: Packaging (Windows (64-bit)):   Using 'git status' to determine working set for adaptive non-unity build (C:\Users\brade\Documents\GitHub\Pixel-Arena).
+[2020.09.16-06.57.30:894][492]UATHelper: Packaging (Windows (64-bit)):   Writing manifest to C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Manifest.xml
+[2020.09.16-06.57.31:015][499]UATHelper: Packaging (Windows (64-bit)):   Target is up to date
+[2020.09.16-06.57.31:033][500]UATHelper: Packaging (Windows (64-bit)):   Total execution time: 3.91 seconds
+[2020.09.16-06.57.31:103][504]UATHelper: Packaging (Windows (64-bit)): Took 4.0636612s to run UnrealBuildTool.exe, ExitCode=0
+[2020.09.16-06.57.31:182][509]UATHelper: Packaging (Windows (64-bit)): ********** BUILD COMMAND COMPLETED **********
+[2020.09.16-06.57.31:183][509]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND STARTED **********
+[2020.09.16-06.57.31:201][510]UATHelper: Packaging (Windows (64-bit)): Running UE4Editor Cook for project C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\PixelArena.uproject
+[2020.09.16-06.57.31:201][510]UATHelper: Packaging (Windows (64-bit)): Commandlet log file is C:\Program Files\Epic Games\UE_4.25\Engine\Programs\AutomationTool\Saved\Cook-2020.09.16-18.57.31.txt
+[2020.09.16-06.57.31:216][511]UATHelper: Packaging (Windows (64-bit)): Running: C:\Program Files\Epic Games\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\PixelArena.uproject -run=Cook  -TargetPlatform=WindowsNoEditor -fileopenlog -unversioned -abslog="C:\Program Files\Epic Games\UE_4.25\Engine\Programs\AutomationTool\Saved\Cook-2020.09.16-18.57.31.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2020.09.16-06.57.35:375][743]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Running engine for game: PixelArena
+[2020.09.16-06.57.40:292][ 38]UATHelper: Packaging (Windows (64-bit)):   LogHAL: Display: Platform has ~ 8 GB [8507478016 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.16-06.57.40:908][ 75]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.09.16-06.57.40:958][ 78]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.09.16-06.57.40:958][ 78]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.09.16-06.57.40:958][ 78]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.09.16-06.57.40:958][ 78]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.09.16-06.57.40:958][ 78]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.09.16-06.57.40:958][ 78]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.16-06.57.40:958][ 78]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.09.16-06.57.40:958][ 78]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.16-06.57.40:958][ 78]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.09.16-06.57.40:958][ 78]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.09.16-06.57.41:026][ 82]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.09.16-06.57.41:026][ 82]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.09.16-06.57.41:043][ 83]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.09.16-06.57.41:077][ 85]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.16-06.57.41:094][ 86]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.09.16-06.57.41:127][ 88]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.09.16-06.57.41:144][ 89]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.09.16-06.57.41:176][ 91]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.09.16-06.57.41:197][ 92]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.09.16-06.57.41:276][ 97]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.09.16-06.57.41:276][ 97]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.09.16-06.57.41:312][ 99]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.09.16-06.57.41:312][ 99]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.09.16-06.57.41:348][101]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.16-06.57.41:379][103]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.09.16-06.57.41:398][104]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.09.16-06.57.41:432][106]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.09.16-06.57.41:432][106]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Building Assets For WindowsNoEditor
+[2020.09.16-06.57.41:464][108]UATHelper: Packaging (Windows (64-bit)):   LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.16-06.57.48:260][516]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.16-06.57.53:376][823]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.16-06.57.53:543][833]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/brade/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.09.16-06.57.53:595][836]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.16-06.57.58:361][122]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.16-06.57.58:361][122]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.16-06.58.03:313][419]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.16-06.58.03:313][419]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Mobile HDR setting 1
+[2020.09.16-06.58.03:313][419]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Creating asset registry
+[2020.09.16-06.58.27:769][886]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Discovering localized assets for cultures: en
+[2020.09.16-06.58.27:786][887]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Unable to read previous cook inisettings for platform WindowsNoEditor invalidating cook
+[2020.09.16-06.58.27:787][887]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Clearing all cooked content for platform WindowsNoEditor
+[2020.09.16-06.58.27:886][893]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Sandbox cleanup took 0.103 seconds for platforms WindowsNoEditor
+[2020.09.16-06.58.31:397][102]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 0 Packages Remain 479 Total 479
+[2020.09.16-06.58.31:917][133]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 50 Packages Remain 478 Total 528
+[2020.09.16-06.58.32:234][152]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 100 Packages Remain 477 Total 577
+[2020.09.16-06.58.32:540][170]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 150 Packages Remain 476 Total 626
+[2020.09.16-06.58.33:187][209]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 200 Packages Remain 476 Total 676
+[2020.09.16-06.58.33:287][215]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 250 Packages Remain 475 Total 725
+[2020.09.16-06.58.33:456][225]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 300 Packages Remain 474 Total 774
+[2020.09.16-06.58.33:556][231]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 350 Packages Remain 473 Total 823
+[2020.09.16-06.58.33:676][238]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 400 Packages Remain 472 Total 872
+[2020.09.16-06.58.33:810][245]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 408 Packages Remain 321 Total 729
+[2020.09.16-06.58.33:832][246]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 421 Packages Remain 320 Total 741
+[2020.09.16-06.58.33:882][249]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 426 Packages Remain 319 Total 745
+[2020.09.16-06.58.34:126][263]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 432 Packages Remain 313 Total 745
+[2020.09.16-06.58.34:245][270]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 435 Packages Remain 312 Total 747
+[2020.09.16-06.58.34:248][270]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 436 Packages Remain 306 Total 742
+[2020.09.16-06.58.34:248][270]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 437 Packages Remain 305 Total 742
+[2020.09.16-06.58.34:260][271]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 438 Packages Remain 229 Total 667
+[2020.09.16-06.58.34:260][271]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 439 Packages Remain 228 Total 667
+[2020.09.16-06.58.34:260][271]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 440 Packages Remain 227 Total 667
+[2020.09.16-06.58.34:280][272]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 441 Packages Remain 226 Total 667
+[2020.09.16-06.58.34:280][272]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 442 Packages Remain 225 Total 667
+[2020.09.16-06.58.34:280][272]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 443 Packages Remain 224 Total 667
+[2020.09.16-06.58.34:280][272]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 444 Packages Remain 222 Total 666
+[2020.09.16-06.58.34:294][273]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 445 Packages Remain 221 Total 666
+[2020.09.16-06.58.34:294][273]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 446 Packages Remain 220 Total 666
+[2020.09.16-06.58.34:295][273]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 447 Packages Remain 216 Total 663
+[2020.09.16-06.58.34:315][274]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 448 Packages Remain 211 Total 659
+[2020.09.16-06.58.34:315][274]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 449 Packages Remain 210 Total 659
+[2020.09.16-06.58.34:315][274]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 450 Packages Remain 209 Total 659
+[2020.09.16-06.58.34:315][274]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 451 Packages Remain 208 Total 659
+[2020.09.16-06.58.34:330][275]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 452 Packages Remain 207 Total 659
+[2020.09.16-06.58.34:330][275]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 453 Packages Remain 206 Total 659
+[2020.09.16-06.58.34:330][275]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 454 Packages Remain 205 Total 659
+[2020.09.16-06.58.34:349][276]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 455 Packages Remain 204 Total 659
+[2020.09.16-06.58.34:349][276]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 456 Packages Remain 203 Total 659
+[2020.09.16-06.58.34:349][276]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 457 Packages Remain 198 Total 655
+[2020.09.16-06.58.34:349][276]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 458 Packages Remain 194 Total 652
+[2020.09.16-06.58.34:350][276]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 459 Packages Remain 193 Total 652
+[2020.09.16-06.58.34:368][277]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 460 Packages Remain 192 Total 652
+[2020.09.16-06.58.34:369][277]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 461 Packages Remain 191 Total 652
+[2020.09.16-06.58.34:369][277]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 462 Packages Remain 189 Total 651
+[2020.09.16-06.58.34:380][278]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 463 Packages Remain 188 Total 651
+[2020.09.16-06.58.34:380][278]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 464 Packages Remain 187 Total 651
+[2020.09.16-06.58.34:397][279]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 465 Packages Remain 186 Total 651
+[2020.09.16-06.58.34:397][279]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 466 Packages Remain 185 Total 651
+[2020.09.16-06.58.34:397][279]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 467 Packages Remain 181 Total 648
+[2020.09.16-06.58.34:397][279]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 468 Packages Remain 176 Total 644
+[2020.09.16-06.58.34:423][280]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 469 Packages Remain 175 Total 644
+[2020.09.16-06.58.34:424][280]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 470 Packages Remain 174 Total 644
+[2020.09.16-06.58.34:424][280]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 471 Packages Remain 173 Total 644
+[2020.09.16-06.58.34:424][280]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 472 Packages Remain 172 Total 644
+[2020.09.16-06.58.34:424][280]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 473 Packages Remain 171 Total 644
+[2020.09.16-06.58.34:426][280]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 474 Packages Remain 170 Total 644
+[2020.09.16-06.58.34:426][280]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 475 Packages Remain 169 Total 644
+[2020.09.16-06.58.34:437][281]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 476 Packages Remain 166 Total 642
+[2020.09.16-06.58.34:437][281]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 477 Packages Remain 162 Total 639
+[2020.09.16-06.58.34:454][282]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 478 Packages Remain 158 Total 636
+[2020.09.16-06.58.34:455][282]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 479 Packages Remain 157 Total 636
+[2020.09.16-06.58.34:455][282]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 480 Packages Remain 122 Total 602
+[2020.09.16-06.58.34:472][283]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 481 Packages Remain 121 Total 602
+[2020.09.16-06.58.34:472][283]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 482 Packages Remain 87 Total 569
+[2020.09.16-06.58.34:472][283]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 483 Packages Remain 86 Total 569
+[2020.09.16-06.58.34:472][283]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 484 Packages Remain 53 Total 537
+[2020.09.16-06.58.34:478][283]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-06.58.34:478][283]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-06.58.34:478][283]PackagingResults: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-06.58.34:478][283]PackagingResults: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-06.58.34:491][284]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-06.58.34:491][284]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-06.58.34:491][284]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-06.58.34:491][284]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-06.58.34:491][284]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-06.58.34:491][284]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-06.58.34:491][284]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material Proto_Material, compiling.
+[2020.09.16-06.58.34:491][284]PackagingResults: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-06.58.34:491][284]PackagingResults: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-06.58.34:491][284]PackagingResults: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-06.58.34:491][284]PackagingResults: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-06.58.34:492][284]PackagingResults: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-06.58.34:492][284]PackagingResults: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-06.58.34:497][284]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Warning: C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Content\PixelArena\Materials\Proto_Material.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.09.16-06.58.34:497][284]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.09.16-06.58.34:497][284]PackagingResults: Warning: 
+[2020.09.16-06.58.34:500][284]LogLinker: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-06.58.34:501][284]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 485 Packages Remain 18 Total 503
+[2020.09.16-06.58.34:501][284]LogLinker: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-06.58.34:502][284]LogLinker: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-06.58.34:502][284]LogLinker: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-06.58.34:506][284]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 486 Packages Remain 0 Total 486
+[2020.09.16-06.58.34:506][284]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Finishing up...
+[2020.09.16-06.58.34:506][284]LogLinker: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-06.58.34:506][284]LoadErrors: Failed to load /Game/PixelArena/Sprites/Prototype/Dark/texture_13.texture_13 Referenced by Proto_Material
+[2020.09.16-06.58.34:507][284]LogLinker: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-06.58.34:510][284]LogLinker: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-06.58.34:510][284]LoadErrors: Failed to load /Game/PixelArena/Sprites/Prototype/Dark/texture_13.texture_13 Referenced by MaterialExpressionTextureSample_0
+[2020.09.16-06.58.34:511][284]LogLinker: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-06.58.34:522][284]LogMaterial: Display: Missing cached shader map for material Proto_Material, compiling. 
+[2020.09.16-06.58.34:524][284]LogMaterial: Warning: C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Content\PixelArena\Materials\Proto_Material.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.09.16-06.58.34:524][284]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.09.16-06.58.34:525][284]PackagingResults: Warning: C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Content\PixelArena\Materials\Proto_Material.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.09.16-06.58.35:498][341]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Saving BulkData manifest(s)...
+[2020.09.16-06.58.35:517][342]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Done saving BulkData manifest(s)
+[2020.09.16-06.58.35:517][342]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Nativization Summary - AnimBP:
+[2020.09.16-06.58.35:517][342]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Name, Children, Non-empty Functions (Empty Functions), Variables, FunctionUsage, VariableUsage
+[2020.09.16-06.58.35:517][342]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Nativization Summary - Shared Variables From Graph: 0
+[2020.09.16-06.58.35:614][348]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:
+[2020.09.16-06.58.35:614][348]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Shader Code Stats: PCD3D_SM5
+[2020.09.16-06.58.35:614][348]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2020.09.16-06.58.35:614][348]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Unique Shaders: 3188, Total Shaders: 9636
+[2020.09.16-06.58.35:614][348]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Unique Shaders Size: 6.87mb, Total Shader Size: 6.87mb
+[2020.09.16-06.58.35:615][348]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2020.09.16-06.58.35:765][357]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.09.16-06.58.35:800][359]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Generated asset registry num assets 479, size is 191.95kb
+[2020.09.16-06.58.35:800][359]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.09.16-06.58.35:816][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cook by the book total time in tick 3.108528s total time 32.490639
+[2020.09.16-06.58.35:816][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Peak Used virtual 583MB Peak Used physical 612MB
+[2020.09.16-06.58.35:816][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Hierarchy Timer Information:
+[2020.09.16-06.58.35:816][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:   Root: 0.000s (0)
+[2020.09.16-06.58.35:816][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     StartCookByTheBookTime: 28.071s (1)
+[2020.09.16-06.58.35:816][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       CleanSandbox: 0.103s (1)
+[2020.09.16-06.58.35:816][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         ProcessingAccessedStrings: 0.018s (1)
+[2020.09.16-06.58.35:816][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       CollectFilesToCook: 0.455s (1)
+[2020.09.16-06.58.35:817][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         CookModificationDelegate: 0.000s (1)
+[2020.09.16-06.58.35:817][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         GeneratePackageNames: 0.003s (1)
+[2020.09.16-06.58.35:817][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       GenerateLongPackageName: 0.002s (1)
+[2020.09.16-06.58.35:817][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     TickCookOnTheSide: 3.077s (79)
+[2020.09.16-06.58.35:817][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       LoadPackage: 0.857s (78)
+[2020.09.16-06.58.35:817][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       CallBeginCacheForCookedPlatformData: 0.025s (79)
+[2020.09.16-06.58.35:817][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       PostLoadPackageFixup: 0.000s (79)
+[2020.09.16-06.58.35:817][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SavingPackages: 2.187s (64)
+[2020.09.16-06.58.35:817][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         PrecachePlatformDataForNextPackage: 0.002s (439)
+[2020.09.16-06.58.35:817][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         PrecachePlatformDataForNextNextPackage: 0.324s (434)
+[2020.09.16-06.58.35:817][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         SaveCookedPackage: 1.832s (486)
+[2020.09.16-06.58.35:817][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:           LoadPackage: 0.002s (486)
+[2020.09.16-06.58.35:817][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:           GEditorSavePackage: 1.807s (486)
+[2020.09.16-06.58.35:817][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:             ConvertingBlueprints: 0.009s (486)
+[2020.09.16-06.58.35:817][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:             VerifyCanCookPackage: 0.004s (479)
+[2020.09.16-06.58.35:817][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         ClearAllCachedCookedPlatformData: 0.006s (486)
+[2020.09.16-06.58.35:817][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         EnqueueUnsavedPackages: 0.000s (8)
+[2020.09.16-06.58.35:817][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     FinalizePackageStore: 0.010s (1)
+[2020.09.16-06.58.35:818][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     GeneratingBlueprintAssets: 0.005s (1)
+[2020.09.16-06.58.35:818][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     SavingCurrentIniSettings: 0.105s (1)
+[2020.09.16-06.58.35:818][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       ProcessingAccessedStrings: 0.013s (1)
+[2020.09.16-06.58.35:818][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     SavingAssetRegistry: 0.086s (1)
+[2020.09.16-06.58.35:818][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       BuildChunkManifest: 0.027s (1)
+[2020.09.16-06.58.35:818][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SaveManifests: 0.006s (1)
+[2020.09.16-06.58.35:818][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SaveRealAssetRegistry: 0.046s (1)
+[2020.09.16-06.58.35:818][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       WriteCookerOpenOrder: 0.006s (1)
+[2020.09.16-06.58.35:818][360]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Done!
+[2020.09.16-06.58.35:833][361]UATHelper: Packaging (Windows (64-bit)):   LogSavePackage: Display: Took 0.006267s to verify the EDL loading graph.
+[2020.09.16-06.58.35:833][361]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Misc Cook Stats
+[2020.09.16-06.58.35:834][361]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ===============
+[2020.09.16-06.58.35:834][361]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: NiagaraShader.Misc
+[2020.09.16-06.58.35:834][361]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2020.09.16-06.58.35:859][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ShaderCompiler
+[2020.09.16-06.58.35:859][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     BlockingTimeSec=0.000001
+[2020.09.16-06.58.35:859][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     AsyncCompileTimeSec=0.000000
+[2020.09.16-06.58.35:859][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     GlobalBeginCompileShaderTimeSec=0.000000
+[2020.09.16-06.58.35:859][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     GlobalBeginCompileShaderCalls=0
+[2020.09.16-06.58.35:864][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ProcessAsyncResultsTimeSec=0.000220
+[2020.09.16-06.58.35:864][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GlobalShader.Misc
+[2020.09.16-06.58.35:864][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2020.09.16-06.58.35:864][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MeshMaterial.Misc
+[2020.09.16-06.58.35:864][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2020.09.16-06.58.35:864][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MaterialShader.Misc
+[2020.09.16-06.58.35:864][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2020.09.16-06.58.35:864][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.Load
+[2020.09.16-06.58.35:865][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPackagesLoaded=203
+[2020.09.16-06.58.35:865][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     LoadPackageTimeSec=1.938597
+[2020.09.16-06.58.35:865][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.Save
+[2020.09.16-06.58.35:865][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPackagesSaved=486
+[2020.09.16-06.58.35:865][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavePackageTimeSec=1.760664
+[2020.09.16-06.58.35:865][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsPresaveTimeSec=0.458210
+[2020.09.16-06.58.35:865][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsTimeSec=0.170875
+[2020.09.16-06.58.35:865][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     FullyLoadLoadersTimeSec=0.000417
+[2020.09.16-06.58.35:865][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ResetLoadersTimeSec=0.005196
+[2020.09.16-06.58.35:865][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithOuter=0.002844
+[2020.09.16-06.58.35:865][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithMarks=0.000766
+[2020.09.16-06.58.35:866][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeImportsTimeSec=0.000000
+[2020.09.16-06.58.35:866][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SortExportsSeekfreeInnerTimeSec=0.432981
+[2020.09.16-06.58.35:866][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeExportsTimeSec=0.240221
+[2020.09.16-06.58.35:866][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeBulkDataTimeSec=0.033632
+[2020.09.16-06.58.35:866][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     AsyncWriteTimeSec=0.000000
+[2020.09.16-06.58.35:866][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     MBWritten=98.087511
+[2020.09.16-06.58.35:866][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.DifferentPackagesSizeMBPerAsset
+[2020.09.16-06.58.35:866][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.NumberOfDifferencesInPackagesPerAsset
+[2020.09.16-06.58.35:866][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.PackageDifferencesSizeMBPerAsset
+[2020.09.16-06.58.35:866][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.DiffTotal
+[2020.09.16-06.58.35:866][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumberOfDifferentPackages=0
+[2020.09.16-06.58.35:866][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     DifferentPackagesSizeMB=0.000000
+[2020.09.16-06.58.35:866][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumberOfDifferencesInPackages=0
+[2020.09.16-06.58.35:866][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PackageDifferencesSizeMB=0.000000
+[2020.09.16-06.58.35:866][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: UnversionedProperties
+[2020.09.16-06.58.35:866][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavedStructs=0
+[2020.09.16-06.58.35:866][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavedMB=0
+[2020.09.16-06.58.35:866][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     EquivalentTaggedMB=0
+[2020.09.16-06.58.35:866][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     CompressionRatio=-nan(ind)
+[2020.09.16-06.58.35:866][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     BitfieldWasteKB=0
+[2020.09.16-06.58.35:866][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2020.09.16-06.58.35:867][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Cook Profile
+[2020.09.16-06.58.35:867][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ============
+[2020.09.16-06.58.35:867][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0.CookWallTimeSec=64.071293
+[2020.09.16-06.58.35:867][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 0.StartupWallTimeSec=31.548596
+[2020.09.16-06.58.35:867][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1.CookByTheBookTimeSec=32.514362
+[2020.09.16-06.58.35:867][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 0.StartCookByTheBookTimeSec=28.071141
+[2020.09.16-06.58.35:867][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 0. 0.GameCookModificationDelegateTimeSec=0.000320
+[2020.09.16-06.58.35:867][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1.TickCookOnTheSideTimeSec=4.418640
+[2020.09.16-06.58.35:867][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 0.TickCookOnTheSideLoadPackagesTimeSec=0.862072
+[2020.09.16-06.58.35:867][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 1.TickCookOnTheSideSaveCookedPackageTimeSec=1.832171
+[2020.09.16-06.58.35:867][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+[2020.09.16-06.58.35:867][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 2.TickCookOnTheSideBeginPackageCacheForCookedPlatformDataTimeSec=0.349238
+[2020.09.16-06.58.35:867][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 3.TickCookOnTheSideFinishPackageCacheForCookedPlatformDataTimeSec=0.013209
+[2020.09.16-06.58.35:867][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 2.TickLoopGCTimeSec=0.000000
+[2020.09.16-06.58.35:867][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 3.TickLoopRecompileShaderRequestsTimeSec=0.000123
+[2020.09.16-06.58.35:867][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 4.TickLoopShaderProcessAsyncResultsTimeSec=0.000036
+[2020.09.16-06.58.35:867][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 5.TickLoopProcessDeferredCommandsTimeSec=0.000431
+[2020.09.16-06.58.35:867][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 6.TickLoopTickCommandletStatsTimeSec=0.000007
+[2020.09.16-06.58.35:868][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2020.09.16-06.58.35:868][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DDC Summary Stats
+[2020.09.16-06.58.35:868][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: =================
+[2020.09.16-06.58.35:868][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGetHits    =       468
+[2020.09.16-06.58.35:868][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGets       =       469
+[2020.09.16-06.58.35:868][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGetHitPct  =  0.997868
+[2020.09.16-06.58.35:868][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: LocalGetHitPct  =  0.515991
+[2020.09.16-06.58.35:868][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: SharedGetHitPct =  0.000000
+[2020.09.16-06.58.35:868][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: OtherGetHitPct  =  0.481876
+[2020.09.16-06.58.35:868][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GetMissPct      =  0.002132
+[2020.09.16-06.58.35:868][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPutHits    =         0
+[2020.09.16-06.58.35:868][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPuts       =         0
+[2020.09.16-06.58.35:868][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPutHitPct  =  0.000000
+[2020.09.16-06.58.35:868][362]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: PutMissPct      =  0.000000
+[2020.09.16-06.58.35:878][363]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2020.09.16-06.58.35:878][363]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DDC Resource Stats
+[2020.09.16-06.58.35:900][364]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: =======================================================================================================
+[2020.09.16-06.58.35:900][364]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+[2020.09.16-06.58.35:900][364]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+[2020.09.16-06.58.35:900][364]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GlobalShader                                    0.55                   0.55             0          6.32
+[2020.09.16-06.58.35:900][364]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MaterialShader                                  0.30                   0.30             0          3.90
+[2020.09.16-06.58.35:900][364]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Texture (Inline)                                0.20                   0.20             0         38.28
+[2020.09.16-06.58.35:900][364]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Texture (Streaming)                             0.20                   0.00             0         51.73
+[2020.09.16-06.58.35:900][364]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: StaticMesh                                      0.13                   0.13             0          0.74
+[2020.09.16-06.58.35:900][364]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: PhysX (BodySetup)                               0.02                   0.02             0          0.48
+[2020.09.16-06.58.35:900][364]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: NavCollision                                    0.00                   0.00             0          0.02
+[2020.09.16-06.58.35:900][364]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DistanceField                                   0.00                   0.00             0          0.00
+[2020.09.16-06.58.35:900][364]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: SoundWave                                       0.00                   0.00             0          0.02
+[2020.09.16-06.58.35:900][364]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2020.09.16-06.58.35:901][364]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Warning/Error Summary (Unique only)
+[2020.09.16-06.58.35:903][364]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: -----------------------------------
+[2020.09.16-06.58.35:903][364]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-06.58.35:903][364]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogMaterial: Warning: C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Content\PixelArena\Materials\Proto_Material.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.09.16-06.58.35:903][364]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2020.09.16-06.58.35:903][364]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Success - 0 error(s), 9 warning(s)
+[2020.09.16-06.58.35:903][364]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2020.09.16-06.58.35:903][364]UATHelper: Packaging (Windows (64-bit)):   
+[2020.09.16-06.58.35:903][364]UATHelper: Packaging (Windows (64-bit)):   Execution of commandlet took:  32.56 seconds
+[2020.09.16-06.58.36:617][407]UATHelper: Packaging (Windows (64-bit)):   LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.09.16-06.58.38:583][525]UATHelper: Packaging (Windows (64-bit)): Took 67.3679709s to run UE4Editor-Cmd.exe, ExitCode=0
+[2020.09.16-06.58.38:618][527]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND COMPLETED **********
+[2020.09.16-06.58.38:618][527]UATHelper: Packaging (Windows (64-bit)): ********** STAGE COMMAND STARTED **********
+[2020.09.16-06.58.38:767][536]UATHelper: Packaging (Windows (64-bit)): Creating Staging Manifest...
+[2020.09.16-06.58.38:832][540]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\BaseEditor.ini
+[2020.09.16-06.58.38:832][540]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\BaseEditorKeyBindings.ini
+[2020.09.16-06.58.38:832][540]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\BaseEditorPerProjectUserSettings.ini
+[2020.09.16-06.58.38:832][540]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\BaseEditorSettings.ini
+[2020.09.16-06.58.38:832][540]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\BaseLightmass.ini
+[2020.09.16-06.58.38:832][540]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\BasePakFileRules.ini
+[2020.09.16-06.58.38:832][540]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\Localization\Category.ini
+[2020.09.16-06.58.38:832][540]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\Localization\Editor.ini
+[2020.09.16-06.58.38:832][540]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\Localization\EditorTutorials.ini
+[2020.09.16-06.58.38:832][540]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\Localization\Engine.ini
+[2020.09.16-06.58.38:832][540]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\Localization\Keywords.ini
+[2020.09.16-06.58.38:832][540]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\Localization\PortableObjectExport.ini
+[2020.09.16-06.58.38:832][540]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\Localization\PortableObjectImport.ini
+[2020.09.16-06.58.38:832][540]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\Localization\PropertyNames.ini
+[2020.09.16-06.58.38:832][540]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\Localization\RepairData.ini
+[2020.09.16-06.58.38:832][540]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\Localization\ToolTips.ini
+[2020.09.16-06.58.38:832][540]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\Localization\WordCount.ini
+[2020.09.16-06.58.38:851][541]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Config\DefaultEditor.ini
+[2020.09.16-06.58.38:851][541]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Config\DefaultEditorSettings.ini
+[2020.09.16-06.58.39:153][559]UATHelper: Packaging (Windows (64-bit)): Cleaning Stage Directory: C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Saved\StagedBuilds\WindowsNoEditor
+[2020.09.16-06.58.41:568][704]UATHelper: Packaging (Windows (64-bit)): Creating pak using staging manifest.
+[2020.09.16-06.58.41:967][728]UATHelper: Packaging (Windows (64-bit)): Executing 1 UnrealPak command...
+[2020.09.16-06.58.46:756][ 14]UATHelper: Packaging (Windows (64-bit)): Waiting for child processes to complete (1/1)
+[2020.09.16-06.58.46:756][ 14]UATHelper: Packaging (Windows (64-bit)): Output from: C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\PixelArena.uproject C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Saved\StagedBuilds\WindowsNoEditor\PixelArena\Content\Paks\PixelArena-WindowsNoEditor.pak -create="C:\Users\brade\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_4.25\PakList_PixelArena-WindowsNoEditor.txt" -cryptokeys=C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Saved\Cooked\WindowsNoEditor\PixelArena\Metadata\Crypto.json -order=C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log -patchpaddingalign=2048 -platform=Windows -compressionformats=  -multiprocess -abslog="C:\Users\brade\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_4.25\UnrealPak-PixelArena-WindowsNoEditor-2020.09.16-18.58.41.txt"
+[2020.09.16-06.58.46:756][ 14]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Parsing crypto keys from a crypto key cache file
+[2020.09.16-06.58.46:756][ 14]UATHelper: Packaging (Windows (64-bit)):   LogCompression: Display: FCompression::GetCompressionFormat - Unable to find a module or plugin for compression format -multiprocess
+[2020.09.16-06.58.46:756][ 14]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Loading response file C:\Users\brade\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_4.25\PakList_PixelArena-WindowsNoEditor.txt
+[2020.09.16-06.58.46:756][ 14]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Added 2052 entries to add to pak file.
+[2020.09.16-06.58.46:756][ 14]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Loading pak order file C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log...
+[2020.09.16-06.58.46:756][ 14]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Finished loading pak order file C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log.
+[2020.09.16-06.58.46:756][ 14]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Collecting files to add to pak file...
+[2020.09.16-06.58.46:756][ 14]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Collected 2052 files in 0.02s.
+[2020.09.16-06.58.46:756][ 14]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Creating pak C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Saved\StagedBuilds\WindowsNoEditor\PixelArena\Content\Paks\PixelArena-WindowsNoEditor.pak.
+[2020.09.16-06.58.46:756][ 14]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.16-06.58.46:757][ 14]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: DISABLING pak file index freezing (all must be true: HasPlatformInfo? true - TargetIs64Bit? true - NoRuntimeUnloading? true - Unencrypted? true, 'Windows' != 'Windows')
+[2020.09.16-06.58.46:757][ 14]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Added 2052 files, 124883873 bytes total, time 2.36s.
+[2020.09.16-06.58.46:757][ 14]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Encryption - DISABLED
+[2020.09.16-06.58.46:757][ 14]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Unreal pak executed in 2.476397 seconds
+[2020.09.16-06.58.46:757][ 14]UATHelper: Packaging (Windows (64-bit)): UnrealPak terminated with exit code 0
+[2020.09.16-06.58.46:796][ 16]UATHelper: Packaging (Windows (64-bit)): Copying NonUFSFiles to staging directory: C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Saved\StagedBuilds\WindowsNoEditor
+[2020.09.16-06.58.50:857][244]UATHelper: Packaging (Windows (64-bit)): ********** STAGE COMMAND COMPLETED **********
+[2020.09.16-06.58.50:874][245]UATHelper: Packaging (Windows (64-bit)): ********** PACKAGE COMMAND STARTED **********
+[2020.09.16-06.58.50:874][245]UATHelper: Packaging (Windows (64-bit)): ********** PACKAGE COMMAND COMPLETED **********
+[2020.09.16-06.58.50:874][245]UATHelper: Packaging (Windows (64-bit)): ********** ARCHIVE COMMAND STARTED **********
+[2020.09.16-06.58.50:874][245]UATHelper: Packaging (Windows (64-bit)): Archiving to C:/Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Build
+[2020.09.16-06.59.00:020][793]UATHelper: Packaging (Windows (64-bit)): ********** ARCHIVE COMMAND COMPLETED **********
+[2020.09.16-06.59.00:020][793]UATHelper: Packaging (Windows (64-bit)): BUILD SUCCESSFUL
+[2020.09.16-06.59.00:020][793]UATHelper: Packaging (Windows (64-bit)): AutomationTool exiting with ExitCode=0 (Success)
+[2020.09.16-06.59.39:758][390]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.09.16-07.00.08:008][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.09.16-07.00.51:565][266]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/PixelArena/UI/UIMain.UIMain
+[2020.09.16-07.00.52:220][266]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0116 seconds. Added 125 classes and 0 folders.
+[2020.09.16-07.00.53:978][266]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.09.16-07.01.04:621][869]BlueprintLog: New page: Compile UIMain
+[2020.09.16-07.01.04:739][869]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
+[2020.09.16-07.01.05:442][904]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/UI/UIMain" FILE="../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIMain.uasset" SILENT=true
+[2020.09.16-07.01.05:568][904]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/UIMainD26773B04232F52280DC3EB6EA0C67E1.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIMain.uasset'
+[2020.09.16-07.01.05:593][904]AssetCheck: New page: Asset Save: UIMain
+[2020.09.16-07.01.05:593][904]LogContentValidation: Display: Validating WidgetBlueprint /Game/PixelArena/UI/UIMain.UIMain
+[2020.09.16-07.01.06:941][977]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/PixelArena/UI/UIPause.UIPause
+[2020.09.16-07.01.15:877][461]LogSlate: Window 'UIPause' being destroyed
+[2020.09.16-07.01.15:888][461]LogSlate: Window 'UIPause' being destroyed
+[2020.09.16-07.01.15:904][461]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.09.16-07.01.15:904][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.16-07.01.15:935][461]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.09.16-07.01.15:935][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.16-07.01.19:591][653]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2020.09.16-07.01.21:177][653]LogMainFrame: Selected target: PixelArena
+[2020.09.16-07.01.21:179][653]LogLauncherProfile: Unable to use promoted target - receipt ../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Binaries/Win64/PixelArena.target is not for a promoted target
+[2020.09.16-07.01.21:404][659]UATHelper: Packaging (Windows (64-bit)): Running AutomationTool...
+[2020.09.16-07.01.21:585][669]UATHelper: Packaging (Windows (64-bit)): Parsing command line: -ScriptsForProject=C:/Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/PixelArena.uproject BuildCookRun -nocompileeditor -installed -nop4 -project=C:/Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/PixelArena.uproject -cook -stage -archive -archivedirectory=C:/Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Build -package -ue4exe="C:\Program Files\Epic Games\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -pak -prereqs -nodebuginfo -targetplatform=Win64 -build -target=PixelArena -clientconfig=Development -utf8output
+[2020.09.16-07.01.22:575][726]UATHelper: Packaging (Windows (64-bit)): Setting up ProjectParams for C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\PixelArena.uproject
+[2020.09.16-07.01.23:341][772]UATHelper: Packaging (Windows (64-bit)): ********** BUILD COMMAND STARTED **********
+[2020.09.16-07.01.23:375][774]UATHelper: Packaging (Windows (64-bit)): Running: C:\Program Files\Epic Games\UE_4.25\Engine\Binaries\DotNET\UnrealBuildTool.exe PixelArena Win64 Development -Project=C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\PixelArena.uproject  C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\PixelArena.uproject -NoUBTMakefiles  -remoteini="C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena" -skipdeploy -Manifest=C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Manifest.xml -NoHotReload -log="C:\Users\brade\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_4.25\UBT-PixelArena-Win64-Development.txt"
+[2020.09.16-07.01.24:411][827]UATHelper: Packaging (Windows (64-bit)):   Using 'git status' to determine working set for adaptive non-unity build (C:\Users\brade\Documents\GitHub\Pixel-Arena).
+[2020.09.16-07.01.28:626][ 79]UATHelper: Packaging (Windows (64-bit)):   Writing manifest to C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Manifest.xml
+[2020.09.16-07.01.29:045][104]UATHelper: Packaging (Windows (64-bit)):   Target is up to date
+[2020.09.16-07.01.29:076][105]UATHelper: Packaging (Windows (64-bit)):   Total execution time: 5.58 seconds
+[2020.09.16-07.01.29:157][110]UATHelper: Packaging (Windows (64-bit)): Took 5.7687619s to run UnrealBuildTool.exe, ExitCode=0
+[2020.09.16-07.01.29:224][114]UATHelper: Packaging (Windows (64-bit)): ********** BUILD COMMAND COMPLETED **********
+[2020.09.16-07.01.29:242][115]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND STARTED **********
+[2020.09.16-07.01.29:242][115]UATHelper: Packaging (Windows (64-bit)): Running UE4Editor Cook for project C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\PixelArena.uproject
+[2020.09.16-07.01.29:242][115]UATHelper: Packaging (Windows (64-bit)): Commandlet log file is C:\Program Files\Epic Games\UE_4.25\Engine\Programs\AutomationTool\Saved\Cook-2020.09.16-19.01.29.txt
+[2020.09.16-07.01.29:242][115]UATHelper: Packaging (Windows (64-bit)): Running: C:\Program Files\Epic Games\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\PixelArena.uproject -run=Cook  -TargetPlatform=WindowsNoEditor -fileopenlog -unversioned -abslog="C:\Program Files\Epic Games\UE_4.25\Engine\Programs\AutomationTool\Saved\Cook-2020.09.16-19.01.29.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2020.09.16-07.01.32:808][329]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Running engine for game: PixelArena
+[2020.09.16-07.01.36:778][567]UATHelper: Packaging (Windows (64-bit)):   LogHAL: Display: Platform has ~ 8 GB [8507478016 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.16-07.01.37:378][603]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.09.16-07.01.37:428][606]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.09.16-07.01.37:428][606]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.09.16-07.01.37:428][606]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.09.16-07.01.37:428][606]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.09.16-07.01.37:428][606]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.09.16-07.01.37:428][606]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.16-07.01.37:428][606]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.09.16-07.01.37:428][606]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.16-07.01.37:446][607]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.09.16-07.01.37:446][607]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.09.16-07.01.37:497][610]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.09.16-07.01.37:498][610]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.09.16-07.01.37:531][612]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.09.16-07.01.37:549][613]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.16-07.01.37:583][615]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.09.16-07.01.37:599][616]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.09.16-07.01.37:632][618]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.09.16-07.01.37:665][620]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.09.16-07.01.37:700][622]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.09.16-07.01.37:763][626]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.09.16-07.01.37:763][626]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.09.16-07.01.37:799][628]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.09.16-07.01.37:799][628]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.09.16-07.01.37:832][630]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.16-07.01.37:849][631]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.09.16-07.01.37:882][633]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.09.16-07.01.37:917][635]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.09.16-07.01.37:917][635]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Building Assets For WindowsNoEditor
+[2020.09.16-07.01.37:948][637]UATHelper: Packaging (Windows (64-bit)):   LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.16-07.01.43:429][966]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.16-07.01.48:647][279]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.16-07.01.48:820][289]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/brade/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.09.16-07.01.48:871][292]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.16-07.01.52:466][508]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.16-07.01.52:466][508]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.16-07.01.55:099][666]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.16-07.01.55:099][666]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Mobile HDR setting 1
+[2020.09.16-07.01.55:099][666]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Creating asset registry
+[2020.09.16-07.01.55:700][702]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Discovering localized assets for cultures: en
+[2020.09.16-07.01.55:751][705]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Clearing all cooked content for platform WindowsNoEditor
+[2020.09.16-07.01.55:852][711]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Sandbox cleanup took 0.147 seconds for platforms WindowsNoEditor
+[2020.09.16-07.01.59:534][931]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 0 Packages Remain 479 Total 479
+[2020.09.16-07.02.00:021][960]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 50 Packages Remain 478 Total 528
+[2020.09.16-07.02.00:339][979]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 100 Packages Remain 477 Total 577
+[2020.09.16-07.02.00:613][995]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 150 Packages Remain 476 Total 626
+[2020.09.16-07.02.01:232][ 32]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 200 Packages Remain 476 Total 676
+[2020.09.16-07.02.01:330][ 38]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 250 Packages Remain 475 Total 725
+[2020.09.16-07.02.01:516][ 49]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 300 Packages Remain 474 Total 774
+[2020.09.16-07.02.01:615][ 55]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 350 Packages Remain 473 Total 823
+[2020.09.16-07.02.01:717][ 61]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 400 Packages Remain 472 Total 872
+[2020.09.16-07.02.01:851][ 69]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 408 Packages Remain 321 Total 729
+[2020.09.16-07.02.01:900][ 72]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 421 Packages Remain 320 Total 741
+[2020.09.16-07.02.01:934][ 74]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 426 Packages Remain 319 Total 745
+[2020.09.16-07.02.02:136][ 86]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 432 Packages Remain 313 Total 745
+[2020.09.16-07.02.02:271][ 93]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 435 Packages Remain 312 Total 747
+[2020.09.16-07.02.02:272][ 93]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 436 Packages Remain 306 Total 742
+[2020.09.16-07.02.02:282][ 94]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 437 Packages Remain 305 Total 742
+[2020.09.16-07.02.02:282][ 94]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 438 Packages Remain 229 Total 667
+[2020.09.16-07.02.02:299][ 95]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 439 Packages Remain 228 Total 667
+[2020.09.16-07.02.02:299][ 95]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 440 Packages Remain 227 Total 667
+[2020.09.16-07.02.02:316][ 96]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 441 Packages Remain 226 Total 667
+[2020.09.16-07.02.02:316][ 96]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 442 Packages Remain 225 Total 667
+[2020.09.16-07.02.02:316][ 96]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 443 Packages Remain 224 Total 667
+[2020.09.16-07.02.02:337][ 97]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 444 Packages Remain 222 Total 666
+[2020.09.16-07.02.02:338][ 97]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 445 Packages Remain 221 Total 666
+[2020.09.16-07.02.02:338][ 97]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 446 Packages Remain 220 Total 666
+[2020.09.16-07.02.02:338][ 97]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 447 Packages Remain 216 Total 663
+[2020.09.16-07.02.02:342][ 97]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 448 Packages Remain 211 Total 659
+[2020.09.16-07.02.02:360][ 98]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 449 Packages Remain 210 Total 659
+[2020.09.16-07.02.02:361][ 98]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 450 Packages Remain 209 Total 659
+[2020.09.16-07.02.02:361][ 98]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 451 Packages Remain 208 Total 659
+[2020.09.16-07.02.02:380][ 99]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 452 Packages Remain 207 Total 659
+[2020.09.16-07.02.02:380][ 99]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 453 Packages Remain 206 Total 659
+[2020.09.16-07.02.02:380][ 99]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 454 Packages Remain 205 Total 659
+[2020.09.16-07.02.02:392][100]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 455 Packages Remain 204 Total 659
+[2020.09.16-07.02.02:392][100]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 456 Packages Remain 203 Total 659
+[2020.09.16-07.02.02:408][101]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 457 Packages Remain 198 Total 655
+[2020.09.16-07.02.02:408][101]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 458 Packages Remain 194 Total 652
+[2020.09.16-07.02.02:425][102]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 459 Packages Remain 193 Total 652
+[2020.09.16-07.02.02:425][102]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 460 Packages Remain 192 Total 652
+[2020.09.16-07.02.02:425][102]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 461 Packages Remain 191 Total 652
+[2020.09.16-07.02.02:448][103]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 462 Packages Remain 189 Total 651
+[2020.09.16-07.02.02:449][103]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 463 Packages Remain 188 Total 651
+[2020.09.16-07.02.02:449][103]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 464 Packages Remain 187 Total 651
+[2020.09.16-07.02.02:449][103]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 465 Packages Remain 186 Total 651
+[2020.09.16-07.02.02:465][104]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 466 Packages Remain 185 Total 651
+[2020.09.16-07.02.02:465][104]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 467 Packages Remain 181 Total 648
+[2020.09.16-07.02.02:480][105]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 468 Packages Remain 176 Total 644
+[2020.09.16-07.02.02:480][105]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 469 Packages Remain 175 Total 644
+[2020.09.16-07.02.02:480][105]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 470 Packages Remain 174 Total 644
+[2020.09.16-07.02.02:497][106]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 471 Packages Remain 173 Total 644
+[2020.09.16-07.02.02:497][106]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 472 Packages Remain 172 Total 644
+[2020.09.16-07.02.02:497][106]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 473 Packages Remain 171 Total 644
+[2020.09.16-07.02.02:514][107]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 474 Packages Remain 170 Total 644
+[2020.09.16-07.02.02:514][107]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 475 Packages Remain 169 Total 644
+[2020.09.16-07.02.02:514][107]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 476 Packages Remain 166 Total 642
+[2020.09.16-07.02.02:537][108]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 477 Packages Remain 162 Total 639
+[2020.09.16-07.02.02:537][108]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 478 Packages Remain 158 Total 636
+[2020.09.16-07.02.02:537][108]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 479 Packages Remain 157 Total 636
+[2020.09.16-07.02.02:537][108]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 480 Packages Remain 122 Total 602
+[2020.09.16-07.02.02:557][109]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 481 Packages Remain 121 Total 602
+[2020.09.16-07.02.02:557][109]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 482 Packages Remain 87 Total 569
+[2020.09.16-07.02.02:557][109]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 483 Packages Remain 86 Total 569
+[2020.09.16-07.02.02:572][110]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 484 Packages Remain 53 Total 537
+[2020.09.16-07.02.02:572][110]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-07.02.02:573][110]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-07.02.02:573][110]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-07.02.02:573][110]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-07.02.02:573][110]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-07.02.02:573][110]PackagingResults: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-07.02.02:573][110]PackagingResults: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-07.02.02:573][110]PackagingResults: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-07.02.02:573][110]PackagingResults: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-07.02.02:573][110]PackagingResults: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-07.02.02:579][110]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-07.02.02:579][110]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-07.02.02:580][110]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-07.02.02:580][110]PackagingResults: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-07.02.02:580][110]PackagingResults: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-07.02.02:580][110]PackagingResults: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-07.02.02:590][111]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material Proto_Material, compiling.
+[2020.09.16-07.02.02:590][111]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Warning: C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Content\PixelArena\Materials\Proto_Material.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.09.16-07.02.02:590][111]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.09.16-07.02.02:590][111]PackagingResults: Warning: 
+[2020.09.16-07.02.02:590][111]PackagingResults: Warning: C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Content\PixelArena\Materials\Proto_Material.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.09.16-07.02.02:608][112]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 485 Packages Remain 18 Total 503
+[2020.09.16-07.02.02:608][112]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 486 Packages Remain 0 Total 486
+[2020.09.16-07.02.02:608][112]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Finishing up...
+[2020.09.16-07.02.03:169][142]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Saving BulkData manifest(s)...
+[2020.09.16-07.02.03:184][143]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Done saving BulkData manifest(s)
+[2020.09.16-07.02.03:217][145]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Nativization Summary - AnimBP:
+[2020.09.16-07.02.03:217][145]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Name, Children, Non-empty Functions (Empty Functions), Variables, FunctionUsage, VariableUsage
+[2020.09.16-07.02.03:217][145]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Nativization Summary - Shared Variables From Graph: 0
+[2020.09.16-07.02.03:321][151]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:
+[2020.09.16-07.02.03:321][151]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Shader Code Stats: PCD3D_SM5
+[2020.09.16-07.02.03:321][151]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2020.09.16-07.02.03:321][151]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Unique Shaders: 3188, Total Shaders: 9636
+[2020.09.16-07.02.03:321][151]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Unique Shaders Size: 6.87mb, Total Shader Size: 6.87mb
+[2020.09.16-07.02.03:321][151]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2020.09.16-07.02.03:530][163]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.09.16-07.02.03:579][166]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Generated asset registry num assets 479, size is 191.95kb
+[2020.09.16-07.02.03:579][166]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.09.16-07.02.03:596][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cook by the book total time in tick 3.069435s total time 8.495385
+[2020.09.16-07.02.03:596][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Peak Used virtual 556MB Peak Used physical 593MB
+[2020.09.16-07.02.03:596][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Hierarchy Timer Information:
+[2020.09.16-07.02.03:596][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:   Root: 0.000s (0)
+[2020.09.16-07.02.03:596][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     StartCookByTheBookTime: 4.432s (1)
+[2020.09.16-07.02.03:596][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       CleanSandbox: 0.147s (1)
+[2020.09.16-07.02.03:596][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         ProcessingAccessedStrings: 0.010s (1)
+[2020.09.16-07.02.03:596][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       CollectFilesToCook: 0.497s (1)
+[2020.09.16-07.02.03:597][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         CookModificationDelegate: 0.000s (1)
+[2020.09.16-07.02.03:597][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         GeneratePackageNames: 0.002s (1)
+[2020.09.16-07.02.03:597][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       GenerateLongPackageName: 0.002s (1)
+[2020.09.16-07.02.03:597][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     TickCookOnTheSide: 3.040s (79)
+[2020.09.16-07.02.03:597][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       LoadPackage: 0.866s (78)
+[2020.09.16-07.02.03:597][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       CallBeginCacheForCookedPlatformData: 0.025s (79)
+[2020.09.16-07.02.03:597][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       PostLoadPackageFixup: 0.000s (79)
+[2020.09.16-07.02.03:597][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SavingPackages: 2.144s (64)
+[2020.09.16-07.02.03:597][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         PrecachePlatformDataForNextPackage: 0.001s (440)
+[2020.09.16-07.02.03:597][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         PrecachePlatformDataForNextNextPackage: 0.326s (435)
+[2020.09.16-07.02.03:597][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         SaveCookedPackage: 1.789s (486)
+[2020.09.16-07.02.03:597][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:           LoadPackage: 0.002s (486)
+[2020.09.16-07.02.03:597][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:           GEditorSavePackage: 1.763s (486)
+[2020.09.16-07.02.03:597][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:             ConvertingBlueprints: 0.008s (486)
+[2020.09.16-07.02.03:597][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:             VerifyCanCookPackage: 0.004s (479)
+[2020.09.16-07.02.03:597][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         ClearAllCachedCookedPlatformData: 0.005s (486)
+[2020.09.16-07.02.03:597][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         EnqueueUnsavedPackages: 0.000s (8)
+[2020.09.16-07.02.03:597][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     FinalizePackageStore: 0.005s (1)
+[2020.09.16-07.02.03:597][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     GeneratingBlueprintAssets: 0.042s (1)
+[2020.09.16-07.02.03:598][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     SavingCurrentIniSettings: 0.144s (1)
+[2020.09.16-07.02.03:598][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       ProcessingAccessedStrings: 0.014s (1)
+[2020.09.16-07.02.03:598][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     SavingAssetRegistry: 0.117s (1)
+[2020.09.16-07.02.03:598][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       BuildChunkManifest: 0.042s (1)
+[2020.09.16-07.02.03:598][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SaveManifests: 0.011s (1)
+[2020.09.16-07.02.03:598][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SaveRealAssetRegistry: 0.054s (1)
+[2020.09.16-07.02.03:598][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       WriteCookerOpenOrder: 0.007s (1)
+[2020.09.16-07.02.03:598][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Done!
+[2020.09.16-07.02.03:621][168]UATHelper: Packaging (Windows (64-bit)):   LogSavePackage: Display: Took 0.009970s to verify the EDL loading graph.
+[2020.09.16-07.02.03:621][168]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Misc Cook Stats
+[2020.09.16-07.02.03:621][168]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ===============
+[2020.09.16-07.02.03:621][168]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: NiagaraShader.Misc
+[2020.09.16-07.02.03:621][168]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2020.09.16-07.02.03:621][168]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ShaderCompiler
+[2020.09.16-07.02.03:622][168]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     BlockingTimeSec=0.000001
+[2020.09.16-07.02.03:622][168]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     AsyncCompileTimeSec=0.000000
+[2020.09.16-07.02.03:622][168]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     GlobalBeginCompileShaderTimeSec=0.000000
+[2020.09.16-07.02.03:622][168]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     GlobalBeginCompileShaderCalls=0
+[2020.09.16-07.02.03:622][168]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ProcessAsyncResultsTimeSec=0.000196
+[2020.09.16-07.02.03:622][168]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GlobalShader.Misc
+[2020.09.16-07.02.03:634][169]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2020.09.16-07.02.03:634][169]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MeshMaterial.Misc
+[2020.09.16-07.02.03:634][169]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2020.09.16-07.02.03:634][169]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MaterialShader.Misc
+[2020.09.16-07.02.03:635][169]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2020.09.16-07.02.03:635][169]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.Load
+[2020.09.16-07.02.03:635][169]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPackagesLoaded=203
+[2020.09.16-07.02.03:635][169]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     LoadPackageTimeSec=1.781783
+[2020.09.16-07.02.03:635][169]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.Save
+[2020.09.16-07.02.03:635][169]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPackagesSaved=486
+[2020.09.16-07.02.03:635][169]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavePackageTimeSec=1.723096
+[2020.09.16-07.02.03:635][169]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsPresaveTimeSec=0.448162
+[2020.09.16-07.02.03:635][169]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsTimeSec=0.166454
+[2020.09.16-07.02.03:635][169]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     FullyLoadLoadersTimeSec=0.000381
+[2020.09.16-07.02.03:635][169]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ResetLoadersTimeSec=0.004724
+[2020.09.16-07.02.03:635][169]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithOuter=0.003018
+[2020.09.16-07.02.03:635][169]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithMarks=0.000799
+[2020.09.16-07.02.03:635][169]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeImportsTimeSec=0.000000
+[2020.09.16-07.02.03:635][169]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SortExportsSeekfreeInnerTimeSec=0.444331
+[2020.09.16-07.02.03:635][169]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeExportsTimeSec=0.226486
+[2020.09.16-07.02.03:635][169]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeBulkDataTimeSec=0.036187
+[2020.09.16-07.02.03:635][169]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     AsyncWriteTimeSec=0.000000
+[2020.09.16-07.02.03:635][169]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     MBWritten=98.088117
+[2020.09.16-07.02.03:635][169]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.DifferentPackagesSizeMBPerAsset
+[2020.09.16-07.02.03:651][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.NumberOfDifferencesInPackagesPerAsset
+[2020.09.16-07.02.03:652][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.PackageDifferencesSizeMBPerAsset
+[2020.09.16-07.02.03:652][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.DiffTotal
+[2020.09.16-07.02.03:652][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumberOfDifferentPackages=0
+[2020.09.16-07.02.03:652][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     DifferentPackagesSizeMB=0.000000
+[2020.09.16-07.02.03:652][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumberOfDifferencesInPackages=0
+[2020.09.16-07.02.03:652][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PackageDifferencesSizeMB=0.000000
+[2020.09.16-07.02.03:652][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: UnversionedProperties
+[2020.09.16-07.02.03:652][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavedStructs=0
+[2020.09.16-07.02.03:652][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavedMB=0
+[2020.09.16-07.02.03:652][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     EquivalentTaggedMB=0
+[2020.09.16-07.02.03:652][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     CompressionRatio=-nan(ind)
+[2020.09.16-07.02.03:652][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     BitfieldWasteKB=0
+[2020.09.16-07.02.03:652][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2020.09.16-07.02.03:652][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Cook Profile
+[2020.09.16-07.02.03:652][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ============
+[2020.09.16-07.02.03:652][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0.CookWallTimeSec=33.843308
+[2020.09.16-07.02.03:653][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 0.StartupWallTimeSec=25.310054
+[2020.09.16-07.02.03:653][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1.CookByTheBookTimeSec=8.524748
+[2020.09.16-07.02.03:653][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 0.StartCookByTheBookTimeSec=4.432408
+[2020.09.16-07.02.03:653][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 0. 0.GameCookModificationDelegateTimeSec=0.000335
+[2020.09.16-07.02.03:653][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1.TickCookOnTheSideTimeSec=4.064562
+[2020.09.16-07.02.03:653][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 0.TickCookOnTheSideLoadPackagesTimeSec=0.869066
+[2020.09.16-07.02.03:653][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 1.TickCookOnTheSideSaveCookedPackageTimeSec=1.789268
+[2020.09.16-07.02.03:653][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+[2020.09.16-07.02.03:653][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 2.TickCookOnTheSideBeginPackageCacheForCookedPlatformDataTimeSec=0.350634
+[2020.09.16-07.02.03:653][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 3.TickCookOnTheSideFinishPackageCacheForCookedPlatformDataTimeSec=0.012632
+[2020.09.16-07.02.03:653][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 2.TickLoopGCTimeSec=0.000000
+[2020.09.16-07.02.03:653][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 3.TickLoopRecompileShaderRequestsTimeSec=0.000551
+[2020.09.16-07.02.03:653][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 4.TickLoopShaderProcessAsyncResultsTimeSec=0.000029
+[2020.09.16-07.02.03:653][170]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 5.TickLoopProcessDeferredCommandsTimeSec=0.000059
+[2020.09.16-07.02.03:668][171]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 6.TickLoopTickCommandletStatsTimeSec=0.000007
+[2020.09.16-07.02.03:668][171]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2020.09.16-07.02.03:668][171]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DDC Summary Stats
+[2020.09.16-07.02.03:668][171]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: =================
+[2020.09.16-07.02.03:668][171]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGetHits    =       468
+[2020.09.16-07.02.03:668][171]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGets       =       469
+[2020.09.16-07.02.03:669][171]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGetHitPct  =  0.997868
+[2020.09.16-07.02.03:669][171]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: LocalGetHitPct  =  0.515991
+[2020.09.16-07.02.03:669][171]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: SharedGetHitPct =  0.000000
+[2020.09.16-07.02.03:669][171]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: OtherGetHitPct  =  0.481876
+[2020.09.16-07.02.03:669][171]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GetMissPct      =  0.002132
+[2020.09.16-07.02.03:669][171]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPutHits    =         0
+[2020.09.16-07.02.03:669][171]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPuts       =         0
+[2020.09.16-07.02.03:669][171]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPutHitPct  =  0.000000
+[2020.09.16-07.02.03:669][171]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: PutMissPct      =  0.000000
+[2020.09.16-07.02.03:669][171]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2020.09.16-07.02.03:669][171]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DDC Resource Stats
+[2020.09.16-07.02.03:669][171]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: =======================================================================================================
+[2020.09.16-07.02.03:669][171]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+[2020.09.16-07.02.03:669][171]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+[2020.09.16-07.02.03:670][171]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GlobalShader                                    0.49                   0.49             0          6.32
+[2020.09.16-07.02.03:685][172]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MaterialShader                                  0.31                   0.31             0          3.90
+[2020.09.16-07.02.03:685][172]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Texture (Inline)                                0.21                   0.21             0         38.28
+[2020.09.16-07.02.03:685][172]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Texture (Streaming)                             0.21                   0.00             0         51.73
+[2020.09.16-07.02.03:685][172]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: StaticMesh                                      0.14                   0.14             0          0.74
+[2020.09.16-07.02.03:685][172]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: PhysX (BodySetup)                               0.03                   0.03             0          0.48
+[2020.09.16-07.02.03:685][172]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: NavCollision                                    0.01                   0.01             0          0.02
+[2020.09.16-07.02.03:685][172]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DistanceField                                   0.00                   0.00             0          0.00
+[2020.09.16-07.02.03:685][172]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: SoundWave                                       0.00                   0.00             0          0.02
+[2020.09.16-07.02.03:685][172]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2020.09.16-07.02.03:685][172]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Warning/Error Summary (Unique only)
+[2020.09.16-07.02.03:685][172]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: -----------------------------------
+[2020.09.16-07.02.03:685][172]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: While loading '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Materials/Proto_Material.uasset' failed to load '/Game/PixelArena/Sprites/Prototype/Dark/texture_13': Can't find file.
+[2020.09.16-07.02.03:685][172]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogMaterial: Warning: C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Content\PixelArena\Materials\Proto_Material.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.09.16-07.02.03:685][172]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2020.09.16-07.02.03:686][172]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Success - 0 error(s), 9 warning(s)
+[2020.09.16-07.02.03:686][172]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2020.09.16-07.02.03:686][172]UATHelper: Packaging (Windows (64-bit)):   
+[2020.09.16-07.02.03:686][172]UATHelper: Packaging (Windows (64-bit)):   Execution of commandlet took:  8.59 seconds
+[2020.09.16-07.02.04:867][243]UATHelper: Packaging (Windows (64-bit)):   LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.09.16-07.02.06:682][352]UATHelper: Packaging (Windows (64-bit)): Took 37.4393194s to run UE4Editor-Cmd.exe, ExitCode=0
+[2020.09.16-07.02.06:717][354]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND COMPLETED **********
+[2020.09.16-07.02.06:735][355]UATHelper: Packaging (Windows (64-bit)): ********** STAGE COMMAND STARTED **********
+[2020.09.16-07.02.06:867][363]UATHelper: Packaging (Windows (64-bit)): Creating Staging Manifest...
+[2020.09.16-07.02.06:950][368]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\BaseEditor.ini
+[2020.09.16-07.02.06:950][368]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\BaseEditorKeyBindings.ini
+[2020.09.16-07.02.06:950][368]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\BaseEditorPerProjectUserSettings.ini
+[2020.09.16-07.02.06:950][368]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\BaseEditorSettings.ini
+[2020.09.16-07.02.06:950][368]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\BaseLightmass.ini
+[2020.09.16-07.02.06:950][368]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\BasePakFileRules.ini
+[2020.09.16-07.02.06:950][368]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\Localization\Category.ini
+[2020.09.16-07.02.06:950][368]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\Localization\Editor.ini
+[2020.09.16-07.02.06:950][368]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\Localization\EditorTutorials.ini
+[2020.09.16-07.02.06:950][368]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\Localization\Engine.ini
+[2020.09.16-07.02.06:950][368]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\Localization\Keywords.ini
+[2020.09.16-07.02.06:950][368]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\Localization\PortableObjectExport.ini
+[2020.09.16-07.02.06:950][368]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\Localization\PortableObjectImport.ini
+[2020.09.16-07.02.06:950][368]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\Localization\PropertyNames.ini
+[2020.09.16-07.02.06:950][368]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\Localization\RepairData.ini
+[2020.09.16-07.02.06:950][368]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\Localization\ToolTips.ini
+[2020.09.16-07.02.06:951][368]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.25\Engine\Config\Localization\WordCount.ini
+[2020.09.16-07.02.06:968][369]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Config\DefaultEditor.ini
+[2020.09.16-07.02.06:968][369]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Config\DefaultEditorSettings.ini
+[2020.09.16-07.02.07:815][420]UATHelper: Packaging (Windows (64-bit)): Cleaning Stage Directory: C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Saved\StagedBuilds\WindowsNoEditor
+[2020.09.16-07.02.07:900][425]UATHelper: Packaging (Windows (64-bit)): Creating pak using staging manifest.
+[2020.09.16-07.02.08:450][458]UATHelper: Packaging (Windows (64-bit)): Executing 1 UnrealPak command...
+[2020.09.16-07.02.18:452][ 58]UATHelper: Packaging (Windows (64-bit)): Waiting for child processes to complete (0/1)
+[2020.09.16-07.02.19:134][ 99]UATHelper: Packaging (Windows (64-bit)): Waiting for child processes to complete (1/1)
+[2020.09.16-07.02.19:134][ 99]UATHelper: Packaging (Windows (64-bit)): Output from: C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\PixelArena.uproject C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Saved\StagedBuilds\WindowsNoEditor\PixelArena\Content\Paks\PixelArena-WindowsNoEditor.pak -create="C:\Users\brade\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_4.25\PakList_PixelArena-WindowsNoEditor.txt" -cryptokeys=C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Saved\Cooked\WindowsNoEditor\PixelArena\Metadata\Crypto.json -order=C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log -patchpaddingalign=2048 -platform=Windows -compressionformats=  -multiprocess -abslog="C:\Users\brade\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_4.25\UnrealPak-PixelArena-WindowsNoEditor-2020.09.16-19.02.08.txt"
+[2020.09.16-07.02.19:134][ 99]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Parsing crypto keys from a crypto key cache file
+[2020.09.16-07.02.19:134][ 99]UATHelper: Packaging (Windows (64-bit)):   LogCompression: Display: FCompression::GetCompressionFormat - Unable to find a module or plugin for compression format -multiprocess
+[2020.09.16-07.02.19:134][ 99]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Loading response file C:\Users\brade\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_4.25\PakList_PixelArena-WindowsNoEditor.txt
+[2020.09.16-07.02.19:134][ 99]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Added 2052 entries to add to pak file.
+[2020.09.16-07.02.19:134][ 99]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Loading pak order file C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log...
+[2020.09.16-07.02.19:134][ 99]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Finished loading pak order file C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log.
+[2020.09.16-07.02.19:134][ 99]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Collecting files to add to pak file...
+[2020.09.16-07.02.19:134][ 99]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Collected 2052 files in 0.02s.
+[2020.09.16-07.02.19:134][ 99]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Creating pak C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Saved\StagedBuilds\WindowsNoEditor\PixelArena\Content\Paks\PixelArena-WindowsNoEditor.pak.
+[2020.09.16-07.02.19:134][ 99]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.16-07.02.19:134][ 99]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: DISABLING pak file index freezing (all must be true: HasPlatformInfo? true - TargetIs64Bit? true - NoRuntimeUnloading? true - Unencrypted? true, 'Windows' != 'Windows')
+[2020.09.16-07.02.19:134][ 99]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Added 2052 files, 124883873 bytes total, time 4.70s.
+[2020.09.16-07.02.19:134][ 99]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Encryption - DISABLED
+[2020.09.16-07.02.19:134][ 99]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Unreal pak executed in 4.797180 seconds
+[2020.09.16-07.02.19:134][ 99]UATHelper: Packaging (Windows (64-bit)): UnrealPak terminated with exit code 0
+[2020.09.16-07.02.19:189][102]UATHelper: Packaging (Windows (64-bit)): Copying NonUFSFiles to staging directory: C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Saved\StagedBuilds\WindowsNoEditor
+[2020.09.16-07.02.24:085][396]UATHelper: Packaging (Windows (64-bit)): ********** STAGE COMMAND COMPLETED **********
+[2020.09.16-07.02.24:104][397]UATHelper: Packaging (Windows (64-bit)): ********** PACKAGE COMMAND STARTED **********
+[2020.09.16-07.02.24:104][397]UATHelper: Packaging (Windows (64-bit)): ********** PACKAGE COMMAND COMPLETED **********
+[2020.09.16-07.02.24:105][397]UATHelper: Packaging (Windows (64-bit)): ********** ARCHIVE COMMAND STARTED **********
+[2020.09.16-07.02.24:105][397]UATHelper: Packaging (Windows (64-bit)): Archiving to C:/Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Build
+[2020.09.16-07.02.28:617][668]UATHelper: Packaging (Windows (64-bit)): ********** ARCHIVE COMMAND COMPLETED **********
+[2020.09.16-07.02.28:617][668]UATHelper: Packaging (Windows (64-bit)): BUILD SUCCESSFUL
+[2020.09.16-07.02.28:635][669]UATHelper: Packaging (Windows (64-bit)): AutomationTool exiting with ExitCode=0 (Success)
