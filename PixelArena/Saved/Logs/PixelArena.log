@@ -5717,3 +5717,226 @@ Purging the undo buffer...
 [2020.09.16-01.36.34:592][449]AssetCheck: New page: Asset Save: ArenaGreatCharacterBP
 [2020.09.16-01.36.34:592][449]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/ArenaGreatCharacterBP.ArenaGreatCharacterBP
 [2020.09.16-01.36.38:221][646]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PixelArena/Blueprints/ArenaGreatCharacterBP.ArenaGreatCharacterBP
+[2020.09.16-01.38.53:831][  2]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/ArenaGreatCharacterBP9C5EC5354C8C7D8901A1BEA8F5AB619E.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/ArenaGreatCharacterBP.uasset'
+[2020.09.16-01.38.53:857][  2]AssetCheck: New page: Asset Save: ArenaGreatCharacterBP
+[2020.09.16-01.38.53:857][  2]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/ArenaGreatCharacterBP.ArenaGreatCharacterBP
+[2020.09.16-01.39.52:515][379]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.09.16-01.40.14:953][713]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.09.16-01.40.30:088][596]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.09.16-01.40.43:742][393]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.09.16-01.41.04:547][624]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.09.16-01.41.29:364][ 96]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_South_Slash42352E96408B0273646D06B2E7E1CCAE.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_South_Slash.uasset'
+[2020.09.16-01.41.29:764][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   5.49ms
+[2020.09.16-01.41.29:833][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2020.09.16-01.41.29:877][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.09.16-01.41.30:068][ 96]AssetCheck: New page: Asset Save: Character_South_Slash
+[2020.09.16-01.41.30:068][ 96]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_South_Slash.Character_South_Slash
+[2020.09.16-01.41.42:879][849]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_South_Charging22082B9C4BB212AD404DE191CCE74F35.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_South_Charging.uasset'
+[2020.09.16-01.41.43:237][849]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.09.16-01.41.43:296][849]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.09.16-01.41.43:336][849]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.09.16-01.41.43:384][849]AssetCheck: New page: Asset Save: Character_South_Charging
+[2020.09.16-01.41.43:384][849]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_South_Charging.Character_South_Charging
+[2020.09.16-01.41.49:448][202]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_North_Charging561F531749A75F0BA9F2E79469E5A1FD.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_North_Charging.uasset'
+[2020.09.16-01.41.49:807][202]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.09.16-01.41.49:868][202]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2020.09.16-01.41.49:911][202]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.09.16-01.41.49:962][202]AssetCheck: New page: Asset Save: Character_North_Charging
+[2020.09.16-01.41.49:962][202]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_North_Charging.Character_North_Charging
+[2020.09.16-01.41.57:634][640]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.09.16-01.42.10:197][365]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.09.16-01.42.21:466][ 26]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.09.16-01.42.38:944][991]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_West_SlashEEAF189C47723E6C5AF73BAE4A36A24D.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_West_Slash.uasset'
+[2020.09.16-01.42.38:958][991]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_East_ChargingDB4D495344A2048D6FA23EA313AE8759.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_East_Charging.uasset'
+[2020.09.16-01.42.38:973][991]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_East_SlashCA37520440E46F5B8E261AA21B379D50.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_East_Slash.uasset'
+[2020.09.16-01.42.39:054][991]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_North_ChargingD77AAFB5437F1F0BE9C898AB2294BB15.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_North_Charging.uasset'
+[2020.09.16-01.42.39:075][991]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_Slash_North63121C7C46F7E78F9F5A5FB817E9FB6E.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_Slash_North.uasset'
+[2020.09.16-01.42.39:171][991]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_South_Charging0F838461450C8A25F3F39EA7C959D7B5.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_South_Charging.uasset'
+[2020.09.16-01.42.39:254][991]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_South_Slash896D68234F4DBE7A0B59839705CC9269.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_South_Slash.uasset'
+[2020.09.16-01.42.39:282][991]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_West_Charging65BC0C044645500CB0621BAC66F8FD45.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_West_Charging.uasset'
+[2020.09.16-01.42.39:404][991]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.16-01.42.39:404][991]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_West_Slash.Character_West_Slash
+[2020.09.16-01.42.39:404][991]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_East_Charging.Character_East_Charging
+[2020.09.16-01.42.39:404][991]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_East_Slash.Character_East_Slash
+[2020.09.16-01.42.39:404][991]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_North_Charging.Character_North_Charging
+[2020.09.16-01.42.39:404][991]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_Slash_North.Character_Slash_North
+[2020.09.16-01.42.39:404][991]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_South_Charging.Character_South_Charging
+[2020.09.16-01.42.39:404][991]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_South_Slash.Character_South_Slash
+[2020.09.16-01.42.39:404][991]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_West_Charging.Character_West_Charging
+[2020.09.16-01.42.44:720][232]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_East_Charging.Character_East_Charging
+[2020.09.16-01.43.29:524][874]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_East_Charging45C3B23246F6C217E51829AA0F9524C5.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_East_Charging.uasset'
+[2020.09.16-01.43.29:544][874]AssetCheck: New page: Asset Save: Character_East_Charging
+[2020.09.16-01.43.29:544][874]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_East_Charging.Character_East_Charging
+[2020.09.16-01.44.00:391][716]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_East_ChargingE920391D40ED2E133A5C01918AEB6FC6.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_East_Charging.uasset'
+[2020.09.16-01.44.00:412][716]AssetCheck: New page: Asset Save: Character_East_Charging
+[2020.09.16-01.44.00:412][716]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_East_Charging.Character_East_Charging
+[2020.09.16-01.44.05:999][ 39]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_North_Charging.Character_North_Charging
+[2020.09.16-01.44.10:808][305]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_North_Charging1AC069284B6EC14460A717A4030D0EDC.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_North_Charging.uasset'
+[2020.09.16-01.44.10:827][305]AssetCheck: New page: Asset Save: Character_North_Charging
+[2020.09.16-01.44.10:827][305]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_North_Charging.Character_North_Charging
+[2020.09.16-01.44.13:136][439]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_South_Charging.Character_South_Charging
+[2020.09.16-01.44.16:182][603]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_South_ChargingBE3F4C1C4A4AEEBDB523678323C82DFC.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_South_Charging.uasset'
+[2020.09.16-01.44.16:204][603]AssetCheck: New page: Asset Save: Character_South_Charging
+[2020.09.16-01.44.16:204][603]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_South_Charging.Character_South_Charging
+[2020.09.16-01.44.18:069][708]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_West_Charging.Character_West_Charging
+[2020.09.16-01.44.20:750][846]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_West_Charging85E7A65B4CD950AB7F3BAAB0B85BAEC2.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_West_Charging.uasset'
+[2020.09.16-01.44.20:772][846]AssetCheck: New page: Asset Save: Character_West_Charging
+[2020.09.16-01.44.20:772][846]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_West_Charging.Character_West_Charging
+[2020.09.16-01.44.22:479][947]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.09.16-01.44.22:479][947]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.16-01.44.22:898][969]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.09.16-01.44.22:898][969]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.16-01.44.23:584][  8]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.09.16-01.44.23:584][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.16-01.44.25:455][117]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.09.16-01.44.25:455][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.16-01.44.29:857][369]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_East_Charging.Character_East_Charging
+[2020.09.16-01.44.48:947][501]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.09.16-01.44.48:947][501]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.16-01.44.59:254][ 81]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_East_ChargingC938525B445994CF17405E9126ABFC0C.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_East_Charging.uasset'
+[2020.09.16-01.44.59:271][ 81]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_East_SlashDB31E17C4ADFE02152F9B290C9947456.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_East_Slash.uasset'
+[2020.09.16-01.44.59:287][ 81]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_North_Charging25EA54014EF0817098FD5C8AD9025266.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_North_Charging.uasset'
+[2020.09.16-01.44.59:304][ 81]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_Slash_NorthDFA06FBD44B404A66BE48BAFA064586B.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_Slash_North.uasset'
+[2020.09.16-01.44.59:324][ 81]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_South_ChargingD7F3F0EE4A96EC612E8DC9A8216EB362.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_South_Charging.uasset'
+[2020.09.16-01.44.59:341][ 81]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_South_Slash0B600E5D4455B8AC38A292A0D6672D32.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_South_Slash.uasset'
+[2020.09.16-01.44.59:358][ 81]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_West_ChargingE72815B342CC875E2883DC96104FA757.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_West_Charging.uasset'
+[2020.09.16-01.44.59:386][ 81]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_West_Slash43A1273743765C088E82B5839CA22859.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_West_Slash.uasset'
+[2020.09.16-01.45.02:797][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   7.21ms
+[2020.09.16-01.45.02:884][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   6.65ms
+[2020.09.16-01.45.02:957][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2020.09.16-01.45.03:042][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.09.16-01.45.03:105][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2020.09.16-01.45.03:166][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.09.16-01.45.03:228][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.09.16-01.45.03:282][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2020.09.16-01.45.03:357][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   5.21ms
+[2020.09.16-01.45.03:412][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2020.09.16-01.45.03:613][ 81]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.16-01.45.03:613][ 81]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_East_Charging.Character_East_Charging
+[2020.09.16-01.45.03:613][ 81]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_East_Slash.Character_East_Slash
+[2020.09.16-01.45.03:613][ 81]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_North_Charging.Character_North_Charging
+[2020.09.16-01.45.03:613][ 81]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_Slash_North.Character_Slash_North
+[2020.09.16-01.45.03:613][ 81]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_South_Charging.Character_South_Charging
+[2020.09.16-01.45.03:613][ 81]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_South_Slash.Character_South_Slash
+[2020.09.16-01.45.03:613][ 81]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_West_Charging.Character_West_Charging
+[2020.09.16-01.45.03:613][ 81]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_West_Slash.Character_West_Slash
+[2020.09.16-01.45.08:298][315]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_West_Slash.Character_West_Slash
+[2020.09.16-01.45.17:705][869]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.09.16-01.45.17:706][869]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.16-01.47.04:907][141]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/ArenaGreatCharacterBP3D5A235F40C5584B93E8F782C07EA9B0.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/ArenaGreatCharacterBP.uasset'
+[2020.09.16-01.47.04:932][141]AssetCheck: New page: Asset Save: ArenaGreatCharacterBP
+[2020.09.16-01.47.04:932][141]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/ArenaGreatCharacterBP.ArenaGreatCharacterBP
+[2020.09.16-01.48.49:080][181]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/ArenaGreatCharacterBP7086F1A6497D62DA0AF1B4932E0D8EEC.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/ArenaGreatCharacterBP.uasset'
+[2020.09.16-01.48.49:104][181]AssetCheck: New page: Asset Save: ArenaGreatCharacterBP
+[2020.09.16-01.48.49:104][181]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/ArenaGreatCharacterBP.ArenaGreatCharacterBP
+[2020.09.16-01.48.58:003][692]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/ArenaGreatCharacterBP2F1F0EC24590269C392BB3AD793AB31B.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/ArenaGreatCharacterBP.uasset'
+[2020.09.16-01.48.58:024][692]AssetCheck: New page: Asset Save: ArenaGreatCharacterBP
+[2020.09.16-01.48.58:024][692]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/ArenaGreatCharacterBP.ArenaGreatCharacterBP
+[2020.09.16-01.48.58:181][694]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/ArenaGreatCharacterBP3A9416E744FE0177F7C8FAA6A285A66A.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/ArenaGreatCharacterBP.uasset'
+[2020.09.16-01.48.58:208][694]AssetCheck: New page: Asset Save: ArenaGreatCharacterBP
+[2020.09.16-01.48.58:208][694]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/ArenaGreatCharacterBP.ArenaGreatCharacterBP
+[2020.09.16-01.48.58:862][733]BlueprintLog: New page: Compile ArenaGreatCharacterBP
+[2020.09.16-01.48.58:890][733]LogBlueprint: Error: [Compiler ArenaGreatCharacterBP] This blueprint (self) is not a PaperFlipbookComponent, therefore ' Target ' must have a connection.
+[2020.09.16-01.48.59:019][733]LogUObjectHash: Compacting FUObjectHashTables data took   5.97ms
+[2020.09.16-01.49.10:099][371]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/ArenaGreatCharacterBP3C6295C74E3947A7FB87A58EFE816B74.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/ArenaGreatCharacterBP.uasset'
+[2020.09.16-01.49.10:119][371]AssetCheck: New page: Asset Save: ArenaGreatCharacterBP
+[2020.09.16-01.49.10:119][371]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/ArenaGreatCharacterBP.ArenaGreatCharacterBP
+[2020.09.16-01.49.11:150][430]BlueprintLog: New page: Compile ArenaGreatCharacterBP
+[2020.09.16-01.49.11:230][430]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2020.09.16-01.49.14:214][601]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.16-01.49.14:235][601]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.16-01.49.14:238][601]PIE: New page: PIE session: Main (Sep 17, 2020, 1:49:14 AM)
+[2020.09.16-01.49.14:242][601]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.09.16-01.49.14:244][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002867s)
+[2020.09.16-01.49.14:247][601]LogAIModule: Creating AISystem for world Main
+[2020.09.16-01.49.14:248][601]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020D3A615E00), frame # 185601
+[2020.09.16-01.49.14:248][601]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020E23554B80), frame # 185601
+[2020.09.16-01.49.14:249][601]LogPlayLevel: PIE: World Init took: (0.003894s)
+[2020.09.16-01.49.14:249][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.007071s)
+[2020.09.16-01.49.14:289][601]LogUObjectHash: Compacting FUObjectHashTables data took   4.89ms
+[2020.09.16-01.49.14:292][601]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.16-01.49.14:292][601]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.16-01.49.14:292][601]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.16-01.49.14:292][601]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.16-01.49.14:292][601]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.16-01.49.14:292][601]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.16-01.49.14:292][601]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.16-01.49.14:292][601]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.16-01.49.14:293][601]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.16-01.49.14:293][601]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.16-01.49.14:305][601]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.16-01.49.14:305][601]LogAudioMixer: Display: 1: FrontRight
+[2020.09.16-01.49.14:355][601]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio(SST))
+[2020.09.16-01.49.14:356][601]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.16-01.49.14:356][601]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.16-01.49.14:356][601]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.16-01.49.14:358][601]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.16-01.49.14:383][601]LogInit: FAudioDevice initialized.
+[2020.09.16-01.49.14:407][601]LogLoad: Game class is 'PixelArenaGame_C'
+[2020.09.16-01.49.14:412][601]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.09.16-13.49.14
+[2020.09.16-01.49.14:413][601]LogWorld: Bringing up level for play took: 0.003163
+[2020.09.16-01.49.14:414][601]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2020.09.16-01.49.14:423][601]PIE: Server logged in
+[2020.09.16-01.49.14:425][601]PIE: Play in editor total start time 0.191 seconds.
+[2020.09.16-01.49.16:992][704]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.16-01.49.16:992][704]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.09.16-01.49.16:992][704]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.09.16-01.49.16:993][704]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.16-01.49.17:016][704]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.16-01.49.17:022][704]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.16-01.49.17:086][704]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.16-01.49.17:087][704]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020D3A615E00), frame # 185704
+[2020.09.16-01.49.17:088][704]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020E23554B80), frame # 185704
+[2020.09.16-01.49.17:092][704]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2020.09.16-01.49.18:665][705]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2020.09.16-01.49.25:587][108]Cmd: DELETE
+[2020.09.16-01.49.25:588][108]Cmd: ACTOR DELETE
+[2020.09.16-01.49.25:615][108]LogEditorActor: Deleted Actor: ArenaShieldCharacterBP_C
+[2020.09.16-01.49.25:667][108]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2020.09.16-01.49.25:670][108]LogEditorActor: Deleted 1 Actors (0.059 secs)
+[2020.09.16-01.49.32:370][443]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.16-01.49.32:398][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.16-01.49.32:398][443]PIE: New page: PIE session: Main (Sep 17, 2020, 1:49:32 AM)
+[2020.09.16-01.49.32:399][443]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.09.16-01.49.32:401][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001787s)
+[2020.09.16-01.49.32:403][443]LogAIModule: Creating AISystem for world Main
+[2020.09.16-01.49.32:403][443]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020E55344A00), frame # 186443
+[2020.09.16-01.49.32:403][443]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020E5177A340), frame # 186443
+[2020.09.16-01.49.32:403][443]LogPlayLevel: PIE: World Init took: (0.001698s)
+[2020.09.16-01.49.32:403][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.003704s)
+[2020.09.16-01.49.32:446][443]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2020.09.16-01.49.32:448][443]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.16-01.49.32:448][443]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.16-01.49.32:448][443]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.16-01.49.32:449][443]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.16-01.49.32:449][443]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.16-01.49.32:449][443]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.16-01.49.32:449][443]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.16-01.49.32:449][443]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.16-01.49.32:450][443]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.16-01.49.32:450][443]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.16-01.49.32:456][443]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.16-01.49.32:456][443]LogAudioMixer: Display: 1: FrontRight
+[2020.09.16-01.49.32:490][443]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio(SST))
+[2020.09.16-01.49.32:491][443]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.16-01.49.32:491][443]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.16-01.49.32:491][443]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.16-01.49.32:492][443]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.16-01.49.32:512][443]LogInit: FAudioDevice initialized.
+[2020.09.16-01.49.32:520][443]LogLoad: Game class is 'PixelArenaGame_C'
+[2020.09.16-01.49.32:523][443]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.09.16-13.49.32
+[2020.09.16-01.49.32:523][443]LogWorld: Bringing up level for play took: 0.002331
+[2020.09.16-01.49.32:524][443]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2020.09.16-01.49.32:527][443]PIE: Server logged in
+[2020.09.16-01.49.32:528][443]PIE: Play in editor total start time 0.139 seconds.
+[2020.09.16-01.49.55:640][823]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.16-01.49.55:640][823]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.09.16-01.49.55:641][823]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.09.16-01.49.55:641][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.16-01.49.55:656][823]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.16-01.49.55:664][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.16-01.49.55:707][823]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.16-01.49.55:740][823]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020E5177A340), frame # 187823
+[2020.09.16-01.49.55:740][823]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020E55344A00), frame # 187823
+[2020.09.16-01.49.55:746][823]LogUObjectHash: Compacting FUObjectHashTables data took   5.38ms
+[2020.09.16-01.49.55:814][824]LogPlayLevel: Display: Destroying online subsystem :Context_38
