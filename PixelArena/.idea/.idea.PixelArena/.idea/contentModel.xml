@@ -43400,6 +43400,7 @@
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="PixelArena.sln" t="IncludeFlat" />
+      <e p="PixelArena.sln.DotSettings.user" t="Include" />
       <e p="PixelArena.uproject" t="Include" />
       <e p="Source" t="Include">
         <e p="PixelArena" t="Include">
@@ -43408,6 +43409,8 @@
           <e p="PixelArena.Build.cs" t="Include" />
           <e p="PixelArena.cpp" t="Include" />
           <e p="PixelArena.h" t="Include" />
+          <e p="PixelArenaGameInstance.cpp" t="Include" />
+          <e p="PixelArenaGameInstance.h" t="Include" />
         </e>
         <e p="PixelArena.Target.cs" t="Include" />
         <e p="PixelArenaEditor.Target.cs" t="Include" />

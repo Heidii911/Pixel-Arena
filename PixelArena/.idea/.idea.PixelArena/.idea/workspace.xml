@@ -35,28 +35,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f7a4918-b30b-4979-9236-ab64074f3555" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Levels/Menu.umap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Blueprints/SpawnpointCharacterBP.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Game/PixelArenaGameInstance.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Game/PixelArenaGameMode.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/PixelArena/PixelArenaGameInstance.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/PixelArena/PixelArenaGameInstance.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PixelArena/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PixelArena/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PixelArena/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PixelArena/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PixelArena/Blueprints/ArenaGreatCharacterBP.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PixelArena/Blueprints/ArenaGreatCharacterBP.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/PixelArena/Game/PixelArenaGame.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PixelArena/Game/PixelArenaGame.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/PixelArena/Levels/Main.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PixelArena/Levels/Main.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/PixelArena/Levels/Menu.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PixelArena/Levels/Menu.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/PixelArena/UI/UIClassSelect.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PixelArena/UI/UIClassSelect.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/PixelArenaEditor/ActionHistory.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/PixelArenaEditor/ActionHistory.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/PixelArenaEditor/Development/HotReload.state" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/PixelArenaEditor/Development/HotReload.state" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/PixelArenaEditor/Development/Metadata-HotReload.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/PixelArenaEditor/Development/Metadata-HotReload.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/PixelArena/ArenaCharacter.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/PixelArena/ArenaCharacter.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/PixelArena/ArenaCharacter.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/PixelArena/ArenaCharacter.generated.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/PixelArenaEditor/Development/PixelArenaEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/PixelArenaEditor/Development/PixelArenaEditor.uhtmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/PixelArena/UE4Editor-PixelArena.dll.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/PixelArena/UE4Editor-PixelArena.dll.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/PixelArena/UE4Editor-PixelArena.lib.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/PixelArena/UE4Editor-PixelArena.lib.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/PixelArena/PixelArena.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/PixelArena/PixelArena.init.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Config/CoalescedSourceConfigs/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Config/CoalescedSourceConfigs/Engine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/PixelArena/Levels/Main_Auto1.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/PixelArena/Levels/Main_Auto1.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/PixelArena/Levels/Main_Auto2.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/PixelArena/Levels/Main_Auto2.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/PixelArena/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/PixelArena/Timestamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/PixelArena.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/PixelArena.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/PixelArena.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/PixelArena.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE4.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE4.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PixelArena.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/PixelArena.uproject" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/PixelArena.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/PixelArena.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PixelArena/ArenaCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PixelArena/ArenaCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PixelArena/ArenaCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PixelArena/ArenaCharacter.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +76,7 @@
       <list>
         <option value="$PROJECT_DIR$/Source/PixelArena/ArenaCharacter.h" />
         <option value="$PROJECT_DIR$/Source/PixelArena/ArenaCharacter.cpp" />
+        <option value="$PROJECT_DIR$/Source/PixelArena/PixelArenaGameInstance.h" />
       </list>
     </option>
   </component>
@@ -316,6 +322,7 @@
       <workItem from="1600137476162" duration="24889000" />
       <workItem from="1600213926740" duration="12896000" />
       <workItem from="1600229627835" duration="2692000" />
+      <workItem from="1600236264980" duration="981000" />
     </task>
     <servers />
   </component>
