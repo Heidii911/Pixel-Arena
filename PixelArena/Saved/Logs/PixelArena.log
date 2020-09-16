@@ -786,3 +786,98 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.16-05.07.13:395][620]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
 [2020.09.16-05.07.13:433][620]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
 [2020.09.16-05.07.13:448][620]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2020.09.16-05.13.29:166][541]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/PixelArena/UI/UIMain.UIMain
+[2020.09.16-05.13.30:307][541]LogSlate: Took 0.007225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.09.16-05.13.31:748][609]LogSlate: Window 'UIMain' being destroyed
+[2020.09.16-05.14.02:070][403]LogSlate: Took 0.012628 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.09.16-05.14.56:577][ 12]LogSlate: Last resort fallback font was requested. Font: '<unknown>', Character: '<unknown>'
+[2020.09.16-05.14.56:593][ 12]LogSlate: Took 0.014876 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2020.09.16-05.16.48:546][676]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/UI/UIMain" FILE="../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIMain.uasset" SILENT=true
+[2020.09.16-05.16.48:569][676]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/UIMain87FB76D84F5DF984AA4696AD6F5207D7.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIMain.uasset'
+[2020.09.16-05.16.48:595][676]AssetCheck: New page: Asset Save: UIMain
+[2020.09.16-05.16.48:595][676]LogContentValidation: Display: Validating WidgetBlueprint /Game/PixelArena/UI/UIMain.UIMain
+[2020.09.16-05.18.29:567][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/UI/UIMain" FILE="../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIMain.uasset" SILENT=true
+[2020.09.16-05.18.29:672][891]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/UIMainCE82D67A4FEADD398CA28B93FF55A7A9.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIMain.uasset'
+[2020.09.16-05.18.29:697][891]AssetCheck: New page: Asset Save: UIMain
+[2020.09.16-05.18.29:697][891]LogContentValidation: Display: Validating WidgetBlueprint /Game/PixelArena/UI/UIMain.UIMain
+[2020.09.16-05.18.39:933][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/UI/UIMain" FILE="../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIMain.uasset" SILENT=true
+[2020.09.16-05.18.39:995][490]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/UIMainD02A10894D06C1F8F9B0CEB482E39585.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIMain.uasset'
+[2020.09.16-05.18.40:015][490]AssetCheck: New page: Asset Save: UIMain
+[2020.09.16-05.18.40:015][490]LogContentValidation: Display: Validating WidgetBlueprint /Game/PixelArena/UI/UIMain.UIMain
+[2020.09.16-05.18.55:290][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/UI/UIMain" FILE="../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIMain.uasset" SILENT=true
+[2020.09.16-05.18.55:351][166]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/UIMainA064A57E46A4A3ED5F4316ACC486FE1B.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIMain.uasset'
+[2020.09.16-05.18.55:373][166]AssetCheck: New page: Asset Save: UIMain
+[2020.09.16-05.18.55:373][166]LogContentValidation: Display: Validating WidgetBlueprint /Game/PixelArena/UI/UIMain.UIMain
+[2020.09.16-05.19.09:869][ 29]LogEditorTransaction: Undo Add Widget
+[2020.09.16-05.20.48:480][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/UI/UIMain" FILE="../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIMain.uasset" SILENT=true
+[2020.09.16-05.20.48:541][691]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/UIMain16D6F2CB4FD231E6565C368107F04ADC.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIMain.uasset'
+[2020.09.16-05.20.48:559][691]AssetCheck: New page: Asset Save: UIMain
+[2020.09.16-05.20.48:560][691]LogContentValidation: Display: Validating WidgetBlueprint /Game/PixelArena/UI/UIMain.UIMain
+[2020.09.16-05.20.56:501][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/UI/UIMain" FILE="../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIMain.uasset" SILENT=true
+[2020.09.16-05.20.56:558][163]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/UIMainC19B04044821DA3F0AF04CBB1ECD3A24.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIMain.uasset'
+[2020.09.16-05.20.56:577][163]AssetCheck: New page: Asset Save: UIMain
+[2020.09.16-05.20.56:577][163]LogContentValidation: Display: Validating WidgetBlueprint /Game/PixelArena/UI/UIMain.UIMain
+[2020.09.16-05.20.56:701][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/UI/UIMain" FILE="../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIMain.uasset" SILENT=true
+[2020.09.16-05.20.56:756][169]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/UIMainC22171ED484717C97DCC4F83AAEB0F98.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIMain.uasset'
+[2020.09.16-05.20.56:773][169]AssetCheck: New page: Asset Save: UIMain
+[2020.09.16-05.20.56:773][169]LogContentValidation: Display: Validating WidgetBlueprint /Game/PixelArena/UI/UIMain.UIMain
+[2020.09.16-05.20.57:529][213]BlueprintLog: New page: Compile UIMain
+[2020.09.16-05.20.57:627][213]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2020.09.16-05.21.21:340][707]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/PixelArena/UI/UIClassSelect.UIClassSelect
+[2020.09.16-05.23.32:464][419]LogEditorTransaction: Undo Edit Y
+[2020.09.16-05.23.49:176][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/UI/UIClassSelect" FILE="../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIClassSelect.uasset" SILENT=true
+[2020.09.16-05.23.49:184][399]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/UIClassSelectD3DCE4A84CCFA9281FE90A87FF0B7BA6.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIClassSelect.uasset'
+[2020.09.16-05.23.49:204][399]AssetCheck: New page: Asset Save: UIClassSelect
+[2020.09.16-05.23.49:204][399]LogContentValidation: Display: Validating WidgetBlueprint /Game/PixelArena/UI/UIClassSelect.UIClassSelect
+[2020.09.16-05.24.02:310][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/UI/UIClassSelect" FILE="../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIClassSelect.uasset" SILENT=true
+[2020.09.16-05.24.02:366][179]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/UIClassSelect161B21224BDF46BCA0B9568C0BFB33A3.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIClassSelect.uasset'
+[2020.09.16-05.24.02:385][179]AssetCheck: New page: Asset Save: UIClassSelect
+[2020.09.16-05.24.02:385][179]LogContentValidation: Display: Validating WidgetBlueprint /Game/PixelArena/UI/UIClassSelect.UIClassSelect
+[2020.09.16-05.24.29:778][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/UI/UIClassSelect" FILE="../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIClassSelect.uasset" SILENT=true
+[2020.09.16-05.24.29:830][806]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/UIClassSelect77435EE646913299333592A516020B17.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIClassSelect.uasset'
+[2020.09.16-05.24.29:856][806]AssetCheck: New page: Asset Save: UIClassSelect
+[2020.09.16-05.24.29:856][806]LogContentValidation: Display: Validating WidgetBlueprint /Game/PixelArena/UI/UIClassSelect.UIClassSelect
+[2020.09.16-05.24.29:955][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/UI/UIClassSelect" FILE="../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIClassSelect.uasset" SILENT=true
+[2020.09.16-05.24.30:011][810]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/UIClassSelectAC3FB7BE472FA6A9A18AB7B9FA5B5504.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIClassSelect.uasset'
+[2020.09.16-05.24.30:027][810]AssetCheck: New page: Asset Save: UIClassSelect
+[2020.09.16-05.24.30:027][810]LogContentValidation: Display: Validating WidgetBlueprint /Game/PixelArena/UI/UIClassSelect.UIClassSelect
+[2020.09.16-05.25.45:531][163]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.09.16-05.25.45:531][163]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.09.16-05.26.35:360][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/UI/UIClassSelect" FILE="../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIClassSelect.uasset" SILENT=true
+[2020.09.16-05.26.35:417][144]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/UIClassSelect5969B5474688071A7B509BA43E11A81A.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIClassSelect.uasset'
+[2020.09.16-05.26.35:441][144]AssetCheck: New page: Asset Save: UIClassSelect
+[2020.09.16-05.26.35:441][144]LogContentValidation: Display: Validating WidgetBlueprint /Game/PixelArena/UI/UIClassSelect.UIClassSelect
+[2020.09.16-05.27.18:317][686]LogSlate: Window 'Color Picker' being destroyed
+[2020.09.16-05.27.42:345][107]LogSlate: Window 'Color Picker' being destroyed
+[2020.09.16-05.28.04:187][397]LogSlate: Window 'Color Picker' being destroyed
+[2020.09.16-05.28.08:397][640]LogSlate: Window 'Color Picker' being destroyed
+[2020.09.16-05.28.23:549][539]LogSlate: Window 'Color Picker' being destroyed
+[2020.09.16-05.29.11:432][388]LogEditorTransaction: Undo Edit Size
+[2020.09.16-05.29.22:880][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/UI/UIClassSelect" FILE="../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIClassSelect.uasset" SILENT=true
+[2020.09.16-05.29.22:943][ 49]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/UIClassSelect774963E0439BFF0F0E47D680A66DC8C2.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIClassSelect.uasset'
+[2020.09.16-05.29.22:966][ 49]AssetCheck: New page: Asset Save: UIClassSelect
+[2020.09.16-05.29.22:966][ 49]LogContentValidation: Display: Validating WidgetBlueprint /Game/PixelArena/UI/UIClassSelect.UIClassSelect
+[2020.09.16-05.29.23:530][ 81]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/UI/UIClassSelect" FILE="../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIClassSelect.uasset" SILENT=true
+[2020.09.16-05.29.23:588][ 81]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/UIClassSelect6C041AF540B0A6E4BA932BA4D5DF0521.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIClassSelect.uasset'
+[2020.09.16-05.29.23:603][ 81]AssetCheck: New page: Asset Save: UIClassSelect
+[2020.09.16-05.29.23:603][ 81]LogContentValidation: Display: Validating WidgetBlueprint /Game/PixelArena/UI/UIClassSelect.UIClassSelect
+[2020.09.16-05.29.24:724][141]BlueprintLog: New page: Compile UIClassSelect
+[2020.09.16-05.29.24:800][141]LogUObjectHash: Compacting FUObjectHashTables data took   5.44ms
+[2020.09.16-05.29.30:022][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/UI/UIClassSelect" FILE="../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIClassSelect.uasset" SILENT=true
+[2020.09.16-05.29.30:080][428]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/UIClassSelect43E280AE44BBA168919C4592DD3BDA49.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIClassSelect.uasset'
+[2020.09.16-05.29.30:099][428]AssetCheck: New page: Asset Save: UIClassSelect
+[2020.09.16-05.29.30:099][428]LogContentValidation: Display: Validating WidgetBlueprint /Game/PixelArena/UI/UIClassSelect.UIClassSelect
+[2020.09.16-05.29.30:791][470]BlueprintLog: New page: Compile UIClassSelect
+[2020.09.16-05.29.30:828][470]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2020.09.16-05.29.37:719][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/UI/UIClassSelect" FILE="../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIClassSelect.uasset" SILENT=true
+[2020.09.16-05.29.37:784][864]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/UIClassSelectC57D00F945EA0325A976F49194C6D505.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIClassSelect.uasset'
+[2020.09.16-05.29.37:804][864]AssetCheck: New page: Asset Save: UIClassSelect
+[2020.09.16-05.29.37:804][864]LogContentValidation: Display: Validating WidgetBlueprint /Game/PixelArena/UI/UIClassSelect.UIClassSelect
+[2020.09.16-05.29.47:408][437]BlueprintLog: New page: Compile UIClassSelect
+[2020.09.16-05.29.47:443][437]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2020.09.16-05.29.50:832][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/UI/UIClassSelect" FILE="../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIClassSelect.uasset" SILENT=true
+[2020.09.16-05.29.50:891][623]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/UIClassSelect634EF7114807AF78C0AC1B829B899107.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/UI/UIClassSelect.uasset'
+[2020.09.16-05.29.50:907][623]AssetCheck: New page: Asset Save: UIClassSelect
+[2020.09.16-05.29.50:907][623]LogContentValidation: Display: Validating WidgetBlueprint /Game/PixelArena/UI/UIClassSelect.UIClassSelect
+[2020.09.16-05.29.54:431][835]BlueprintLog: New page: Compile UIClassSelect
+[2020.09.16-05.29.54:467][835]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
