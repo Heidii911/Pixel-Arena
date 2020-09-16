@@ -49,6 +49,7 @@ void AArenaCharacter::SetVelocity(FVector v)
 void AArenaCharacter::PlayFlipbook(UPaperFlipbook* flipbook, bool loop)
 {
     GetSprite()->SetLooping(loop);
+    GetSprite()->Play();
     GetSprite()->SetFlipbook(flipbook);
 }
 
@@ -101,7 +102,10 @@ void AArenaCharacter::Tick(float DeltaSeconds)
     {
         case Idle:
             IdleState();
-            PlayFlipbook(IdleAnimations[Facing], true);
+            if (IdleAnimations.Contains(Facing))
+            {
+                PlayFlipbook(IdleAnimations[Facing], false);
+            }
             if (isMoving)
             {
                 CharacterState = Walking;
@@ -115,7 +119,10 @@ void AArenaCharacter::Tick(float DeltaSeconds)
             break;
         case Walking:
             WalkingState();
-            PlayFlipbook(WalkingAnimations[Facing], true);
+            if (WalkingAnimations.Contains(Facing))
+            {
+                PlayFlipbook(WalkingAnimations[Facing], true);
+            }
             if (!isMoving)
             {
                 CharacterState = Idle;

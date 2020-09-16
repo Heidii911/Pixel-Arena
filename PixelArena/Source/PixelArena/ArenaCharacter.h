@@ -40,10 +40,10 @@ class PIXELARENA_API AArenaCharacter : public APaperCharacter
 
 		// Properties
 		UPROPERTY(EditAnywhere, Category="Arena Character")
-		float MoveSpeed = 300;
-		UPROPERTY(VisibleAnywhere, Category="Arena Character|State")
+		float MoveSpeed = 400;
+		UPROPERTY(VisibleAnywhere, Category="Arena Character|State", BlueprintReadOnly)
 		TEnumAsByte<CharacterState> CharacterState = Idle;
-		UPROPERTY(VisibleAnywhere, Category="Arena Character|State")
+		UPROPERTY(VisibleAnywhere, Category="Arena Character|State", BlueprintReadOnly)
 		TEnumAsByte<Direction> Facing = South;
 		UPROPERTY(EditAnywhere, Category="Arena Character|Animations")
 		TMap<TEnumAsByte<Direction>, UPaperFlipbook*> IdleAnimations;
