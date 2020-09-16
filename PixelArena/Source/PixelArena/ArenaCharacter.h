@@ -72,6 +72,8 @@ class PIXELARENA_API AArenaCharacter : public APaperCharacter
 		UFUNCTION(BlueprintImplementableEvent, Category="Arena Character")
 		void AbilityState();
 		UFUNCTION(BlueprintImplementableEvent, Category="Arena Character")
+		void AbilityFinished();
+		UFUNCTION(BlueprintImplementableEvent, Category="Arena Character")
 		void AnimationFinished();
 
 	protected:
@@ -79,9 +81,14 @@ class PIXELARENA_API AArenaCharacter : public APaperCharacter
 		bool isMoving = false;
 		UPROPERTY(VisibleAnywhere, Category="Arena Character|State")
 		bool isAttacking = false;
+		UPROPERTY(VisibleAnywhere, Category="Arena Character|State")
+		bool isAbility = false;
 
 		FDateTime attackDownTime = -1;
 		bool attackDown = 0;
+
+		FDateTime abilityDownTime = -1;
+		bool abilityDown = 0;
 		
 		std::map<Direction, FDateTime> MoveInputMap;
 		FVector& Velocity = GetCharacterMovement()->Velocity;
@@ -89,8 +96,11 @@ class PIXELARENA_API AArenaCharacter : public APaperCharacter
 		void UpdateMovementInput(Direction direction, FDateTime time);
 		DECLARE_DELEGATE_TwoParams(UpdateMovementInputDelegate, Direction, FDateTime);
 
-		void UpdateAttackInput(bool attacking);
+		void UpdateAttackInput(bool active);
 		DECLARE_DELEGATE_OneParam(UpdateAttackInputDelegate, bool);
+
+		void UpdateAbilityInput(bool active);
+		DECLARE_DELEGATE_OneParam(UpdateAbilityInputDelegate, bool);
 
 	protected:
 		// Called every frame

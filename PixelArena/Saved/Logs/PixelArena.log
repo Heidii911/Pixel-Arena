@@ -5457,3 +5457,55 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.16-01.03.56:696][ 36]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020D9591D200), frame # 96036
 [2020.09.16-01.03.56:701][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
 [2020.09.16-01.03.56:738][ 37]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2020.09.16-01.06.11:415][161]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2020.09.16-01.06.11:479][161]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/MainBE7C0B2345A3EA943536F6BE30814F06.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap'
+[2020.09.16-01.06.11:554][161]AssetCheck: New page: Asset Save: Main
+[2020.09.16-01.06.11:554][161]LogContentValidation: Display: Validating World /Game/PixelArena/Levels/Main.Main
+[2020.09.16-01.07.10:727][669]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.09.16-01.07.22:717][374]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Sprites/Character/Character_South_Shield.Character_South_Shield
+[2020.09.16-01.07.22:910][375]LogRenderer: Reallocating scene render targets to support 1348x788 Format 10 NumSamples 1 (Frame:1).
+[2020.09.16-01.07.31:021][853]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_South_ShieldED31DC0F462B1C5D9CA71EA4309871ED.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Sprites/Character/Character_South_Shield.uasset'
+[2020.09.16-01.07.31:052][853]AssetCheck: New page: Asset Save: Character_South_Shield
+[2020.09.16-01.07.31:052][853]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Sprites/Character/Character_South_Shield.Character_South_Shield
+[2020.09.16-01.07.50:224][913]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_South_ShieldCB0872CC437B6B11B8142F9D0129C379.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_South_Shield.uasset'
+[2020.09.16-01.07.50:764][913]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2020.09.16-01.07.50:834][913]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2020.09.16-01.07.50:873][913]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.09.16-01.07.50:957][913]AssetCheck: New page: Asset Save: Character_South_Shield
+[2020.09.16-01.07.50:957][913]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_South_Shield.Character_South_Shield
+[2020.09.16-01.08.02:023][557]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.09.16-01.08.18:911][550]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.09.16-01.08.39:521][772]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_West_Shield1573959E452E829524B5899670FA1F43.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_West_Shield.uasset'
+[2020.09.16-01.08.39:537][772]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_North_Shield7F3D26F74ED71BECFFA577A110B785D5.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_North_Shield.uasset'
+[2020.09.16-01.08.40:260][772]LogUObjectHash: Compacting FUObjectHashTables data took   4.75ms
+[2020.09.16-01.08.40:333][772]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.09.16-01.08.40:410][772]LogUObjectHash: Compacting FUObjectHashTables data took   4.71ms
+[2020.09.16-01.08.40:482][772]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.09.16-01.08.40:575][772]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.16-01.08.40:575][772]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_West_Shield.Character_West_Shield
+[2020.09.16-01.08.40:575][772]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_North_Shield.Character_North_Shield
+[2020.09.16-01.08.48:265][180]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.09.16-01.08.59:208][818]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_East_Shield2C71B221445963B589DA5AB11883E3EC.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_East_Shield.uasset'
+[2020.09.16-01.08.59:553][818]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2020.09.16-01.08.59:614][818]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2020.09.16-01.08.59:654][818]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.09.16-01.08.59:698][818]AssetCheck: New page: Asset Save: Character_East_Shield
+[2020.09.16-01.08.59:698][818]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_East_Shield.Character_East_Shield
+[2020.09.16-01.09.02:579][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.09.16-01.09.02:651][971]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Main6565736A43060B0F2E15A28C13B2DC65.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap'
+[2020.09.16-01.09.02:705][971]AssetCheck: New page: Asset Save: Main
+[2020.09.16-01.09.02:705][971]LogContentValidation: Display: Validating World /Game/PixelArena/Levels/Main.Main
+[2020.09.16-01.09.24:461][222]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_North_ShieldD570F4644D46C717ED1542A86F5224CE.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_North_Shield.uasset'
+[2020.09.16-01.09.24:532][222]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_West_Shield623389F44D2D5B319D2F129DA069286E.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_West_Shield.uasset'
+[2020.09.16-01.09.24:597][222]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_South_Shield42CC4B4A4D32EA872087259D8C474ABD.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_South_Shield.uasset'
+[2020.09.16-01.09.24:665][222]LogSavePackage: Moving '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Saved/Character_East_ShieldD1284962425B771A3571C88FBC242A23.tmp' to '../../../../../../Users/brade/Documents/GitHub/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Character/Character_East_Shield.uasset'
+[2020.09.16-01.09.24:705][222]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.16-01.09.24:705][222]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_North_Shield.Character_North_Shield
+[2020.09.16-01.09.24:706][222]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_West_Shield.Character_West_Shield
+[2020.09.16-01.09.24:706][222]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_South_Shield.Character_South_Shield
+[2020.09.16-01.09.24:706][222]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Character/Character_East_Shield.Character_East_Shield
+[2020.09.16-01.09.28:203][427]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.09.16-01.09.28:203][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.16-01.09.29:838][518]BlueprintLog: New page: Compile ArenaShieldCharacterBP
+[2020.09.16-01.09.29:931][518]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2020.09.16-01.11.54:824][ 90]LogAudioMixer: Display: Audio Buffer Underrun detected.

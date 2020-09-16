@@ -35,9 +35,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f7a4918-b30b-4979-9236-ab64074f3555" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Content/PixelArena/Blueprints/ArenaShieldCharacterBP.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PixelArena/Blueprints/ArenaShieldCharacterBP.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Flipbooks/Character/Character_East_Shield.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Flipbooks/Character/Character_North_Shield.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Flipbooks/Character/Character_South_Shield.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Flipbooks/Character/Character_West_Shield.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/PixelArena/Levels/Main.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PixelArena/Levels/Main.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/PixelArena.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/PixelArena.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/PixelArena/ArenaCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PixelArena/ArenaCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/PixelArena/ArenaCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PixelArena/ArenaCharacter.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -293,7 +300,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600137413024</updated>
       <workItem from="1600137476162" duration="24889000" />
-      <workItem from="1600213926740" duration="3814000" />
+      <workItem from="1600213926740" duration="4753000" />
     </task>
     <servers />
   </component>

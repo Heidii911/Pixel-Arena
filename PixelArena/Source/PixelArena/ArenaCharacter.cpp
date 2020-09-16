@@ -83,16 +83,27 @@ void AArenaCharacter::UpdateMovementInput(Direction direction, FDateTime time)
     }
 }
 
-void AArenaCharacter::UpdateAttackInput(bool attacking)
+void AArenaCharacter::UpdateAttackInput(bool active)
 {
-    attackDown = attacking;
+    attackDown = active;
 
-    if (!isAttacking && attacking)
+    if (!isAttacking && active)
     {
         isAttacking = true;
         attackDownTime = FDateTime::Now();
     }
 }
+
+void AArenaCharacter::UpdateAbilityInput(bool active)
+{
+    abilityDown =  active;
+    if (!isAbility && active)
+    {
+        isAbility = true;
+        abilityDownTime = FDateTime::Now();
+    }
+}
+
 
 void AArenaCharacter::Tick(float DeltaSeconds)
 {
@@ -151,7 +162,20 @@ void AArenaCharacter::Tick(float DeltaSeconds)
             AttackState((FDateTime::Now() - attackDownTime).GetTotalMilliseconds(), attackDown);
             break;
         case Ability:
+            if (!isAbility && isMoving)
+            {
+                AbilityFinished();
+                CharacterState = Walking;
+                break;
+            }
+            if (!isAbility)
+            {
+                AbilityFinished();
+                CharacterState = Idle;
+                break;
+            }
             AbilityState();
+            break;
         default:
             break;
     }
@@ -172,4 +196,8 @@ void AArenaCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
     // Bind Attack Inputs
     PlayerInputComponent->BindAction<UpdateAttackInputDelegate>("Attack", IE_Pressed, this, &AArenaCharacter::UpdateAttackInput, true);
     PlayerInputComponent->BindAction<UpdateAttackInputDelegate>("Attack", IE_Released, this, &AArenaCharacter::UpdateAttackInput, false);
+
+    // Bind Ability Inputs
+    PlayerInputComponent->BindAction<UpdateAttackInputDelegate>("Ability", IE_Pressed, this, &AArenaCharacter::UpdateAbilityInput, true);
+    PlayerInputComponent->BindAction<UpdateAttackInputDelegate>("Ability", IE_Released, this, &AArenaCharacter::UpdateAbilityInput, false);
 }
