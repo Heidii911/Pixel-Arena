@@ -59,6 +59,8 @@ class PIXELARENA_API AArenaCharacter : public APaperCharacter
 		void SetVelocity(FVector velocity);
 		UFUNCTION(BlueprintCallable, Category="Arena Character")
 		void PlayFlipbook(UPaperFlipbook* flipbook, bool loop = false);
+		UFUNCTION(BlueprintCallable, Category="Arena Character")
+		void FinishAttack();
 
 		// Events
 		UFUNCTION(BlueprintImplementableEvent, Category="Arena Character")
@@ -66,19 +68,21 @@ class PIXELARENA_API AArenaCharacter : public APaperCharacter
 		UFUNCTION(BlueprintImplementableEvent, Category="Arena Character")
 	    void WalkingState();
 		UFUNCTION(BlueprintImplementableEvent, Category="Arena Character")
-		void AttackState(float deltaSeconds);
-		UFUNCTION(BlueprintImplementableEvent, Category="Arena Character")
-		void AttackStart();
-		UFUNCTION(BlueprintImplementableEvent, Category="Arena Character")
-		void AttackEnd();
+		void AttackState(float AttackTime, bool AttackDown);
 		UFUNCTION(BlueprintImplementableEvent, Category="Arena Character")
 		void AbilityState();
+		UFUNCTION(BlueprintImplementableEvent, Category="Arena Character")
+		void AnimationFinished();
 
 	protected:
 		UPROPERTY(VisibleAnywhere, Category="Arena Character|State")
 		bool isMoving = false;
 		UPROPERTY(VisibleAnywhere, Category="Arena Character|State")
 		bool isAttacking = false;
+
+		FDateTime attackDownTime = -1;
+		bool attackDown = 0;
+		
 		std::map<Direction, FDateTime> MoveInputMap;
 		FVector& Velocity = GetCharacterMovement()->Velocity;
 

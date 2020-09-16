@@ -13,6 +13,8 @@ AArenaCharacter::AArenaCharacter()
     MoveInputMap[East] = InputReleaseTime;
     MoveInputMap[South] = InputReleaseTime;
     MoveInputMap[West] = InputReleaseTime;
+
+    GetSprite()->OnFinishedPlaying.AddDynamic(this, &AArenaCharacter::AnimationFinished);
 }
 
 void AArenaCharacter::Move()
@@ -50,6 +52,12 @@ void AArenaCharacter::PlayFlipbook(UPaperFlipbook* flipbook, bool loop)
     GetSprite()->SetFlipbook(flipbook);
 }
 
+void AArenaCharacter::FinishAttack()
+{
+    isAttacking = false;
+    attackDownTime = -1;
+}
+
 void AArenaCharacter::UpdateMovementInput(Direction direction, FDateTime time)
 {
     // Update map
@@ -76,14 +84,14 @@ void AArenaCharacter::UpdateMovementInput(Direction direction, FDateTime time)
 
 void AArenaCharacter::UpdateAttackInput(bool attacking)
 {
-    isAttacking = attacking;
+    attackDown = attacking;
 
-    // if (attacking)
-    //     AttackStart();
-    // else
-    //     AttackEnd();
+    if (!isAttacking && attacking)
+    {
+        isAttacking = true;
+        attackDownTime = FDateTime::Now();
+    }
 }
-
 
 void AArenaCharacter::Tick(float DeltaSeconds)
 {
@@ -122,18 +130,18 @@ void AArenaCharacter::Tick(float DeltaSeconds)
             }
             break;
         case Attacking:
-            AttackState(DeltaSeconds);
             if (!isAttacking && isMoving)
             {
                 CharacterState = Walking;
                 break;
             }
-        
             if (!isAttacking)
             {
                 CharacterState = Idle;
                 break;
             }
+            
+            AttackState((FDateTime::Now() - attackDownTime).GetTotalMilliseconds(), attackDown);
             break;
         case Ability:
             AbilityState();
