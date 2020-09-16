@@ -9,7 +9,6 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UPaperFlipbook;
-struct FVector;
 #ifdef PIXELARENA_ArenaCharacter_generated_h
 #error "ArenaCharacter.generated.h already included, missing '#pragma once' in ArenaCharacter.h"
 #endif

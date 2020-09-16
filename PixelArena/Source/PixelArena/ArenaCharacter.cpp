@@ -41,9 +41,24 @@ void AArenaCharacter::ApplyVelocity(float speed, Direction direction)
 {
 }
 
-void AArenaCharacter::SetVelocity(FVector v)
+void AArenaCharacter::SetVelocity(float speed, Direction direction)
 {
-    Velocity = v;
+    switch (direction)
+    {
+    case North:
+        Velocity = FVector(0, 0, speed);
+        break;
+    case East:
+        Velocity = FVector(speed, 0, 0);
+        break;
+    case South:
+        Velocity = FVector(0, 0, -speed);
+        break;
+    case West:
+        Velocity = FVector(-speed, 0, 0);
+    default:
+        break;
+    }
 }
 
 void AArenaCharacter::PlayFlipbook(UPaperFlipbook* flipbook, bool loop)
@@ -93,8 +108,13 @@ void AArenaCharacter::UpdateFacing()
             recent = pair;
     }
 
-    MoveDirection = recent.Key;
-    Facing = recent.Key;
+    // Only update direction if we're actually moving
+    if (isMoving)
+    {
+        // TODO: Replace with Facing, Separate direction no longer needed
+        MoveDirection = recent.Key;
+        Facing = recent.Key;
+    }
 }
 
 void AArenaCharacter::UpdateAttackInput(bool active)
@@ -132,7 +152,7 @@ void AArenaCharacter::Tick(float DeltaSeconds)
             IdleState();
             if (IdleAnimations.Contains(Facing))
             {
-                PlayFlipbook(IdleAnimations[Facing], false);
+                PlayFlipbook(IdleAnimations[Facing], true);
             }
             if (isMoving)
             {
@@ -157,21 +177,20 @@ void AArenaCharacter::Tick(float DeltaSeconds)
             {
                 PlayFlipbook(WalkingAnimations[Facing], true);
             }
-            if (!isMoving)
-            {
-                CharacterState = Idle;
-                SetVelocity(FVector(0));
-                break;
-            }
             if (isAttacking)
             {
                 CharacterState = Attacking;
-                SetVelocity(FVector(0));
                 break;
             }
             if (isAbility)
             {
                 CharacterState = Ability;
+                break;
+            }
+            if (!isMoving)
+            {
+                SetVelocity(0, Facing);
+                CharacterState = Idle;
                 break;
             }
             break;

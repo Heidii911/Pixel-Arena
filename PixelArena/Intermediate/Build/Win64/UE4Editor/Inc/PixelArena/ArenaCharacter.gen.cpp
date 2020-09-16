@@ -20,7 +20,6 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 	PIXELARENA_API UClass* Z_Construct_UClass_AArenaCharacter();
 	PAPER2D_API UClass* Z_Construct_UClass_APaperCharacter();
 	PAPER2D_API UClass* Z_Construct_UClass_UPaperFlipbook_NoRegister();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FDateTime();
 // End Cross Module References
 	static UEnum* Direction_StaticEnum()
@@ -170,10 +169,11 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 	}
 	DEFINE_FUNCTION(AArenaCharacter::execSetVelocity)
 	{
-		P_GET_STRUCT(FVector,Z_Param_velocity);
+		P_GET_PROPERTY(FFloatProperty,Z_Param_speed);
+		P_GET_PROPERTY(FByteProperty,Z_Param_direction);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->SetVelocity(Z_Param_velocity);
+		P_THIS->SetVelocity(Z_Param_speed,Direction(Z_Param_direction));
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(AArenaCharacter::execApplyVelocity)
@@ -569,18 +569,22 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 	{
 		struct ArenaCharacter_eventSetVelocity_Parms
 		{
-			FVector velocity;
+			float speed;
+			TEnumAsByte<Direction> direction;
 		};
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_velocity;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_direction;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_speed;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AArenaCharacter_SetVelocity_Statics::NewProp_velocity = { "velocity", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ArenaCharacter_eventSetVelocity_Parms, velocity), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_AArenaCharacter_SetVelocity_Statics::NewProp_direction = { "direction", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ArenaCharacter_eventSetVelocity_Parms, direction), Z_Construct_UEnum_PixelArena_Direction, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AArenaCharacter_SetVelocity_Statics::NewProp_speed = { "speed", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ArenaCharacter_eventSetVelocity_Parms, speed), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AArenaCharacter_SetVelocity_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AArenaCharacter_SetVelocity_Statics::NewProp_velocity,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AArenaCharacter_SetVelocity_Statics::NewProp_direction,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AArenaCharacter_SetVelocity_Statics::NewProp_speed,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AArenaCharacter_SetVelocity_Statics::Function_MetaDataParams[] = {
@@ -588,7 +592,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		{ "ModuleRelativePath", "ArenaCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AArenaCharacter_SetVelocity_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AArenaCharacter, nullptr, "SetVelocity", nullptr, nullptr, sizeof(ArenaCharacter_eventSetVelocity_Parms), Z_Construct_UFunction_AArenaCharacter_SetVelocity_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AArenaCharacter_SetVelocity_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04820401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AArenaCharacter_SetVelocity_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AArenaCharacter_SetVelocity_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AArenaCharacter_SetVelocity_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AArenaCharacter, nullptr, "SetVelocity", nullptr, nullptr, sizeof(ArenaCharacter_eventSetVelocity_Parms), Z_Construct_UFunction_AArenaCharacter_SetVelocity_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AArenaCharacter_SetVelocity_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AArenaCharacter_SetVelocity_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AArenaCharacter_SetVelocity_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AArenaCharacter_SetVelocity()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -697,7 +701,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		{ &Z_Construct_UFunction_AArenaCharacter_IdleState, "IdleState" }, // 2097150825
 		{ &Z_Construct_UFunction_AArenaCharacter_Move, "Move" }, // 4035545374
 		{ &Z_Construct_UFunction_AArenaCharacter_PlayFlipbook, "PlayFlipbook" }, // 373900240
-		{ &Z_Construct_UFunction_AArenaCharacter_SetVelocity, "SetVelocity" }, // 3854272122
+		{ &Z_Construct_UFunction_AArenaCharacter_SetVelocity, "SetVelocity" }, // 395199726
 		{ &Z_Construct_UFunction_AArenaCharacter_WalkingState, "WalkingState" }, // 2636993546
 	};
 #if WITH_METADATA
@@ -710,9 +714,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveInputMap_MetaData[] = {
 		{ "Category", "Arena Character|State" },
-		{ "Comment", "//std::map<Direction, FDateTime> MoveInputMap;\n" },
 		{ "ModuleRelativePath", "ArenaCharacter.h" },
-		{ "ToolTip", "std::map<Direction, FDateTime> MoveInputMap;" },
 	};
 #endif
 	const UE4CodeGen_Private::FMapPropertyParams Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveInputMap = { "MoveInputMap", nullptr, (EPropertyFlags)0x0020080000020001, UE4CodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AArenaCharacter, MoveInputMap), EMapPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveInputMap_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveInputMap_MetaData)) };
@@ -836,7 +838,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AArenaCharacter, 3028931636);
+	IMPLEMENT_CLASS(AArenaCharacter, 3124941650);
 	template<> PIXELARENA_API UClass* StaticClass<AArenaCharacter>()
 	{
 		return AArenaCharacter::StaticClass();

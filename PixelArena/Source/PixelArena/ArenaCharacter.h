@@ -56,7 +56,7 @@ class PIXELARENA_API AArenaCharacter : public APaperCharacter
 		UFUNCTION(BlueprintCallable, Category="Arena Character")
 		void ApplyVelocity(float speed, Direction direction);
 		UFUNCTION(BlueprintCallable, Category="Arena Character")
-		void SetVelocity(FVector velocity);
+		void SetVelocity(float speed, Direction direction);
 		UFUNCTION(BlueprintCallable, Category="Arena Character")
 		void PlayFlipbook(UPaperFlipbook* flipbook, bool loop = false);
 		UFUNCTION(BlueprintCallable, Category="Arena Character")
@@ -98,7 +98,6 @@ class PIXELARENA_API AArenaCharacter : public APaperCharacter
 		FDateTime abilityDownTime = -1;
 		bool abilityKeyDown = 0;
 		
-		//std::map<Direction, FDateTime> MoveInputMap;
 		UPROPERTY(VisibleAnywhere, Category="Arena Character|State")
 		TMap<TEnumAsByte<Direction>, FDateTime> MoveInputMap;
 	
