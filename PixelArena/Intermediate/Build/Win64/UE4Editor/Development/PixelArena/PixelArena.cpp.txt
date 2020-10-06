@@ -1,2 +1,2 @@
-C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\Definitions.PixelArena.h
-C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Source\PixelArena\PixelArena.h
+C:\Users\Braden\Documents\Github\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\Definitions.PixelArena.h
+C:\Users\Braden\Documents\Github\Pixel-Arena\PixelArena\Source\PixelArena\PixelArena.h

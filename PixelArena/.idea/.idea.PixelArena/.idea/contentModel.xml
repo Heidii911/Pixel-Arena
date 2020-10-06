@@ -43381,9 +43381,9 @@
       <e p="UE4Editor.Target.cs" t="Include" />
       <e p="UE4Game.Target.cs" t="Include" />
     </e>
-    <e p="C:\Users\brade\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\brade\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_PixelArena.-1390721982.00" t="ExcludeRecursive" />
-    <e p="C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena" t="IncludeFlat">
+    <e p="C:\Users\Braden\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Braden\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_PixelArena.1478593004.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Braden\Documents\GitHub\Pixel-Arena\PixelArena" t="IncludeFlat">
       <e p="Config" t="Include">
         <e p="DefaultEditor.ini" t="Include" />
         <e p="DefaultEditorSettings.ini" t="Include" />
