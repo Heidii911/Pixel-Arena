@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\Braden\\Documents\\Github\\Pixel-Arena\\PixelArena\\Source\\PixelArena\\PixelArena.Build.cs",
-		"C:\\Users\\Braden\\Documents\\Github\\Pixel-Arena\\PixelArena\\Source\\PixelArena.Target.cs",
-		"C:\\Users\\Braden\\Documents\\Github\\Pixel-Arena\\PixelArena\\Source\\PixelArenaEditor.Target.cs"
+		"D:\\Projects\\Pixel-Arena\\PixelArena\\Source\\PixelArena\\PixelArena.Build.cs",
+		"D:\\Projects\\Pixel-Arena\\PixelArena\\Source\\PixelArena.Target.cs",
+		"D:\\Projects\\Pixel-Arena\\PixelArena\\Source\\PixelArenaEditor.Target.cs"
 	],
 	"EngineVersion": "4.25.3"
 }

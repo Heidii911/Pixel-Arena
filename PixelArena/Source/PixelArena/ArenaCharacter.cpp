@@ -6,6 +6,11 @@
 
 static FDateTime InputReleaseTime = -1; // The time used to tell weather a key has been released
 
+/**
+ * ArenaCharacter constructor
+ * - Sets up input map
+ * - Registers onfinished playing event
+ */
 AArenaCharacter::AArenaCharacter()
 {
     // Setup Movement Input Map
@@ -17,6 +22,9 @@ AArenaCharacter::AArenaCharacter()
     GetSprite()->OnFinishedPlaying.AddDynamic(this, &AArenaCharacter::AnimationFinished);
 }
 
+/**
+ * Applies velocity based on the characters current MoveDirection.
+ */
 void AArenaCharacter::Move()
 {
     switch (MoveDirection)
@@ -37,10 +45,19 @@ void AArenaCharacter::Move()
     }
 }
 
+/**
+ * TODO: Implement apply velocity
+ * Does this have any use cases?
+ */
 void AArenaCharacter::ApplyVelocity(float speed, Direction direction)
 {
 }
 
+/**
+ * Sets the characters current velocity to the given speed and applies it in the given direction.
+ * @param speed Speed to apply.
+ * @param direction Direction to apply speed.
+ */
 void AArenaCharacter::SetVelocity(float speed, Direction direction)
 {
     switch (direction)
@@ -61,6 +78,11 @@ void AArenaCharacter::SetVelocity(float speed, Direction direction)
     }
 }
 
+/**
+ * Plays the given flipbook
+ * @param flipbook The flipbook that should be played.
+ * @oaram loop Whether or not the flipbook should loop once finished.
+ */
 void AArenaCharacter::PlayFlipbook(UPaperFlipbook* flipbook, bool loop)
 {
     GetSprite()->SetLooping(loop);
@@ -68,18 +90,29 @@ void AArenaCharacter::PlayFlipbook(UPaperFlipbook* flipbook, bool loop)
     GetSprite()->SetFlipbook(flipbook);
 }
 
+/**
+ * Blueprint event to fire once an attack has finished.
+ */
 void AArenaCharacter::FinishAttack()
 {
     isAttacking = false;
     attackDownTime = -1;
 }
 
+/**
+ * Blueprint event to fire once an ability has finished.
+ */
 void AArenaCharacter::FinishAbility()
 {
     isAbility = false;
     abilityDownTime = -1;
 }
 
+/**
+ * Updates the movement map and decides whether the character is moving or not
+ * @param direction Direction input to update.
+ * @param keyDown Whether or not this directional key has been pressed.
+ */
 void AArenaCharacter::UpdateMovementInput(Direction direction, bool keyDown)
 {
     // Update map
@@ -98,6 +131,9 @@ void AArenaCharacter::UpdateMovementInput(Direction direction, bool keyDown)
     }
 }
 
+/**
+ * Updates the characters facing direction.
+ */
 void AArenaCharacter::UpdateFacing()
 {   
     // Find key that's down, that was pressed the most recent
@@ -117,6 +153,9 @@ void AArenaCharacter::UpdateFacing()
     }
 }
 
+/**
+ * Attack input callback.
+ */
 void AArenaCharacter::UpdateAttackInput(bool active)
 {
     attackKeyDown = active;
@@ -128,6 +167,9 @@ void AArenaCharacter::UpdateAttackInput(bool active)
     }
 }
 
+/**
+ * Ability input callback.
+ */
 void AArenaCharacter::UpdateAbilityInput(bool active)
 {
     abilityKeyDown = active;
@@ -140,7 +182,9 @@ void AArenaCharacter::UpdateAbilityInput(bool active)
     }
 }
 
-
+/**
+ * Main character state loop
+ */
 void AArenaCharacter::Tick(float DeltaSeconds)
 {
     Super::Tick(DeltaSeconds);
@@ -228,6 +272,9 @@ void AArenaCharacter::Tick(float DeltaSeconds)
     }
 }
 
+/**
+ * Binds character input callbacks
+ */
 void AArenaCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
     // Bind Movement Inputs

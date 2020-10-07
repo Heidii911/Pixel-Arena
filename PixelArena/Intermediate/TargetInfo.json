@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "PixelArena",
-			"Path": "C:\\Users\\brade\\Documents\\GitHub\\Pixel-Arena\\PixelArena\\Source\\PixelArena.Target.cs",
+			"Path": "D:\\Projects\\PixelArena\\Source\\PixelArena.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "PixelArenaEditor",
-			"Path": "C:\\Users\\brade\\Documents\\GitHub\\Pixel-Arena\\PixelArena\\Source\\PixelArenaEditor.Target.cs",
+			"Path": "D:\\Projects\\PixelArena\\Source\\PixelArenaEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

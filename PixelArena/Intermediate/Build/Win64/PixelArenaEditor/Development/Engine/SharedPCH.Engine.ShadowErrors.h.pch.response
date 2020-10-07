@@ -259,11 +259,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/I C:\Users\Braden\Documents\Github\Pixel-Arena\PixelArena\Intermediate\Build\Win64\PixelArenaEditor\Development\Engine
-/Yc"C:\Users\Braden\Documents\Github\Pixel-Arena\PixelArena\Intermediate\Build\Win64\PixelArenaEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\Braden\Documents\Github\Pixel-Arena\PixelArena\Intermediate\Build\Win64\PixelArenaEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\Braden\Documents\Github\Pixel-Arena\PixelArena\Intermediate\Build\Win64\PixelArenaEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
-/Fo"C:\Users\Braden\Documents\Github\Pixel-Arena\PixelArena\Intermediate\Build\Win64\PixelArenaEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+/I D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\PixelArenaEditor\Development\Engine
+/Yc"D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\PixelArenaEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\PixelArenaEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\PixelArenaEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
+/Fo"D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\PixelArenaEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 /TP
 /GR-
 /W4

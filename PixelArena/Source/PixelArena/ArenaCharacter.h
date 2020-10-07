@@ -6,6 +6,8 @@
 
 #include <map>
 
+
+#include "ArenaActor.h"
 #include "PaperCharacter.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "PaperFlipbookComponent.h"
@@ -31,7 +33,7 @@ enum Direction {
 };
 
 UCLASS()
-class PIXELARENA_API AArenaCharacter : public APaperCharacter
+class PIXELARENA_API AArenaCharacter : public AArenaActor
 {
 	GENERATED_BODY()
 	

@@ -18,7 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 	PIXELARENA_API UEnum* Z_Construct_UEnum_PixelArena_CharacterState();
 	PIXELARENA_API UClass* Z_Construct_UClass_AArenaCharacter_NoRegister();
 	PIXELARENA_API UClass* Z_Construct_UClass_AArenaCharacter();
-	PAPER2D_API UClass* Z_Construct_UClass_APaperCharacter();
+	PIXELARENA_API UClass* Z_Construct_UClass_AArenaActor();
 	PAPER2D_API UClass* Z_Construct_UClass_UPaperFlipbook_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FDateTime();
 // End Cross Module References
@@ -686,7 +686,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_AArenaCharacter_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_APaperCharacter,
+		(UObject* (*)())Z_Construct_UClass_AArenaActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_PixelArena,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AArenaCharacter_Statics::FuncInfo[] = {
@@ -838,7 +838,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AArenaCharacter, 3124941650);
+	IMPLEMENT_CLASS(AArenaCharacter, 1677046717);
 	template<> PIXELARENA_API UClass* StaticClass<AArenaCharacter>()
 	{
 		return AArenaCharacter::StaticClass();
