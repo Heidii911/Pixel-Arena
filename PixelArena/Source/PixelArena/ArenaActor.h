@@ -23,4 +23,6 @@ class PIXELARENA_API AArenaActor : public APaperCharacter
 	
 		// Functions
 		virtual void Damage(int amount);
+		UFUNCTION(BlueprintImplementableEvent, Category = "Arena Character")
+		void OnDamage(int amount);
 };

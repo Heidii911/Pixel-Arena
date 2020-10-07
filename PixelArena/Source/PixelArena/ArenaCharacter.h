@@ -73,7 +73,7 @@ class PIXELARENA_API AArenaCharacter : public AArenaActor
 		UFUNCTION(BlueprintCallable, Category = "Arena Character")
 		void BeginAttack(TEnumAsByte<Direction> direction);
 		UFUNCTION(BlueprintCallable, Category = "Arena Character")
-		void Damage(AArenaActor* other, int damage);
+		void Attack(AArenaActor* other, int damageModifier);
 
 		// Events
 		UFUNCTION(BlueprintImplementableEvent, Category="Arena Character")

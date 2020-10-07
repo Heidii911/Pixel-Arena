@@ -120,13 +120,15 @@ void AArenaCharacter::FinishAbility()
 /*
 * Blueprint callable function to damage another arena actor.
 * @param other The arena actor to damage.
-* @param damage The amount of damage to apply.
+* @param damageModifier Attack damage dealt is multiplied by this.
 */
-void AArenaCharacter::Damage(AArenaActor* other, int damage) {
+void AArenaCharacter::Attack(AArenaActor* other, int damageModifier) {
+    // Don't attack self
     if (other == this)
         return;
 
-    GEngine->AddOnScreenDebugMessage(-1, 0.4f, FColor::Yellow, TEXT("Attacked: ") + other->GetName());
+    GEngine->AddOnScreenDebugMessage(-1, 0.4f, FColor::Red, FString::FromInt(attackDamage * FGenericPlatformMath::Pow(2, damageModifier)));
+    other->Damage(attackDamage * FGenericPlatformMath::Pow(2, damageModifier));
 }
 
 /**

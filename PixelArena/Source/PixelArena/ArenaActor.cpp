@@ -5,4 +5,6 @@
 
 void AArenaActor::Damage(int amount)
 {
+	health -= amount;
+	OnDamage(amount);
 }
