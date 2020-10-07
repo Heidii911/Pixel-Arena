@@ -90,6 +90,13 @@ void AArenaCharacter::PlayFlipbook(UPaperFlipbook* flipbook, bool loop)
     GetSprite()->SetFlipbook(flipbook);
 }
 
+/*
+* Blueprint callable function to activate hitbox/begin attack.
+*/
+void AArenaCharacter::BeginAttack(TEnumAsByte<Direction> direction) {
+    AttackBoxes[Facing]->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+}
+
 /**
  * Blueprint event to fire once an attack has finished.
  */
@@ -97,6 +104,8 @@ void AArenaCharacter::FinishAttack()
 {
     isAttacking = false;
     attackDownTime = -1;
+
+    AttackBoxes[Facing]->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 }
 
 /**
@@ -106,6 +115,18 @@ void AArenaCharacter::FinishAbility()
 {
     isAbility = false;
     abilityDownTime = -1;
+}
+
+/*
+* Blueprint callable function to damage another arena actor.
+* @param other The arena actor to damage.
+* @param damage The amount of damage to apply.
+*/
+void AArenaCharacter::Damage(AArenaActor* other, int damage) {
+    if (other == this)
+        return;
+
+    GEngine->AddOnScreenDebugMessage(-1, 0.4f, FColor::Yellow, TEXT("Attacked: ") + other->GetName());
 }
 
 /**
@@ -180,6 +201,17 @@ void AArenaCharacter::UpdateAbilityInput(bool active)
         isAbility = true;
         abilityDownTime = FDateTime::Now();
     }
+}
+
+/*
+* Sets the hitbox for the given direction
+* @param direction The direction the hitbox is for
+* @param hitbox The box component that makes the hitbox
+*/
+void AArenaCharacter::SetHitbox(TEnumAsByte<Direction> direction, UBoxComponent* hitbox) 
+{
+    hitbox->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+    AttackBoxes.Add(direction, hitbox);
 }
 
 /**

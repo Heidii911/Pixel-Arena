@@ -19,9 +19,10 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 	PIXELARENA_API UClass* Z_Construct_UClass_AArenaCharacter_NoRegister();
 	PIXELARENA_API UClass* Z_Construct_UClass_AArenaCharacter();
 	PIXELARENA_API UClass* Z_Construct_UClass_AArenaActor();
+	PIXELARENA_API UClass* Z_Construct_UClass_AArenaActor_NoRegister();
 	PAPER2D_API UClass* Z_Construct_UClass_UPaperFlipbook_NoRegister();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FDateTime();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FDateTime();
 // End Cross Module References
 	static UEnum* Direction_StaticEnum()
 	{
@@ -145,6 +146,32 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		}
 		return ReturnEnum;
 	}
+	DEFINE_FUNCTION(AArenaCharacter::execDamage)
+	{
+		P_GET_OBJECT(AArenaActor,Z_Param_other);
+		P_GET_PROPERTY(FIntProperty,Z_Param_damage);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->Damage(Z_Param_other,Z_Param_damage);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AArenaCharacter::execBeginAttack)
+	{
+		P_GET_PROPERTY(FByteProperty,Z_Param_direction);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->BeginAttack(Direction(Z_Param_direction));
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AArenaCharacter::execSetHitbox)
+	{
+		P_GET_PROPERTY(FByteProperty,Z_Param_direction);
+		P_GET_OBJECT(UBoxComponent,Z_Param_hitbox);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SetHitbox(Direction(Z_Param_direction),Z_Param_hitbox);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AArenaCharacter::execFinishAbility)
 	{
 		P_FINISH;
@@ -239,10 +266,13 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		UClass* Class = AArenaCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "ApplyVelocity", &AArenaCharacter::execApplyVelocity },
+			{ "BeginAttack", &AArenaCharacter::execBeginAttack },
+			{ "Damage", &AArenaCharacter::execDamage },
 			{ "FinishAbility", &AArenaCharacter::execFinishAbility },
 			{ "FinishAttack", &AArenaCharacter::execFinishAttack },
 			{ "Move", &AArenaCharacter::execMove },
 			{ "PlayFlipbook", &AArenaCharacter::execPlayFlipbook },
+			{ "SetHitbox", &AArenaCharacter::execSetHitbox },
 			{ "SetVelocity", &AArenaCharacter::execSetVelocity },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -427,6 +457,76 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AArenaCharacter_BeginAttack_Statics
+	{
+		struct ArenaCharacter_eventBeginAttack_Parms
+		{
+			TEnumAsByte<Direction> direction;
+		};
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_direction;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_AArenaCharacter_BeginAttack_Statics::NewProp_direction = { "direction", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ArenaCharacter_eventBeginAttack_Parms, direction), Z_Construct_UEnum_PixelArena_Direction, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AArenaCharacter_BeginAttack_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AArenaCharacter_BeginAttack_Statics::NewProp_direction,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AArenaCharacter_BeginAttack_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Arena Character" },
+		{ "ModuleRelativePath", "ArenaCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AArenaCharacter_BeginAttack_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AArenaCharacter, nullptr, "BeginAttack", nullptr, nullptr, sizeof(ArenaCharacter_eventBeginAttack_Parms), Z_Construct_UFunction_AArenaCharacter_BeginAttack_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AArenaCharacter_BeginAttack_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AArenaCharacter_BeginAttack_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AArenaCharacter_BeginAttack_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AArenaCharacter_BeginAttack()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AArenaCharacter_BeginAttack_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AArenaCharacter_Damage_Statics
+	{
+		struct ArenaCharacter_eventDamage_Parms
+		{
+			AArenaActor* other;
+			int32 damage;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_damage;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_other;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_AArenaCharacter_Damage_Statics::NewProp_damage = { "damage", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ArenaCharacter_eventDamage_Parms, damage), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AArenaCharacter_Damage_Statics::NewProp_other = { "other", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ArenaCharacter_eventDamage_Parms, other), Z_Construct_UClass_AArenaActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AArenaCharacter_Damage_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AArenaCharacter_Damage_Statics::NewProp_damage,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AArenaCharacter_Damage_Statics::NewProp_other,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AArenaCharacter_Damage_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Arena Character" },
+		{ "ModuleRelativePath", "ArenaCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AArenaCharacter_Damage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AArenaCharacter, nullptr, "Damage", nullptr, nullptr, sizeof(ArenaCharacter_eventDamage_Parms), Z_Construct_UFunction_AArenaCharacter_Damage_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AArenaCharacter_Damage_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AArenaCharacter_Damage_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AArenaCharacter_Damage_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AArenaCharacter_Damage()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AArenaCharacter_Damage_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AArenaCharacter_FinishAbility_Statics
 	{
 #if WITH_METADATA
@@ -563,6 +663,51 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AArenaCharacter_PlayFlipbook_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AArenaCharacter_SetHitbox_Statics
+	{
+		struct ArenaCharacter_eventSetHitbox_Parms
+		{
+			TEnumAsByte<Direction> direction;
+			UBoxComponent* hitbox;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_hitbox_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_hitbox;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_direction;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AArenaCharacter_SetHitbox_Statics::NewProp_hitbox_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AArenaCharacter_SetHitbox_Statics::NewProp_hitbox = { "hitbox", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ArenaCharacter_eventSetHitbox_Parms, hitbox), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AArenaCharacter_SetHitbox_Statics::NewProp_hitbox_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AArenaCharacter_SetHitbox_Statics::NewProp_hitbox_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_AArenaCharacter_SetHitbox_Statics::NewProp_direction = { "direction", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ArenaCharacter_eventSetHitbox_Parms, direction), Z_Construct_UEnum_PixelArena_Direction, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AArenaCharacter_SetHitbox_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AArenaCharacter_SetHitbox_Statics::NewProp_hitbox,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AArenaCharacter_SetHitbox_Statics::NewProp_direction,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AArenaCharacter_SetHitbox_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Arena Character" },
+		{ "ModuleRelativePath", "ArenaCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AArenaCharacter_SetHitbox_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AArenaCharacter, nullptr, "SetHitbox", nullptr, nullptr, sizeof(ArenaCharacter_eventSetHitbox_Parms), Z_Construct_UFunction_AArenaCharacter_SetHitbox_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AArenaCharacter_SetHitbox_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AArenaCharacter_SetHitbox_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AArenaCharacter_SetHitbox_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AArenaCharacter_SetHitbox()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AArenaCharacter_SetHitbox_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -703,11 +848,14 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		{ &Z_Construct_UFunction_AArenaCharacter_AnimationFinished, "AnimationFinished" }, // 1895063576
 		{ &Z_Construct_UFunction_AArenaCharacter_ApplyVelocity, "ApplyVelocity" }, // 2440099062
 		{ &Z_Construct_UFunction_AArenaCharacter_AttackState, "AttackState" }, // 679834077
+		{ &Z_Construct_UFunction_AArenaCharacter_BeginAttack, "BeginAttack" }, // 2390143026
+		{ &Z_Construct_UFunction_AArenaCharacter_Damage, "Damage" }, // 3140597290
 		{ &Z_Construct_UFunction_AArenaCharacter_FinishAbility, "FinishAbility" }, // 2288985960
 		{ &Z_Construct_UFunction_AArenaCharacter_FinishAttack, "FinishAttack" }, // 2013707864
 		{ &Z_Construct_UFunction_AArenaCharacter_IdleState, "IdleState" }, // 2097150825
 		{ &Z_Construct_UFunction_AArenaCharacter_Move, "Move" }, // 4035545374
 		{ &Z_Construct_UFunction_AArenaCharacter_PlayFlipbook, "PlayFlipbook" }, // 373900240
+		{ &Z_Construct_UFunction_AArenaCharacter_SetHitbox, "SetHitbox" }, // 3584636822
 		{ &Z_Construct_UFunction_AArenaCharacter_SetVelocity, "SetVelocity" }, // 395199726
 		{ &Z_Construct_UFunction_AArenaCharacter_WalkingState, "WalkingState" }, // 2636993546
 	};
@@ -858,7 +1006,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AArenaCharacter, 3292662633);
+	IMPLEMENT_CLASS(AArenaCharacter, 569014128);
 	template<> PIXELARENA_API UClass* StaticClass<AArenaCharacter>()
 	{
 		return AArenaCharacter::StaticClass();

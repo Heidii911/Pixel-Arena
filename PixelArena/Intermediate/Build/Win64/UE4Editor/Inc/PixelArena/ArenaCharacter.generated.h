@@ -8,6 +8,8 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AArenaActor;
+class UBoxComponent;
 class UPaperFlipbook;
 #ifdef PIXELARENA_ArenaCharacter_generated_h
 #error "ArenaCharacter.generated.h already included, missing '#pragma once' in ArenaCharacter.h"
@@ -17,6 +19,9 @@ class UPaperFlipbook;
 #define PixelArena_Source_PixelArena_ArenaCharacter_h_39_SPARSE_DATA
 #define PixelArena_Source_PixelArena_ArenaCharacter_h_39_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execDamage); \
+	DECLARE_FUNCTION(execBeginAttack); \
+	DECLARE_FUNCTION(execSetHitbox); \
 	DECLARE_FUNCTION(execFinishAbility); \
 	DECLARE_FUNCTION(execFinishAttack); \
 	DECLARE_FUNCTION(execPlayFlipbook); \
@@ -27,6 +32,9 @@ class UPaperFlipbook;
 
 #define PixelArena_Source_PixelArena_ArenaCharacter_h_39_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execDamage); \
+	DECLARE_FUNCTION(execBeginAttack); \
+	DECLARE_FUNCTION(execSetHitbox); \
 	DECLARE_FUNCTION(execFinishAbility); \
 	DECLARE_FUNCTION(execFinishAttack); \
 	DECLARE_FUNCTION(execPlayFlipbook); \
