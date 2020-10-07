@@ -11,6 +11,7 @@
 #include "PaperCharacter.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "PaperFlipbookComponent.h"
+#include "Components/BoxComponent.h"
 
 #include "ArenaCharacter.generated.h"
 
@@ -51,6 +52,8 @@ class PIXELARENA_API AArenaCharacter : public AArenaActor
 		TMap<TEnumAsByte<Direction>, UPaperFlipbook*> IdleAnimations;
 		UPROPERTY(EditAnywhere, Category="Arena Character|Animations")
 		TMap<TEnumAsByte<Direction>, UPaperFlipbook*> WalkingAnimations;
+		UPROPERTY(BlueprintReadWrite, Category = "Arena Character|Hit Boxes")
+		TMap<TEnumAsByte<Direction>, UBoxComponent*> AttackBoxes;
 
 		// Functions
 		UFUNCTION(BlueprintCallable, Category="Arena Character")

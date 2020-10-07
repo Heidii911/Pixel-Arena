@@ -14,8 +14,8 @@ class UPaperFlipbook;
 #endif
 #define PIXELARENA_ArenaCharacter_generated_h
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_38_SPARSE_DATA
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_38_RPC_WRAPPERS \
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_39_SPARSE_DATA
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_39_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execFinishAbility); \
 	DECLARE_FUNCTION(execFinishAttack); \
@@ -25,7 +25,7 @@ class UPaperFlipbook;
 	DECLARE_FUNCTION(execMove);
 
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_38_RPC_WRAPPERS_NO_PURE_DECLS \
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_39_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execFinishAbility); \
 	DECLARE_FUNCTION(execFinishAttack); \
@@ -35,7 +35,7 @@ class UPaperFlipbook;
 	DECLARE_FUNCTION(execMove);
 
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_38_EVENT_PARMS \
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_39_EVENT_PARMS \
 	struct ArenaCharacter_eventAbilityState_Parms \
 	{ \
 		float AbilityTime; \
@@ -48,8 +48,8 @@ class UPaperFlipbook;
 	};
 
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_38_CALLBACK_WRAPPERS
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_38_INCLASS_NO_PURE_DECLS \
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_39_CALLBACK_WRAPPERS
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_39_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAArenaCharacter(); \
 	friend struct Z_Construct_UClass_AArenaCharacter_Statics; \
@@ -58,7 +58,7 @@ public: \
 	DECLARE_SERIALIZER(AArenaCharacter)
 
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_38_INCLASS \
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_39_INCLASS \
 private: \
 	static void StaticRegisterNativesAArenaCharacter(); \
 	friend struct Z_Construct_UClass_AArenaCharacter_Statics; \
@@ -67,7 +67,7 @@ public: \
 	DECLARE_SERIALIZER(AArenaCharacter)
 
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_38_STANDARD_CONSTRUCTORS \
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_39_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AArenaCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AArenaCharacter) \
@@ -80,7 +80,7 @@ private: \
 public:
 
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_38_ENHANCED_CONSTRUCTORS \
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_39_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AArenaCharacter(AArenaCharacter&&); \
@@ -91,39 +91,39 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AArenaCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AArenaCharacter)
 
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_38_PRIVATE_PROPERTY_OFFSET \
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_39_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__isMoving() { return STRUCT_OFFSET(AArenaCharacter, isMoving); } \
 	FORCEINLINE static uint32 __PPO__isAttacking() { return STRUCT_OFFSET(AArenaCharacter, isAttacking); } \
 	FORCEINLINE static uint32 __PPO__isAbility() { return STRUCT_OFFSET(AArenaCharacter, isAbility); } \
 	FORCEINLINE static uint32 __PPO__MoveInputMap() { return STRUCT_OFFSET(AArenaCharacter, MoveInputMap); }
 
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_35_PROLOG \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_38_EVENT_PARMS
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_36_PROLOG \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_39_EVENT_PARMS
 
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_38_GENERATED_BODY_LEGACY \
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_39_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_38_PRIVATE_PROPERTY_OFFSET \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_38_SPARSE_DATA \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_38_RPC_WRAPPERS \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_38_CALLBACK_WRAPPERS \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_38_INCLASS \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_38_STANDARD_CONSTRUCTORS \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_39_PRIVATE_PROPERTY_OFFSET \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_39_SPARSE_DATA \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_39_RPC_WRAPPERS \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_39_CALLBACK_WRAPPERS \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_39_INCLASS \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_39_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define PixelArena_Source_PixelArena_ArenaCharacter_h_38_GENERATED_BODY \
+#define PixelArena_Source_PixelArena_ArenaCharacter_h_39_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_38_PRIVATE_PROPERTY_OFFSET \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_38_SPARSE_DATA \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_38_RPC_WRAPPERS_NO_PURE_DECLS \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_38_CALLBACK_WRAPPERS \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_38_INCLASS_NO_PURE_DECLS \
-	PixelArena_Source_PixelArena_ArenaCharacter_h_38_ENHANCED_CONSTRUCTORS \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_39_PRIVATE_PROPERTY_OFFSET \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_39_SPARSE_DATA \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_39_RPC_WRAPPERS_NO_PURE_DECLS \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_39_CALLBACK_WRAPPERS \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_39_INCLASS_NO_PURE_DECLS \
+	PixelArena_Source_PixelArena_ArenaCharacter_h_39_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
