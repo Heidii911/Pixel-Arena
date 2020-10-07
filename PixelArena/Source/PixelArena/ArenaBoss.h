@@ -3,14 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "PaperCharacter.h"
+#include "ArenaActor.h"
 #include "ArenaBoss.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class PIXELARENA_API AArenaBoss : public APaperCharacter
+class PIXELARENA_API AArenaBoss : public AArenaActor
 {
 	GENERATED_BODY()
 	

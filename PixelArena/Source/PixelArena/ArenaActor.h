@@ -18,6 +18,7 @@ class PIXELARENA_API AArenaActor : public APaperCharacter
 		// Properties
 		UPROPERTY(EditAnywhere, Category="Stats")
 		int health;
+		UPROPERTY(EditAnywhere, Category = "Stats")
 		int attackDamage;
 	
 		// Functions

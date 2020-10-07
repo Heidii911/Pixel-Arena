@@ -3,3 +3,6 @@
 
 #include "ArenaActor.h"
 
+void AArenaActor::Damage(int amount)
+{
+}
