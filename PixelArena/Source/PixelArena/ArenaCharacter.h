@@ -105,6 +105,7 @@ class PIXELARENA_API AArenaCharacter : public AArenaActor
 
 		FDateTime attackDownTime = -1;
 		bool attackKeyDown = 0;
+		bool attackStarted = false;
 
 		FDateTime abilityDownTime = -1;
 		bool abilityKeyDown = 0;

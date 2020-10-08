@@ -3,3 +3,17 @@
 
 #include "ArenaBoss.h"
 
+AArenaBoss::AArenaBoss() {
+}
+
+void AArenaBoss::Attack()
+{
+}
+
+void AArenaBoss::Ability()
+{
+}
+
+void AArenaBoss::Tick(float DeltaSeconds)
+{
+}

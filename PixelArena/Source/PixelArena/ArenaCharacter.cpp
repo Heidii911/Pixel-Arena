@@ -95,6 +95,7 @@ void AArenaCharacter::PlayFlipbook(UPaperFlipbook* flipbook, bool loop)
 */
 void AArenaCharacter::BeginAttack(TEnumAsByte<Direction> direction) {
     AttackBoxes[Facing]->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+    attackStarted = true;
 }
 
 /**
@@ -104,6 +105,7 @@ void AArenaCharacter::FinishAttack()
 {
     isAttacking = false;
     attackDownTime = -1;
+    attackStarted = false;
 
     AttackBoxes[Facing]->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 }
@@ -284,7 +286,8 @@ void AArenaCharacter::Tick(float DeltaSeconds)
                 break;
             }
             
-            AttackState((FDateTime::Now() - attackDownTime).GetTotalMilliseconds(), attackKeyDown);
+            if (!attackStarted)
+                AttackState((FDateTime::Now() - attackDownTime).GetTotalMilliseconds(), attackKeyDown);
             break;
         case Ability:
             if (!isAbility && isMoving)
