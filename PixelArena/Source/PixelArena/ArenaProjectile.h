@@ -27,7 +27,7 @@ protected:
 
 public:
 	// Properties
-	UPROPERTY(BlueprintReadWrite, Category = Projectile) AArenaActor* Shooter;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Projectile) int Damage; // Amount of damage this projectile deals.
 
 	// Events
 	UFUNCTION(BlueprintImplementableEvent, Category = Projectile) void Fire(FVector direction);

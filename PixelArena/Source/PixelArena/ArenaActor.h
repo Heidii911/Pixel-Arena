@@ -23,10 +23,8 @@ class PIXELARENA_API AArenaActor : public APaperCharacter
 		UPROPERTY(EditAnywhere, Category = Arena_Actor) int AttackDamage;
 	
 		// Functions
-		virtual void Damage(int amount);
-	
-		UFUNCTION(BlueprintCallable, Category = Arena_Actor)
-		void PlayFlipbook(UPaperFlipbook* flipbook, bool loop);
+		UFUNCTION(BlueprintCallable, Category = Arena_Actor) virtual void Damage(int amount);
+		UFUNCTION(BlueprintCallable, Category = Arena_Actor) void PlayFlipbook(UPaperFlipbook* flipbook, bool loop);
 
 		// Events
 		UFUNCTION(BlueprintImplementableEvent, Category = Arena_Actor) void OnDamage(int amount);
