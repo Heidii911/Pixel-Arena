@@ -16,7 +16,6 @@ AArenaProjectile::AArenaProjectile()
 void AArenaProjectile::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame

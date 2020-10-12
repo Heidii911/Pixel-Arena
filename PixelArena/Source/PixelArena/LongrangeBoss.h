@@ -23,6 +23,9 @@ public:
 	UPROPERTY(EditAnywhere, Category = LONGRANGE_BOSS) TArray<AActor*> CornerSpawns; // Corner spawn points for teleporting.
 	UPROPERTY(EditAnywhere, Category = LONGRANGE_BOSS) float SpecialAttackSpeed; // The delay between the special chain attacks.
 	UPROPERTY(EditAnywhere, Category = LONGRANGE_BOSS) TSubclassOf<AArenaProjectile> BasicProjectile;
+	UPROPERTY(EditAnywhere, Category = LONGRANGE_BOSS) FVector BasicProjectileOffset;
+	UPROPERTY(EditAnywhere, Category = LONGRANGE_BOSS) TSubclassOf<AArenaProjectile> SpecialProjectile;
+	UPROPERTY(EditAnywhere, Category = LONGRANGE_BOSS) FVector SpecialProjectileOffset;
 	UPROPERTY(BlueprintReadWrite, Category = LONGRANGE_BOSS) int HitCount; // Number of times the boss has been damaged at this position.
 	UPROPERTY(BlueprintReadWrite, Category = LONGRANGE_BOSS) int AttackCount = 0; // Number of attack the boss has complete from this position.
 	UPROPERTY(BlueprintReadWrite, Category = LONGRANGE_BOSS) float AttackTime;

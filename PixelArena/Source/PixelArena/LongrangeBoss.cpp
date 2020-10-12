@@ -19,16 +19,31 @@ void ALongrangeBoss::BasicAttack()
     if (World)
     {
         AArenaProjectile* projectile = World->SpawnActor<AArenaProjectile>(BasicProjectile);
-        projectile->SetActorLocation(GetActorLocation());
+        projectile->SetActorLocation(GetActorLocation() + BasicProjectileOffset);
         projectile->FireAtPlayer();
     }
-    GEngine->AddOnScreenDebugMessage(-1, 0.2f, FColor::Red, TEXT("Boss Basic Attack"));
 }
 
 void ALongrangeBoss::SpecialAttack()
 {
     AttackCount = 5;
-    GEngine->AddOnScreenDebugMessage(-1, 0.2f, FColor::Red, TEXT("Boss Special Attack"));
+    UWorld* const World = GetWorld();
+
+    if (World)
+    {
+        FVector playerLocation = World->GetFirstPlayerController()->GetPawn()->GetActorLocation();
+        FVector direction = playerLocation - GetActorLocation();
+
+        direction = direction.RotateAngleAxis(-45, FVector(0, 1, 0));
+        
+        for (int i = 0; i < 5; i++)
+        {
+            AArenaProjectile* projectile = World->SpawnActor<AArenaProjectile>(SpecialProjectile);
+            projectile->SetActorLocation(GetActorLocation() + SpecialProjectileOffset);
+            projectile->Fire(direction);
+            direction = direction.RotateAngleAxis(22.5, FVector(0, 1, 0));
+        }
+    }
 }
 
 void ALongrangeBoss::TeleportCenter()

@@ -41,21 +41,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="194977c8-8968-4056-a5f6-76563cce45cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Blueprints/LongrangeBossBasic.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Flipbooks/Bosses/Longrange/Longrange_BasicProjectile.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Blueprints/LongrangeBossSpecial.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Flipbooks/Bosses/Longrange/Longrange_SpecialProjectile.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PixelArena/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PixelArena/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/PixelArena/Blueprints/LongrangeBoss.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PixelArena/Blueprints/LongrangeBoss.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/PixelArena/Levels/Main.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PixelArena/Levels/Main.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/PixelArenaEditor/ActionHistory.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/PixelArenaEditor/ActionHistory.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/PixelArenaEditor/Development/Metadata-HotReload.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/PixelArenaEditor/Development/Metadata-HotReload.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/PixelArena/PixelArena.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/PixelArena/PixelArena.init.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/PixelArena.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/PixelArena.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/PixelArena/ArenaProjectile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PixelArena/ArenaProjectile.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PixelArena/ArenaProjectile.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PixelArena/ArenaProjectile.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/PixelArena/LongrangeBoss.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PixelArena/LongrangeBoss.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/PixelArena/LongrangeBoss.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PixelArena/LongrangeBoss.h" afterDir="false" />
     </list>
@@ -76,10 +74,10 @@
         <option value="$PROJECT_DIR$/Source/PixelArena/ArenaBoss.cpp" />
         <option value="$PROJECT_DIR$/Source/PixelArena/ArenaActor.h" />
         <option value="$PROJECT_DIR$/Source/PixelArena/ArenaBoss.h" />
-        <option value="$PROJECT_DIR$/Source/PixelArena/LongrangeBoss.h" />
-        <option value="$PROJECT_DIR$/Source/PixelArena/LongrangeBoss.cpp" />
         <option value="$PROJECT_DIR$/Source/PixelArena/ArenaProjectile.h" />
         <option value="$PROJECT_DIR$/Source/PixelArena/ArenaProjectile.cpp" />
+        <option value="$PROJECT_DIR$/Source/PixelArena/LongrangeBoss.h" />
+        <option value="$PROJECT_DIR$/Source/PixelArena/LongrangeBoss.cpp" />
       </list>
     </option>
   </component>
@@ -327,7 +325,7 @@
       <workItem from="1602131847907" duration="225000" />
       <workItem from="1602132307561" duration="12890000" />
       <workItem from="1602464790277" duration="2079000" />
-      <workItem from="1602467282284" duration="8133000" />
+      <workItem from="1602467282284" duration="9392000" />
     </task>
     <servers />
   </component>

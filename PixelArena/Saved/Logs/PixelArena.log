@@ -1311,3 +1311,657 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.12-04.09.04:035][640]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000228FF9A2A00), frame # 54640
 [2020.10.12-04.09.04:038][640]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
 [2020.10.12-04.09.04:066][641]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.10.12-04.17.31:539][437]Candidate modules for hot reload:
+[2020.10.12-04.17.31:539][437]  PixelArena
+[2020.10.12-04.17.31:539][437]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PixelArena,1486 PixelArenaEditor Win64 Development -Project="D:/Projects/Pixel-Arena/PixelArena/PixelArena.uproject" "D:/Projects/Pixel-Arena/PixelArena/PixelArena.uproject"  -IgnoreJunk]
+[2020.10.12-04.17.31:541][437]Warning: Starting HotReload took  0.0s.
+[2020.10.12-04.17.36:991][ 40]CompilerResultsLog: New page: Compilation - Oct 13, 2020, 6:17:36 AM
+[2020.10.12-04.17.36:991][ 40]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Projects\Pixel-Arena).
+[2020.10.12-04.17.36:991][ 40]CompilerResultsLog: Building PixelArenaEditor...
+[2020.10.12-04.17.36:991][ 40]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.12-04.17.36:991][ 40]CompilerResultsLog: Building 5 actions with 12 processes...
+[2020.10.12-04.17.36:991][ 40]CompilerResultsLog:   [1/5] ArenaProjectile.cpp
+[2020.10.12-04.17.36:991][ 40]CompilerResultsLog:   [2/5] LongrangeBoss.cpp
+[2020.10.12-04.17.36:991][ 40]CompilerResultsLog:   [3/5] UE4Editor-PixelArena-1486.lib
+[2020.10.12-04.17.36:991][ 40]CompilerResultsLog:      Creating library D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-1486.lib and object D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-1486.exp
+[2020.10.12-04.17.36:991][ 40]CompilerResultsLog:   [4/5] UE4Editor-PixelArena-1486.dll
+[2020.10.12-04.17.36:992][ 40]CompilerResultsLog:      Creating library D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-1486.suppressed.lib and object D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-1486.suppressed.exp
+[2020.10.12-04.17.36:992][ 40]CompilerResultsLog:   [5/5] PixelArenaEditor.target
+[2020.10.12-04.17.36:992][ 40]CompilerResultsLog: Total time in Parallel executor: 4.75 seconds
+[2020.10.12-04.17.36:992][ 40]CompilerResultsLog: Total execution time: 5.22 seconds
+[2020.10.12-04.17.36:992][ 40]LogMainFrame: MainFrame: Module compiling took 5.456 seconds
+[2020.10.12-04.17.37:014][ 40]LogClass: BossState HotReload.
+[2020.10.12-04.17.37:014][ 40]LogClass: Direction HotReload.
+[2020.10.12-04.17.37:014][ 40]LogClass: CharacterState HotReload.
+[2020.10.12-04.17.37:026][ 40]LogContentBrowser: Native class hierarchy updated for 'PixelArena' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2020.10.12-04.17.37:031][ 40]Display: HotReload successful (14 functions remapped  0 scriptstructs remapped)
+[2020.10.12-04.17.37:081][ 40]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 3433 classes and 823 folders.
+[2020.10.12-04.17.37:088][ 40]Display: HotReload took  5.6s.
+[2020.10.12-04.18.35:669][ 11]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.12-04.18.35:681][ 11]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.12-04.18.35:681][ 11]PIE: New page: PIE session: Main (Oct 13, 2020, 6:18:35 AM)
+[2020.10.12-04.18.35:682][ 11]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.10.12-04.18.35:684][ 11]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002181s)
+[2020.10.12-04.18.35:684][ 11]LogAIModule: Creating AISystem for world Main
+[2020.10.12-04.18.35:685][ 11]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000228C184CA00), frame # 64011
+[2020.10.12-04.18.35:685][ 11]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000228C183BB00), frame # 64011
+[2020.10.12-04.18.35:685][ 11]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2020.10.12-04.18.35:685][ 11]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.003247s)
+[2020.10.12-04.18.35:749][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2020.10.12-04.18.35:751][ 11]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.12-04.18.35:751][ 11]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.12-04.18.35:751][ 11]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.12-04.18.35:751][ 11]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.12-04.18.35:751][ 11]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.12-04.18.35:751][ 11]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.12-04.18.35:751][ 11]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.12-04.18.35:751][ 11]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.12-04.18.35:751][ 11]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.12-04.18.35:751][ 11]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.12-04.18.35:757][ 11]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.12-04.18.35:757][ 11]LogAudioMixer: Display: 1: FrontRight
+[2020.10.12-04.18.35:791][ 11]LogAudioMixer: Display: Using Audio Device Headphones (6- Arctis 7 Game)
+[2020.10.12-04.18.35:791][ 11]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.12-04.18.35:791][ 11]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.12-04.18.35:791][ 11]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.12-04.18.35:792][ 11]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.12-04.18.35:802][ 11]LogInit: FAudioDevice initialized.
+[2020.10.12-04.18.35:807][ 11]LogLoad: Game class is 'PixelArenaGameMode_C'
+[2020.10.12-04.18.35:809][ 11]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.10.12-17.18.35
+[2020.10.12-04.18.35:810][ 11]LogWorld: Bringing up level for play took: 0.001861
+[2020.10.12-04.18.35:810][ 11]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.10.12-04.18.35:813][ 11]PIE: Server logged in
+[2020.10.12-04.18.35:813][ 11]PIE: Play in editor total start time 0.135 seconds.
+[2020.10.12-04.19.40:279][730]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.12-04.19.40:279][730]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.10.12-04.19.40:279][730]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.10.12-04.19.40:279][730]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.12-04.19.40:288][730]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.12-04.19.40:292][730]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.12-04.19.40:325][730]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.12-04.19.40:325][730]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000228C183BB00), frame # 71730
+[2020.10.12-04.19.40:326][730]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000228C184CA00), frame # 71730
+[2020.10.12-04.19.40:330][730]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2020.10.12-04.19.40:358][731]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.10.12-04.22.14:253][790]Candidate modules for hot reload:
+[2020.10.12-04.22.14:253][790]  PixelArena
+[2020.10.12-04.22.14:253][790]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PixelArena,8151 PixelArenaEditor Win64 Development -Project="D:/Projects/Pixel-Arena/PixelArena/PixelArena.uproject" "D:/Projects/Pixel-Arena/PixelArena/PixelArena.uproject"  -IgnoreJunk]
+[2020.10.12-04.22.14:254][790]Warning: Starting HotReload took  0.0s.
+[2020.10.12-04.22.25:673][ 22]CompilerResultsLog: New page: Compilation - Oct 13, 2020, 6:22:25 AM
+[2020.10.12-04.22.25:673][ 22]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Projects\Pixel-Arena).
+[2020.10.12-04.22.25:673][ 22]CompilerResultsLog: Parsing headers for PixelArenaEditor
+[2020.10.12-04.22.25:673][ 22]CompilerResultsLog:   Running UnrealHeaderTool "D:\Projects\Pixel-Arena\PixelArena\PixelArena.uproject" "D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\PixelArenaEditor\Development\PixelArenaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Braden\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.10.12-04.22.25:673][ 22]CompilerResultsLog: Error: D:/Projects/Pixel-Arena/PixelArena/Source/PixelArena/LongrangeBoss.h(26)  : Error: Inappropriate '*' on variable of type 'FVector', cannot have an exposed pointer to this type.
+[2020.10.12-04.22.25:673][ 22]LogMainFrame: MainFrame: Module compiling took 11.430 seconds
+[2020.10.12-04.22.25:673][ 22]Warning: HotReload failed, recompile failed
+[2020.10.12-04.22.29:559][438]LogSlate: Window 'Message Log' being destroyed
+[2020.10.12-04.22.29:563][438]LogSlate: Window 'Message Log' being destroyed
+[2020.10.12-04.22.49:560][686]Candidate modules for hot reload:
+[2020.10.12-04.22.49:560][686]  PixelArena
+[2020.10.12-04.22.49:560][686]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PixelArena,3650 PixelArenaEditor Win64 Development -Project="D:/Projects/Pixel-Arena/PixelArena/PixelArena.uproject" "D:/Projects/Pixel-Arena/PixelArena/PixelArena.uproject"  -IgnoreJunk]
+[2020.10.12-04.22.49:562][686]Warning: Starting HotReload took  0.0s.
+[2020.10.12-04.23.03:643][ 63]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.10.12-04.23.20:787][875]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/Longrange_SpecialProjectileEEB01FC543D1792DE708759AF09A58AD.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Bosses/Longrange/Longrange_SpecialProjectile.uasset'
+[2020.10.12-04.23.21:044][875]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.10.12-04.23.21:076][875]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.10.12-04.23.21:094][875]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.10.12-04.23.21:159][875]AssetCheck: New page: Asset Save: Longrange_SpecialProjectile
+[2020.10.12-04.23.21:159][875]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Bosses/Longrange/Longrange_SpecialProjectile.Longrange_SpecialProjectile
+[2020.10.12-04.23.23:537][141]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/Longrange_SpecialProjectile68A0558A4CCE17375F07B9BC048F3AB9.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Bosses/Longrange/Longrange_SpecialProjectile.uasset'
+[2020.10.12-04.23.23:547][141]AssetCheck: New page: Asset Save: Longrange_SpecialProjectile
+[2020.10.12-04.23.23:547][141]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Bosses/Longrange/Longrange_SpecialProjectile.Longrange_SpecialProjectile
+[2020.10.12-04.23.24:669][269]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Flipbooks/Bosses/Longrange/Longrange_SpecialProjectile.Longrange_SpecialProjectile
+[2020.10.12-04.23.26:028][270]LogRenderer: Reallocating scene render targets to support 1528x788 Format 10 NumSamples 1 (Frame:1).
+[2020.10.12-04.23.29:843][703]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/Longrange_SpecialProjectile1059CED1495E86C0C01907B7E1901733.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Bosses/Longrange/Longrange_SpecialProjectile.uasset'
+[2020.10.12-04.23.29:858][703]AssetCheck: New page: Asset Save: Longrange_SpecialProjectile
+[2020.10.12-04.23.29:858][703]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Bosses/Longrange/Longrange_SpecialProjectile.Longrange_SpecialProjectile
+[2020.10.12-04.23.30:999][830]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.10.12-04.23.30:999][830]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.12-04.23.43:857][287]CompilerResultsLog: New page: Compilation - Oct 13, 2020, 6:23:43 AM
+[2020.10.12-04.23.43:857][287]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Projects\Pixel-Arena).
+[2020.10.12-04.23.43:857][287]CompilerResultsLog: Parsing headers for PixelArenaEditor
+[2020.10.12-04.23.43:857][287]CompilerResultsLog:   Running UnrealHeaderTool "D:\Projects\Pixel-Arena\PixelArena\PixelArena.uproject" "D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\PixelArenaEditor\Development\PixelArenaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Braden\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.10.12-04.23.43:857][287]CompilerResultsLog: Reflection code generated for PixelArenaEditor in 5.1182087 seconds
+[2020.10.12-04.23.43:857][287]CompilerResultsLog: Building PixelArenaEditor...
+[2020.10.12-04.23.43:857][287]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.12-04.23.43:857][287]CompilerResultsLog: Building 6 actions with 12 processes...
+[2020.10.12-04.23.43:857][287]CompilerResultsLog:   [1/6] LongrangeBoss.cpp
+[2020.10.12-04.23.43:857][287]CompilerResultsLog:   [2/6] PixelArena.init.gen.cpp
+[2020.10.12-04.23.43:857][287]CompilerResultsLog:   [3/6] LongrangeBoss.gen.cpp
+[2020.10.12-04.23.43:857][287]CompilerResultsLog:   [4/6] UE4Editor-PixelArena-3650.lib
+[2020.10.12-04.23.43:857][287]CompilerResultsLog:      Creating library D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-3650.lib and object D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-3650.exp
+[2020.10.12-04.23.43:857][287]CompilerResultsLog:   [5/6] UE4Editor-PixelArena-3650.dll
+[2020.10.12-04.23.43:857][287]CompilerResultsLog:      Creating library D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-3650.suppressed.lib and object D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-3650.suppressed.exp
+[2020.10.12-04.23.43:857][287]CompilerResultsLog:   [6/6] PixelArenaEditor.target
+[2020.10.12-04.23.43:857][287]CompilerResultsLog: Total time in Parallel executor: 48.38 seconds
+[2020.10.12-04.23.43:857][287]CompilerResultsLog: Total execution time: 54.04 seconds
+[2020.10.12-04.23.43:858][287]LogMainFrame: MainFrame: Module compiling took 54.300 seconds
+[2020.10.12-04.23.43:875][287]LogClass: Could not find existing class LongrangeBoss in package /Script/PixelArena for HotReload, assuming new class
+[2020.10.12-04.23.43:875][287]LogClass: Function BasicAttack is new.
+[2020.10.12-04.23.43:875][287]LogClass: Function SpecialAttack is new.
+[2020.10.12-04.23.43:875][287]LogClass: Function Teleport is new.
+[2020.10.12-04.23.43:877][287]LogClass: BossState HotReload.
+[2020.10.12-04.23.43:877][287]LogClass: Direction HotReload.
+[2020.10.12-04.23.43:877][287]LogClass: CharacterState HotReload.
+[2020.10.12-04.23.43:892][287]LogHotReload: Re-instancing LongrangeBoss after hot-reload.
+[2020.10.12-04.23.43:929][287]LogContentBrowser: Native class hierarchy updated for 'PixelArena' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2020.10.12-04.23.43:933][287]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
+[2020.10.12-04.23.43:985][287]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 3433 classes and 823 folders.
+[2020.10.12-04.23.43:992][287]Display: HotReload took 54.4s.
+[2020.10.12-04.23.44:322][288]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/LongrangeBossSpecial2C40CAA24B88A0A5CDEE37AA1F475A97.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBossSpecial.uasset'
+[2020.10.12-04.23.44:334][288]AssetCheck: New page: Asset Save: LongrangeBossSpecial
+[2020.10.12-04.23.44:334][288]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/LongrangeBossSpecial.LongrangeBossSpecial
+[2020.10.12-04.23.50:767][ 31]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PixelArena/Blueprints/LongrangeBossSpecial.LongrangeBossSpecial
+[2020.10.12-04.23.58:975][750]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/LongrangeBossSpecial3EE8573A41D7EFF8BC4CDCA6FC5D33A1.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBossSpecial.uasset'
+[2020.10.12-04.23.58:990][750]AssetCheck: New page: Asset Save: LongrangeBossSpecial
+[2020.10.12-04.23.58:990][750]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/LongrangeBossSpecial.LongrangeBossSpecial
+[2020.10.12-04.23.59:307][780]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/LongrangeBossSpecial3B38B6194BDB4F2369D9C7B28CFE654C.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBossSpecial.uasset'
+[2020.10.12-04.23.59:320][780]AssetCheck: New page: Asset Save: LongrangeBossSpecial
+[2020.10.12-04.23.59:320][780]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/LongrangeBossSpecial.LongrangeBossSpecial
+[2020.10.12-04.23.59:854][834]BlueprintLog: New page: Compile LongrangeBossSpecial
+[2020.10.12-04.24.00:045][834]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2020.10.12-04.24.08:371][576]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.12-04.24.25:621][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Levels/Main" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.12-04.24.25:668][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2020.10.12-04.24.25:689][ 38]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/MainF2B1D52C4FF6B4CA4B75AD8C72B64A06.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap'
+[2020.10.12-04.24.25:707][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Levels/Main_BuiltData" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main_BuiltData.uasset" SILENT=true
+[2020.10.12-04.24.25:743][ 38]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/Main_BuiltDataB7992D9D42A63A9BB42B6F8E79ADD36B.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main_BuiltData.uasset'
+[2020.10.12-04.24.25:759][ 38]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.12-04.24.25:759][ 38]LogContentValidation: Display: Validating World /Game/PixelArena/Levels/Main.Main
+[2020.10.12-04.24.25:759][ 38]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/PixelArena/Levels/Main_BuiltData.Main_BuiltData
+[2020.10.12-04.24.25:836][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Levels/Main" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.12-04.24.25:865][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2020.10.12-04.24.25:880][ 41]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/MainDD10C0AE4C495685E90A59B3FBA9228D.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap'
+[2020.10.12-04.24.25:898][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Levels/Main_BuiltData" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main_BuiltData.uasset" SILENT=true
+[2020.10.12-04.24.25:901][ 41]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/Main_BuiltData6A63B0DF4DEE108A479F0AB16B950737.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main_BuiltData.uasset'
+[2020.10.12-04.24.25:921][ 41]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.12-04.24.25:922][ 41]LogContentValidation: Display: Validating World /Game/PixelArena/Levels/Main.Main
+[2020.10.12-04.24.25:922][ 41]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/PixelArena/Levels/Main_BuiltData.Main_BuiltData
+[2020.10.12-04.24.29:130][300]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.12-04.24.29:142][300]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.12-04.24.29:142][300]PIE: New page: PIE session: Main (Oct 13, 2020, 6:24:29 AM)
+[2020.10.12-04.24.29:143][300]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.10.12-04.24.29:145][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002509s)
+[2020.10.12-04.24.29:146][300]LogAIModule: Creating AISystem for world Main
+[2020.10.12-04.24.29:146][300]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000229075D7000), frame # 85300
+[2020.10.12-04.24.29:146][300]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000229025DDD00), frame # 85300
+[2020.10.12-04.24.29:146][300]LogPlayLevel: PIE: World Init took: (0.000966s)
+[2020.10.12-04.24.29:146][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.003594s)
+[2020.10.12-04.24.29:171][300]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.10.12-04.24.29:173][300]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.12-04.24.29:173][300]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.12-04.24.29:173][300]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.12-04.24.29:173][300]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.12-04.24.29:173][300]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.12-04.24.29:173][300]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.12-04.24.29:173][300]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.12-04.24.29:173][300]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.12-04.24.29:174][300]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.12-04.24.29:174][300]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.12-04.24.29:179][300]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.12-04.24.29:179][300]LogAudioMixer: Display: 1: FrontRight
+[2020.10.12-04.24.29:214][300]LogAudioMixer: Display: Using Audio Device Headphones (6- Arctis 7 Game)
+[2020.10.12-04.24.29:214][300]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.12-04.24.29:214][300]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.12-04.24.29:214][300]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.12-04.24.29:214][300]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.12-04.24.29:225][300]LogInit: FAudioDevice initialized.
+[2020.10.12-04.24.29:234][300]LogLoad: Game class is 'PixelArenaGameMode_C'
+[2020.10.12-04.24.29:236][300]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.10.12-17.24.29
+[2020.10.12-04.24.29:236][300]LogWorld: Bringing up level for play took: 0.001896
+[2020.10.12-04.24.29:237][300]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2020.10.12-04.24.29:239][300]PIE: Server logged in
+[2020.10.12-04.24.29:240][300]PIE: Play in editor total start time 0.101 seconds.
+[2020.10.12-04.24.59:828][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.12-04.24.59:828][244]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.10.12-04.24.59:828][244]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.10.12-04.24.59:829][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.12-04.24.59:834][244]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.12-04.24.59:838][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.12-04.24.59:875][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.12-04.24.59:876][244]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000229025DDD00), frame # 88244
+[2020.10.12-04.24.59:876][244]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000229075D7000), frame # 88244
+[2020.10.12-04.24.59:878][244]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2020.10.12-04.24.59:908][245]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.10.12-04.25.10:318][286]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PixelArena/Blueprints/LongrangeBoss.LongrangeBoss
+[2020.10.12-04.25.19:144][ 72]BlueprintLog: New page: Compile LongrangeBoss
+[2020.10.12-04.25.19:200][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2020.10.12-04.25.19:752][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Blueprints/LongrangeBoss" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBoss.uasset" SILENT=true
+[2020.10.12-04.25.19:858][115]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/LongrangeBossF81EBF8749A42DAAAE469FAE1CC5F3A6.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBoss.uasset'
+[2020.10.12-04.25.19:870][115]AssetCheck: New page: Asset Save: LongrangeBoss
+[2020.10.12-04.25.19:870][115]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/LongrangeBoss.LongrangeBoss
+[2020.10.12-04.25.43:295][116]LogSlate: Window 'Color Picker' being destroyed
+[2020.10.12-04.25.44:552][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Blueprints/LongrangeBoss" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBoss.uasset" SILENT=true
+[2020.10.12-04.25.44:574][231]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/LongrangeBoss852535AA440ACC61AF4CFDA733FCEB79.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBoss.uasset'
+[2020.10.12-04.25.44:587][231]AssetCheck: New page: Asset Save: LongrangeBoss
+[2020.10.12-04.25.44:587][231]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/LongrangeBoss.LongrangeBoss
+[2020.10.12-04.26.03:842][133]LogSlate: Window 'Color Picker' being destroyed
+[2020.10.12-04.26.12:218][ 48]BlueprintLog: New page: Compile LongrangeBoss
+[2020.10.12-04.26.12:270][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2020.10.12-04.26.12:686][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Blueprints/LongrangeBoss" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBoss.uasset" SILENT=true
+[2020.10.12-04.26.12:708][ 84]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/LongrangeBossF8C268754DA36C3140069EB9AE4A9F8C.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBoss.uasset'
+[2020.10.12-04.26.12:721][ 84]AssetCheck: New page: Asset Save: LongrangeBoss
+[2020.10.12-04.26.12:721][ 84]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/LongrangeBoss.LongrangeBoss
+[2020.10.12-04.28.12:523][380]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (PrototypeMap)
+[2020.10.12-04.28.19:987][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Levels/Main" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.12-04.28.20:017][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2020.10.12-04.28.20:032][ 79]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/Main235614D44ABCB5D9C5C67283CF6A2239.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap'
+[2020.10.12-04.28.20:048][ 79]LogEditorTransaction: Non zero active count in UTransBuffer::Reset
+ActiveCount : 3
+SessionName : 
+Reason      : Map Saved
+
+Purging the undo buffer...
+
+[2020.10.12-04.28.20:049][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Levels/Main_BuiltData" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main_BuiltData.uasset" SILENT=true
+[2020.10.12-04.28.20:052][ 79]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/Main_BuiltData1336DD094E213CFE3304219FEDD90916.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main_BuiltData.uasset'
+[2020.10.12-04.28.20:067][ 79]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.12-04.28.20:067][ 79]LogContentValidation: Display: Validating World /Game/PixelArena/Levels/Main.Main
+[2020.10.12-04.28.20:067][ 79]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/PixelArena/Levels/Main_BuiltData.Main_BuiltData
+[2020.10.12-04.29.08:179][520]Candidate modules for hot reload:
+[2020.10.12-04.29.08:179][520]  PixelArena
+[2020.10.12-04.29.08:179][520]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PixelArena,3896 PixelArenaEditor Win64 Development -Project="D:/Projects/Pixel-Arena/PixelArena/PixelArena.uproject" "D:/Projects/Pixel-Arena/PixelArena/PixelArena.uproject"  -IgnoreJunk]
+[2020.10.12-04.29.08:181][520]Warning: Starting HotReload took  0.0s.
+[2020.10.12-04.29.12:328][863]CompilerResultsLog: New page: Compilation - Oct 13, 2020, 6:29:12 AM
+[2020.10.12-04.29.12:328][863]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Projects\Pixel-Arena).
+[2020.10.12-04.29.12:328][863]CompilerResultsLog: Building PixelArenaEditor...
+[2020.10.12-04.29.12:328][863]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.12-04.29.12:328][863]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.10.12-04.29.12:328][863]CompilerResultsLog:   [1/4] LongrangeBoss.cpp
+[2020.10.12-04.29.12:328][863]CompilerResultsLog:   [2/4] UE4Editor-PixelArena-3896.lib
+[2020.10.12-04.29.12:328][863]CompilerResultsLog:      Creating library D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-3896.lib and object D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-3896.exp
+[2020.10.12-04.29.12:328][863]CompilerResultsLog:   [3/4] UE4Editor-PixelArena-3896.dll
+[2020.10.12-04.29.12:328][863]CompilerResultsLog:      Creating library D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-3896.suppressed.lib and object D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-3896.suppressed.exp
+[2020.10.12-04.29.12:328][863]CompilerResultsLog:   [4/4] PixelArenaEditor.target
+[2020.10.12-04.29.12:328][863]CompilerResultsLog: Total time in Parallel executor: 3.59 seconds
+[2020.10.12-04.29.12:328][863]CompilerResultsLog: Total execution time: 4.07 seconds
+[2020.10.12-04.29.12:328][863]LogMainFrame: MainFrame: Module compiling took 4.195 seconds
+[2020.10.12-04.29.12:350][863]LogClass: BossState HotReload.
+[2020.10.12-04.29.12:350][863]LogClass: Direction HotReload.
+[2020.10.12-04.29.12:350][863]LogClass: CharacterState HotReload.
+[2020.10.12-04.29.12:362][863]LogContentBrowser: Native class hierarchy updated for 'PixelArena' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2020.10.12-04.29.12:367][863]Display: HotReload successful (14 functions remapped  0 scriptstructs remapped)
+[2020.10.12-04.29.12:420][863]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 3433 classes and 823 folders.
+[2020.10.12-04.29.12:427][863]Display: HotReload took  4.3s.
+[2020.10.12-04.29.13:799][960]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.12-04.29.13:812][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.12-04.29.13:812][960]PIE: New page: PIE session: Main (Oct 13, 2020, 6:29:13 AM)
+[2020.10.12-04.29.13:812][960]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.10.12-04.29.13:815][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002180s)
+[2020.10.12-04.29.13:815][960]LogAIModule: Creating AISystem for world Main
+[2020.10.12-04.29.13:816][960]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000229204FFE00), frame # 103960
+[2020.10.12-04.29.13:816][960]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022920512E80), frame # 103960
+[2020.10.12-04.29.13:816][960]LogPlayLevel: PIE: World Init took: (0.001044s)
+[2020.10.12-04.29.13:816][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.003383s)
+[2020.10.12-04.29.13:868][960]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2020.10.12-04.29.13:870][960]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.12-04.29.13:870][960]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.12-04.29.13:870][960]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.12-04.29.13:870][960]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.12-04.29.13:870][960]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.12-04.29.13:870][960]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.12-04.29.13:870][960]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.12-04.29.13:870][960]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.12-04.29.13:870][960]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.12-04.29.13:870][960]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.12-04.29.13:875][960]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.12-04.29.13:875][960]LogAudioMixer: Display: 1: FrontRight
+[2020.10.12-04.29.13:910][960]LogAudioMixer: Display: Using Audio Device Headphones (6- Arctis 7 Game)
+[2020.10.12-04.29.13:910][960]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.12-04.29.13:910][960]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.12-04.29.13:910][960]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.12-04.29.13:911][960]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.12-04.29.13:922][960]LogInit: FAudioDevice initialized.
+[2020.10.12-04.29.13:932][960]LogLoad: Game class is 'PixelArenaGameMode_C'
+[2020.10.12-04.29.13:935][960]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.10.12-17.29.13
+[2020.10.12-04.29.13:935][960]LogWorld: Bringing up level for play took: 0.002711
+[2020.10.12-04.29.13:936][960]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.10.12-04.29.13:939][960]PIE: Server logged in
+[2020.10.12-04.29.13:939][960]PIE: Play in editor total start time 0.13 seconds.
+[2020.10.12-04.29.28:050][374]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.12-04.29.28:050][374]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.10.12-04.29.28:050][374]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.10.12-04.29.28:050][374]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.12-04.29.28:056][374]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.12-04.29.28:061][374]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.12-04.29.28:103][374]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.12-04.29.28:106][374]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022920512E80), frame # 105374
+[2020.10.12-04.29.28:106][374]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000229204FFE00), frame # 105374
+[2020.10.12-04.29.28:110][374]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2020.10.12-04.29.28:142][375]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.10.12-04.29.39:240][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Levels/Main" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.12-04.29.39:272][414]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2020.10.12-04.29.39:306][414]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/Main57AF50834025094AB9D166B1576D5818.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap'
+[2020.10.12-04.29.39:324][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Levels/Main_BuiltData" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main_BuiltData.uasset" SILENT=true
+[2020.10.12-04.29.39:327][414]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/Main_BuiltData2C5AFE6E4C8F2D7461D5B3A4D46C0A49.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main_BuiltData.uasset'
+[2020.10.12-04.29.39:344][414]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.12-04.29.39:345][414]LogContentValidation: Display: Validating World /Game/PixelArena/Levels/Main.Main
+[2020.10.12-04.29.39:345][414]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/PixelArena/Levels/Main_BuiltData.Main_BuiltData
+[2020.10.12-04.29.39:439][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Levels/Main" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.12-04.29.39:468][420]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.10.12-04.29.39:481][420]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/MainDB7C663B496FD16F2A499FB0047378C9.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap'
+[2020.10.12-04.29.39:498][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Levels/Main_BuiltData" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main_BuiltData.uasset" SILENT=true
+[2020.10.12-04.29.39:501][420]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/Main_BuiltData45C5238B4585B6646542799D6577C57F.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main_BuiltData.uasset'
+[2020.10.12-04.29.39:517][420]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.12-04.29.39:517][420]LogContentValidation: Display: Validating World /Game/PixelArena/Levels/Main.Main
+[2020.10.12-04.29.39:517][420]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/PixelArena/Levels/Main_BuiltData.Main_BuiltData
+[2020.10.12-04.29.40:711][515]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.12-04.29.40:728][515]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.12-04.29.40:728][515]PIE: New page: PIE session: Main (Oct 13, 2020, 6:29:40 AM)
+[2020.10.12-04.29.40:728][515]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.10.12-04.29.40:731][515]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002284s)
+[2020.10.12-04.29.40:731][515]LogAIModule: Creating AISystem for world Main
+[2020.10.12-04.29.40:731][515]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022908BBAC00), frame # 106515
+[2020.10.12-04.29.40:732][515]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000229155DC180), frame # 106515
+[2020.10.12-04.29.40:732][515]LogPlayLevel: PIE: World Init took: (0.000937s)
+[2020.10.12-04.29.40:732][515]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.003327s)
+[2020.10.12-04.29.40:761][515]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2020.10.12-04.29.40:763][515]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.12-04.29.40:763][515]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.12-04.29.40:763][515]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.12-04.29.40:763][515]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.12-04.29.40:763][515]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.12-04.29.40:763][515]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.12-04.29.40:763][515]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.12-04.29.40:763][515]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.12-04.29.40:763][515]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.12-04.29.40:764][515]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.12-04.29.40:768][515]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.12-04.29.40:768][515]LogAudioMixer: Display: 1: FrontRight
+[2020.10.12-04.29.40:801][515]LogAudioMixer: Display: Using Audio Device Headphones (6- Arctis 7 Game)
+[2020.10.12-04.29.40:801][515]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.12-04.29.40:801][515]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.12-04.29.40:801][515]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.12-04.29.40:802][515]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.12-04.29.40:812][515]LogInit: FAudioDevice initialized.
+[2020.10.12-04.29.40:823][515]LogLoad: Game class is 'PixelArenaGameMode_C'
+[2020.10.12-04.29.40:825][515]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.10.12-17.29.40
+[2020.10.12-04.29.40:826][515]LogWorld: Bringing up level for play took: 0.001665
+[2020.10.12-04.29.40:826][515]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.10.12-04.29.40:829][515]PIE: Server logged in
+[2020.10.12-04.29.40:830][515]PIE: Play in editor total start time 0.11 seconds.
+[2020.10.12-04.29.48:033][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.12-04.29.48:033][173]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.10.12-04.29.48:033][173]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.10.12-04.29.48:033][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.12-04.29.48:043][173]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.12-04.29.48:048][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.12-04.29.48:074][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.12-04.29.48:090][173]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000229155DC180), frame # 107173
+[2020.10.12-04.29.48:090][173]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022908BBAC00), frame # 107173
+[2020.10.12-04.29.48:093][173]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2020.10.12-04.29.48:124][174]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.10.12-04.29.58:308][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Levels/Main" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.12-04.29.58:338][637]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.10.12-04.29.58:352][637]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/Main37F3C46C4E95C37A29FC218AE583812E.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap'
+[2020.10.12-04.29.58:370][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Levels/Main_BuiltData" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main_BuiltData.uasset" SILENT=true
+[2020.10.12-04.29.58:372][637]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/Main_BuiltData0C79E5D94E4E1D8784343690430AE2B8.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main_BuiltData.uasset'
+[2020.10.12-04.29.58:391][637]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.12-04.29.58:391][637]LogContentValidation: Display: Validating World /Game/PixelArena/Levels/Main.Main
+[2020.10.12-04.29.58:391][637]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/PixelArena/Levels/Main_BuiltData.Main_BuiltData
+[2020.10.12-04.29.59:063][690]Candidate modules for hot reload:
+[2020.10.12-04.29.59:064][690]  PixelArena
+[2020.10.12-04.29.59:064][690]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PixelArena,7411 PixelArenaEditor Win64 Development -Project="D:/Projects/Pixel-Arena/PixelArena/PixelArena.uproject" "D:/Projects/Pixel-Arena/PixelArena/PixelArena.uproject"  -IgnoreJunk]
+[2020.10.12-04.29.59:065][690]Warning: Starting HotReload took  0.0s.
+[2020.10.12-04.30.00:404][764]CompilerResultsLog: New page: Compilation - Oct 13, 2020, 6:30:00 AM
+[2020.10.12-04.30.00:404][764]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Projects\Pixel-Arena).
+[2020.10.12-04.30.00:404][764]CompilerResultsLog: Building PixelArenaEditor...
+[2020.10.12-04.30.00:404][764]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.12-04.30.00:404][764]CompilerResultsLog: Building 3 actions with 12 processes...
+[2020.10.12-04.30.00:404][764]CompilerResultsLog:   [1/3] UE4Editor-PixelArena-7411.lib
+[2020.10.12-04.30.00:404][764]CompilerResultsLog:      Creating library D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-7411.lib and object D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-7411.exp
+[2020.10.12-04.30.00:404][764]CompilerResultsLog:   [2/3] UE4Editor-PixelArena-7411.dll
+[2020.10.12-04.30.00:404][764]CompilerResultsLog:      Creating library D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-7411.suppressed.lib and object D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-7411.suppressed.exp
+[2020.10.12-04.30.00:404][764]CompilerResultsLog:   [3/3] PixelArenaEditor.target
+[2020.10.12-04.30.00:404][764]CompilerResultsLog: Total time in Parallel executor: 0.82 seconds
+[2020.10.12-04.30.00:404][764]CompilerResultsLog: Total execution time: 1.26 seconds
+[2020.10.12-04.30.00:404][764]LogMainFrame: MainFrame: Module compiling took 1.345 seconds
+[2020.10.12-04.30.00:431][764]LogClass: BossState HotReload.
+[2020.10.12-04.30.00:431][764]LogClass: Direction HotReload.
+[2020.10.12-04.30.00:431][764]LogClass: CharacterState HotReload.
+[2020.10.12-04.30.00:444][764]LogContentBrowser: Native class hierarchy updated for 'PixelArena' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2020.10.12-04.30.00:450][764]Display: HotReload successful (14 functions remapped  0 scriptstructs remapped)
+[2020.10.12-04.30.00:514][764]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 3433 classes and 823 folders.
+[2020.10.12-04.30.00:521][764]Display: HotReload took  1.5s.
+[2020.10.12-04.30.02:719][912]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.12-04.30.02:731][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.12-04.30.02:731][912]PIE: New page: PIE session: Main (Oct 13, 2020, 6:30:02 AM)
+[2020.10.12-04.30.02:732][912]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.10.12-04.30.02:734][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002240s)
+[2020.10.12-04.30.02:735][912]LogAIModule: Creating AISystem for world Main
+[2020.10.12-04.30.02:735][912]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000229306F0600), frame # 107912
+[2020.10.12-04.30.02:735][912]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000229306E5300), frame # 107912
+[2020.10.12-04.30.02:735][912]LogPlayLevel: PIE: World Init took: (0.001111s)
+[2020.10.12-04.30.02:735][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.003460s)
+[2020.10.12-04.30.02:805][912]LogUObjectHash: Compacting FUObjectHashTables data took   5.56ms
+[2020.10.12-04.30.02:807][912]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.12-04.30.02:807][912]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.12-04.30.02:807][912]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.12-04.30.02:807][912]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.12-04.30.02:807][912]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.12-04.30.02:807][912]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.12-04.30.02:807][912]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.12-04.30.02:807][912]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.12-04.30.02:807][912]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.12-04.30.02:807][912]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.12-04.30.02:812][912]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.12-04.30.02:812][912]LogAudioMixer: Display: 1: FrontRight
+[2020.10.12-04.30.02:845][912]LogAudioMixer: Display: Using Audio Device Headphones (6- Arctis 7 Game)
+[2020.10.12-04.30.02:845][912]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.12-04.30.02:845][912]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.12-04.30.02:845][912]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.12-04.30.02:846][912]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.12-04.30.02:857][912]LogInit: FAudioDevice initialized.
+[2020.10.12-04.30.02:861][912]LogLoad: Game class is 'PixelArenaGameMode_C'
+[2020.10.12-04.30.02:863][912]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.10.12-17.30.02
+[2020.10.12-04.30.02:863][912]LogWorld: Bringing up level for play took: 0.001640
+[2020.10.12-04.30.02:863][912]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2020.10.12-04.30.02:866][912]PIE: Server logged in
+[2020.10.12-04.30.02:867][912]PIE: Play in editor total start time 0.138 seconds.
+[2020.10.12-04.30.09:086][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.12-04.30.09:086][448]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.10.12-04.30.09:086][448]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.10.12-04.30.09:086][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.12-04.30.09:092][448]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.12-04.30.09:096][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.12-04.30.09:138][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.12-04.30.09:139][448]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000229306E5300), frame # 108448
+[2020.10.12-04.30.09:139][448]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000229306F0600), frame # 108448
+[2020.10.12-04.30.09:143][448]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2020.10.12-04.30.09:174][449]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.10.12-04.30.15:710][985]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.12-04.30.15:721][985]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.12-04.30.15:721][985]PIE: New page: PIE session: Main (Oct 13, 2020, 6:30:15 AM)
+[2020.10.12-04.30.15:722][985]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.10.12-04.30.15:724][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002180s)
+[2020.10.12-04.30.15:724][985]LogAIModule: Creating AISystem for world Main
+[2020.10.12-04.30.15:724][985]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022934648C00), frame # 108985
+[2020.10.12-04.30.15:725][985]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000229390A7B00), frame # 108985
+[2020.10.12-04.30.15:725][985]LogPlayLevel: PIE: World Init took: (0.000886s)
+[2020.10.12-04.30.15:725][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.003165s)
+[2020.10.12-04.30.15:754][985]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.10.12-04.30.15:756][985]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.12-04.30.15:756][985]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.12-04.30.15:756][985]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.12-04.30.15:756][985]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.12-04.30.15:756][985]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.12-04.30.15:756][985]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.12-04.30.15:756][985]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.12-04.30.15:756][985]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.12-04.30.15:757][985]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.12-04.30.15:757][985]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.12-04.30.15:762][985]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.12-04.30.15:762][985]LogAudioMixer: Display: 1: FrontRight
+[2020.10.12-04.30.15:795][985]LogAudioMixer: Display: Using Audio Device Headphones (6- Arctis 7 Game)
+[2020.10.12-04.30.15:795][985]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.12-04.30.15:796][985]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.12-04.30.15:796][985]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.12-04.30.15:796][985]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.12-04.30.15:807][985]LogInit: FAudioDevice initialized.
+[2020.10.12-04.30.15:813][985]LogLoad: Game class is 'PixelArenaGameMode_C'
+[2020.10.12-04.30.15:815][985]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.10.12-17.30.15
+[2020.10.12-04.30.15:816][985]LogWorld: Bringing up level for play took: 0.001893
+[2020.10.12-04.30.15:816][985]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2020.10.12-04.30.15:819][985]PIE: Server logged in
+[2020.10.12-04.30.15:820][985]PIE: Play in editor total start time 0.099 seconds.
+[2020.10.12-04.30.30:209][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.12-04.30.30:209][279]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.10.12-04.30.30:209][279]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.10.12-04.30.30:209][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.12-04.30.30:221][279]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.12-04.30.30:226][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.12-04.30.30:268][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.12-04.30.30:269][279]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000229390A7B00), frame # 110279
+[2020.10.12-04.30.30:269][279]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022934648C00), frame # 110279
+[2020.10.12-04.30.30:272][279]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2020.10.12-04.30.30:302][280]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.10.12-04.30.38:874][ 31]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.12-04.30.38:884][ 31]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.12-04.30.38:884][ 31]PIE: New page: PIE session: Main (Oct 13, 2020, 6:30:38 AM)
+[2020.10.12-04.30.38:884][ 31]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.10.12-04.30.38:887][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002210s)
+[2020.10.12-04.30.38:887][ 31]LogAIModule: Creating AISystem for world Main
+[2020.10.12-04.30.38:888][ 31]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000229152A6400), frame # 111031
+[2020.10.12-04.30.38:888][ 31]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022934760900), frame # 111031
+[2020.10.12-04.30.38:888][ 31]LogPlayLevel: PIE: World Init took: (0.000959s)
+[2020.10.12-04.30.38:888][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.003270s)
+[2020.10.12-04.30.38:919][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2020.10.12-04.30.38:921][ 31]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.12-04.30.38:921][ 31]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.12-04.30.38:921][ 31]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.12-04.30.38:921][ 31]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.12-04.30.38:921][ 31]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.12-04.30.38:921][ 31]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.12-04.30.38:921][ 31]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.12-04.30.38:921][ 31]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.12-04.30.38:922][ 31]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.12-04.30.38:922][ 31]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.12-04.30.38:927][ 31]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.12-04.30.38:927][ 31]LogAudioMixer: Display: 1: FrontRight
+[2020.10.12-04.30.38:959][ 31]LogAudioMixer: Display: Using Audio Device Headphones (6- Arctis 7 Game)
+[2020.10.12-04.30.38:959][ 31]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.12-04.30.38:959][ 31]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.12-04.30.38:959][ 31]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.12-04.30.38:960][ 31]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.12-04.30.38:971][ 31]LogInit: FAudioDevice initialized.
+[2020.10.12-04.30.38:981][ 31]LogLoad: Game class is 'PixelArenaGameMode_C'
+[2020.10.12-04.30.38:983][ 31]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.10.12-17.30.38
+[2020.10.12-04.30.38:983][ 31]LogWorld: Bringing up level for play took: 0.001643
+[2020.10.12-04.30.38:983][ 31]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.10.12-04.30.38:986][ 31]PIE: Server logged in
+[2020.10.12-04.30.38:987][ 31]PIE: Play in editor total start time 0.104 seconds.
+[2020.10.12-04.31.03:985][275]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.12-04.31.03:985][275]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.10.12-04.31.03:985][275]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.10.12-04.31.03:985][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.12-04.31.03:995][275]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.12-04.31.04:000][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.12-04.31.04:042][275]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.12-04.31.04:042][275]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022934760900), frame # 113275
+[2020.10.12-04.31.04:042][275]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000229152A6400), frame # 113275
+[2020.10.12-04.31.04:046][275]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.10.12-04.31.04:076][276]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.10.12-04.31.26:407][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Blueprints/LongrangeBossBasic" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBossBasic.uasset" SILENT=true
+[2020.10.12-04.31.26:416][177]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/LongrangeBossBasicB31EA21B4CD8D13089782684CBC58191.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBossBasic.uasset'
+[2020.10.12-04.31.26:429][177]AssetCheck: New page: Asset Save: LongrangeBossBasic
+[2020.10.12-04.31.26:429][177]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/LongrangeBossBasic.LongrangeBossBasic
+[2020.10.12-04.31.28:313][367]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.12-04.31.28:323][367]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.12-04.31.28:323][367]PIE: New page: PIE session: Main (Oct 13, 2020, 6:31:28 AM)
+[2020.10.12-04.31.28:323][367]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.10.12-04.31.28:325][367]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002208s)
+[2020.10.12-04.31.28:326][367]LogAIModule: Creating AISystem for world Main
+[2020.10.12-04.31.28:326][367]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022934756A00), frame # 115367
+[2020.10.12-04.31.28:326][367]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022934763D80), frame # 115367
+[2020.10.12-04.31.28:326][367]LogPlayLevel: PIE: World Init took: (0.000901s)
+[2020.10.12-04.31.28:326][367]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.003204s)
+[2020.10.12-04.31.28:356][367]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2020.10.12-04.31.28:359][367]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.12-04.31.28:359][367]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.12-04.31.28:359][367]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.12-04.31.28:359][367]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.12-04.31.28:359][367]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.12-04.31.28:359][367]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.12-04.31.28:359][367]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.12-04.31.28:359][367]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.12-04.31.28:360][367]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.12-04.31.28:360][367]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.12-04.31.28:365][367]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.12-04.31.28:365][367]LogAudioMixer: Display: 1: FrontRight
+[2020.10.12-04.31.28:397][367]LogAudioMixer: Display: Using Audio Device Headphones (6- Arctis 7 Game)
+[2020.10.12-04.31.28:398][367]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.12-04.31.28:398][367]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.12-04.31.28:398][367]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.12-04.31.28:398][367]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.12-04.31.28:409][367]LogInit: FAudioDevice initialized.
+[2020.10.12-04.31.28:418][367]LogLoad: Game class is 'PixelArenaGameMode_C'
+[2020.10.12-04.31.28:420][367]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.10.12-17.31.28
+[2020.10.12-04.31.28:421][367]LogWorld: Bringing up level for play took: 0.001843
+[2020.10.12-04.31.28:421][367]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2020.10.12-04.31.28:423][367]PIE: Server logged in
+[2020.10.12-04.31.28:424][367]PIE: Play in editor total start time 0.102 seconds.
+[2020.10.12-04.31.36:779][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.12-04.31.36:779][295]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.10.12-04.31.36:779][295]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.10.12-04.31.36:780][295]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.12-04.31.36:787][295]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.12-04.31.36:792][295]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.12-04.31.36:834][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.12-04.31.36:835][295]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022934763D80), frame # 116295
+[2020.10.12-04.31.36:835][295]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022934756A00), frame # 116295
+[2020.10.12-04.31.36:838][295]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.10.12-04.31.36:869][296]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.10.12-04.31.48:874][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Blueprints/LongrangeBossBasic" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBossBasic.uasset" SILENT=true
+[2020.10.12-04.31.48:883][414]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/LongrangeBossBasic2C04FF8A4F073EF3C929E8AB5B33F4BF.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBossBasic.uasset'
+[2020.10.12-04.31.48:900][414]AssetCheck: New page: Asset Save: LongrangeBossBasic
+[2020.10.12-04.31.48:900][414]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/LongrangeBossBasic.LongrangeBossBasic
+[2020.10.12-04.31.49:540][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Blueprints/LongrangeBossBasic" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBossBasic.uasset" SILENT=true
+[2020.10.12-04.31.49:548][468]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/LongrangeBossBasic72DA0A5B4AEB5E41447F6592813B1641.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBossBasic.uasset'
+[2020.10.12-04.31.49:561][468]AssetCheck: New page: Asset Save: LongrangeBossBasic
+[2020.10.12-04.31.49:561][468]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/LongrangeBossBasic.LongrangeBossBasic
+[2020.10.12-04.31.51:297][636]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.12-04.31.51:307][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.12-04.31.51:307][636]PIE: New page: PIE session: Main (Oct 13, 2020, 6:31:51 AM)
+[2020.10.12-04.31.51:307][636]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.10.12-04.31.51:309][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002213s)
+[2020.10.12-04.31.51:310][636]LogAIModule: Creating AISystem for world Main
+[2020.10.12-04.31.51:310][636]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002289B41E600), frame # 117636
+[2020.10.12-04.31.51:310][636]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022934762840), frame # 117636
+[2020.10.12-04.31.51:310][636]LogPlayLevel: PIE: World Init took: (0.000909s)
+[2020.10.12-04.31.51:310][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.003220s)
+[2020.10.12-04.31.51:340][636]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2020.10.12-04.31.51:342][636]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.12-04.31.51:343][636]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.12-04.31.51:343][636]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.12-04.31.51:343][636]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.12-04.31.51:343][636]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.12-04.31.51:343][636]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.12-04.31.51:343][636]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.12-04.31.51:343][636]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.12-04.31.51:343][636]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.12-04.31.51:343][636]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.12-04.31.51:348][636]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.12-04.31.51:348][636]LogAudioMixer: Display: 1: FrontRight
+[2020.10.12-04.31.51:380][636]LogAudioMixer: Display: Using Audio Device Headphones (6- Arctis 7 Game)
+[2020.10.12-04.31.51:380][636]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.12-04.31.51:380][636]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.12-04.31.51:380][636]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.12-04.31.51:381][636]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.12-04.31.51:392][636]LogInit: FAudioDevice initialized.
+[2020.10.12-04.31.51:401][636]LogLoad: Game class is 'PixelArenaGameMode_C'
+[2020.10.12-04.31.51:403][636]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.10.12-17.31.51
+[2020.10.12-04.31.51:404][636]LogWorld: Bringing up level for play took: 0.001758
+[2020.10.12-04.31.51:404][636]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2020.10.12-04.31.51:407][636]PIE: Server logged in
+[2020.10.12-04.31.51:407][636]PIE: Play in editor total start time 0.101 seconds.
+[2020.10.12-04.32.08:423][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.12-04.32.08:424][552]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
+[2020.10.12-04.32.08:424][552]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.10.12-04.32.08:424][552]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.12-04.32.08:433][552]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.12-04.32.08:438][552]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.12-04.32.08:479][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.12-04.32.08:480][552]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022934762840), frame # 119552
+[2020.10.12-04.32.08:480][552]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002289B41E600), frame # 119552
+[2020.10.12-04.32.08:483][552]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2020.10.12-04.32.08:513][553]LogPlayLevel: Display: Destroying online subsystem :Context_22
