@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodePixelArena_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xC51B0785,
+				0xF66FB445,
 				0x12292C32,
 				METADATA_PARAMS(nullptr, 0)
 			};

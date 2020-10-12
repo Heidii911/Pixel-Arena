@@ -41,93 +41,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="194977c8-8968-4056-a5f6-76563cce45cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Flipbooks/Bosses/Longrange/Longrange_Idle.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Flipbooks/Bosses/Longrange/Longrange_TeleportEnd.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Flipbooks/Bosses/Longrange/Longrange_TeleportStart.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_10.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_11.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_12.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_13.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_14.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_15.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_16.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_17.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_18.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_19.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_20.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_24.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_25.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_26.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_27.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_28.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_29.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_30.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_31.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_32.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_33.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_34.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_35.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_36.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_37.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_38.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_39.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_4.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_40.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_41.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_42.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_48.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_49.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_5.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_50.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_51.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_52.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_53.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_54.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_55.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_56.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_6.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_64.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_65.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_66.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_67.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_68.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_69.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_7.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_70.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_71.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_8.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_9.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PixelArena/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PixelArena/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/PixelArena/Blueprints/ArenaGreatCharacterBP.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PixelArena/Blueprints/ArenaGreatCharacterBP.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PixelArena/Blueprints/ArenaShieldCharacterBP.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PixelArena/Blueprints/ArenaShieldCharacterBP.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/PixelArena/Blueprints/LongrangeBoss.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PixelArena/Blueprints/LongrangeBoss.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PixelArena/Levels/Main.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PixelArena/Levels/Main.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_0.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PixelArena/Sprites/Bosses/Longrange/BossLongrangeSS_BossLongrangeSprite_0.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/PixelArenaEditor/ActionHistory.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/PixelArenaEditor/ActionHistory.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/PixelArenaEditor/Development/Metadata-HotReload.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/PixelArenaEditor/Development/Metadata-HotReload.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/PixelArena/ArenaCharacter.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/PixelArena/ArenaCharacter.cpp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/PixelArena/ArenaCharacter.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/PixelArena/ArenaCharacter.gen.cpp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/PixelArena/ArenaCharacter.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/PixelArena/ArenaCharacter.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/PixelArena/ArenaCharacter.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/PixelArena/ArenaCharacter.generated.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/PixelArena/PixelArena.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/PixelArena/PixelArena.init.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/PixelArena/Levels/Main_Auto1.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/PixelArena/Levels/Main_Auto1.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/PixelArena.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/PixelArena.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PixelArena/ArenaActor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PixelArena/ArenaActor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PixelArena/ArenaActor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PixelArena/ArenaActor.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PixelArena/ArenaBoss.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PixelArena/ArenaBoss.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/PixelArena/ArenaBoss.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PixelArena/ArenaBoss.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PixelArena/ArenaCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PixelArena/ArenaCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PixelArena/ArenaCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PixelArena/ArenaCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PixelArena/LongrangeBoss.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PixelArena/LongrangeBoss.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PixelArena/LongrangeBoss.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PixelArena/LongrangeBoss.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,10 +65,10 @@
         <option value="$PROJECT_DIR$/Source/PixelArena/ArenaCharacter.cpp" />
         <option value="$PROJECT_DIR$/Source/PixelArena/ArenaCharacter.h" />
         <option value="$PROJECT_DIR$/Source/PixelArena/ArenaBoss.cpp" />
-        <option value="$PROJECT_DIR$/Source/PixelArena/ArenaBoss.h" />
         <option value="$PROJECT_DIR$/Source/PixelArena/ArenaActor.h" />
         <option value="$PROJECT_DIR$/Source/PixelArena/LongrangeBoss.h" />
         <option value="$PROJECT_DIR$/Source/PixelArena/LongrangeBoss.cpp" />
+        <option value="$PROJECT_DIR$/Source/PixelArena/ArenaBoss.h" />
       </list>
     </option>
   </component>
@@ -395,7 +316,7 @@
       <workItem from="1602131847907" duration="225000" />
       <workItem from="1602132307561" duration="12890000" />
       <workItem from="1602464790277" duration="2079000" />
-      <workItem from="1602467282284" duration="1000000" />
+      <workItem from="1602467282284" duration="2733000" />
     </task>
     <servers />
   </component>
