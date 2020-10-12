@@ -1,9 +1,12 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
+#define Arena_Actor ""
 
 #include "CoreMinimal.h"
 #include "PaperCharacter.h"
+#include "PaperFlipbookComponent.h"
+
 #include "ArenaActor.generated.h"
 
 /**
@@ -16,10 +19,13 @@ class PIXELARENA_API AArenaActor : public APaperCharacter
 
 	public:
 		// Properties
-		UPROPERTY(EditAnywhere, Category="Stats")
-		int health;
-		int attackDamage;
+		UPROPERTY(EditAnywhere, Category= Arena_Actor) int Health;
+		UPROPERTY(EditAnywhere, Category = Arena_Actor) int AttackDamage;
 	
 		// Functions
-		virtual void Damage(int amount);
+		UFUNCTION(BlueprintCallable, Category = Arena_Actor) virtual void Damage(int amount);
+		UFUNCTION(BlueprintCallable, Category = Arena_Actor) void PlayFlipbook(UPaperFlipbook* flipbook, bool loop);
+
+		// Events
+		UFUNCTION(BlueprintImplementableEvent, Category = Arena_Actor) void OnDamage(int amount);
 };
