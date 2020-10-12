@@ -32,9 +32,8 @@ public:
 	
 	UPROPERTY(EditAnywhere, Category = ARENA_BOSS) float AttackSpeed = 100; // Attack speed in milliseconds.
 	UPROPERTY(EditAnywhere, Category = ARENA_BOSS) UBoxComponent* VisionBox; // Size of the bosses vision box.
-	UPROPERTY(BlueprintReadWrite, Category = ARENA_BOSS) int AttackCount; // Number of attacks executed whilst being in AttackState.
 	UPROPERTY(BlueprintReadWrite, Category = ARENA_BOSS) bool bPlayerVisible = false; // Whether the player is within the boss vision box.
-	UPROPERTY(BlueprintReadWrite, Category = ARENA_BOSS) TEnumAsByte<BossState> CurrentState;
+	UPROPERTY(BlueprintReadWrite, Category = ARENA_BOSS) TEnumAsByte<BossState> CurrentState = BossIdle;
 	UPROPERTY(BlueprintReadWrite, Category = ARENA_BOSS) AArenaActor* Character;
 
 

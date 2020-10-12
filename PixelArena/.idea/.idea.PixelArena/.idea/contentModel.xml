@@ -43416,6 +43416,8 @@
           <e p="ArenaBoss.h" t="Include" />
           <e p="ArenaCharacter.cpp" t="Include" />
           <e p="ArenaCharacter.h" t="Include" />
+          <e p="ArenaProjectile.cpp" t="Include" />
+          <e p="ArenaProjectile.h" t="Include" />
           <e p="LongrangeBoss.cpp" t="Include" />
           <e p="LongrangeBoss.h" t="Include" />
           <e p="PixelArena.Build.cs" t="Include" />

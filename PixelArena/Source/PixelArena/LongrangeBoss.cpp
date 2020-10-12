@@ -11,6 +11,18 @@ void ALongrangeBoss::Teleport()
         TeleportCenter();
 }
 
+void ALongrangeBoss::BasicAttack()
+{
+    AttackCount = AttackCount + 1;
+    GEngine->AddOnScreenDebugMessage(-1, 0.2f, FColor::Red, TEXT("Boss Basic Attack"));
+}
+
+void ALongrangeBoss::SpecialAttack()
+{
+    AttackCount = 5;
+    GEngine->AddOnScreenDebugMessage(-1, 0.2f, FColor::Red, TEXT("Boss Special Attack"));
+}
+
 void ALongrangeBoss::TeleportCenter()
 {
     bAtCenter = true;
@@ -34,6 +46,11 @@ void ALongrangeBoss::Tick(float DeltaSeconds)
             CurrentState = BossAbility;
             break;
         }
+        if (bPlayerVisible && !bShouldTeleport)
+        {
+            CurrentState = BossAttacking;
+            break;
+        }
             
         IdleState();
         break;
@@ -42,6 +59,18 @@ void ALongrangeBoss::Tick(float DeltaSeconds)
         {
             HitCount = 0;
             CurrentState = BossAbility;
+            break;
+        }
+        if (!bPlayerVisible)
+        {
+            CurrentState = BossIdle;
+            break;
+        }
+        if (AttackCount >= 5)
+        {
+            AttackCount = 0;
+            bShouldTeleport = true;
+            CurrentState = BossIdle;
             break;
         }
             

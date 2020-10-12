@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PixelArena.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5B39BB68-1BB7-4AD4-843F-CC8676E368F0}</UniqueIdentifier>
+      <UniqueIdentifier>{9D764150-98BC-4D9A-9D5C-8DD6BC84BB08}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PixelArena.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{4C37B23D-328A-49F7-B382-72C8E504AABB}</UniqueIdentifier>
+      <UniqueIdentifier>{9D080A43-0B94-435F-97D3-54DF6E88775B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -31,7 +31,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PixelArena">
-      <UniqueIdentifier>{859D1684-DE72-49EF-815D-B498D28B183E}</UniqueIdentifier>
+      <UniqueIdentifier>{ECECC87E-4B70-43F1-808E-B562285D0C53}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PixelArena\ArenaActor.cpp">
       <Filter>Source\PixelArena</Filter>
@@ -49,6 +49,12 @@
       <Filter>Source\PixelArena</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\PixelArena\ArenaCharacter.h">
+      <Filter>Source\PixelArena</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PixelArena\ArenaProjectile.cpp">
+      <Filter>Source\PixelArena</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PixelArena\ArenaProjectile.h">
       <Filter>Source\PixelArena</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\PixelArena\LongrangeBoss.cpp">

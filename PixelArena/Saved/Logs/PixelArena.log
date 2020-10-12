@@ -1,8 +1,8 @@
-﻿Log file open, 10/12/20 14:46:30
+﻿Log file open, 10/12/20 16:20:58
 LogInit: Display: Running engine for game: PixelArena
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.154508
+LogStats: Stats thread started at 0.174700
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +12:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -195,1218 +195,641 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.10.12-01.46.30:726][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.10.12-01.46.30:726][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Engine.ini]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.Mobile.VirtualTextures:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.AnisotropicBRDF:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:2]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.VertexDeformationOutputsVelocity:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.MeshStreaming:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
-[2020.10.12-01.46.30:727][  0]LogConfig: Setting CVar [[r.SkinCache.DefaultBehavior:1]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Engine.ini]
-[2020.10.12-01.46.30:728][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Engine.ini]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Engine.ini]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.10.12-01.46.30:728][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Engine.ini]
-[2020.10.12-01.46.30:728][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Engine.ini]
-[2020.10.12-01.46.30:732][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.10.12-01.46.30:732][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.10.12-01.46.30:733][  0]LogInit: Selected Device Profile: [Windows]
-[2020.10.12-01.46.30:733][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.10.12-01.46.30:733][  0]LogHAL: Display: Platform has ~ 16 GB [17102880768 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.10.12-01.46.30:733][  0]LogInit: Going up to parent DeviceProfile []
-[2020.10.12-01.46.30:733][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.10.12-01.46.30:733][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.10.12-01.46.30:734][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.10.12-01.46.30:735][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.10.12-01.46.30:735][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.10.12-01.46.30:735][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.10.12-01.46.30:735][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Engine.ini]
-[2020.10.12-01.46.30:735][  0]LogInit: Computer: BLUKZEN
-[2020.10.12-01.46.30:735][  0]LogInit: User: Braden
-[2020.10.12-01.46.30:735][  0]LogInit: CPU Page size=4096, Cores=6
-[2020.10.12-01.46.30:735][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.10.12-01.46.30:735][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.10.12-01.46.30:735][  0]LogMemory: Platform Memory Stats for Windows
-[2020.10.12-01.46.30:735][  0]LogMemory: Process Physical Memory: 115.24 MB used, 115.24 MB peak
-[2020.10.12-01.46.30:735][  0]LogMemory: Process Virtual Memory: 99.45 MB used, 99.45 MB peak
-[2020.10.12-01.46.30:735][  0]LogMemory: Physical Memory: 9515.16 MB used,  6795.42 MB free, 16310.58 MB total
-[2020.10.12-01.46.30:735][  0]LogMemory: Virtual Memory: 5166.95 MB used,  134212560.00 MB free, 134217728.00 MB total
-[2020.10.12-01.46.30:739][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.10.12-01.46.30:763][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.10.12-01.46.30:764][  0]LogInit: Using OS detected language (en-US).
-[2020.10.12-01.46.30:764][  0]LogInit: Using OS detected locale (en-US).
-[2020.10.12-01.46.30:765][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.10.12-01.46.30:917][  0]LogInit: Setting process to per monitor DPI aware
-[2020.10.12-01.46.30:946][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.10.12-01.46.30:946][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.10.12-01.46.31:066][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.10.12-01.46.31:066][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.10.12-01.46.31:066][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.10.12-01.46.31:066][  0]LogD3D11RHI: D3D11 adapters:
-[2020.10.12-01.46.31:146][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 SUPER' (Feature Level 11_0)
-[2020.10.12-01.46.31:146][  0]LogD3D11RHI:       5991/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.10.12-01.46.31:148][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.10.12-01.46.31:148][  0]LogD3D11RHI:       0/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.10.12-01.46.31:148][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.10.12-01.46.31:159][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.10.12-01.46.31:159][  0]LogD3D11RHI:     GPU DeviceId: 0x21c4 (for the marketing name, search the web for "GPU Device Id")
-[2020.10.12-01.46.31:159][  0]LogWindows: EnumDisplayDevices:
-[2020.10.12-01.46.31:159][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660 SUPER' (P:1 D:1)
-[2020.10.12-01.46.31:159][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:1)
-[2020.10.12-01.46.31:159][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:0)
-[2020.10.12-01.46.31:159][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:0)
-[2020.10.12-01.46.31:159][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.10.12-01.46.31:159][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 SUPER
-[2020.10.12-01.46.31:159][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
-[2020.10.12-01.46.31:159][  0]LogD3D11RHI:      Driver Date: 3-17-2020
-[2020.10.12-01.46.31:160][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
-[2020.10.12-01.46.31:206][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.10.12-01.46.31:207][  0]LogD3D11RHI: [Aftermath] Enabled and primed
-[2020.10.12-01.46.31:207][  0]LogD3D11RHI: Async texture creation enabled
-[2020.10.12-01.46.31:207][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.10.12-01.46.31:234][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2020.10.12-01.46.31:448][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.10.12-01.46.31:468][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.10.12-01.46.31:468][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.10.12-01.46.31:468][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.10.12-01.46.31:468][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.10.12-01.46.31:468][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.10.12-01.46.31:468][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.10.12-01.46.31:468][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.10.12-01.46.31:468][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.10.12-01.46.31:468][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.10.12-01.46.31:468][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.10.12-01.46.31:489][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.10.12-01.46.31:489][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.10.12-01.46.31:498][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.10.12-01.46.31:506][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.10.12-01.46.31:515][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.10.12-01.46.31:523][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.10.12-01.46.31:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.10.12-01.46.31:539][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.10.12-01.46.31:547][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.10.12-01.46.31:570][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.10.12-01.46.31:570][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.10.12-01.46.31:585][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.10.12-01.46.31:585][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.10.12-01.46.31:593][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.10.12-01.46.31:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.10.12-01.46.31:610][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.10.12-01.46.31:618][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.10.12-01.46.31:618][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.10.12-01.46.31:624][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.10.12-01.46.31:666][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../Projects/Pixel-Arena/PixelArena/Intermediate/Shaders/WorkingDirectory/29004/).
-[2020.10.12-01.46.31:666][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Braden/AppData/Local/Temp/UnrealShaderWorkingDir/A3D786BE4A340063D5864DBEAF62FF25/'.
-[2020.10.12-01.46.31:667][  0]LogXGEController: Cleaning working directory: C:/Users/Braden/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.10.12-01.46.31:667][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.10.12-01.46.31:667][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.10.12-01.46.31:667][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.10.12-01.46.32:310][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.10.12-01.46.32:354][  0]LogDerivedDataCache: Loaded boot cache 0.04s 75MB C:/Users/Braden/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.10.12-01.46.32:354][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Braden/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.10.12-01.46.32:354][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Projects/Pixel-Arena/PixelArena/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.10.12-01.46.32:354][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.10.12-01.46.32:354][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Projects/Pixel-Arena/PixelArena/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.10.12-01.46.32:354][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.10.12-01.46.32:363][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.10.12-01.46.32:363][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.10.12-01.46.32:363][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.10.12-01.46.32:365][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Braden/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.10.12-01.46.32:365][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.10.12-01.46.32:365][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.10.12-01.46.32:407][  0]LogSlate: Using FreeType 2.10.0
-[2020.10.12-01.46.32:407][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.10.12-01.46.32:426][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
-[2020.10.12-01.46.32:623][  0]LogInit: Selected Device Profile: [Windows]
-[2020.10.12-01.46.32:710][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.10.12-01.46.32:710][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.10.12-01.46.32:710][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.10.12-01.46.32:710][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.10.12-01.46.32:710][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.10.12-01.46.32:722][  0]LogNetVersion: PixelArena 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3559364062)
-[2020.10.12-01.46.33:047][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000026416CB1380), frame # 0
-[2020.10.12-01.46.33:047][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026416C0AAC0), frame # 0
-[2020.10.12-01.46.33:048][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026416C59E00), frame # 0
-[2020.10.12-01.46.33:078][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.024928 seconds
-[2020.10.12-01.46.33:084][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2020.10.12-01.46.33:084][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2020.10.12-01.46.33:084][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.10.12-01.46.33:350][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.10.12-01.46.33:354][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.10.12-01.46.33:514][  0]SourceControl: Source control is disabled
-[2020.10.12-01.46.33:514][  0]SourceControl: Source control is disabled
-[2020.10.12-01.46.33:516][  0]SourceControl: Source control is disabled
-[2020.10.12-01.46.33:519][  0]SourceControl: Source control is disabled
-[2020.10.12-01.46.34:192][  0]SourceControl: Source control is disabled
-[2020.10.12-01.46.34:375][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.10.12-01.46.34:389][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.10.12-01.46.34:389][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.10.12-01.46.34:427][  0]LogOcInput: OculusInput pre-init called
-[2020.10.12-01.46.34:435][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.10.12-01.46.34:435][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.10.12-01.46.34:488][  0]LogEngine: Initializing Engine...
-[2020.10.12-01.46.34:489][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.10.12-01.46.34:489][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.10.12-01.46.34:490][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.10.12-01.46.34:585][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.10.12-01.46.34:592][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.10.12-01.46.34:592][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026419A41C00), frame # 0
-[2020.10.12-01.46.34:592][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026419A78CC0), frame # 0
-[2020.10.12-01.46.34:605][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.10.12-01.46.34:605][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.10.12-01.46.34:605][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.10.12-01.46.34:605][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.10.12-01.46.34:605][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.10.12-01.46.34:605][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.10.12-01.46.34:605][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.10.12-01.46.34:605][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.10.12-01.46.34:605][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.10.12-01.46.34:605][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.10.12-01.46.34:618][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.10.12-01.46.34:618][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.10.12-01.46.34:680][  0]LogAudioMixer: Display: Using Audio Device Headphones (6- Arctis 7 Game)
-[2020.10.12-01.46.34:684][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.10.12-01.46.34:686][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.10.12-01.46.34:686][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.10.12-01.46.34:687][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.10.12-01.46.34:689][  0]LogInit: FAudioDevice initialized.
-[2020.10.12-01.46.34:689][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.10.12-01.46.34:753][  0]LogDerivedDataCache: Saved boot cache 0.06s 75MB C:/Users/Braden/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.10.12-01.46.34:758][  0]LogInit: Texture streaming: Enabled
-[2020.10.12-01.46.34:772][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.10.12-01.46.34:772][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={A562136A-4C98-2C87-208A-B88E2D5035DB}
-[2020.10.12-01.46.34:772][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.10.12-01.46.34:777][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.10.12-01.46.34:818][  0]LogInit: Transaction tracking system initialized
-[2020.10.12-01.46.34:836][  0]BlueprintLog: New page: Editor Load
-[2020.10.12-01.46.34:889][  0]LocalizationService: Localization service is disabled
-[2020.10.12-01.46.35:014][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.10.12-01.46.35:014][  0]LogCook: Display: Mobile HDR setting 1
-[2020.10.12-01.46.35:119][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Pixel-Arena/PixelArena/Content/' took 0.00s
-[2020.10.12-01.46.35:267][  0]SourceControl: Source control is disabled
-[2020.10.12-01.46.35:267][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.498
-[2020.10.12-01.46.35:267][  0]Cmd: MAP LOAD FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.10.12-01.46.35:267][  0]LightingResults: New page: Lighting Build
-[2020.10.12-01.46.35:268][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.10.12-01.46.35:268][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.12-01.46.35:268][  0]MapCheck: New page: Map Check
-[2020.10.12-01.46.35:268][  0]LightingResults: New page: Lighting Build
-[2020.10.12-01.46.35:279][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026419A41C00), frame # 0
-[2020.10.12-01.46.35:279][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026419A78CC0), frame # 0
-[2020.10.12-01.46.35:280][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
-[2020.10.12-01.46.35:435][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.12-01.46.35:437][  0]LogAIModule: Creating AISystem for world Menu
-[2020.10.12-01.46.35:437][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026425C82200), frame # 0
-[2020.10.12-01.46.35:437][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026425D147C0), frame # 0
-[2020.10.12-01.46.35:438][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.10.12-01.46.35:449][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
-[2020.10.12-01.46.35:449][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.10.12-01.46.35:449][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.098ms to complete.
-[2020.10.12-01.46.35:449][  0]LogFileHelpers: Loading map 'Menu' took 0.183
-[2020.10.12-01.46.35:452][  0]LogUnrealEdMisc: Total Editor Startup Time, took 5.682
-[2020.10.12-01.46.35:581][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.12-01.46.35:587][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.12-01.46.35:593][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.12-01.46.35:599][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.12-01.46.35:604][  0]LogCollectionManager: Loaded 0 collections in 0.000757 seconds
-[2020.10.12-01.46.35:619][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Pixel-Arena/PixelArena/Saved/Collections/' took 0.00s
-[2020.10.12-01.46.35:619][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Pixel-Arena/PixelArena/Content/Developers/Braden/Collections/' took 0.00s
-[2020.10.12-01.46.35:619][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Pixel-Arena/PixelArena/Content/Collections/' took 0.00s
-[2020.10.12-01.46.35:619][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 3432 classes and 823 folders.
-[2020.10.12-01.46.35:624][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.10.12-01.46.35:654][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.10.12-01.46.35:655][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
-[2020.10.12-01.46.35:684][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.10.12-01.46.35:686][  0]LogSlate: Took 0.000091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.10.12-01.46.35:689][  0]LogSlate: Took 0.000083 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.10.12-01.46.35:746][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2020.10.12-01.46.35:821][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.10.12-01.46.35:821][  0]LogLoad: (Engine Initialization) Total time: 6.05 seconds
-[2020.10.12-01.46.35:822][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.10.12-01.46.35:854][  0]LogAssetRegistry: Asset discovery search completed in 3.4282 seconds
-[2020.10.12-01.46.35:857][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
-[2020.10.12-01.46.35:858][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.10.12-01.46.35:908][  0]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.10.12-01.46.43:573][837]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.10.12-01.46.43:591][837]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/PixelArena.LongrangeBoss
-[2020.10.12-01.46.50:763][609]LogAssetEditorSubsystem: Opening Asset editor for World /Game/PixelArena/Levels/Main.Main
-[2020.10.12-01.46.50:774][609]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
-[2020.10.12-01.46.50:776][609]Cmd: MAP LOAD FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.10.12-01.46.50:776][609]LightingResults: New page: Lighting Build
-[2020.10.12-01.46.50:776][609]LoadErrors: New page: Loading map: Main.umap
-[2020.10.12-01.46.50:817][609]LogWorld: UWorld::CleanupWorld for Menu, bSessionEnded=true, bCleanupResources=true
-[2020.10.12-01.46.50:817][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.12-01.46.50:817][609]MapCheck: New page: Map Check
-[2020.10.12-01.46.50:817][609]LightingResults: New page: Lighting Build
-[2020.10.12-01.46.50:827][609]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026425C82200), frame # 1609
-[2020.10.12-01.46.50:827][609]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026425D147C0), frame # 1609
-[2020.10.12-01.46.50:828][609]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
-[2020.10.12-01.46.50:834][609]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.10.12-01.46.50:834][609]LogAIModule: Creating AISystem for world Main
-[2020.10.12-01.46.50:834][609]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026406265A00), frame # 1609
-[2020.10.12-01.46.50:834][609]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000264060E7600), frame # 1609
-[2020.10.12-01.46.50:847][609]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
-[2020.10.12-01.46.50:861][609]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.10.12-01.46.50:861][609]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.064ms to complete.
-[2020.10.12-01.46.50:861][609]LogFileHelpers: Loading map 'Main' took 0.084
-[2020.10.12-01.49.37:726][342]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PixelArena/Blueprints/LongrangeBoss.LongrangeBoss
-[2020.10.12-01.49.37:921][342]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
-[2020.10.12-01.49.38:676][342]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.10.12-01.49.38:726][343]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.10.12-01.52.25:005][282]BlueprintLog: New page: Compile LongrangeBoss
-[2020.10.12-01.52.25:039][282]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
-[2020.10.12-01.52.25:089][282]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2020.10.12-01.52.25:563][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Blueprints/LongrangeBoss" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBoss.uasset" SILENT=true
-[2020.10.12-01.52.25:616][334]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/LongrangeBoss18D8ABD54550DB067037598F3E52E817.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBoss.uasset'
-[2020.10.12-01.52.25:627][334]AssetCheck: New page: Asset Save: LongrangeBoss
-[2020.10.12-01.52.25:628][334]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/LongrangeBoss.LongrangeBoss
-[2020.10.12-01.52.33:464][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Blueprints/LongrangeBoss" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBoss.uasset" SILENT=true
-[2020.10.12-01.52.33:478][226]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/LongrangeBoss94E0B3634D731FD2AFC66982B765FC38.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBoss.uasset'
-[2020.10.12-01.52.33:490][226]AssetCheck: New page: Asset Save: LongrangeBoss
-[2020.10.12-01.52.33:490][226]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/LongrangeBoss.LongrangeBoss
-[2020.10.12-01.52.33:946][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Blueprints/LongrangeBoss" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBoss.uasset" SILENT=true
-[2020.10.12-01.52.33:960][276]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/LongrangeBossD87334464A6021B46C9157BC4DE81237.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBoss.uasset'
-[2020.10.12-01.52.33:969][276]AssetCheck: New page: Asset Save: LongrangeBoss
-[2020.10.12-01.52.33:969][276]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/LongrangeBoss.LongrangeBoss
-[2020.10.12-01.52.46:789][500]Candidate modules for hot reload:
-[2020.10.12-01.52.46:789][500]  PixelArena
-[2020.10.12-01.52.46:789][500]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PixelArena,2907 PixelArenaEditor Win64 Development -Project="D:/Projects/Pixel-Arena/PixelArena/PixelArena.uproject" "D:/Projects/Pixel-Arena/PixelArena/PixelArena.uproject"  -IgnoreJunk]
-[2020.10.12-01.52.46:791][500]Warning: Starting HotReload took  0.0s.
-[2020.10.12-01.52.56:281][819]CompilerResultsLog: New page: Compilation - Oct 13, 2020, 3:52:56 AM
-[2020.10.12-01.52.56:281][819]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Projects\Pixel-Arena).
-[2020.10.12-01.52.56:281][819]CompilerResultsLog: Building PixelArenaEditor...
-[2020.10.12-01.52.56:281][819]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.10.12-01.52.56:281][819]CompilerResultsLog: Building 4 actions with 12 processes...
-[2020.10.12-01.52.56:281][819]CompilerResultsLog:   [1/4] LongrangeBoss.cpp
-[2020.10.12-01.52.56:281][819]CompilerResultsLog:   [2/4] UE4Editor-PixelArena-2907.lib
-[2020.10.12-01.52.56:281][819]CompilerResultsLog:      Creating library D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-2907.lib and object D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-2907.exp
-[2020.10.12-01.52.56:281][819]CompilerResultsLog:   [3/4] UE4Editor-PixelArena-2907.dll
-[2020.10.12-01.52.56:281][819]CompilerResultsLog:      Creating library D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-2907.suppressed.lib and object D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-2907.suppressed.exp
-[2020.10.12-01.52.56:281][819]CompilerResultsLog:   [4/4] PixelArenaEditor.target
-[2020.10.12-01.52.56:281][819]CompilerResultsLog: Total time in Parallel executor: 8.86 seconds
-[2020.10.12-01.52.56:281][819]CompilerResultsLog: Total execution time: 9.34 seconds
-[2020.10.12-01.52.56:281][819]LogMainFrame: MainFrame: Module compiling took 9.495 seconds
-[2020.10.12-01.52.56:293][819]LogClass: BossState HotReload.
-[2020.10.12-01.52.56:293][819]LogClass: Direction HotReload.
-[2020.10.12-01.52.56:293][819]LogClass: CharacterState HotReload.
-[2020.10.12-01.52.56:304][819]LogContentBrowser: Native class hierarchy updated for 'PixelArena' in 0.0004 seconds. Added 5 classes and 2 folders.
-[2020.10.12-01.52.56:307][819]Display: HotReload successful (12 functions remapped  0 scriptstructs remapped)
-[2020.10.12-01.52.56:358][819]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 3432 classes and 823 folders.
-[2020.10.12-01.52.56:364][819]Display: HotReload took  9.6s.
-[2020.10.12-01.52.59:017][826]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (PrototypeMap)
-[2020.10.12-01.53.09:907][819]LogTemp: Repeating last play command: Selected Viewport
-[2020.10.12-01.53.09:919][819]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.10.12-01.53.09:919][819]PIE: New page: PIE session: Main (Oct 13, 2020, 3:53:09 AM)
-[2020.10.12-01.53.09:920][819]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2020.10.12-01.53.09:921][819]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2020.10.12-01.53.09:921][819]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
-[2020.10.12-01.53.09:926][819]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004324s)
-[2020.10.12-01.53.09:926][819]LogAIModule: Creating AISystem for world Main
-[2020.10.12-01.53.09:926][819]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026493263E00), frame # 23819
-[2020.10.12-01.53.09:926][819]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000264932816C0), frame # 23819
-[2020.10.12-01.53.09:927][819]LogPlayLevel: PIE: World Init took: (0.001036s)
-[2020.10.12-01.53.09:927][819]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.005522s)
-[2020.10.12-01.53.09:971][819]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
-[2020.10.12-01.53.09:973][819]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.10.12-01.53.09:973][819]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.10.12-01.53.09:973][819]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.10.12-01.53.09:973][819]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.10.12-01.53.09:973][819]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.10.12-01.53.09:973][819]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.10.12-01.53.09:973][819]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.10.12-01.53.09:973][819]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.10.12-01.53.09:974][819]LogAudio: Display: Using built-in audio occlusion.
-[2020.10.12-01.53.09:974][819]LogAudioMixer: Display: Initializing audio mixer.
-[2020.10.12-01.53.09:979][819]LogAudioMixer: Display: 0: FrontLeft
-[2020.10.12-01.53.09:979][819]LogAudioMixer: Display: 1: FrontRight
-[2020.10.12-01.53.10:016][819]LogAudioMixer: Display: Using Audio Device Headphones (6- Arctis 7 Game)
-[2020.10.12-01.53.10:016][819]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.10.12-01.53.10:016][819]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.10.12-01.53.10:016][819]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.10.12-01.53.10:017][819]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.10.12-01.53.10:028][819]LogInit: FAudioDevice initialized.
-[2020.10.12-01.53.10:039][819]LogLoad: Game class is 'PixelArenaGameMode_C'
-[2020.10.12-01.53.10:041][819]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.10.12-14.53.10
-[2020.10.12-01.53.10:041][819]LogWorld: Bringing up level for play took: 0.002043
-[2020.10.12-01.53.10:042][819]LogOnline: OSS: Creating online subsystem instance for: :Context_3
-[2020.10.12-01.53.10:065][819]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
-[2020.10.12-01.53.10:067][819]PIE: Server logged in
-[2020.10.12-01.53.10:068][819]PIE: Play in editor total start time 0.152 seconds.
-[2020.10.12-01.54.03:284][199]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.12-01.54.03:284][199]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
-[2020.10.12-01.54.03:284][199]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
-[2020.10.12-01.54.03:284][199]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.12-01.54.03:294][199]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.10.12-01.54.03:300][199]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.12-01.54.03:343][199]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.12-01.54.03:364][199]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026493263E00), frame # 29199
-[2020.10.12-01.54.03:364][199]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000264932816C0), frame # 29199
-[2020.10.12-01.54.03:384][199]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
-[2020.10.12-01.54.03:419][200]LogPlayLevel: Display: Destroying online subsystem :Context_3
-[2020.10.12-01.54.09:901][260]Candidate modules for hot reload:
-[2020.10.12-01.54.09:901][260]  PixelArena
-[2020.10.12-01.54.09:901][260]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PixelArena,9929 PixelArenaEditor Win64 Development -Project="D:/Projects/Pixel-Arena/PixelArena/PixelArena.uproject" "D:/Projects/Pixel-Arena/PixelArena/PixelArena.uproject"  -IgnoreJunk]
-[2020.10.12-01.54.09:903][260]Warning: Starting HotReload took  0.0s.
-[2020.10.12-01.54.12:022][463]CompilerResultsLog: New page: Compilation - Oct 13, 2020, 3:54:12 AM
-[2020.10.12-01.54.12:022][463]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Projects\Pixel-Arena).
-[2020.10.12-01.54.12:022][463]CompilerResultsLog: Building PixelArenaEditor...
-[2020.10.12-01.54.12:022][463]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.10.12-01.54.12:022][463]CompilerResultsLog: Building 4 actions with 12 processes...
-[2020.10.12-01.54.12:022][463]CompilerResultsLog:   [1/4] LongrangeBoss.cpp
-[2020.10.12-01.54.12:022][463]CompilerResultsLog:   [2/4] UE4Editor-PixelArena-9929.lib
-[2020.10.12-01.54.12:022][463]CompilerResultsLog:      Creating library D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-9929.lib and object D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-9929.exp
-[2020.10.12-01.54.12:022][463]CompilerResultsLog:   [3/4] UE4Editor-PixelArena-9929.dll
-[2020.10.12-01.54.12:022][463]CompilerResultsLog:      Creating library D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-9929.suppressed.lib and object D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-9929.suppressed.exp
-[2020.10.12-01.54.12:022][463]CompilerResultsLog:   [4/4] PixelArenaEditor.target
-[2020.10.12-01.54.12:022][463]CompilerResultsLog: Total time in Parallel executor: 1.54 seconds
-[2020.10.12-01.54.12:022][463]CompilerResultsLog: Total execution time: 2.04 seconds
-[2020.10.12-01.54.12:022][463]LogMainFrame: MainFrame: Module compiling took 2.125 seconds
-[2020.10.12-01.54.12:043][463]LogClass: BossState HotReload.
-[2020.10.12-01.54.12:043][463]LogClass: Direction HotReload.
-[2020.10.12-01.54.12:043][463]LogClass: CharacterState HotReload.
-[2020.10.12-01.54.12:055][463]LogContentBrowser: Native class hierarchy updated for 'PixelArena' in 0.0004 seconds. Added 5 classes and 2 folders.
-[2020.10.12-01.54.12:061][463]Display: HotReload successful (12 functions remapped  0 scriptstructs remapped)
-[2020.10.12-01.54.12:129][463]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 3432 classes and 823 folders.
-[2020.10.12-01.54.12:135][463]Display: HotReload took  2.2s.
-[2020.10.12-01.54.32:255][576]LogTemp: Repeating last play command: Selected Viewport
-[2020.10.12-01.54.32:266][576]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.10.12-01.54.32:266][576]PIE: New page: PIE session: Main (Oct 13, 2020, 3:54:32 AM)
-[2020.10.12-01.54.32:266][576]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
-[2020.10.12-01.54.32:269][576]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002040s)
-[2020.10.12-01.54.32:269][576]LogAIModule: Creating AISystem for world Main
-[2020.10.12-01.54.32:269][576]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026421EEC600), frame # 29576
-[2020.10.12-01.54.32:269][576]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002643B03A840), frame # 29576
-[2020.10.12-01.54.32:269][576]LogPlayLevel: PIE: World Init took: (0.000939s)
-[2020.10.12-01.54.32:270][576]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.003079s)
-[2020.10.12-01.54.32:349][576]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
-[2020.10.12-01.54.32:351][576]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.10.12-01.54.32:351][576]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.10.12-01.54.32:351][576]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.10.12-01.54.32:351][576]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.10.12-01.54.32:351][576]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.10.12-01.54.32:351][576]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.10.12-01.54.32:351][576]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.10.12-01.54.32:351][576]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.10.12-01.54.32:352][576]LogAudio: Display: Using built-in audio occlusion.
-[2020.10.12-01.54.32:352][576]LogAudioMixer: Display: Initializing audio mixer.
-[2020.10.12-01.54.32:356][576]LogAudioMixer: Display: 0: FrontLeft
-[2020.10.12-01.54.32:356][576]LogAudioMixer: Display: 1: FrontRight
-[2020.10.12-01.54.32:390][576]LogAudioMixer: Display: Using Audio Device Headphones (6- Arctis 7 Game)
-[2020.10.12-01.54.32:391][576]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.10.12-01.54.32:391][576]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.10.12-01.54.32:391][576]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.10.12-01.54.32:391][576]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.10.12-01.54.32:402][576]LogInit: FAudioDevice initialized.
-[2020.10.12-01.54.32:414][576]LogLoad: Game class is 'PixelArenaGameMode_C'
-[2020.10.12-01.54.32:416][576]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.10.12-14.54.32
-[2020.10.12-01.54.32:417][576]LogWorld: Bringing up level for play took: 0.002369
-[2020.10.12-01.54.32:417][576]LogOnline: OSS: Creating online subsystem instance for: :Context_4
-[2020.10.12-01.54.32:419][576]PIE: Server logged in
-[2020.10.12-01.54.32:420][576]PIE: Play in editor total start time 0.157 seconds.
-[2020.10.12-01.54.57:412][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.12-01.54.57:412][492]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
-[2020.10.12-01.54.57:412][492]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
-[2020.10.12-01.54.57:412][492]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.12-01.54.57:426][492]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.10.12-01.54.57:430][492]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.12-01.54.57:464][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.12-01.54.57:464][492]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002643B03A840), frame # 32492
-[2020.10.12-01.54.57:464][492]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026421EEC600), frame # 32492
-[2020.10.12-01.54.57:467][492]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
-[2020.10.12-01.54.57:505][493]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2020.10.12-01.55.06:798][273]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Flipbooks/Bosses/Longrange/Longrange_TeleportStart.Longrange_TeleportStart
-[2020.10.12-01.55.07:099][274]LogRenderer: Reallocating scene render targets to support 1528x788 Format 10 NumSamples 1 (Frame:1).
-[2020.10.12-01.55.32:357][194]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/Longrange_TeleportStartE47C10C64E3BA823370290B60E43FBEE.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Bosses/Longrange/Longrange_TeleportStart.uasset'
-[2020.10.12-01.55.32:370][194]AssetCheck: New page: Asset Save: Longrange_TeleportStart
-[2020.10.12-01.55.32:370][194]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Bosses/Longrange/Longrange_TeleportStart.Longrange_TeleportStart
-[2020.10.12-01.55.33:392][299]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
-[2020.10.12-01.55.33:392][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.12-01.55.35:966][573]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PixelArena/Flipbooks/Bosses/Longrange/Longrange_TeleportEnd.Longrange_TeleportEnd
-[2020.10.12-01.55.42:790][348]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/Longrange_TeleportEnd9D97A2D44F86401D81E19DA3EDAED955.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Flipbooks/Bosses/Longrange/Longrange_TeleportEnd.uasset'
-[2020.10.12-01.55.42:803][348]AssetCheck: New page: Asset Save: Longrange_TeleportEnd
-[2020.10.12-01.55.42:803][348]LogContentValidation: Display: Validating PaperFlipbook /Game/PixelArena/Flipbooks/Bosses/Longrange/Longrange_TeleportEnd.Longrange_TeleportEnd
-[2020.10.12-01.55.43:839][457]LogSlate: Window 'Longrange_TeleportEnd' being destroyed
-[2020.10.12-01.55.43:845][457]LogSlate: Window 'Longrange_TeleportEnd' being destroyed
-[2020.10.12-01.55.43:865][457]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
-[2020.10.12-01.55.43:865][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.12-01.55.43:953][457]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
-[2020.10.12-01.55.43:953][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.12-01.55.56:363][758]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (PrototypeMap)
-[2020.10.12-01.56.41:792][ 42]Cmd: DUPLICATE
-[2020.10.12-01.56.41:792][ 42]Cmd: ACTOR DUPLICATE
-[2020.10.12-01.56.45:326][421]Cmd: DUPLICATE
-[2020.10.12-01.56.45:326][421]Cmd: ACTOR DUPLICATE
-[2020.10.12-01.56.48:595][810]Cmd: DUPLICATE
-[2020.10.12-01.56.48:595][810]Cmd: ACTOR DUPLICATE
-[2020.10.12-01.56.55:542][640]Cmd: DUPLICATE
-[2020.10.12-01.56.55:542][640]Cmd: ACTOR DUPLICATE
-[2020.10.12-01.57.08:753][192]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
-[2020.10.12-01.57.30:083][119]EditorErrors: New page: Actor attachment
-[2020.10.12-01.58.03:943][135]EditorErrors: New page: Actor attachment
-[2020.10.12-01.58.06:442][421]EditorErrors: New page: Actor attachment
-[2020.10.12-01.58.07:966][594]EditorErrors: New page: Actor attachment
-[2020.10.12-01.58.09:751][793]EditorErrors: New page: Actor attachment
-[2020.10.12-01.58.11:433][974]EditorErrors: New page: Actor attachment
-[2020.10.12-01.58.28:052][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Levels/Main" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.10.12-01.58.28:217][828]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
-[2020.10.12-01.58.28:263][828]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/Main43EDD7EC4167CEE74701D3A7CFDD6848.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap'
-[2020.10.12-01.58.28:280][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Levels/Main_BuiltData" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main_BuiltData.uasset" SILENT=true
-[2020.10.12-01.58.28:284][828]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/Main_BuiltDataD27EB0D4410002B7048857A7DE4536A5.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main_BuiltData.uasset'
-[2020.10.12-01.58.28:298][828]AssetCheck: New page: Asset Save: multiple assets
-[2020.10.12-01.58.28:298][828]LogContentValidation: Display: Validating World /Game/PixelArena/Levels/Main.Main
-[2020.10.12-01.58.28:298][828]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/PixelArena/Levels/Main_BuiltData.Main_BuiltData
-[2020.10.12-01.58.28:333][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Levels/Main" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.10.12-01.58.28:369][830]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
-[2020.10.12-01.58.28:382][830]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/Main976ED0874DF084A66623A98C64C128E4.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap'
-[2020.10.12-01.58.28:398][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Levels/Main_BuiltData" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main_BuiltData.uasset" SILENT=true
-[2020.10.12-01.58.28:400][830]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/Main_BuiltData76996A7045A5432434D82AAD2D795964.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main_BuiltData.uasset'
-[2020.10.12-01.58.28:414][830]AssetCheck: New page: Asset Save: multiple assets
-[2020.10.12-01.58.28:414][830]LogContentValidation: Display: Validating World /Game/PixelArena/Levels/Main.Main
-[2020.10.12-01.58.28:414][830]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/PixelArena/Levels/Main_BuiltData.Main_BuiltData
-[2020.10.12-02.01.32:095][726]LogTemp: Repeating last play command: Selected Viewport
-[2020.10.12-02.01.32:105][726]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.10.12-02.01.32:105][726]PIE: New page: PIE session: Main (Oct 13, 2020, 4:01:32 AM)
-[2020.10.12-02.01.32:105][726]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
-[2020.10.12-02.01.32:107][726]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002207s)
-[2020.10.12-02.01.32:108][726]LogAIModule: Creating AISystem for world Main
-[2020.10.12-02.01.32:108][726]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002644F78AE00), frame # 55726
-[2020.10.12-02.01.32:108][726]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002644EBA7880), frame # 55726
-[2020.10.12-02.01.32:108][726]LogPlayLevel: PIE: World Init took: (0.001008s)
-[2020.10.12-02.01.32:108][726]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.003318s)
-[2020.10.12-02.01.32:124][726]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
-[2020.10.12-02.01.32:127][726]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.10.12-02.01.32:128][726]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.10.12-02.01.32:128][726]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.10.12-02.01.32:128][726]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.10.12-02.01.32:128][726]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.10.12-02.01.32:128][726]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.10.12-02.01.32:128][726]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.10.12-02.01.32:128][726]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.10.12-02.01.32:128][726]LogAudio: Display: Using built-in audio occlusion.
-[2020.10.12-02.01.32:128][726]LogAudioMixer: Display: Initializing audio mixer.
-[2020.10.12-02.01.32:135][726]LogAudioMixer: Display: 0: FrontLeft
-[2020.10.12-02.01.32:135][726]LogAudioMixer: Display: 1: FrontRight
-[2020.10.12-02.01.32:175][726]LogAudioMixer: Display: Using Audio Device Headphones (6- Arctis 7 Game)
-[2020.10.12-02.01.32:175][726]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.10.12-02.01.32:177][726]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.10.12-02.01.32:177][726]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.10.12-02.01.32:177][726]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.10.12-02.01.32:187][726]LogInit: FAudioDevice initialized.
-[2020.10.12-02.01.32:197][726]LogLoad: Game class is 'PixelArenaGameMode_C'
-[2020.10.12-02.01.32:199][726]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.10.12-15.01.32
-[2020.10.12-02.01.32:200][726]LogWorld: Bringing up level for play took: 0.002127
-[2020.10.12-02.01.32:200][726]LogOnline: OSS: Creating online subsystem instance for: :Context_7
-[2020.10.12-02.01.32:204][726]PIE: Server logged in
-[2020.10.12-02.01.32:205][726]PIE: Play in editor total start time 0.1 seconds.
-[2020.10.12-02.01.50:856][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.12-02.01.50:856][957]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
-[2020.10.12-02.01.50:856][957]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
-[2020.10.12-02.01.50:856][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.12-02.01.50:866][957]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.10.12-02.01.50:869][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.12-02.01.50:882][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.12-02.01.50:898][957]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002644EBA7880), frame # 57957
-[2020.10.12-02.01.50:898][957]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002644F78AE00), frame # 57957
-[2020.10.12-02.01.50:900][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
-[2020.10.12-02.01.50:945][959]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2020.10.12-02.01.55:434][298]Candidate modules for hot reload:
-[2020.10.12-02.01.55:434][298]  PixelArena
-[2020.10.12-02.01.55:434][298]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PixelArena,743 PixelArenaEditor Win64 Development -Project="D:/Projects/Pixel-Arena/PixelArena/PixelArena.uproject" "D:/Projects/Pixel-Arena/PixelArena/PixelArena.uproject"  -IgnoreJunk]
-[2020.10.12-02.01.55:436][298]Warning: Starting HotReload took  0.0s.
-[2020.10.12-02.02.07:274][729]CompilerResultsLog: New page: Compilation - Oct 13, 2020, 4:02:07 AM
-[2020.10.12-02.02.07:274][729]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Projects\Pixel-Arena).
-[2020.10.12-02.02.07:274][729]CompilerResultsLog: Building PixelArenaEditor...
-[2020.10.12-02.02.07:274][729]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.10.12-02.02.07:274][729]CompilerResultsLog: Building 4 actions with 12 processes...
-[2020.10.12-02.02.07:274][729]CompilerResultsLog:   [1/4] LongrangeBoss.cpp
-[2020.10.12-02.02.07:274][729]CompilerResultsLog:   [2/4] UE4Editor-PixelArena-0743.lib
-[2020.10.12-02.02.07:274][729]CompilerResultsLog:      Creating library D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-0743.lib and object D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-0743.exp
-[2020.10.12-02.02.07:274][729]CompilerResultsLog:   [3/4] UE4Editor-PixelArena-0743.dll
-[2020.10.12-02.02.07:274][729]CompilerResultsLog:      Creating library D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-0743.suppressed.lib and object D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-0743.suppressed.exp
-[2020.10.12-02.02.07:274][729]CompilerResultsLog:   [4/4] PixelArenaEditor.target
-[2020.10.12-02.02.07:275][729]CompilerResultsLog: Total time in Parallel executor: 10.92 seconds
-[2020.10.12-02.02.07:275][729]CompilerResultsLog: Total execution time: 11.46 seconds
-[2020.10.12-02.02.07:275][729]LogMainFrame: MainFrame: Module compiling took 11.845 seconds
-[2020.10.12-02.02.07:292][729]LogContentBrowser: Native class hierarchy populated in 0.0134 seconds. Added 3432 classes and 823 folders.
-[2020.10.12-02.02.07:303][729]Display: HotReload took 11.9s.
-[2020.10.12-02.02.09:959][736]LogTemp: Repeating last play command: Selected Viewport
-[2020.10.12-02.02.09:971][736]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.10.12-02.02.09:971][736]PIE: New page: PIE session: Main (Oct 13, 2020, 4:02:09 AM)
-[2020.10.12-02.02.09:971][736]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
-[2020.10.12-02.02.09:973][736]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002157s)
-[2020.10.12-02.02.09:974][736]LogAIModule: Creating AISystem for world Main
-[2020.10.12-02.02.09:974][736]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026420DC2800), frame # 58736
-[2020.10.12-02.02.09:974][736]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002643B1C9940), frame # 58736
-[2020.10.12-02.02.09:974][736]LogPlayLevel: PIE: World Init took: (0.000930s)
-[2020.10.12-02.02.09:974][736]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.003184s)
-[2020.10.12-02.02.10:028][736]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
-[2020.10.12-02.02.10:031][736]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.10.12-02.02.10:031][736]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.10.12-02.02.10:031][736]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.10.12-02.02.10:031][736]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.10.12-02.02.10:031][736]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.10.12-02.02.10:031][736]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.10.12-02.02.10:031][736]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.10.12-02.02.10:031][736]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.10.12-02.02.10:032][736]LogAudio: Display: Using built-in audio occlusion.
-[2020.10.12-02.02.10:032][736]LogAudioMixer: Display: Initializing audio mixer.
-[2020.10.12-02.02.10:037][736]LogAudioMixer: Display: 0: FrontLeft
-[2020.10.12-02.02.10:037][736]LogAudioMixer: Display: 1: FrontRight
-[2020.10.12-02.02.10:070][736]LogAudioMixer: Display: Using Audio Device Headphones (6- Arctis 7 Game)
-[2020.10.12-02.02.10:070][736]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.10.12-02.02.10:070][736]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.10.12-02.02.10:070][736]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.10.12-02.02.10:071][736]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.10.12-02.02.10:082][736]LogInit: FAudioDevice initialized.
-[2020.10.12-02.02.10:092][736]LogLoad: Game class is 'PixelArenaGameMode_C'
-[2020.10.12-02.02.10:094][736]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.10.12-15.02.10
-[2020.10.12-02.02.10:095][736]LogWorld: Bringing up level for play took: 0.001966
-[2020.10.12-02.02.10:095][736]LogOnline: OSS: Creating online subsystem instance for: :Context_8
-[2020.10.12-02.02.10:098][736]PIE: Server logged in
-[2020.10.12-02.02.10:099][736]PIE: Play in editor total start time 0.131 seconds.
-[2020.10.12-02.02.38:563][885]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.12-02.02.38:563][885]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
-[2020.10.12-02.02.38:563][885]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
-[2020.10.12-02.02.38:563][885]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.12-02.02.38:578][885]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.10.12-02.02.38:581][885]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.12-02.02.38:606][885]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.12-02.02.38:606][885]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002643B1C9940), frame # 61885
-[2020.10.12-02.02.38:607][885]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026420DC2800), frame # 61885
-[2020.10.12-02.02.38:609][885]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
-[2020.10.12-02.02.38:632][886]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2020.10.12-02.02.39:681][  9]Candidate modules for hot reload:
-[2020.10.12-02.02.39:681][  9]  PixelArena
-[2020.10.12-02.02.39:681][  9]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PixelArena,1691 PixelArenaEditor Win64 Development -Project="D:/Projects/Pixel-Arena/PixelArena/PixelArena.uproject" "D:/Projects/Pixel-Arena/PixelArena/PixelArena.uproject"  -IgnoreJunk]
-[2020.10.12-02.02.39:682][  9]Warning: Starting HotReload took  0.0s.
-[2020.10.12-02.02.41:305][ 38]CompilerResultsLog: New page: Compilation - Oct 13, 2020, 4:02:41 AM
-[2020.10.12-02.02.41:305][ 38]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Projects\Pixel-Arena).
-[2020.10.12-02.02.41:305][ 38]CompilerResultsLog: Building PixelArenaEditor...
-[2020.10.12-02.02.41:305][ 38]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.10.12-02.02.41:305][ 38]CompilerResultsLog: Building 3 actions with 12 processes...
-[2020.10.12-02.02.41:305][ 38]CompilerResultsLog:   [1/3] UE4Editor-PixelArena-1691.lib
-[2020.10.12-02.02.41:305][ 38]CompilerResultsLog:      Creating library D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-1691.lib and object D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-1691.exp
-[2020.10.12-02.02.41:305][ 38]CompilerResultsLog:   [2/3] UE4Editor-PixelArena-1691.dll
-[2020.10.12-02.02.41:306][ 38]CompilerResultsLog:      Creating library D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-1691.suppressed.lib and object D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-1691.suppressed.exp
-[2020.10.12-02.02.41:306][ 38]CompilerResultsLog:   [3/3] PixelArenaEditor.target
-[2020.10.12-02.02.41:306][ 38]CompilerResultsLog: Total time in Parallel executor: 0.87 seconds
-[2020.10.12-02.02.41:306][ 38]CompilerResultsLog: Total execution time: 1.32 seconds
-[2020.10.12-02.02.41:306][ 38]LogMainFrame: MainFrame: Module compiling took 1.629 seconds
-[2020.10.12-02.02.41:322][ 38]LogClass: BossState HotReload.
-[2020.10.12-02.02.41:322][ 38]LogClass: Direction HotReload.
-[2020.10.12-02.02.41:322][ 38]LogClass: CharacterState HotReload.
-[2020.10.12-02.02.41:335][ 38]LogContentBrowser: Native class hierarchy updated for 'PixelArena' in 0.0006 seconds. Added 5 classes and 2 folders.
-[2020.10.12-02.02.41:339][ 38]Display: HotReload successful (12 functions remapped  0 scriptstructs remapped)
-[2020.10.12-02.02.41:386][ 38]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 3432 classes and 823 folders.
-[2020.10.12-02.02.41:392][ 38]Display: HotReload took  1.7s.
-[2020.10.12-02.02.45:341][ 49]LogEditorViewport: Clicking Background
-[2020.10.12-02.02.50:701][239]LogTemp: Repeating last play command: Selected Viewport
-[2020.10.12-02.02.50:713][239]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.10.12-02.02.50:713][239]PIE: New page: PIE session: Main (Oct 13, 2020, 4:02:50 AM)
-[2020.10.12-02.02.50:713][239]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
-[2020.10.12-02.02.50:715][239]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002183s)
-[2020.10.12-02.02.50:716][239]LogAIModule: Creating AISystem for world Main
-[2020.10.12-02.02.50:716][239]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002649139FE00), frame # 62239
-[2020.10.12-02.02.50:716][239]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002649139BB00), frame # 62239
-[2020.10.12-02.02.50:716][239]LogPlayLevel: PIE: World Init took: (0.000972s)
-[2020.10.12-02.02.50:716][239]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.003252s)
-[2020.10.12-02.02.50:771][239]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
-[2020.10.12-02.02.50:773][239]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.10.12-02.02.50:773][239]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.10.12-02.02.50:773][239]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.10.12-02.02.50:773][239]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.10.12-02.02.50:773][239]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.10.12-02.02.50:773][239]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.10.12-02.02.50:773][239]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.10.12-02.02.50:773][239]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.10.12-02.02.50:775][239]LogAudio: Display: Using built-in audio occlusion.
-[2020.10.12-02.02.50:775][239]LogAudioMixer: Display: Initializing audio mixer.
-[2020.10.12-02.02.50:779][239]LogAudioMixer: Display: 0: FrontLeft
-[2020.10.12-02.02.50:779][239]LogAudioMixer: Display: 1: FrontRight
-[2020.10.12-02.02.50:814][239]LogAudioMixer: Display: Using Audio Device Headphones (6- Arctis 7 Game)
-[2020.10.12-02.02.50:814][239]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.10.12-02.02.50:814][239]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.10.12-02.02.50:814][239]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.10.12-02.02.50:815][239]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.10.12-02.02.50:826][239]LogInit: FAudioDevice initialized.
-[2020.10.12-02.02.50:830][239]LogLoad: Game class is 'PixelArenaGameMode_C'
-[2020.10.12-02.02.50:832][239]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.10.12-15.02.50
-[2020.10.12-02.02.50:834][239]LogWorld: Bringing up level for play took: 0.003053
-[2020.10.12-02.02.50:834][239]LogOnline: OSS: Creating online subsystem instance for: :Context_9
-[2020.10.12-02.02.50:844][239]PIE: Server logged in
-[2020.10.12-02.02.50:845][239]PIE: Play in editor total start time 0.134 seconds.
-[2020.10.12-02.03.41:285][215]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2020.10.12-02.03.48:231][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.12-02.03.48:231][  1]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
-[2020.10.12-02.03.48:272][  1]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
-[2020.10.12-02.03.48:272][  1]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.12-02.03.48:281][  1]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.10.12-02.03.48:285][  1]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.12-02.03.48:319][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.12-02.03.48:320][  1]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002649139BB00), frame # 69001
-[2020.10.12-02.03.48:320][  1]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002649139FE00), frame # 69001
-[2020.10.12-02.03.48:339][  1]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
-[2020.10.12-02.03.48:362][  2]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2020.10.12-02.03.58:339][164]EditorErrors: New page: Actor attachment
-[2020.10.12-02.04.02:153][611]LogTemp: Repeating last play command: Selected Viewport
-[2020.10.12-02.04.02:163][611]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.10.12-02.04.02:163][611]PIE: New page: PIE session: Main (Oct 13, 2020, 4:04:02 AM)
-[2020.10.12-02.04.02:163][611]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
-[2020.10.12-02.04.02:165][611]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002123s)
-[2020.10.12-02.04.02:166][611]LogAIModule: Creating AISystem for world Main
-[2020.10.12-02.04.02:166][611]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002644D0E4600), frame # 70611
-[2020.10.12-02.04.02:166][611]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002644FEBB100), frame # 70611
-[2020.10.12-02.04.02:166][611]LogPlayLevel: PIE: World Init took: (0.000956s)
-[2020.10.12-02.04.02:166][611]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.003173s)
-[2020.10.12-02.04.02:180][611]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
-[2020.10.12-02.04.02:184][611]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.10.12-02.04.02:184][611]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.10.12-02.04.02:184][611]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.10.12-02.04.02:184][611]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.10.12-02.04.02:184][611]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.10.12-02.04.02:184][611]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.10.12-02.04.02:184][611]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.10.12-02.04.02:184][611]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.10.12-02.04.02:184][611]LogAudio: Display: Using built-in audio occlusion.
-[2020.10.12-02.04.02:184][611]LogAudioMixer: Display: Initializing audio mixer.
-[2020.10.12-02.04.02:190][611]LogAudioMixer: Display: 0: FrontLeft
-[2020.10.12-02.04.02:190][611]LogAudioMixer: Display: 1: FrontRight
-[2020.10.12-02.04.02:223][611]LogAudioMixer: Display: Using Audio Device Headphones (6- Arctis 7 Game)
-[2020.10.12-02.04.02:223][611]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.10.12-02.04.02:223][611]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.10.12-02.04.02:223][611]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.10.12-02.04.02:224][611]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.10.12-02.04.02:235][611]LogInit: FAudioDevice initialized.
-[2020.10.12-02.04.02:244][611]LogLoad: Game class is 'PixelArenaGameMode_C'
-[2020.10.12-02.04.02:246][611]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.10.12-15.04.02
-[2020.10.12-02.04.02:247][611]LogWorld: Bringing up level for play took: 0.002363
-[2020.10.12-02.04.02:247][611]LogOnline: OSS: Creating online subsystem instance for: :Context_10
-[2020.10.12-02.04.02:250][611]PIE: Server logged in
-[2020.10.12-02.04.02:251][611]PIE: Play in editor total start time 0.088 seconds.
-[2020.10.12-02.04.38:912][  3]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.12-02.04.38:912][  3]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
-[2020.10.12-02.04.38:912][  3]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
-[2020.10.12-02.04.38:912][  3]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.12-02.04.38:919][  3]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.10.12-02.04.38:923][  3]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.12-02.04.38:934][  3]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.12-02.04.38:950][  3]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002644FEBB100), frame # 75003
-[2020.10.12-02.04.38:950][  3]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002644D0E4600), frame # 75003
-[2020.10.12-02.04.38:952][  3]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
-[2020.10.12-02.04.38:979][  4]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2020.10.12-02.10.50:521][233]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
-[2020.10.12-02.10.50:574][233]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/Main_Auto13B66FCE74D57182E97CE83BF9CCF1512.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Levels/Main_Auto1.umap'
-[2020.10.12-02.10.50:575][233]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PixelArena/Levels/Main' took 0.067
-[2020.10.12-02.10.50:575][233]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.067
-[2020.10.12-02.19.25:536][862]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PixelArena/Blueprints/LongrangeBoss.LongrangeBoss
-[2020.10.12-02.19.37:722][ 68]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PixelArena/Blueprints/ArenaCharacterBaseBP.ArenaCharacterBaseBP
-[2020.10.12-02.19.56:588][928]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PixelArena/Blueprints/ArenaGreatCharacterBP.ArenaGreatCharacterBP
-[2020.10.12-02.20.02:749][422]BlueprintLog: New page: Compile ArenaGreatCharacterBP
-[2020.10.12-02.20.02:790][422]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
-[2020.10.12-02.20.03:442][460]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/ArenaGreatCharacterBP3AA3ACAD4FCE116EF210FB97907153B7.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/ArenaGreatCharacterBP.uasset'
-[2020.10.12-02.20.03:458][460]AssetCheck: New page: Asset Save: ArenaGreatCharacterBP
-[2020.10.12-02.20.03:458][460]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/ArenaGreatCharacterBP.ArenaGreatCharacterBP
-[2020.10.12-02.20.05:658][660]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
-[2020.10.12-02.20.05:658][660]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.12-02.20.06:436][732]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2020.10.12-02.20.06:436][732]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
-[2020.10.12-02.20.06:436][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.12-02.20.31:943][520]LogSlate: Window 'Color Picker' being destroyed
-[2020.10.12-02.20.49:935][459]LogSlate: Window 'Color Picker' being destroyed
-[2020.10.12-02.21.22:375][104]LogSlate: Window 'Color Picker' being destroyed
-[2020.10.12-02.21.42:420][400]LogSlate: Window 'Color Picker' being destroyed
-[2020.10.12-02.21.53:799][712]BlueprintLog: New page: Compile LongrangeBoss
-[2020.10.12-02.21.53:838][712]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
-[2020.10.12-02.22.19:190][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Blueprints/LongrangeBoss" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBoss.uasset" SILENT=true
-[2020.10.12-02.22.19:206][480]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/LongrangeBossC2D9AF4B4C8AB1406DF3938F33BDA1D6.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBoss.uasset'
-[2020.10.12-02.22.19:217][480]AssetCheck: New page: Asset Save: LongrangeBoss
-[2020.10.12-02.22.19:217][480]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/LongrangeBoss.LongrangeBoss
-[2020.10.12-02.22.19:814][547]BlueprintLog: New page: Compile LongrangeBoss
-[2020.10.12-02.22.19:849][547]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
-[2020.10.12-02.22.22:122][804]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PixelArena/Blueprints/ArenaGreatCharacterBP.ArenaGreatCharacterBP
-[2020.10.12-02.23.13:903][852]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
-[2020.10.12-02.23.13:916][852]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/Main_Auto238FEA4AB44DF2D39AB3F0F972BCAC15B.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Levels/Main_Auto2.umap'
-[2020.10.12-02.23.13:917][852]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PixelArena/Levels/Main' took 0.037
-[2020.10.12-02.23.13:917][852]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.037
-[2020.10.12-02.23.13:917][852]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PixelArena/Blueprints/ArenaGreatCharacterBP] ([1] browsable assets)...
-[2020.10.12-02.23.13:917][852]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelArena/Blueprints/ArenaGreatCharacterBP]
-[2020.10.12-02.23.13:938][852]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/ArenaGreatCharacterBP_Auto2EF98D4224CA68C68D2C750B729916ACC.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/Autosaves/Game/PixelArena/Blueprints/ArenaGreatCharacterBP_Auto2.uasset'
-[2020.10.12-02.23.13:939][852]LogFileHelpers: Auto-saving content packages took 0.022
-[2020.10.12-02.23.20:580][418]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/ArenaGreatCharacterBP05C4212A4717DBFCBADA78AAAF616BD4.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/ArenaGreatCharacterBP.uasset'
-[2020.10.12-02.23.20:592][418]AssetCheck: New page: Asset Save: ArenaGreatCharacterBP
-[2020.10.12-02.23.20:593][418]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/ArenaGreatCharacterBP.ArenaGreatCharacterBP
-[2020.10.12-02.23.54:092][822]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PixelArena/Blueprints/ArenaCharacterBaseBP.ArenaCharacterBaseBP
-[2020.10.12-02.24.30:700][403]Candidate modules for hot reload:
-[2020.10.12-02.24.30:700][403]  PixelArena
-[2020.10.12-02.24.30:700][403]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PixelArena,4460 PixelArenaEditor Win64 Development -Project="D:/Projects/Pixel-Arena/PixelArena/PixelArena.uproject" "D:/Projects/Pixel-Arena/PixelArena/PixelArena.uproject"  -IgnoreJunk]
-[2020.10.12-02.24.30:702][403]Warning: Starting HotReload took  0.0s.
-[2020.10.12-02.24.48:130][465]BlueprintLog: New page: Compile LongrangeBoss
-[2020.10.12-02.24.48:170][465]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
-[2020.10.12-02.24.55:223][182]BlueprintLog: New page: Compile LongrangeBoss
-[2020.10.12-02.24.55:264][182]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
-[2020.10.12-02.26.36:332][274]CompilerResultsLog: New page: Compilation - Oct 13, 2020, 4:26:36 AM
-[2020.10.12-02.26.36:332][274]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Projects\Pixel-Arena).
-[2020.10.12-02.26.36:332][274]CompilerResultsLog: Parsing headers for PixelArenaEditor
-[2020.10.12-02.26.36:332][274]CompilerResultsLog:   Running UnrealHeaderTool "D:\Projects\Pixel-Arena\PixelArena\PixelArena.uproject" "D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\PixelArenaEditor\Development\PixelArenaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Braden\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-[2020.10.12-02.26.36:332][274]CompilerResultsLog: Reflection code generated for PixelArenaEditor in 30.760855 seconds
-[2020.10.12-02.26.36:332][274]CompilerResultsLog: Building PixelArenaEditor...
-[2020.10.12-02.26.36:332][274]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.10.12-02.26.36:332][274]CompilerResultsLog: Building 8 actions with 12 processes...
-[2020.10.12-02.26.36:332][274]CompilerResultsLog:   [1/8] LongrangeBoss.cpp
-[2020.10.12-02.26.36:332][274]CompilerResultsLog:   [2/8] PixelArena.init.gen.cpp
-[2020.10.12-02.26.36:332][274]CompilerResultsLog:   [3/8] ArenaBoss.cpp
-[2020.10.12-02.26.36:332][274]CompilerResultsLog:   [4/8] LongrangeBoss.gen.cpp
-[2020.10.12-02.26.36:332][274]CompilerResultsLog:   [5/8] ArenaBoss.gen.cpp
-[2020.10.12-02.26.36:332][274]CompilerResultsLog:   [6/8] UE4Editor-PixelArena-4460.lib
-[2020.10.12-02.26.36:332][274]CompilerResultsLog:      Creating library D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-4460.lib and object D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-4460.exp
-[2020.10.12-02.26.36:332][274]CompilerResultsLog:   [7/8] UE4Editor-PixelArena-4460.dll
-[2020.10.12-02.26.36:332][274]CompilerResultsLog:      Creating library D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-4460.suppressed.lib and object D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-4460.suppressed.exp
-[2020.10.12-02.26.36:332][274]CompilerResultsLog:   [8/8] PixelArenaEditor.target
-[2020.10.12-02.26.36:332][274]CompilerResultsLog: Total time in Parallel executor: 93.72 seconds
-[2020.10.12-02.26.36:332][274]CompilerResultsLog: Total execution time: 125.10 seconds
-[2020.10.12-02.26.36:332][274]LogMainFrame: MainFrame: Module compiling took 125.636 seconds
-[2020.10.12-02.26.36:344][274]LogClass: Could not find existing class ArenaBoss in package /Script/PixelArena for HotReload, assuming new class
-[2020.10.12-02.26.36:344][274]LogClass: Function Ability is new.
-[2020.10.12-02.26.36:344][274]LogClass: Function Attack is new.
-[2020.10.12-02.26.36:346][274]LogClass: Could not find existing class LongrangeBoss in package /Script/PixelArena for HotReload, assuming new class
-[2020.10.12-02.26.36:347][274]LogClass: Function Teleport is new.
-[2020.10.12-02.26.36:348][274]LogClass: BossState HotReload.
-[2020.10.12-02.26.36:348][274]LogClass: Direction HotReload.
-[2020.10.12-02.26.36:348][274]LogClass: CharacterState HotReload.
-[2020.10.12-02.26.36:359][274]LogHotReload: Re-instancing ArenaBoss after hot-reload.
-[2020.10.12-02.26.36:405][274]LogHotReload: Re-instancing LongrangeBoss after hot-reload.
-[2020.10.12-02.26.36:456][274]LogContentBrowser: Native class hierarchy updated for 'PixelArena' in 0.0004 seconds. Added 5 classes and 2 folders.
-[2020.10.12-02.26.36:460][274]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
-[2020.10.12-02.26.36:508][274]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 3432 classes and 823 folders.
-[2020.10.12-02.26.36:514][274]Display: HotReload took 125.8s.
-[2020.10.12-02.29.30:377][735]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent   conflicted with  On Component Begin Overlap (Vision Box)  and was replaced as a Custom Event!
-[2020.10.12-02.32.11:399][306]LogSlate: Window 'Color Picker' being destroyed
-[2020.10.12-02.32.12:215][390]BlueprintLog: New page: Compile LongrangeBoss
-[2020.10.12-02.32.12:289][390]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
-[2020.10.12-02.32.12:883][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Blueprints/LongrangeBoss" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBoss.uasset" SILENT=true
-[2020.10.12-02.32.12:943][447]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/LongrangeBoss6D6F7E8440A670198EC97288975DC01E.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBoss.uasset'
-[2020.10.12-02.32.12:954][447]AssetCheck: New page: Asset Save: LongrangeBoss
-[2020.10.12-02.32.12:954][447]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/LongrangeBoss.LongrangeBoss
-[2020.10.12-02.32.22:403][400]LogTemp: Repeating last play command: Selected Viewport
-[2020.10.12-02.32.27:901][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Blueprints/LongrangeBoss" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBoss.uasset" SILENT=true
-[2020.10.12-02.32.27:919][873]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/LongrangeBossECB6139B432E8497C3AD79B73A1F6295.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBoss.uasset'
-[2020.10.12-02.32.27:935][873]AssetCheck: New page: Asset Save: LongrangeBoss
-[2020.10.12-02.32.27:935][873]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/LongrangeBoss.LongrangeBoss
-[2020.10.12-02.32.28:166][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Levels/Main" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.10.12-02.32.28:196][891]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
-[2020.10.12-02.32.28:211][891]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/Main20D6F9AB4DC9CAB460F1708E2B4DC4B4.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap'
-[2020.10.12-02.32.28:227][891]LogEditorTransaction: Non zero active count in UTransBuffer::Reset
-ActiveCount : 6
-SessionName : 
-Reason      : Map Saved
-
-Purging the undo buffer...
-
-[2020.10.12-02.32.28:229][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Levels/Main_BuiltData" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main_BuiltData.uasset" SILENT=true
-[2020.10.12-02.32.28:250][891]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/Main_BuiltData292CA1804F039F7FCCEFC699CD400BA1.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main_BuiltData.uasset'
-[2020.10.12-02.32.28:268][891]AssetCheck: New page: Asset Save: multiple assets
-[2020.10.12-02.32.28:268][891]LogContentValidation: Display: Validating World /Game/PixelArena/Levels/Main.Main
-[2020.10.12-02.32.28:268][891]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/PixelArena/Levels/Main_BuiltData.Main_BuiltData
-[2020.10.12-02.32.30:184][ 63]Candidate modules for hot reload:
-[2020.10.12-02.32.30:184][ 63]  PixelArena
-[2020.10.12-02.32.30:184][ 63]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PixelArena,2629 PixelArenaEditor Win64 Development -Project="D:/Projects/Pixel-Arena/PixelArena/PixelArena.uproject" "D:/Projects/Pixel-Arena/PixelArena/PixelArena.uproject"  -IgnoreJunk]
-[2020.10.12-02.32.30:185][ 63]Warning: Starting HotReload took  0.0s.
-[2020.10.12-02.32.31:625][168]CompilerResultsLog: New page: Compilation - Oct 13, 2020, 4:32:31 AM
-[2020.10.12-02.32.31:625][168]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Projects\Pixel-Arena).
-[2020.10.12-02.32.31:625][168]CompilerResultsLog: Building PixelArenaEditor...
-[2020.10.12-02.32.31:625][168]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.10.12-02.32.31:625][168]CompilerResultsLog: Building 3 actions with 12 processes...
-[2020.10.12-02.32.31:625][168]CompilerResultsLog:   [1/3] UE4Editor-PixelArena-2629.lib
-[2020.10.12-02.32.31:625][168]CompilerResultsLog:      Creating library D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-2629.lib and object D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-2629.exp
-[2020.10.12-02.32.31:625][168]CompilerResultsLog:   [2/3] UE4Editor-PixelArena-2629.dll
-[2020.10.12-02.32.31:625][168]CompilerResultsLog:      Creating library D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-2629.suppressed.lib and object D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-2629.suppressed.exp
-[2020.10.12-02.32.31:625][168]CompilerResultsLog:   [3/3] PixelArenaEditor.target
-[2020.10.12-02.32.31:625][168]CompilerResultsLog: Total time in Parallel executor: 0.91 seconds
-[2020.10.12-02.32.31:625][168]CompilerResultsLog: Total execution time: 1.37 seconds
-[2020.10.12-02.32.31:625][168]LogMainFrame: MainFrame: Module compiling took 1.445 seconds
-[2020.10.12-02.32.31:646][168]LogClass: BossState HotReload.
-[2020.10.12-02.32.31:646][168]LogClass: Direction HotReload.
-[2020.10.12-02.32.31:646][168]LogClass: CharacterState HotReload.
-[2020.10.12-02.32.31:658][168]LogContentBrowser: Native class hierarchy updated for 'PixelArena' in 0.0004 seconds. Added 5 classes and 2 folders.
-[2020.10.12-02.32.31:663][168]Display: HotReload successful (12 functions remapped  0 scriptstructs remapped)
-[2020.10.12-02.32.31:726][168]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 3432 classes and 823 folders.
-[2020.10.12-02.32.31:732][168]Display: HotReload took  1.6s.
-[2020.10.12-02.32.34:264][379]LogTemp: Repeating last play command: Selected Viewport
-[2020.10.12-02.32.34:277][379]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.10.12-02.32.34:277][379]PIE: New page: PIE session: Main (Oct 13, 2020, 4:32:34 AM)
-[2020.10.12-02.32.34:277][379]LogPlayLevel: Creating play world package: /Game/PixelArena/Levels/UEDPIE_0_Main
-[2020.10.12-02.32.34:279][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002426s)
-[2020.10.12-02.32.34:280][379]LogAIModule: Creating AISystem for world Main
-[2020.10.12-02.32.34:280][379]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000264CFFB3E00), frame # 143379
-[2020.10.12-02.32.34:280][379]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000264CFFAFB00), frame # 143379
-[2020.10.12-02.32.34:280][379]LogPlayLevel: PIE: World Init took: (0.001008s)
-[2020.10.12-02.32.34:280][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelArena/Levels/Main.Main to /Game/PixelArena/Levels/UEDPIE_0_Main.Main (0.003540s)
-[2020.10.12-02.32.34:347][379]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
-[2020.10.12-02.32.34:348][379]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.10.12-02.32.34:348][379]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.10.12-02.32.34:348][379]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.10.12-02.32.34:348][379]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.10.12-02.32.34:348][379]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.10.12-02.32.34:348][379]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.10.12-02.32.34:348][379]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.10.12-02.32.34:348][379]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.10.12-02.32.34:349][379]LogAudio: Display: Using built-in audio occlusion.
-[2020.10.12-02.32.34:349][379]LogAudioMixer: Display: Initializing audio mixer.
-[2020.10.12-02.32.34:354][379]LogAudioMixer: Display: 0: FrontLeft
-[2020.10.12-02.32.34:354][379]LogAudioMixer: Display: 1: FrontRight
-[2020.10.12-02.32.34:389][379]LogAudioMixer: Display: Using Audio Device Headphones (6- Arctis 7 Game)
-[2020.10.12-02.32.34:389][379]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.10.12-02.32.34:390][379]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.10.12-02.32.34:390][379]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.10.12-02.32.34:390][379]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.10.12-02.32.34:401][379]LogInit: FAudioDevice initialized.
-[2020.10.12-02.32.34:408][379]LogLoad: Game class is 'PixelArenaGameMode_C'
-[2020.10.12-02.32.34:410][379]LogWorld: Bringing World /Game/PixelArena/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.10.12-15.32.34
-[2020.10.12-02.32.34:411][379]LogWorld: Bringing up level for play took: 0.002022
-[2020.10.12-02.32.34:411][379]LogOnline: OSS: Creating online subsystem instance for: :Context_16
-[2020.10.12-02.32.34:414][379]PIE: Server logged in
-[2020.10.12-02.32.34:415][379]PIE: Play in editor total start time 0.141 seconds.
-[2020.10.12-02.33.11:747][363]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.12-02.33.11:747][363]LogWorld: BeginTearingDown for /Game/PixelArena/Levels/UEDPIE_0_Main
-[2020.10.12-02.33.11:747][363]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
-[2020.10.12-02.33.11:747][363]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.12-02.33.11:758][363]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.10.12-02.33.11:763][363]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.12-02.33.11:804][363]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.12-02.33.11:812][363]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000264CFFAFB00), frame # 147363
-[2020.10.12-02.33.11:812][363]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000264CFFB3E00), frame # 147363
-[2020.10.12-02.33.11:829][363]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
-[2020.10.12-02.33.11:877][364]LogPlayLevel: Display: Destroying online subsystem :Context_16
-[2020.10.12-02.33.33:007][638]BlueprintLog: New page: Compile LongrangeBoss
-[2020.10.12-02.33.33:050][638]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
-[2020.10.12-02.33.33:601][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelArena/Blueprints/LongrangeBoss" FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBoss.uasset" SILENT=true
-[2020.10.12-02.33.33:619][685]LogSavePackage: Moving '../../../../../../Projects/Pixel-Arena/PixelArena/Saved/LongrangeBoss751A3E664ECCF8865A7B158E0C2D670F.tmp' to '../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Blueprints/LongrangeBoss.uasset'
-[2020.10.12-02.33.33:631][685]AssetCheck: New page: Asset Save: LongrangeBoss
-[2020.10.12-02.33.33:631][685]LogContentValidation: Display: Validating Blueprint /Game/PixelArena/Blueprints/LongrangeBoss.LongrangeBoss
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Engine.ini]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.Mobile.VirtualTextures:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.AnisotropicBRDF:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:2]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.VertexDeformationOutputsVelocity:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2020.10.12-03.20.59:058][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.MeshStreaming:0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.SkinCache.DefaultBehavior:1]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Engine.ini]
+[2020.10.12-03.20.59:059][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Engine.ini]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Engine.ini]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.12-03.20.59:059][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Engine.ini]
+[2020.10.12-03.20.59:059][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Engine.ini]
+[2020.10.12-03.20.59:063][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.12-03.20.59:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.12-03.20.59:064][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.12-03.20.59:064][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.12-03.20.59:064][  0]LogHAL: Display: Platform has ~ 16 GB [17102880768 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.12-03.20.59:064][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.12-03.20.59:064][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.12-03.20.59:064][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Scalability.ini]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.10.12-03.20.59:065][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Projects/Pixel-Arena/PixelArena/Saved/Config/Windows/Engine.ini]
+[2020.10.12-03.20.59:065][  0]LogInit: Computer: BLUKZEN
+[2020.10.12-03.20.59:065][  0]LogInit: User: Braden
+[2020.10.12-03.20.59:065][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.10.12-03.20.59:065][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.12-03.20.59:065][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.10.12-03.20.59:065][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.12-03.20.59:065][  0]LogMemory: Process Physical Memory: 115.75 MB used, 115.76 MB peak
+[2020.10.12-03.20.59:065][  0]LogMemory: Process Virtual Memory: 105.70 MB used, 105.70 MB peak
+[2020.10.12-03.20.59:065][  0]LogMemory: Physical Memory: 10888.60 MB used,  5421.98 MB free, 16310.58 MB total
+[2020.10.12-03.20.59:065][  0]LogMemory: Virtual Memory: 5173.14 MB used,  134212552.00 MB free, 134217728.00 MB total
+[2020.10.12-03.20.59:070][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.12-03.20.59:275][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.10.12-03.20.59:283][  0]LogInit: Using OS detected language (en-US).
+[2020.10.12-03.20.59:283][  0]LogInit: Using OS detected locale (en-US).
+[2020.10.12-03.20.59:329][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.10.12-03.20.59:826][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.12-03.20.59:946][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.12-03.20.59:947][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.12-03.21.00:909][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.12-03.21.00:909][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.10.12-03.21.00:909][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.10.12-03.21.00:909][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.12-03.21.00:988][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 SUPER' (Feature Level 11_0)
+[2020.10.12-03.21.00:988][  0]LogD3D11RHI:       5991/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.10.12-03.21.00:993][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.12-03.21.00:993][  0]LogD3D11RHI:       0/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.12-03.21.00:993][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.12-03.21.01:003][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.12-03.21.01:003][  0]LogD3D11RHI:     GPU DeviceId: 0x21c4 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.12-03.21.01:003][  0]LogWindows: EnumDisplayDevices:
+[2020.10.12-03.21.01:003][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660 SUPER' (P:1 D:1)
+[2020.10.12-03.21.01:003][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:1)
+[2020.10.12-03.21.01:003][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:0)
+[2020.10.12-03.21.01:003][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:0)
+[2020.10.12-03.21.01:003][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.10.12-03.21.01:003][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 SUPER
+[2020.10.12-03.21.01:003][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
+[2020.10.12-03.21.01:003][  0]LogD3D11RHI:      Driver Date: 3-17-2020
+[2020.10.12-03.21.01:004][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
+[2020.10.12-03.21.01:044][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.10.12-03.21.01:045][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.10.12-03.21.01:045][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.12-03.21.01:045][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.10.12-03.21.01:075][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.10.12-03.21.01:309][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.10.12-03.21.01:332][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.10.12-03.21.01:332][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.10.12-03.21.01:332][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.10.12-03.21.01:332][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.10.12-03.21.01:332][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.10.12-03.21.01:332][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.10.12-03.21.01:332][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.10.12-03.21.01:332][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.10.12-03.21.01:332][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.10.12-03.21.01:332][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.10.12-03.21.01:367][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.10.12-03.21.01:367][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.10.12-03.21.01:388][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.10.12-03.21.01:397][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.10.12-03.21.01:406][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.10.12-03.21.01:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.10.12-03.21.01:424][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.10.12-03.21.01:433][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.10.12-03.21.01:443][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.10.12-03.21.01:468][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.10.12-03.21.01:468][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.10.12-03.21.01:482][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.10.12-03.21.01:482][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.10.12-03.21.01:491][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.12-03.21.01:511][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.10.12-03.21.01:520][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.10.12-03.21.01:528][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.10.12-03.21.01:528][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.12-03.21.01:548][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.12-03.21.01:702][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (../../../../../../Projects/Pixel-Arena/PixelArena/Intermediate/Shaders/WorkingDirectory/5768/).
+[2020.10.12-03.21.01:703][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Braden/AppData/Local/Temp/UnrealShaderWorkingDir/F8600E0B4960742A5BE823AF6737F964/'.
+[2020.10.12-03.21.01:703][  0]LogXGEController: Cleaning working directory: C:/Users/Braden/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.10.12-03.21.01:703][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.12-03.21.01:703][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.12-03.21.01:703][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.12-03.21.03:802][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.12-03.21.03:908][  0]LogDerivedDataCache: Loaded boot cache 0.11s 75MB C:/Users/Braden/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.12-03.21.03:908][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Braden/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.10.12-03.21.03:909][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Projects/Pixel-Arena/PixelArena/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.12-03.21.03:909][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.12-03.21.03:909][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Projects/Pixel-Arena/PixelArena/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.12-03.21.03:909][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.12-03.21.03:919][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.12-03.21.03:919][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.12-03.21.03:919][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.12-03.21.03:920][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Braden/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.12-03.21.03:920][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.12-03.21.03:920][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.12-03.21.03:965][  0]LogSlate: Using FreeType 2.10.0
+[2020.10.12-03.21.03:966][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.12-03.21.04:136][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
+[2020.10.12-03.21.04:390][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.12-03.21.04:713][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.12-03.21.04:713][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.12-03.21.04:713][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.12-03.21.04:713][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.12-03.21.04:713][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.12-03.21.04:757][  0]LogNetVersion: PixelArena 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3559364062)
+[2020.10.12-03.21.10:691][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000209F64A1840), frame # 0
+[2020.10.12-03.21.10:691][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000209F7332980), frame # 0
+[2020.10.12-03.21.10:692][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000209F736DC00), frame # 0
+[2020.10.12-03.21.10:741][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.042761 seconds
+[2020.10.12-03.21.10:746][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.10.12-03.21.10:746][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.10.12-03.21.10:746][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.12-03.21.12:156][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.12-03.21.12:166][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.12-03.21.12:830][  0]SourceControl: Source control is disabled
+[2020.10.12-03.21.12:830][  0]SourceControl: Source control is disabled
+[2020.10.12-03.21.12:858][  0]SourceControl: Source control is disabled
+[2020.10.12-03.21.12:867][  0]SourceControl: Source control is disabled
+[2020.10.12-03.21.14:275][  0]SourceControl: Source control is disabled
+[2020.10.12-03.21.15:229][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.12-03.21.15:328][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.12-03.21.15:328][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.12-03.21.15:434][  0]LogOcInput: OculusInput pre-init called
+[2020.10.12-03.21.15:456][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.10.12-03.21.15:456][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.10.12-03.21.15:594][  0]LogEngine: Initializing Engine...
+[2020.10.12-03.21.15:595][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.12-03.21.15:595][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.10.12-03.21.15:596][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.10.12-03.21.15:698][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.12-03.21.15:730][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.12-03.21.15:730][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000209F90EDC00), frame # 0
+[2020.10.12-03.21.15:730][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000209F9138CC0), frame # 0
+[2020.10.12-03.21.15:733][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.12-03.21.15:733][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.12-03.21.15:733][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.12-03.21.15:733][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.12-03.21.15:733][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.12-03.21.15:733][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.12-03.21.15:733][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.12-03.21.15:733][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.12-03.21.15:733][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.12-03.21.15:733][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.12-03.21.15:770][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.12-03.21.15:770][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.10.12-03.21.15:833][  0]LogAudioMixer: Display: Using Audio Device Headphones (6- Arctis 7 Game)
+[2020.10.12-03.21.15:836][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.12-03.21.15:838][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.12-03.21.15:838][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.12-03.21.15:839][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.12-03.21.15:840][  0]LogInit: FAudioDevice initialized.
+[2020.10.12-03.21.15:840][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.12-03.21.15:892][  0]LogDerivedDataCache: Saved boot cache 0.05s 75MB C:/Users/Braden/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.12-03.21.15:896][  0]LogInit: Texture streaming: Enabled
+[2020.10.12-03.21.15:921][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.12-03.21.15:921][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={C9F5C8CC-4EB2-FE95-866F-C7B7F1041A8E}
+[2020.10.12-03.21.15:921][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={4F3B5726-41CB-A161-73B3-099D4731D490}
+[2020.10.12-03.21.15:921][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.10.12-03.21.15:924][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.10.12-03.21.16:036][  0]LogInit: Transaction tracking system initialized
+[2020.10.12-03.21.16:162][  0]BlueprintLog: New page: Editor Load
+[2020.10.12-03.21.16:485][  0]LocalizationService: Localization service is disabled
+[2020.10.12-03.21.17:135][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.12-03.21.17:135][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.12-03.21.17:562][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Pixel-Arena/PixelArena/Content/' took 0.00s
+[2020.10.12-03.21.17:842][  0]SourceControl: Source control is disabled
+[2020.10.12-03.21.18:068][  0]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.12-03.21.28:450][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2020.10.12-03.21.28:510][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.10.12-03.21.28:559][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.10.12-03.21.30:040][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2020.10.12-03.21.30:040][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.10.12-03.21.30:044][  0]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/PixelArena/Levels/Main
+[2020.10.12-03.21.30:049][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.10.12-03.21.30:050][  0]LogUnrealEdMisc: Loading editor; pre map load, took 32.715
+[2020.10.12-03.21.30:050][  0]Cmd: MAP LOAD FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.12-03.21.30:130][  0]LightingResults: New page: Lighting Build
+[2020.10.12-03.21.30:136][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.12-03.21.30:136][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.12-03.21.30:136][  0]MapCheck: New page: Map Check
+[2020.10.12-03.21.30:136][  0]LightingResults: New page: Lighting Build
+[2020.10.12-03.21.30:147][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000209F90EDC00), frame # 0
+[2020.10.12-03.21.30:147][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000209F9138CC0), frame # 0
+[2020.10.12-03.21.30:147][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.10.12-03.21.30:333][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.12-03.21.30:337][  0]LogAIModule: Creating AISystem for world Menu
+[2020.10.12-03.21.30:337][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020980444C00), frame # 0
+[2020.10.12-03.21.30:337][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000209804B1E40), frame # 0
+[2020.10.12-03.21.30:338][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.12-03.21.30:350][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.10.12-03.21.30:351][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.12-03.21.30:351][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.12ms to complete.
+[2020.10.12-03.21.30:352][  0]LogFileHelpers: Loading map 'Menu' took 0.301
+[2020.10.12-03.21.30:371][  0]LogUnrealEdMisc: Total Editor Startup Time, took 33.037
+[2020.10.12-03.21.30:462][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.12-03.21.30:469][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.12-03.21.30:475][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.12-03.21.30:481][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.12-03.21.30:490][  0]LogCollectionManager: Loaded 0 collections in 0.000643 seconds
+[2020.10.12-03.21.30:511][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Pixel-Arena/PixelArena/Saved/Collections/' took 0.00s
+[2020.10.12-03.21.30:512][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Pixel-Arena/PixelArena/Content/Developers/Braden/Collections/' took 0.00s
+[2020.10.12-03.21.30:512][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Pixel-Arena/PixelArena/Content/Collections/' took 0.00s
+[2020.10.12-03.21.30:512][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 3432 classes and 823 folders.
+[2020.10.12-03.21.30:533][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.10.12-03.21.31:402][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.10.12-03.21.31:403][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2020.10.12-03.21.31:439][  0]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.12-03.21.31:455][  0]LogSlate: Took 0.012427 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.12-03.21.31:503][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.10.12-03.21.31:569][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.10.12-03.21.31:569][  0]LogLoad: (Engine Initialization) Total time: 34.23 seconds
+[2020.10.12-03.21.31:569][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.12-03.21.31:599][  0]LogAssetRegistry: Asset discovery search completed in 27.4639 seconds
+[2020.10.12-03.21.31:602][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.10.12-03.21.31:609][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.12-03.21.31:739][  0]LogSlate: Took 0.014759 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.12-03.21.32:846][ 71]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.12-03.21.36:737][464]LogAssetEditorSubsystem: Opening Asset editor for World /Game/PixelArena/Levels/Main.Main
+[2020.10.12-03.21.36:765][464]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.10.12-03.21.36:766][464]Cmd: MAP LOAD FILE="../../../../../../Projects/Pixel-Arena/PixelArena/Content/PixelArena/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.12-03.21.36:766][464]LightingResults: New page: Lighting Build
+[2020.10.12-03.21.36:766][464]LoadErrors: New page: Loading map: Main.umap
+[2020.10.12-03.21.36:822][464]LogWorld: UWorld::CleanupWorld for Menu, bSessionEnded=true, bCleanupResources=true
+[2020.10.12-03.21.36:822][464]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.12-03.21.36:822][464]MapCheck: New page: Map Check
+[2020.10.12-03.21.36:822][464]LightingResults: New page: Lighting Build
+[2020.10.12-03.21.36:831][464]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020980444C00), frame # 464
+[2020.10.12-03.21.36:831][464]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000209804B1E40), frame # 464
+[2020.10.12-03.21.36:832][464]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.10.12-03.21.36:840][464]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.12-03.21.36:840][464]LogAIModule: Creating AISystem for world Main
+[2020.10.12-03.21.36:840][464]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000209921BD400), frame # 464
+[2020.10.12-03.21.36:841][464]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000209922C7C40), frame # 464
+[2020.10.12-03.21.36:852][464]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.10.12-03.21.36:868][464]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.12-03.21.36:869][464]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.07ms to complete.
+[2020.10.12-03.21.36:869][464]LogFileHelpers: Loading map 'Main' took 0.103
+[2020.10.12-03.22.57:739][707]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.10.12-03.22.57:739][707]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.10.12-03.22.57:808][707]LogSlate: Took 0.007667 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.10.12-03.23.01:152][ 72]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.10.12-03.23.06:326][681]Running D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/Projects/Pixel-Arena/PixelArena/PixelArena.uproject" -game -rocket -progress
+[2020.10.12-03.23.06:629][681]Discovering modules, targets and source code for project...
+[2020.10.12-03.23.08:232][681]Binding IntelliSense data...
+[2020.10.12-03.23.13:060][681]Binding IntelliSense data... 100%
+[2020.10.12-03.23.13:061][681]Writing project files...
+[2020.10.12-03.23.17:669][681]Writing project files... 100%
+[2020.10.12-03.23.17:785][681]Candidate modules for hot reload:
+[2020.10.12-03.23.17:785][681]  PixelArena
+[2020.10.12-03.23.17:785][681]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PixelArena,1518 PixelArenaEditor Win64 Development -Project="D:/Projects/Pixel-Arena/PixelArena/PixelArena.uproject" "D:/Projects/Pixel-Arena/PixelArena/PixelArena.uproject"  -IgnoreJunk]
+[2020.10.12-03.23.26:985][681]CompilerResultsLog: New page: Compilation - Oct 13, 2020, 5:23:26 AM
+[2020.10.12-03.23.26:985][681]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Projects\Pixel-Arena).
+[2020.10.12-03.23.26:985][681]CompilerResultsLog: Creating makefile for PixelArenaEditor (no existing makefile)
+[2020.10.12-03.23.26:985][681]CompilerResultsLog: Parsing headers for PixelArenaEditor
+[2020.10.12-03.23.26:985][681]CompilerResultsLog:   Running UnrealHeaderTool "D:\Projects\Pixel-Arena\PixelArena\PixelArena.uproject" "D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\PixelArenaEditor\Development\PixelArenaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Braden\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.10.12-03.23.26:985][681]CompilerResultsLog: Reflection code generated for PixelArenaEditor in 4.5493202 seconds
+[2020.10.12-03.23.26:985][681]CompilerResultsLog: Building PixelArenaEditor...
+[2020.10.12-03.23.26:985][681]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.12-03.23.26:985][681]CompilerResultsLog: Building 6 actions with 12 processes...
+[2020.10.12-03.23.26:985][681]CompilerResultsLog:   [1/6] PixelArena.init.gen.cpp
+[2020.10.12-03.23.26:985][681]CompilerResultsLog:   [2/6] ArenaProjectile.cpp
+[2020.10.12-03.23.26:985][681]CompilerResultsLog:   [3/6] ArenaProjectile.gen.cpp
+[2020.10.12-03.23.26:985][681]CompilerResultsLog:   [4/6] UE4Editor-PixelArena-1518.lib
+[2020.10.12-03.23.26:985][681]CompilerResultsLog:      Creating library D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-1518.lib and object D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-1518.exp
+[2020.10.12-03.23.26:985][681]CompilerResultsLog:   [5/6] UE4Editor-PixelArena-1518.dll
+[2020.10.12-03.23.26:985][681]CompilerResultsLog:      Creating library D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-1518.suppressed.lib and object D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\UE4Editor-PixelArena-1518.suppressed.exp
+[2020.10.12-03.23.26:985][681]CompilerResultsLog:   [6/6] PixelArenaEditor.target
+[2020.10.12-03.23.26:985][681]CompilerResultsLog: Total time in Parallel executor: 2.67 seconds
+[2020.10.12-03.23.26:985][681]CompilerResultsLog: Total execution time: 9.10 seconds
+[2020.10.12-03.23.26:985][681]LogMainFrame: MainFrame: Module compiling took 9.203 seconds
+[2020.10.12-03.23.27:015][681]LogClass: Could not find existing class ArenaProjectile in package /Script/PixelArena for HotReload, assuming new class
+[2020.10.12-03.23.27:015][681]LogClass: BossState HotReload.
+[2020.10.12-03.23.27:015][681]LogClass: Direction HotReload.
+[2020.10.12-03.23.27:015][681]LogClass: CharacterState HotReload.
+[2020.10.12-03.23.27:023][681]LogContentBrowser: Native class hierarchy updated for 'PixelArena' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2020.10.12-03.23.27:024][681]Display: HotReload successful (14 functions remapped  0 scriptstructs remapped)
+[2020.10.12-03.23.27:059][681]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 3433 classes and 823 folders.
+[2020.10.12-03.23.27:063][681]Display: HotReload took  9.3s.
+[2020.10.12-03.23.27:073][681]Warning: HotReload operation took  9.3s.
+[2020.10.12-03.23.27:134][681]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.10.12-03.23.27:149][681]LogHotReload: New module detected: UE4Editor-PixelArena-1518.dll
+[2020.10.12-03.23.27:258][682]LogHotReload: Starting Hot-Reload from IDE
+[2020.10.12-03.23.27:477][682]LogContentBrowser: Native class hierarchy updated for 'PixelArena' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2020.10.12-03.23.27:478][682]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.12-03.23.27:487][682]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 3433 classes and 823 folders.
+[2020.10.12-03.23.27:493][682]Display: HotReload took  0.2s.
