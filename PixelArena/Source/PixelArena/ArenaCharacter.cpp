@@ -6,6 +6,11 @@
 
 static FDateTime InputReleaseTime = -1; // The time used to tell weather a key has been released
 
+/**
+ * ArenaCharacter constructor
+ * - Sets up input map
+ * - Registers onfinished playing event
+ */
 AArenaCharacter::AArenaCharacter()
 {
     // Setup Movement Input Map
@@ -17,6 +22,9 @@ AArenaCharacter::AArenaCharacter()
     GetSprite()->OnFinishedPlaying.AddDynamic(this, &AArenaCharacter::AnimationFinished);
 }
 
+/**
+ * Applies velocity based on the characters current MoveDirection.
+ */
 void AArenaCharacter::Move()
 {
     switch (MoveDirection)
@@ -37,10 +45,19 @@ void AArenaCharacter::Move()
     }
 }
 
+/**
+ * TODO: Implement apply velocity
+ * Does this have any use cases?
+ */
 void AArenaCharacter::ApplyVelocity(float speed, Direction direction)
 {
 }
 
+/**
+ * Sets the characters current velocity to the given speed and applies it in the given direction.
+ * @param speed Speed to apply.
+ * @param direction Direction to apply speed.
+ */
 void AArenaCharacter::SetVelocity(float speed, Direction direction)
 {
     switch (direction)
@@ -61,25 +78,54 @@ void AArenaCharacter::SetVelocity(float speed, Direction direction)
     }
 }
 
-void AArenaCharacter::PlayFlipbook(UPaperFlipbook* flipbook, bool loop)
-{
-    GetSprite()->SetLooping(loop);
-    GetSprite()->Play();
-    GetSprite()->SetFlipbook(flipbook);
+/*
+* Blueprint callable function to activate hitbox/begin attack.
+*/
+void AArenaCharacter::BeginAttack(TEnumAsByte<Direction> direction) {
+    AttackBoxes[Facing]->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+    attackStarted = true;
 }
 
+/**
+ * Blueprint event to fire once an attack has finished.
+ */
 void AArenaCharacter::FinishAttack()
 {
-    isAttacking = false;
+    bIsAttacking = false;
     attackDownTime = -1;
+    attackStarted = false;
+
+    AttackBoxes[Facing]->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 }
 
+/**
+ * Blueprint event to fire once an ability has finished.
+ */
 void AArenaCharacter::FinishAbility()
 {
-    isAbility = false;
+    bIsAbility = false;
     abilityDownTime = -1;
 }
 
+/*
+* Blueprint callable function to damage another arena actor.
+* @param other The arena actor to damage.
+* @param damageModifier Attack damage dealt is multiplied by this.
+*/
+void AArenaCharacter::Attack(AArenaActor* other, int damageModifier) {
+    // Don't attack self
+    if (other == this)
+        return;
+
+    GEngine->AddOnScreenDebugMessage(-1, 0.4f, FColor::Red, FString::FromInt(AttackDamage * FGenericPlatformMath::Pow(2, damageModifier)));
+    other->Damage(AttackDamage * FGenericPlatformMath::Pow(2, damageModifier));
+}
+
+/**
+ * Updates the movement map and decides whether the character is moving or not
+ * @param direction Direction input to update.
+ * @param keyDown Whether or not this directional key has been pressed.
+ */
 void AArenaCharacter::UpdateMovementInput(Direction direction, bool keyDown)
 {
     // Update map
@@ -90,14 +136,17 @@ void AArenaCharacter::UpdateMovementInput(Direction direction, bool keyDown)
         MoveInputMap[South] > InputReleaseTime ||
         MoveInputMap[East] > InputReleaseTime)
     {
-        isMoving = true;
+        bIsMoving = true;
     }
     else
     {
-        isMoving = false;
+        bIsMoving = false;
     }
 }
 
+/**
+ * Updates the characters facing direction.
+ */
 void AArenaCharacter::UpdateFacing()
 {   
     // Find key that's down, that was pressed the most recent
@@ -109,7 +158,7 @@ void AArenaCharacter::UpdateFacing()
     }
 
     // Only update direction if we're actually moving
-    if (isMoving)
+    if (bIsMoving)
     {
         // TODO: Replace with Facing, Separate direction no longer needed
         MoveDirection = recent.Key;
@@ -117,17 +166,23 @@ void AArenaCharacter::UpdateFacing()
     }
 }
 
+/**
+ * Attack input callback.
+ */
 void AArenaCharacter::UpdateAttackInput(bool active)
 {
     attackKeyDown = active;
 
-    if (!isAttacking && active)
+    if (!bIsAttacking && active)
     {
-        isAttacking = true;
+        bIsAttacking = true;
         attackDownTime = FDateTime::Now();
     }
 }
 
+/**
+ * Ability input callback.
+ */
 void AArenaCharacter::UpdateAbilityInput(bool active)
 {
     abilityKeyDown = active;
@@ -135,12 +190,25 @@ void AArenaCharacter::UpdateAbilityInput(bool active)
     if (active)
     {
         AbilityStart();
-        isAbility = true;
+        bIsAbility = true;
         abilityDownTime = FDateTime::Now();
     }
 }
 
+/*
+* Sets the hitbox for the given direction
+* @param direction The direction the hitbox is for
+* @param hitbox The box component that makes the hitbox
+*/
+void AArenaCharacter::SetHitbox(TEnumAsByte<Direction> direction, UBoxComponent* hitbox) 
+{
+    hitbox->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+    AttackBoxes.Add(direction, hitbox);
+}
 
+/**
+ * Main character state loop
+ */
 void AArenaCharacter::Tick(float DeltaSeconds)
 {
     Super::Tick(DeltaSeconds);
@@ -154,17 +222,17 @@ void AArenaCharacter::Tick(float DeltaSeconds)
             {
                 PlayFlipbook(IdleAnimations[Facing], true);
             }
-            if (isMoving)
+            if (bIsMoving)
             {
                 CharacterState = Walking;
                 break;
             }
-            if (isAttacking)
+            if (bIsAttacking)
             {
                 CharacterState = Attacking;
                 break;
             }
-            if (isAbility)
+            if (bIsAbility)
             {
                 CharacterState = Ability;
                 break;
@@ -177,17 +245,17 @@ void AArenaCharacter::Tick(float DeltaSeconds)
             {
                 PlayFlipbook(WalkingAnimations[Facing], true);
             }
-            if (isAttacking)
+            if (bIsAttacking)
             {
                 CharacterState = Attacking;
                 break;
             }
-            if (isAbility)
+            if (bIsAbility)
             {
                 CharacterState = Ability;
                 break;
             }
-            if (!isMoving)
+            if (!bIsMoving)
             {
                 SetVelocity(0, Facing);
                 CharacterState = Idle;
@@ -195,27 +263,28 @@ void AArenaCharacter::Tick(float DeltaSeconds)
             }
             break;
         case Attacking:
-            if (!isAttacking && isMoving)
+            if (!bIsAttacking && bIsMoving)
             {
                 CharacterState = Walking;
                 break;
             }
-            if (!isAttacking)
+            if (!bIsAttacking)
             {
                 CharacterState = Idle;
                 break;
             }
             
-            AttackState((FDateTime::Now() - attackDownTime).GetTotalMilliseconds(), attackKeyDown);
+            if (!attackStarted)
+                AttackState((FDateTime::Now() - attackDownTime).GetTotalMilliseconds(), attackKeyDown);
             break;
         case Ability:
-            if (!isAbility && isMoving)
+            if (!bIsAbility && bIsMoving)
             {
                 AbilityEnd();
                 CharacterState = Walking;
                 break;
             }
-            if (!isAbility)
+            if (!bIsAbility)
             {
                 AbilityEnd();
                 CharacterState = Idle;
@@ -228,6 +297,9 @@ void AArenaCharacter::Tick(float DeltaSeconds)
     }
 }
 
+/**
+ * Binds character input callbacks
+ */
 void AArenaCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
     // Bind Movement Inputs

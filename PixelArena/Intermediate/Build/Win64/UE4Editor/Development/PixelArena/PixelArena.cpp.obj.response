@@ -234,8 +234,8 @@
 /I Runtime\Experimental\GeometryCollectionSimulationCore\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Inc\PixelArena
-/I C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Source
+/I D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Inc\PixelArena
+/I D:\Projects\Pixel-Arena\PixelArena\Source
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -259,18 +259,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.7.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\PixelArenaEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\PixelArenaEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\PixelArenaEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Source\PixelArena\PixelArena.cpp"
-/FI"C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\Definitions.PixelArena.h"
-/Fo"C:\Users\brade\Documents\GitHub\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\PixelArena.cpp.obj"
+/FI"D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\PixelArenaEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\PixelArenaEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\PixelArenaEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"D:\Projects\Pixel-Arena\PixelArena\Source\PixelArena\PixelArena.cpp"
+/FI"D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\Definitions.PixelArena.h"
+/Fo"D:\Projects\Pixel-Arena\PixelArena\Intermediate\Build\Win64\UE4Editor\Development\PixelArena\PixelArena.cpp.obj"
 /TP
 /GR-
 /W4

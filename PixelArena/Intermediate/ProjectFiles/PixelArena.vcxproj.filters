@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PixelArena.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9FFCED4F-55E6-4DFD-9510-1B7C3AFA2829}</UniqueIdentifier>
+      <UniqueIdentifier>{9D764150-98BC-4D9A-9D5C-8DD6BC84BB08}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PixelArena.Target.cs">
       <Filter>Source</Filter>
@@ -11,9 +11,9 @@
     <None Include="..\..\Source\PixelArenaEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
-    <None Include="..\..\PixelArena.sln.DotSettings.user" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{23EE9C1C-814F-4495-B9E6-5D0C1CE94C8A}</UniqueIdentifier>
+      <UniqueIdentifier>{9D080A43-0B94-435F-97D3-54DF6E88775B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -31,12 +31,36 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PixelArena">
-      <UniqueIdentifier>{EFFA6AE5-2A8B-424F-BE0C-FC8ACB597D95}</UniqueIdentifier>
+      <UniqueIdentifier>{ECECC87E-4B70-43F1-808E-B562285D0C53}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\PixelArena\ArenaActor.cpp">
+      <Filter>Source\PixelArena</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PixelArena\ArenaActor.h">
+      <Filter>Source\PixelArena</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PixelArena\ArenaBoss.cpp">
+      <Filter>Source\PixelArena</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PixelArena\ArenaBoss.h">
+      <Filter>Source\PixelArena</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\PixelArena\ArenaCharacter.cpp">
       <Filter>Source\PixelArena</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\PixelArena\ArenaCharacter.h">
+      <Filter>Source\PixelArena</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PixelArena\ArenaProjectile.cpp">
+      <Filter>Source\PixelArena</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PixelArena\ArenaProjectile.h">
+      <Filter>Source\PixelArena</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PixelArena\LongrangeBoss.cpp">
+      <Filter>Source\PixelArena</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PixelArena\LongrangeBoss.h">
       <Filter>Source\PixelArena</Filter>
     </ClInclude>
     <None Include="..\..\Source\PixelArena\PixelArena.Build.cs">
