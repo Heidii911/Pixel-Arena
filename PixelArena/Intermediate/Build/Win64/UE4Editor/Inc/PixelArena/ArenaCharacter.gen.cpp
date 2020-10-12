@@ -20,9 +20,9 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 	PIXELARENA_API UClass* Z_Construct_UClass_AArenaCharacter();
 	PIXELARENA_API UClass* Z_Construct_UClass_AArenaActor();
 	PIXELARENA_API UClass* Z_Construct_UClass_AArenaActor_NoRegister();
-	PAPER2D_API UClass* Z_Construct_UClass_UPaperFlipbook_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FDateTime();
+	PAPER2D_API UClass* Z_Construct_UClass_UPaperFlipbook_NoRegister();
 // End Cross Module References
 	static UEnum* Direction_StaticEnum()
 	{
@@ -186,15 +186,6 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		P_THIS->FinishAttack();
 		P_NATIVE_END;
 	}
-	DEFINE_FUNCTION(AArenaCharacter::execPlayFlipbook)
-	{
-		P_GET_OBJECT(UPaperFlipbook,Z_Param_flipbook);
-		P_GET_UBOOL(Z_Param_loop);
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		P_THIS->PlayFlipbook(Z_Param_flipbook,Z_Param_loop);
-		P_NATIVE_END;
-	}
 	DEFINE_FUNCTION(AArenaCharacter::execSetVelocity)
 	{
 		P_GET_PROPERTY(FFloatProperty,Z_Param_speed);
@@ -271,7 +262,6 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 			{ "FinishAbility", &AArenaCharacter::execFinishAbility },
 			{ "FinishAttack", &AArenaCharacter::execFinishAttack },
 			{ "Move", &AArenaCharacter::execMove },
-			{ "PlayFlipbook", &AArenaCharacter::execPlayFlipbook },
 			{ "SetHitbox", &AArenaCharacter::execSetHitbox },
 			{ "SetVelocity", &AArenaCharacter::execSetVelocity },
 		};
@@ -623,49 +613,6 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_AArenaCharacter_PlayFlipbook_Statics
-	{
-		struct ArenaCharacter_eventPlayFlipbook_Parms
-		{
-			UPaperFlipbook* flipbook;
-			bool loop;
-		};
-		static void NewProp_loop_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_loop;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_flipbook;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	void Z_Construct_UFunction_AArenaCharacter_PlayFlipbook_Statics::NewProp_loop_SetBit(void* Obj)
-	{
-		((ArenaCharacter_eventPlayFlipbook_Parms*)Obj)->loop = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AArenaCharacter_PlayFlipbook_Statics::NewProp_loop = { "loop", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ArenaCharacter_eventPlayFlipbook_Parms), &Z_Construct_UFunction_AArenaCharacter_PlayFlipbook_Statics::NewProp_loop_SetBit, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AArenaCharacter_PlayFlipbook_Statics::NewProp_flipbook = { "flipbook", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ArenaCharacter_eventPlayFlipbook_Parms, flipbook), Z_Construct_UClass_UPaperFlipbook_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AArenaCharacter_PlayFlipbook_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AArenaCharacter_PlayFlipbook_Statics::NewProp_loop,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AArenaCharacter_PlayFlipbook_Statics::NewProp_flipbook,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AArenaCharacter_PlayFlipbook_Statics::Function_MetaDataParams[] = {
-		{ "Category", "Arena Character" },
-		{ "CPP_Default_loop", "false" },
-		{ "ModuleRelativePath", "ArenaCharacter.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AArenaCharacter_PlayFlipbook_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AArenaCharacter, nullptr, "PlayFlipbook", nullptr, nullptr, sizeof(ArenaCharacter_eventPlayFlipbook_Parms), Z_Construct_UFunction_AArenaCharacter_PlayFlipbook_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AArenaCharacter_PlayFlipbook_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AArenaCharacter_PlayFlipbook_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AArenaCharacter_PlayFlipbook_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AArenaCharacter_PlayFlipbook()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AArenaCharacter_PlayFlipbook_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
 	struct Z_Construct_UFunction_AArenaCharacter_SetHitbox_Statics
 	{
 		struct ArenaCharacter_eventSetHitbox_Parms
@@ -789,20 +736,20 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		static const UE4CodeGen_Private::FBytePropertyParams NewProp_MoveInputMap_Key_KeyProp;
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_MoveInputMap_ValueProp;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isAbility_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsAbility_MetaData[];
 #endif
-		static void NewProp_isAbility_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isAbility;
+		static void NewProp_bIsAbility_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsAbility;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isAttacking_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsAttacking_MetaData[];
 #endif
-		static void NewProp_isAttacking_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isAttacking;
+		static void NewProp_bIsAttacking_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsAttacking;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isMoving_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsMoving_MetaData[];
 #endif
-		static void NewProp_isMoving_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isMoving;
+		static void NewProp_bIsMoving_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsMoving;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AttackBoxes_MetaData[];
 #endif
@@ -854,7 +801,6 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		{ &Z_Construct_UFunction_AArenaCharacter_FinishAttack, "FinishAttack" }, // 2013707864
 		{ &Z_Construct_UFunction_AArenaCharacter_IdleState, "IdleState" }, // 2097150825
 		{ &Z_Construct_UFunction_AArenaCharacter_Move, "Move" }, // 4035545374
-		{ &Z_Construct_UFunction_AArenaCharacter_PlayFlipbook, "PlayFlipbook" }, // 373900240
 		{ &Z_Construct_UFunction_AArenaCharacter_SetHitbox, "SetHitbox" }, // 3584636822
 		{ &Z_Construct_UFunction_AArenaCharacter_SetVelocity, "SetVelocity" }, // 395199726
 		{ &Z_Construct_UFunction_AArenaCharacter_WalkingState, "WalkingState" }, // 2636993546
@@ -876,38 +822,40 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveInputMap_Key_KeyProp = { "MoveInputMap_Key", nullptr, (EPropertyFlags)0x0000000000020001, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UEnum_PixelArena_Direction, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveInputMap_ValueProp = { "MoveInputMap", nullptr, (EPropertyFlags)0x0000000000020001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 1, Z_Construct_UScriptStruct_FDateTime, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAbility_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArenaCharacter_Statics::NewProp_bIsAbility_MetaData[] = {
 		{ "Category", "Arena Character|State" },
 		{ "ModuleRelativePath", "ArenaCharacter.h" },
 	};
 #endif
-	void Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAbility_SetBit(void* Obj)
+	void Z_Construct_UClass_AArenaCharacter_Statics::NewProp_bIsAbility_SetBit(void* Obj)
 	{
-		((AArenaCharacter*)Obj)->isAbility = 1;
+		((AArenaCharacter*)Obj)->bIsAbility = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAbility = { "isAbility", nullptr, (EPropertyFlags)0x0020080000020001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AArenaCharacter), &Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAbility_SetBit, METADATA_PARAMS(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAbility_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAbility_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AArenaCharacter_Statics::NewProp_bIsAbility = { "bIsAbility", nullptr, (EPropertyFlags)0x0020080000020001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AArenaCharacter), &Z_Construct_UClass_AArenaCharacter_Statics::NewProp_bIsAbility_SetBit, METADATA_PARAMS(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_bIsAbility_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_bIsAbility_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAttacking_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArenaCharacter_Statics::NewProp_bIsAttacking_MetaData[] = {
 		{ "Category", "Arena Character|State" },
 		{ "ModuleRelativePath", "ArenaCharacter.h" },
 	};
 #endif
-	void Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAttacking_SetBit(void* Obj)
+	void Z_Construct_UClass_AArenaCharacter_Statics::NewProp_bIsAttacking_SetBit(void* Obj)
 	{
-		((AArenaCharacter*)Obj)->isAttacking = 1;
+		((AArenaCharacter*)Obj)->bIsAttacking = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAttacking = { "isAttacking", nullptr, (EPropertyFlags)0x0020080000020001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AArenaCharacter), &Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAttacking_SetBit, METADATA_PARAMS(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAttacking_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAttacking_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AArenaCharacter_Statics::NewProp_bIsAttacking = { "bIsAttacking", nullptr, (EPropertyFlags)0x0020080000020001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AArenaCharacter), &Z_Construct_UClass_AArenaCharacter_Statics::NewProp_bIsAttacking_SetBit, METADATA_PARAMS(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_bIsAttacking_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_bIsAttacking_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isMoving_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArenaCharacter_Statics::NewProp_bIsMoving_MetaData[] = {
 		{ "Category", "Arena Character|State" },
+		{ "Comment", "// Properties\n" },
 		{ "ModuleRelativePath", "ArenaCharacter.h" },
+		{ "ToolTip", "Properties" },
 	};
 #endif
-	void Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isMoving_SetBit(void* Obj)
+	void Z_Construct_UClass_AArenaCharacter_Statics::NewProp_bIsMoving_SetBit(void* Obj)
 	{
-		((AArenaCharacter*)Obj)->isMoving = 1;
+		((AArenaCharacter*)Obj)->bIsMoving = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isMoving = { "isMoving", nullptr, (EPropertyFlags)0x0020080000020001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AArenaCharacter), &Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isMoving_SetBit, METADATA_PARAMS(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isMoving_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isMoving_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AArenaCharacter_Statics::NewProp_bIsMoving = { "bIsMoving", nullptr, (EPropertyFlags)0x0020080000020001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AArenaCharacter), &Z_Construct_UClass_AArenaCharacter_Statics::NewProp_bIsMoving_SetBit, METADATA_PARAMS(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_bIsMoving_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_bIsMoving_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArenaCharacter_Statics::NewProp_AttackBoxes_MetaData[] = {
 		{ "Category", "Arena Character|Hit Boxes" },
@@ -963,9 +911,9 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveInputMap,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveInputMap_Key_KeyProp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveInputMap_ValueProp,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAbility,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isAttacking,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_isMoving,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_bIsAbility,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_bIsAttacking,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_bIsMoving,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_AttackBoxes,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_AttackBoxes_Key_KeyProp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_AttackBoxes_ValueProp,
@@ -1006,7 +954,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AArenaCharacter, 3893811213);
+	IMPLEMENT_CLASS(AArenaCharacter, 3581117441);
 	template<> PIXELARENA_API UClass* StaticClass<AArenaCharacter>()
 	{
 		return AArenaCharacter::StaticClass();

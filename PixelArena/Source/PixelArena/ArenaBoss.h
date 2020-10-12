@@ -1,9 +1,12 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
-#define TAG "Arena Boss"
+#define ARENA_BOSS "Arena Boss"
 
 #include "CoreMinimal.h"
+
+#include <string>
+
 #include "ArenaActor.h"
 #include "PaperFlipbookComponent.h"
 #include "Components/BoxComponent.h"
@@ -26,19 +29,22 @@ public:
 	AArenaBoss();
 
 	// Properties
-	UPROPERTY(EditAnywhere, Category = TAG) float AttackSpeed = 100; // Attack speed in milliseconds
-	UPROPERTY(EditAnywhere, Category = TAG) UBoxComponent* VisionBox; // Size of the bosses vision box
-	UPROPERTY(BlueprintReadWrite, Category = TAG) int AttackCount;
-	UPROPERTY(BlueprintReadWrite, Category = TAG) bool bPlayerVisible = false;
+	
+	UPROPERTY(EditAnywhere, Category = ARENA_BOSS) float AttackSpeed = 100; // Attack speed in milliseconds.
+	UPROPERTY(EditAnywhere, Category = ARENA_BOSS) UBoxComponent* VisionBox; // Size of the bosses vision box.
+	UPROPERTY(BlueprintReadWrite, Category = ARENA_BOSS) int AttackCount; // Number of attacks executed whilst being in AttackState.
+	UPROPERTY(BlueprintReadWrite, Category = ARENA_BOSS) bool bPlayerVisible = false; // Whether the player is within the boss vision box.
+	UPROPERTY(BlueprintReadWrite, Category = ARENA_BOSS) TEnumAsByte<BossState> CurrentState;
+
 
 	// Events
-	UFUNCTION(BlueprintImplementableEvent, Category = TAG) void IdleState();
-	UFUNCTION(BlueprintImplementableEvent, Category = TAG) void AttackState();
-	UFUNCTION(BlueprintImplementableEvent, Category = TAG) void AbilityState();
-
+	UFUNCTION(BlueprintImplementableEvent, Category = ARENA_BOSS) void IdleState();
+	UFUNCTION(BlueprintImplementableEvent, Category = ARENA_BOSS) void AttackState();
+	UFUNCTION(BlueprintImplementableEvent, Category = ARENA_BOSS) void AbilityState();
+	UFUNCTION(BlueprintImplementableEvent, Category =  ARENA_BOSS) void AnimationFinished();
 	// Functions
-	UFUNCTION(BlueprintCallable, Category = TAG) void Attack();
-	UFUNCTION(BlueprintCallable, Category =  TAG) void Ability();
+	UFUNCTION(BlueprintCallable, Category = ARENA_BOSS) virtual void Attack();
+	UFUNCTION(BlueprintCallable, Category =  ARENA_BOSS) virtual void Ability();
 
 protected:
 	// Functions

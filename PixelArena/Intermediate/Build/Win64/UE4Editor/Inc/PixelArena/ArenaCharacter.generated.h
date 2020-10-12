@@ -10,7 +10,6 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class AArenaActor;
 class UBoxComponent;
-class UPaperFlipbook;
 #ifdef PIXELARENA_ArenaCharacter_generated_h
 #error "ArenaCharacter.generated.h already included, missing '#pragma once' in ArenaCharacter.h"
 #endif
@@ -24,7 +23,6 @@ class UPaperFlipbook;
 	DECLARE_FUNCTION(execSetHitbox); \
 	DECLARE_FUNCTION(execFinishAbility); \
 	DECLARE_FUNCTION(execFinishAttack); \
-	DECLARE_FUNCTION(execPlayFlipbook); \
 	DECLARE_FUNCTION(execSetVelocity); \
 	DECLARE_FUNCTION(execApplyVelocity); \
 	DECLARE_FUNCTION(execMove);
@@ -37,7 +35,6 @@ class UPaperFlipbook;
 	DECLARE_FUNCTION(execSetHitbox); \
 	DECLARE_FUNCTION(execFinishAbility); \
 	DECLARE_FUNCTION(execFinishAttack); \
-	DECLARE_FUNCTION(execPlayFlipbook); \
 	DECLARE_FUNCTION(execSetVelocity); \
 	DECLARE_FUNCTION(execApplyVelocity); \
 	DECLARE_FUNCTION(execMove);
@@ -100,9 +97,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AArenaCharacter); \
 
 
 #define PixelArena_Source_PixelArena_ArenaCharacter_h_39_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__isMoving() { return STRUCT_OFFSET(AArenaCharacter, isMoving); } \
-	FORCEINLINE static uint32 __PPO__isAttacking() { return STRUCT_OFFSET(AArenaCharacter, isAttacking); } \
-	FORCEINLINE static uint32 __PPO__isAbility() { return STRUCT_OFFSET(AArenaCharacter, isAbility); } \
+	FORCEINLINE static uint32 __PPO__bIsMoving() { return STRUCT_OFFSET(AArenaCharacter, bIsMoving); } \
+	FORCEINLINE static uint32 __PPO__bIsAttacking() { return STRUCT_OFFSET(AArenaCharacter, bIsAttacking); } \
+	FORCEINLINE static uint32 __PPO__bIsAbility() { return STRUCT_OFFSET(AArenaCharacter, bIsAbility); } \
 	FORCEINLINE static uint32 __PPO__MoveInputMap() { return STRUCT_OFFSET(AArenaCharacter, MoveInputMap); }
 
 

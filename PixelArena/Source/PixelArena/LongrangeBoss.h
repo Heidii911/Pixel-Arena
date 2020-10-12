@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
-#define TAG "Longrange Boss"
+#define LONGRANGE_BOSS "Longrange Boss"
 
 #include "CoreMinimal.h"
 #include "ArenaBoss.h"
@@ -17,11 +17,21 @@ class PIXELARENA_API ALongrangeBoss : public AArenaBoss
 
 public:
 	// Properties
-	UPROPERTY(EditAnywhere, Category = TAG) AActor* CenterSpawn;
-	UPROPERTY(EditAnywhere, Category = TAG) TArray<AActor*> CornerSpawns;
-	UPROPERTY(BlueprintReadWrite, Category =  TAG) int HitCount;
+	UPROPERTY(EditAnywhere, Category = LONGRANGE_BOSS) AActor* CenterSpawn;
+	UPROPERTY(EditAnywhere, Category = LONGRANGE_BOSS) TArray<AActor*> CornerSpawns;
+	UPROPERTY(BlueprintReadWrite, Category =  LONGRANGE_BOSS) int HitCount;
+	UPROPERTY(BlueprintReadWrite, Category = LONGRANGE_BOSS) bool bTeleporting = false;
+	UPROPERTY(BlueprintReadWrite, Category = LONGRANGE_BOSS) bool bTeleported = false;
 
 	// Functions
-	UFUNCTION(BlueprintCallable, Category = TAG) void TeleportCenter();
-	UFUNCTION(BlueprintCallable, Category = TAG) void TeleportRandomCorner();
+	UFUNCTION(BlueprintCallable, Category = LONGRANGE_BOSS) void Teleport();
+
+protected:
+	// Properties
+	bool bAtCenter = true;
+
+	// Functions
+	void TeleportCenter();
+	void TeleportRandomCorner();
+	virtual void Tick(float DeltaSeconds) override;
 };
