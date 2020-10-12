@@ -14,6 +14,14 @@ void ALongrangeBoss::Teleport()
 void ALongrangeBoss::BasicAttack()
 {
     AttackCount = AttackCount + 1;
+    UWorld* const World = GetWorld();
+
+    if (World)
+    {
+        AArenaProjectile* projectile = World->SpawnActor<AArenaProjectile>(BasicProjectile);
+        projectile->SetActorLocation(GetActorLocation());
+        projectile->FireAtPlayer();
+    }
     GEngine->AddOnScreenDebugMessage(-1, 0.2f, FColor::Red, TEXT("Boss Basic Attack"));
 }
 

@@ -3,7 +3,13 @@
 #pragma once
 
 #include "CoreMinimal.h"
+
+
+#include "ArenaActor.h"
+#include "Components/SphereComponent.h"
 #include "GameFramework/Actor.h"
+#include "GameFramework/ProjectileMovementComponent.h"
+
 #include "ArenaProjectile.generated.h"
 
 UCLASS()
@@ -19,8 +25,16 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
-	// Called every frame
+public:
+	// Properties
+	UPROPERTY(BlueprintReadWrite, Category = Projectile) AArenaActor* Shooter;
+
+	// Events
+	UFUNCTION(BlueprintImplementableEvent, Category = Projectile) void Fire(FVector direction);
+	
+	// Functions
 	virtual void Tick(float DeltaTime) override;
+	void FireAtPlayer();
+
 
 };
