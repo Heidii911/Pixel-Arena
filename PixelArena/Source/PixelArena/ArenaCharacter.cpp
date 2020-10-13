@@ -116,8 +116,7 @@ void AArenaCharacter::Attack(AArenaActor* other, int damageModifier) {
     // Don't attack self
     if (other == this)
         return;
-
-    GEngine->AddOnScreenDebugMessage(-1, 0.4f, FColor::Red, FString::FromInt(AttackDamage * FGenericPlatformMath::Pow(2, damageModifier)));
+    
     other->Damage(AttackDamage * FGenericPlatformMath::Pow(2, damageModifier));
 }
 
