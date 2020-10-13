@@ -44,6 +44,7 @@ class PIXELARENA_API AArenaCharacter : public AArenaActor
 
 		// Properties
 		UPROPERTY(EditAnywhere, Category="Arena Character") float MoveSpeed = 400;
+		UPROPERTY(EditAnywhere, Category="Arena Character") float AbilityCooldown = 200;
 		UPROPERTY(VisibleAnywhere, Category="Arena Character|State", BlueprintReadOnly) TEnumAsByte<CharacterState> CharacterState = Idle;
 		UPROPERTY(VisibleAnywhere, Category="Arena Character|State", BlueprintReadOnly) TEnumAsByte<Direction> Facing = South;
 		UPROPERTY(EditAnywhere, Category="Arena Character|Animations") TMap<TEnumAsByte<Direction>, UPaperFlipbook*> IdleAnimations;
@@ -81,6 +82,7 @@ class PIXELARENA_API AArenaCharacter : public AArenaActor
 		bool attackKeyDown = 0;
 		bool attackStarted = false;
 		FDateTime abilityDownTime = -1;
+		FDateTime abilityCooldownTime = -1;
 		bool abilityKeyDown = 0;
 		FVector& Velocity = GetCharacterMovement()->Velocity;
 

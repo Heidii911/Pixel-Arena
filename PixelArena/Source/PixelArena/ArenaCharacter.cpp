@@ -186,12 +186,19 @@ void AArenaCharacter::UpdateAttackInput(bool active)
 void AArenaCharacter::UpdateAbilityInput(bool active)
 {
     abilityKeyDown = active;
+
+    // Check cooldown or if we are already in ability state
+    if ((FDateTime::Now() - abilityCooldownTime).GetDuration().GetTotalMilliseconds() < AbilityCooldown || bIsAbility)
+    {
+        return;
+    }
     
     if (active)
     {
         AbilityStart();
         bIsAbility = true;
         abilityDownTime = FDateTime::Now();
+        abilityCooldownTime = FDateTime::Now();
     }
 }
 

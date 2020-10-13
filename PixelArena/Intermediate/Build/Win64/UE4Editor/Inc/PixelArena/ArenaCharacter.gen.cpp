@@ -777,6 +777,10 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FBytePropertyParams NewProp_CharacterState;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AbilityCooldown_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AbilityCooldown;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MoveSpeed_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MoveSpeed;
@@ -899,6 +903,13 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 #endif
 	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_AArenaCharacter_Statics::NewProp_CharacterState = { "CharacterState", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AArenaCharacter, CharacterState), Z_Construct_UEnum_PixelArena_CharacterState, METADATA_PARAMS(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_CharacterState_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_CharacterState_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArenaCharacter_Statics::NewProp_AbilityCooldown_MetaData[] = {
+		{ "Category", "Arena Character" },
+		{ "ModuleRelativePath", "ArenaCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AArenaCharacter_Statics::NewProp_AbilityCooldown = { "AbilityCooldown", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AArenaCharacter, AbilityCooldown), METADATA_PARAMS(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_AbilityCooldown_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AArenaCharacter_Statics::NewProp_AbilityCooldown_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveSpeed_MetaData[] = {
 		{ "Category", "Arena Character" },
 		{ "Comment", "// Properties\n" },
@@ -925,6 +936,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_IdleAnimations_ValueProp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_Facing,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_CharacterState,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_AbilityCooldown,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArenaCharacter_Statics::NewProp_MoveSpeed,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AArenaCharacter_Statics::StaticCppClassTypeInfo = {
@@ -954,7 +966,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AArenaCharacter, 3488412052);
+	IMPLEMENT_CLASS(AArenaCharacter, 1299047490);
 	template<> PIXELARENA_API UClass* StaticClass<AArenaCharacter>()
 	{
 		return AArenaCharacter::StaticClass();

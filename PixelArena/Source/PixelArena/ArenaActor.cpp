@@ -5,6 +5,9 @@
 
 void AArenaActor::Damage(int amount)
 {
+	if (!CanDamage)
+		return;
+	
 	Health -= amount;
 	OnDamage(amount);
 }
