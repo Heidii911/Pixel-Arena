@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PixelArena.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9D764150-98BC-4D9A-9D5C-8DD6BC84BB08}</UniqueIdentifier>
+      <UniqueIdentifier>{1642E99D-D8B6-4FE9-B0CA-6E1930BA8C25}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PixelArena.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{9D080A43-0B94-435F-97D3-54DF6E88775B}</UniqueIdentifier>
+      <UniqueIdentifier>{16C58587-D2D1-4AB0-B9B3-44FFB9A1D0D3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -31,7 +31,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PixelArena">
-      <UniqueIdentifier>{ECECC87E-4B70-43F1-808E-B562285D0C53}</UniqueIdentifier>
+      <UniqueIdentifier>{4D06BB4F-EAA3-4F1B-89B4-17B3F8388970}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PixelArena\ArenaActor.cpp">
       <Filter>Source\PixelArena</Filter>
