@@ -5,7 +5,12 @@
 
 void AArenaActor::Damage(int amount)
 {
-	Health -= amount;
+	if (CanDamage)
+	{
+		Health -= amount;
+	}
+
+	GEngine->AddOnScreenDebugMessage(-1, 0.2f, FColor::Yellow, TEXT("HELLO"));
 	OnDamage(amount);
 }
 

@@ -102,6 +102,7 @@ void ALongrangeBoss::Tick(float DeltaSeconds)
     case BossAbility:
         if (bTeleported)
         {
+            CanDamage = true;
             bTeleported = false;
             bTeleporting = false;
             CurrentState = BossIdle;
