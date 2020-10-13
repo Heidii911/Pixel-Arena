@@ -68,7 +68,6 @@
       <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/PixelArena/Levels/Main_Auto1.umap" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/Editor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/Editor.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/UnrealInsightsSettings.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PixelArena/ArenaActor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PixelArena/ArenaActor.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -348,7 +347,7 @@
       <workItem from="1602464790277" duration="2079000" />
       <workItem from="1602467282284" duration="10994000" />
       <workItem from="1602575549400" duration="28000" />
-      <workItem from="1602575698873" duration="927000" />
+      <workItem from="1602575698873" duration="1526000" />
     </task>
     <servers />
   </component>
