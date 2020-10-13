@@ -51,7 +51,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{53CCD5AC-483C-4F7E-B2AA-00388E516140}</ProjectGuid>
+    <ProjectGuid>{3090A0E6-AFB8-443B-900B-E1C2D9AD8BE2}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>PixelArena</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>
