@@ -2,9 +2,6 @@
 
 #include "ArenaCharacter.h"
 
-#include <string>
-
-
 #include "GameFramework/CharacterMovementComponent.h"
 
 static FDateTime InputReleaseTime = -1; // The time used to tell weather a key has been released
@@ -108,7 +105,6 @@ void AArenaCharacter::FinishAbility()
 {
     bIsAbility = false;
     abilityDownTime = -1;
-    abilityCooldownTime = FDateTime::Now();
 }
 
 /*
@@ -188,14 +184,8 @@ void AArenaCharacter::UpdateAttackInput(bool active)
  * Ability input callback.
  */
 void AArenaCharacter::UpdateAbilityInput(bool active)
-{    
+{
     abilityKeyDown = active;
-
-    // Check cooldown or if we are already in ability state
-    if ((FDateTime::Now() - abilityCooldownTime).GetDuration().GetTotalMilliseconds() < AbilityCooldown || bIsAbility)
-    {
-        return;
-    }
     
     if (active)
     {
